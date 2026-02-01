@@ -1,0 +1,21 @@
+{
+    "id": "6f2b8f43-9e81-4018-8009-b2172f583899",
+    "status": "failed",
+    "name": "Household goods",
+    "robotId": "06165882-777a-4c19-8862-de530d54373d",
+    "startedAt": "1/4/2026, 3:31:10 PM",
+    "finishedAt": "1/4/2026, 5:37:47 PM",
+    "runId": "37dba0a1-a9d1-4688-8ba7-0ec41d29a997",
+    "runByUserId": 1,
+    "runByScheduleId": null,
+    "runByAPI": null,
+    "data": {
+        "textData": {},
+        "listData": {
+            "List Data 1": []
+        },
+        "markdown": "",
+        "html": ""
+    },
+    "screenshots": []
+}

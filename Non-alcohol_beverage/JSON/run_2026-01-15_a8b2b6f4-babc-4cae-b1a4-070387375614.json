@@ -1,0 +1,246 @@
+{
+    "id": "a8b2b6f4-babc-4cae-b1a4-070387375614",
+    "status": "success",
+    "name": "Non-alcohol Beverages",
+    "robotId": "191f10fe-1d04-49e0-b3e4-fc5a4fc4b90b",
+    "startedAt": "1/15/2026, 3:26:41 PM",
+    "finishedAt": "1/15/2026, 3:30:30 PM",
+    "runId": "52f119c2-0391-45bf-9ae6-778b0183c16c",
+    "runByUserId": 1,
+    "runByScheduleId": null,
+    "runByAPI": null,
+    "data": {
+        "textData": {},
+        "listData": {
+            "List Data 1": [
+                {
+                    "Label 4": "https://winmart.vn/products/twister-nuoc-dau-sua-juicy-milk290320ml--s10324069?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "TWISTER Nước dâu sữa juicy milk290/320ml",
+                    "Label 6": "Gói 6",
+                    "Label 7": "39.900 ₫",
+                    "Label 8": "60.100 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/lavie-nuoc-khoang-350ml--s10011639?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Nước khoáng thiên nhiên Lavie thùng 24 chai x 350ml",
+                    "Label 6": "Thùng",
+                    "Label 7": "69.900 ₫",
+                    "Label 8": "115.200 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/coca-cola-tra-bi-dao-la-han-qua-320ml--s10150201?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Trà bí đao Coca la hán quả thùng 24 lon x 320ml",
+                    "Label 6": "Thùng",
+                    "Label 7": "217.000 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/red-bull-nuoc-tang-luc-150ml--s10601161?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Nước tăng lực RedBull chai 150ml",
+                    "Label 6": "Chai",
+                    "Label 7": "9.900 ₫",
+                    "Label 8": "16.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/red-bull-nuoc-tang-luc-nap-do-150ml--s10622344?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Nước tăng lực Redbull nắp đỏ chai 145ml",
+                    "Label 6": "Chai",
+                    "Label 7": "9.900 ₫",
+                    "Label 8": "16.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/red-bull-nuoc-tang-luc-nap-den-150ml--s10622343?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Nước tăng lực Red Bull nắp đen 150ml",
+                    "Label 6": "Chai",
+                    "Label 7": "9.900 ₫",
+                    "Label 8": "15.700 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/tea-tra-olong-khong-duong-455ml--s10638663?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Lốc 6 chai trà Oolong không đường Tea+ 455ml",
+                    "Label 6": "Gói 6",
+                    "Label 7": "39.900 ₫",
+                    "Label 8": "60.500 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/coca-cola-nuoc-giai-khat-320ml--s10011650?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Lốc 6 lon nước giải khát Coca Cola 320ml",
+                    "Label 6": "Gói 6",
+                    "Label 7": "43.900 ₫",
+                    "Label 8": "65.700 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/vinh-hao-nc-chua-khoang-vivant-500ml--s10615687?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Thùng 24 chai nước khoáng thiên nhiên Vivant 500ml",
+                    "Label 6": "Thùng",
+                    "Label 7": "79.000 ₫",
+                    "Label 8": "117.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/coca-cola-nuoc-ngot-coca-1.5l--s10011250?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Nước giải khát Coca Cola chai 1.5lít",
+                    "Label 6": "Chai",
+                    "Label 7": "14.500 ₫",
+                    "Label 8": "20.600 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/fanta-vi-nho-15l--s10196071?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Nước Giải Khát Có Gas Fanta Nho chai1.5L",
+                    "Label 6": "Chai",
+                    "Label 7": "14.500 ₫",
+                    "Label 8": "20.500 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/fanta-nuoc-ngot-cam-1.5l--s10011251?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Nước giải khát có gas hương cam Fanta chai 1.5L",
+                    "Label 6": "Chai",
+                    "Label 7": "14.500 ₫",
+                    "Label 8": "20.200 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/sprite-nuoc-ngot-1.51.85l--s10011252?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Nước giải khát huong chanh Sprite chai 1.5L",
+                    "Label 6": "Chai",
+                    "Label 7": "14.500 ₫",
+                    "Label 8": "20.200 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/coca-cola-nuoc-ngot-coca-zero-1.5l--s10307381?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Nước giải khát Coca-Cola Zero chai nhựa 1,5lít",
+                    "Label 6": "Chai",
+                    "Label 7": "14.500 ₫",
+                    "Label 8": "20.200 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/rockstar-nuoc-tang-luc-250ml--s10195621?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "ROCKSTAR Nước tăng lực 250ml",
+                    "Label 6": "Gói 6",
+                    "Label 7": "48.800 ₫",
+                    "Label 8": "66.300 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/dasani-nuoc-tinh-khiet-510ml--s10011220?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Nước uống đóng chai Dasani chai 500ml",
+                    "Label 6": "Thùng",
+                    "Label 7": "89.000 ₫",
+                    "Label 8": "118.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/dasani-nuoc-khoang-510ml--s10056559?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Thùng 24 chai nước uống tinh khiết Dasani chai 500ml/510ml",
+                    "Label 6": "Thùng",
+                    "Label 7": "99.000 ₫",
+                    "Label 8": "130.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/fanta-nc-g.khat-huong-cam-320ml--s10011725?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Nước giải khát hương cam Fanta lon 330ml",
+                    "Label 6": "Gói 6",
+                    "Label 7": "43.000 ₫",
+                    "Label 8": "55.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/sprite-nuoc-giai-khat-320ml--s10011726?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "SPRITE Nước giải khát 330/320ml T24",
+                    "Label 6": "Thùng",
+                    "Label 7": "169.000 ₫",
+                    "Label 8": "217.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/c2-tra-den-vi-dao-455ml--s10620676?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Hồng trà C2 vị đào chai 500ml",
+                    "Label 6": "Chai",
+                    "Label 7": "7.900 ₫",
+                    "Label 8": "10.100 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/pepsi-nuoc-ngot-lon-320350ml--s10011759?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Thùng 24 lon nước giải khát có gas Pepsi 330ml",
+                    "Label 6": "Thùng",
+                    "Label 7": "195.000 ₫",
+                    "Label 8": "240.400 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/fanta-vi-nho-320ml--s10196070?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Nước ngọt Fanta hương nho 320ml",
+                    "Label 6": "Lon",
+                    "Label 7": "7.300 ₫",
+                    "Label 8": "9.200 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/hillway-tra-sua-tran-chau-h.gia-260gxt54--s10197440?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Trà sữa trân châu Hoàng Gia Hillway 260g",
+                    "Label 6": "Hộp",
+                    "Label 7": "48.300 ₫",
+                    "Label 8": "61.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/blendy-tra-matcha-sua-160g-10x16g--s10327495?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Trà matcha Blendy sữa",
+                    "Label 6": "Hộp",
+                    "Label 7": "32.500 ₫",
+                    "Label 8": "41.100 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/nescafe-cafe-sua-da-10s-hop-240g--s10406966?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Cà phê hòa tan 3 trong 1 Nescafé sữa đá hộp 200g (10 gói x 20g)",
+                    "Label 6": "Hộp",
+                    "Label 7": "45.800 ₫",
+                    "Label 8": "58.300 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/vinacafe-cafe-3in1-gold-original-306g--s10196217?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Café Vinacafé 3in1 Gold Original 306g",
+                    "Label 6": "Hộp",
+                    "Label 7": "57.200 ₫",
+                    "Label 8": "71.400 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/mirinda-nuoc-ngot-soda-kem-320ml--s10405859?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Thùng 24 lon nước Mirinda ngọt soda kem 330ml",
+                    "Label 6": "Thùng",
+                    "Label 7": "185.000 ₫",
+                    "Label 8": "231.300 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/twister-nuoc-cam-ep-10-chai-1l--s10150203?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Nước Cam Ép Twister 1L",
+                    "Label 6": "Chai",
+                    "Label 7": "19.000 ₫",
+                    "Label 8": "23.500 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/fuzetea-tra-chanh-sa-1l-t6--s10150532?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Trà chanh với sả Fuze Tea 1 lít",
+                    "Label 6": "Chai",
+                    "Label 7": "14.900 ₫",
+                    "Label 8": "18.400 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/pororo-nuoc-vi-dau-sua-235ml--s10011392?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Thùng 24 chai nước uống vị dâu Pororo 235ml",
+                    "Label 6": "Thùng",
+                    "Label 7": "505.000 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/pororo-nuoc-trai-cay-sua-235ml--s10011394?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Thùng 24 chai nước uống hương vị trái cây nhiệt đới Pororo 235ml",
+                    "Label 6": "Thùng",
+                    "Label 7": "505.000 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/pororo-nuoc-vi-tao-sua-235ml--s10011393?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Thùng 24 chai nước uống hương vị táo Pororo 235ml",
+                    "Label 6": "Thùng",
+                    "Label 7": "505.000 ₫",
+                    "Label 8": ""
+                }
+            ]
+        },
+        "markdown": "",
+        "html": ""
+    },
+    "screenshots": []
+}

@@ -1,0 +1,19 @@
+{
+    "id": "2b6308e2-e89b-422f-bb40-3f690c80690d",
+    "status": "failed",
+    "name": "Hygene (no URL)",
+    "robotId": "3f88e569-057e-4319-892f-834416e6188d",
+    "startedAt": "1/25/2026, 4:28:15 PM",
+    "finishedAt": "1/25/2026, 4:39:59 PM",
+    "runId": "a65a828a-0aa2-4eff-95bf-d70859561fc1",
+    "runByUserId": 1,
+    "runByScheduleId": null,
+    "runByAPI": null,
+    "data": {
+        "textData": {},
+        "listData": {},
+        "markdown": "",
+        "html": ""
+    },
+    "screenshots": []
+}

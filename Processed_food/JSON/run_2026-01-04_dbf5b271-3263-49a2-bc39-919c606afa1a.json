@@ -1,0 +1,19 @@
+{
+    "id": "dbf5b271-3263-49a2-bc39-919c606afa1a",
+    "status": "failed",
+    "name": "Processed Food",
+    "robotId": "afa4380e-7f1f-4a4e-b005-746c5e7fa38d",
+    "startedAt": "1/4/2026, 3:31:37 PM",
+    "finishedAt": "1/5/2026, 1:36:39 AM",
+    "runId": "42a53d13-d1eb-4ec6-8cb8-f404666abdf7",
+    "runByUserId": 1,
+    "runByScheduleId": null,
+    "runByAPI": null,
+    "data": {
+        "textData": {},
+        "listData": {},
+        "markdown": "",
+        "html": ""
+    },
+    "screenshots": []
+}

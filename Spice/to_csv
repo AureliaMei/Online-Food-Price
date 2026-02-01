@@ -1,0 +1,94 @@
+import os
+import json
+import pandas as pd
+import re
+
+# --- CONFIGURATION ---
+TARGET_FOLDER = "Spice" 
+
+def clean_price(val):
+    """Standardizes price strings (e.g., '80.900 ₫') into floats (80900.0)."""
+    if not val or pd.isna(val) or val == "":
+        return 0.0
+    digits = re.sub(r'[^\d]', '', str(val))
+    return float(digits) if digits else 0.0
+
+def process_spices():
+    base_path = os.getcwd()
+    
+    # Path logic to find subfolders correctly
+    if base_path.endswith(TARGET_FOLDER):
+        json_dir, csv_dir = "JSON", "CSV"
+    else:
+        json_dir = os.path.join(TARGET_FOLDER, "JSON")
+        csv_dir = os.path.join(TARGET_FOLDER, "CSV")
+    
+    if not os.path.exists(json_dir):
+        print(f"❌ Error: JSON folder not found at {os.path.abspath(json_dir)}")
+        return
+        
+    if not os.path.exists(csv_dir):
+        os.makedirs(csv_dir)
+
+    processed_count = 0
+    for filename in os.listdir(json_dir):
+        if filename.endswith(".json"):
+            json_path = os.path.join(json_dir, filename)
+            csv_path = os.path.join(csv_dir, filename.replace(".json", ".csv"))
+
+            if os.path.exists(csv_path):
+                continue
+
+            with open(json_path, 'r', encoding='utf-8') as f:
+                try:
+                    run_data = json.load(f)
+                    if run_data.get('status') != 'success':
+                        continue
+
+                    raw_list = run_data.get('data', {}).get('listData', {}).get('List Data 1', [])
+                    cleaned_rows = []
+
+                    for item in raw_list:
+                        # 1. Spices Mapping
+                        # Label 8 & 9: Prices | Label 7: Deal Info
+                        p1 = clean_price(item.get('Label 8'))
+                        p2 = clean_price(item.get('Label 9'))
+
+                        # 2. Price Logic: Lower is actual price
+                        if p1 > 0 and p2 > 0:
+                            final, marked = min(p1, p2), max(p1, p2)
+                        else:
+                            final = p1 if p1 > 0 else p2
+                            marked = p2 if (p2 > p1 and p1 > 0) else None
+
+                        cleaned_rows.append({
+                            'product_name': item.get('Label 5'),
+                            'unit': item.get('Label 6'),
+                            'final_price': final,
+                            'marked_price': marked,
+                            'deal': item.get('Label 7', '').strip(),
+                            'gift_price': 0.0, # Not explicitly separated in this robot
+                            'product_url': item.get('Label 4'),
+                            'scrape_timestamp': run_data.get('startedAt'),
+                            'run_id': run_data.get('id')
+                        })
+
+                    if cleaned_rows:
+                        df = pd.DataFrame(cleaned_rows)
+                        # Reorder columns to match your requested format
+                        column_order = [
+                            'product_name', 'unit', 'final_price', 'marked_price', 
+                            'deal', 'gift_price', 'product_url', 'scrape_timestamp', 'run_id'
+                        ]
+                        df = df[column_order]
+                        df.to_csv(csv_path, index=False, encoding='utf-8-sig')
+                        processed_count += 1
+                        print(f"  ✅ Refined: {filename}")
+
+                except Exception as e:
+                    print(f"  ⚠️ Error in {filename}: {e}")
+    
+    print(f"\n🚀 Done! Processed {processed_count} spice files into {csv_dir}")
+
+if __name__ == "__main__":
+    process_spices()

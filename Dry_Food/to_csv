@@ -1,0 +1,80 @@
+import os
+import json
+import pandas as pd
+import re
+
+# --- CONFIGURATION ---
+TARGET_FOLDER = "Dry_Food"
+
+def clean_price(val):
+    """Standardizes price strings into floats."""
+    if not val or pd.isna(val) or val == "":
+        return 0.0
+    # Remove dots, currency symbols, and non-breaking spaces
+    digits = re.sub(r'[^\d]', '', str(val))
+    return float(digits) if digits else 0.0
+
+def process_dry_food_to_csv():
+    input_dir = '/Users/my/Online Food Price/Dry_Food/JSON'
+    output_dir = os.path.join(input_dir, "CSV")
+    
+    if not os.path.exists(output_dir):
+        os.makedirs(output_dir)
+        print(f"📁 Created subfolder: {output_dir}")
+
+    # Process all JSON files in the folder
+    for filename in os.listdir(input_dir):
+        if filename.endswith(".json"):
+            json_path = os.path.join(input_dir, filename)
+            csv_path = os.path.join(output_dir, filename.replace(".json", ".csv"))
+
+            # Skip if already processed to save time
+            if os.path.exists(csv_path):
+                continue
+
+            with open(json_path, 'r', encoding='utf-8') as f:
+                try:
+                    run_data = json.load(f)
+                    
+                    # 1. Filter: Delete/Skip failed runs
+                    if run_data.get('status') != 'success':
+                        print(f"  🗑️ Skipping failed run: {filename}")
+                        continue
+
+                    raw_list = run_data.get('data', {}).get('listData', {}).get('List Data 1', [])
+                    cleaned_rows = []
+
+                    for item in raw_list:
+                        # 2. Standardize Labels for Dry Food
+                        p1 = clean_price(item.get('Label 7'))
+                        p2 = clean_price(item.get('Label 8'))
+
+                        # 3. Price Logic: Lower is actual, Higher is marked
+                        if p1 > 0 and p2 > 0:
+                            final_price = min(p1, p2)
+                            marked_price = max(p1, p2)
+                        else:
+                            final_price = p1 if p1 > 0 else p2
+                            marked_price = p2 if (p2 > p1 and p1 > 0) else None
+
+                        cleaned_rows.append({
+                            'product_name': item.get('Label 5'),
+                            'unit': item.get('Label 6'),
+                            'final_price': final_price,
+                            'marked_price': marked_price,
+                            'product_url': item.get('Label 4'),
+                            'scrape_timestamp': run_data.get('startedAt'),
+                            'run_id': run_data.get('id')
+                        })
+
+                    # 4. Save to CSV
+                    if cleaned_rows:
+                        df = pd.DataFrame(cleaned_rows)
+                        df.to_csv(csv_path, index=False, encoding='utf-8-sig')
+                        print(f"  ✅ Refined: {filename}")
+
+                except Exception as e:
+                    print(f"  ⚠️ Error in {filename}: {e}")
+
+if __name__ == "__main__":
+    process_dry_food_to_csv()

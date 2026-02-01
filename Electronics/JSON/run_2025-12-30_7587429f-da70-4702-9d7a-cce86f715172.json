@@ -1,0 +1,19 @@
+{
+    "id": "7587429f-da70-4702-9d7a-cce86f715172",
+    "status": "failed",
+    "name": "Electronics",
+    "robotId": "2b41463d-c127-4a97-b7f7-9f9dd1b07374",
+    "startedAt": "12/30/2025, 3:27:29 PM",
+    "finishedAt": "12/30/2025, 5:10:25 PM",
+    "runId": "4310b98b-a027-4dde-95f1-701dc60525b1",
+    "runByUserId": 1,
+    "runByScheduleId": null,
+    "runByAPI": null,
+    "data": {
+        "textData": {},
+        "listData": {},
+        "markdown": "",
+        "html": ""
+    },
+    "screenshots": []
+}

@@ -1,0 +1,190 @@
+{
+    "id": "41486325-683e-44b4-b211-09a825f236c7",
+    "status": "success",
+    "name": "Veg + Fruits",
+    "robotId": "424e50fb-43a0-4417-a5b7-b0ecc72597ed",
+    "startedAt": "1/27/2026, 2:18:31 PM",
+    "finishedAt": "1/27/2026, 2:30:20 PM",
+    "runId": "a6cdf4a3-a8cc-49ff-8ccc-891fc71377d8",
+    "runByUserId": 1,
+    "runByScheduleId": null,
+    "runByAPI": null,
+    "data": {
+        "textData": {},
+        "listData": {
+            "List Data 1": [
+                {
+                    "Unit": "1KG",
+                    "Final Price": "43.920 ₫",
+                    "Product URL": "https://winmart.vn/products/wineco-bap-cai-tim-l1--s10054670?storeGroupCode=1998&storeCode=1535",
+                    "Marked Price": "54.900 ₫",
+                    "Product Name": "Bắp cải tím WinEco"
+                },
+                {
+                    "Unit": "1KG",
+                    "Final Price": "14.000 ₫",
+                    "Product URL": "https://winmart.vn/products/wineco-su-hao-xanh-l1--s10054623?storeGroupCode=1998&storeCode=1535",
+                    "Marked Price": "17.500 ₫",
+                    "Product Name": "Su hào xanh WinEco"
+                },
+                {
+                    "Unit": "1KG",
+                    "Final Price": "38.320 ₫",
+                    "Product URL": "https://winmart.vn/products/wineco-can-tay-lon-l1--s10054767?storeGroupCode=1998&storeCode=1535",
+                    "Marked Price": "47.900 ₫",
+                    "Product Name": "Cần tây lớn WinEco"
+                },
+                {
+                    "Unit": "1KG",
+                    "Final Price": "34.320 ₫",
+                    "Product URL": "https://winmart.vn/products/wineco-sup-lo-bong-cai-trang-l1--s10054669?storeGroupCode=1998&storeCode=1535",
+                    "Marked Price": "42.900 ₫",
+                    "Product Name": "Súp lơ trắng WinEco"
+                },
+                {
+                    "Unit": "Qủa",
+                    "Final Price": "95.200 ₫",
+                    "Product URL": "https://winmart.vn/products/dua-luoi-sach-de-vuong-super-king-r.cam--s10242502?storeGroupCode=1998&storeCode=1535",
+                    "Marked Price": "119.000 ₫",
+                    "Product Name": "Dưa lưới sạch Đế Vương Super King Ruột cam"
+                },
+                {
+                    "Unit": "Qủa",
+                    "Final Price": "79.200 ₫",
+                    "Product URL": "https://winmart.vn/products/dua-luoi-sach-de-vuong-king-size-r.cam--s10242407?storeGroupCode=1998&storeCode=1535",
+                    "Marked Price": "99.000 ₫",
+                    "Product Name": "Dưa lưới sạch Đế Vương King size ruột cam"
+                },
+                {
+                    "Unit": "Gói",
+                    "Final Price": "8.000 ₫",
+                    "Product URL": "https://winmart.vn/products/wineco-cai-bo-xoi-300gr--s10281825?storeGroupCode=1998&storeCode=1535",
+                    "Marked Price": "10.000 ₫",
+                    "Product Name": "Cải bó xôi WinEco gói 300g"
+                },
+                {
+                    "Unit": "Gói",
+                    "Final Price": "8.000 ₫",
+                    "Product URL": "https://winmart.vn/products/wineco-cai-cuc-l1-300gr--s10281828?storeGroupCode=1998&storeCode=1535",
+                    "Marked Price": "10.000 ₫",
+                    "Product Name": "Cải cúc WinEco gói 300g"
+                },
+                {
+                    "Unit": "Gói",
+                    "Final Price": "10.000 ₫",
+                    "Product URL": "https://winmart.vn/products/wineco-gia-do-l1-300gr--s10281835?storeGroupCode=1998&storeCode=1535",
+                    "Marked Price": "12.500 ₫",
+                    "Product Name": "Giá đỗ WinEco 300g"
+                },
+                {
+                    "Unit": "Hộp",
+                    "Final Price": "14.800 ₫",
+                    "Product URL": "https://winmart.vn/products/wineco-rau-mam-cai-ngot-l1-100gr--s10281839?storeGroupCode=1998&storeCode=1535",
+                    "Marked Price": "18.500 ₫",
+                    "Product Name": "Rau mầm cải ngọt WinEco 100g"
+                },
+                {
+                    "Unit": "Hộp",
+                    "Final Price": "14.800 ₫",
+                    "Product URL": "https://winmart.vn/products/wineco-rau-mam-cai-xanh-l1-100gr--s10281840?storeGroupCode=1998&storeCode=1535",
+                    "Marked Price": "18.500 ₫",
+                    "Product Name": "Rau mầm cải xanh WinEco 100g"
+                },
+                {
+                    "Unit": "Gói",
+                    "Final Price": "5.520 ₫",
+                    "Product URL": "https://winmart.vn/products/wineco-can-tay-nho-l1-100gr--s10281873?storeGroupCode=1998&storeCode=1535",
+                    "Marked Price": "6.900 ₫",
+                    "Product Name": "Cần tây nhỏ WinEco 100g"
+                },
+                {
+                    "Unit": "Gói",
+                    "Final Price": "6.400 ₫",
+                    "Product URL": "https://winmart.vn/products/wineco-he-la-l1-100gr--s10281880?storeGroupCode=1998&storeCode=1535",
+                    "Marked Price": "8.000 ₫",
+                    "Product Name": "Hẹ lá WinEco 100g"
+                },
+                {
+                    "Unit": "Gói",
+                    "Final Price": "4.800 ₫",
+                    "Product URL": "https://winmart.vn/products/wineco-hanh-la-l1-100gr--s10281879?storeGroupCode=1998&storeCode=1535",
+                    "Marked Price": "6.000 ₫",
+                    "Product Name": "Hành lá WinEco gói 100g"
+                },
+                {
+                    "Unit": "Gói",
+                    "Final Price": "13.600 ₫",
+                    "Product URL": "https://winmart.vn/products/wineco-xa-lach-lolo-xanh-l1-300g--s10281893?storeGroupCode=1998&storeCode=1535",
+                    "Marked Price": "17.000 ₫",
+                    "Product Name": "Xà lách lolo xanh WinEco 300g"
+                },
+                {
+                    "Unit": "1.2KG",
+                    "Final Price": "53.664 ₫",
+                    "Product URL": "https://winmart.vn/products/wineco-dua-luoi-ruot-cam-kg--s10281949?storeGroupCode=1998&storeCode=1535",
+                    "Marked Price": "67.080 ₫",
+                    "Product Name": "Dưa lưới ruột cam WinEco"
+                },
+                {
+                    "Unit": "Gói",
+                    "Final Price": "19.600 ₫",
+                    "Product URL": "https://winmart.vn/products/wineco-xa-lach-mo-l1-300g--s10283379?storeGroupCode=1998&storeCode=1535",
+                    "Marked Price": "24.500 ₫",
+                    "Product Name": "Xà lách mỡ WinEco 300g"
+                },
+                {
+                    "Unit": "1.2KG",
+                    "Final Price": "66.144 ₫",
+                    "Product URL": "https://winmart.vn/products/wineco-dua-le-kim-hoang-hau-l1--s10307117?storeGroupCode=1998&storeCode=1535",
+                    "Marked Price": "82.680 ₫",
+                    "Product Name": "Dưa lê kim hoàng hậu WinEco"
+                },
+                {
+                    "Unit": "Gói 3",
+                    "Final Price": "45.000 ₫",
+                    "Product URL": "https://winmart.vn/products/dua-tien-loi-loc-3--s10283917?storeGroupCode=1998&storeCode=1535",
+                    "Marked Price": "55.000 ₫",
+                    "Product Name": "Dừa tiện lợi (Lốc 3)"
+                },
+                {
+                    "Unit": "Hộp",
+                    "Final Price": "195.000 ₫",
+                    "Product URL": "https://winmart.vn/products/tao-envy-xuat-xu-my-3traihop--s10235283?storeGroupCode=1998&storeCode=1535",
+                    "Marked Price": "229.000 ₫",
+                    "Product Name": "Táo Envy xuất xứ Mỹ (3Trái/Hộp)"
+                },
+                {
+                    "Unit": "Hộp",
+                    "Final Price": "152.000 ₫",
+                    "Product URL": "https://winmart.vn/products/kiwi-vang-phap-4-traihop--s10403849?storeGroupCode=1998&storeCode=1535",
+                    "Marked Price": "179.000 ₫",
+                    "Product Name": "Kiwi vàng Pháp 4 trái/hộp"
+                },
+                {
+                    "Unit": "Hộp",
+                    "Final Price": "159.000 ₫",
+                    "Product URL": "https://winmart.vn/products/devie-cha-la-nguyen-canh-hop-500g--s10240240?storeGroupCode=1998&storeCode=1535",
+                    "Marked Price": "185.000 ₫",
+                    "Product Name": "Chà là nguyên cành Devie hộp 500g"
+                },
+                {
+                    "Unit": "1KG",
+                    "Final Price": "79.000 ₫",
+                    "Product URL": "https://winmart.vn/products/wmnk-tao-candine-phap--s10055090?storeGroupCode=1998&storeCode=1535",
+                    "Marked Price": "89.900 ₫",
+                    "Product Name": "Táo Candine Pháp"
+                },
+                {
+                    "Unit": "1KG",
+                    "Final Price": "58.900 ₫",
+                    "Product URL": "https://winmart.vn/products/tao-xanh--s10054817?storeGroupCode=1998&storeCode=1535",
+                    "Marked Price": "65.000 ₫",
+                    "Product Name": "Táo xanh"
+                }
+            ]
+        },
+        "markdown": "",
+        "html": ""
+    },
+    "screenshots": []
+}

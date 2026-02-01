@@ -1,0 +1,82 @@
+import requests
+import os
+import json
+from datetime import datetime
+
+# --- CONFIGURATION ---
+BASE_URL = "http://localhost:8080/api"  
+API_KEY = "4e1kjff5od9ndqkxz4khd3446t4rd7"
+HEADERS = {"x-api-key": API_KEY, "Content-Type": "application/json"}
+
+ROBOTS = {
+    "Electronics": "2b41463d-c127-4a97-b7f7-9f9dd1b07374",
+    "Hygene": "3f88e569-057e-4319-892f-834416e6188d",
+    "Dry_Food": "0ef9789a-f778-418d-8bd5-6c8b83a11286",
+    "Instant_food": "f2a242f9-8a04-4cce-a5c6-2f11eda952b7",
+    "Non-alcohol_beverage": "191f10fe-1d04-49e0-b3e4-fc5a4fc4b90b",
+    "Household_good": "06165882-777a-4c19-8862-de530d54373d",
+    "Baby_product": "62a10810-19db-4076-86af-169320baf441",
+    "Egg_and_soy": "809764ec-5e4c-4eb9-aad6-cc809430648b",
+    "Frozen": "70404316-22f8-4e52-a3a0-c60b302a482e",
+    "Spice": "4e4a60d2-68b3-4f41-a3a0-80fdd3783c45",
+    "Processed_food": "afa4380e-7f1f-4a4e-b005-746c5e7fa38d",
+    "Dairy": "95087cc5-1cfb-4d58-b66b-d2356b4e5b84",
+    "Confectionary": "facc434f-0c2d-4325-b925-deee45a85636",
+    "Detergent": "6479ca88-3fae-434d-8874-ec2e407e37ee",
+    "Veg_Fruit": "424e50fb-43a0-4417-a5b7-b0ecc72597ed"
+}
+
+def backup_all_runs_as_json():
+    for name, r_id in ROBOTS.items():
+        if not os.path.exists(name):
+            os.makedirs(name)
+
+        print(f"🔍 Extracting {name}...")
+        
+        # Based on your Ping, the plural 'robots' works perfectly
+        url = f"{BASE_URL}/robots/{r_id}/runs"
+        response = requests.get(url, headers=HEADERS)
+        
+        if response.status_code != 200:
+            print(f"  ❌ API Error: {response.status_code}")
+            continue
+
+        payload = response.json()
+        
+        # Navigate the path: payload -> runs -> items
+        runs_container = payload.get('runs', {})
+        runs_list = runs_container.get('items', [])
+        total_available = runs_container.get('totalCount', 0)
+
+        if not runs_list:
+            print(f"  ⚠️ No runs found (Total Count: {total_available})")
+            continue
+
+        new_files_count = 0
+        for run in runs_list:
+            run_id = run.get('id')
+            # Extract date for filename: 2026-01-30_T14-56
+            created_at_raw = run.get('startedAt', 'unknown')
+            
+            # Formatting the date for safe filenames
+            try:
+                # Handling "1/30/2026, 2:56:52 PM" style from your previous snippet
+                dt_obj = datetime.strptime(created_at_raw.split(',')[0], '%m/%d/%Y')
+                run_date = dt_obj.strftime('%Y-%m-%d')
+            except:
+                run_date = "date_unknown"
+
+            file_path = f"{name}/run_{run_date}_{run_id}.json"
+
+            if os.path.exists(file_path):
+                continue
+
+            with open(file_path, 'w', encoding='utf-8') as f:
+                json.dump(run, f, ensure_ascii=False, indent=4)
+            
+            new_files_count += 1
+
+        print(f"  ✅ Finished. Total in Maxun: {total_available}. Newly saved: {new_files_count}")
+
+if __name__ == "__main__":
+    backup_all_runs_as_json()

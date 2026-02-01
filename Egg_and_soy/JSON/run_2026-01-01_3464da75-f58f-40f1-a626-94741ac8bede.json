@@ -1,0 +1,19 @@
+{
+    "id": "3464da75-f58f-40f1-a626-94741ac8bede",
+    "status": "failed",
+    "name": "Egg and Soy Products",
+    "robotId": "809764ec-5e4c-4eb9-aad6-cc809430648b",
+    "startedAt": "1/1/2026, 2:36:24 PM",
+    "finishedAt": "1/1/2026, 2:52:02 PM",
+    "runId": "cfe039c9-4932-4990-8f45-f40eed5ad5c6",
+    "runByUserId": 1,
+    "runByScheduleId": null,
+    "runByAPI": null,
+    "data": {
+        "textData": {},
+        "listData": {},
+        "markdown": "",
+        "html": ""
+    },
+    "screenshots": []
+}

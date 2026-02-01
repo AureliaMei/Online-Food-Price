@@ -1,0 +1,406 @@
+{
+    "id": "4a039a98-ba28-4c9f-9da2-b874193c2c3d",
+    "status": "success",
+    "name": "Spices",
+    "robotId": "4e4a60d2-68b3-4f41-a3a0-80fdd3783c45",
+    "startedAt": "1/6/2026, 2:42:27 PM",
+    "finishedAt": "1/6/2026, 2:49:05 PM",
+    "runId": "d4418a77-5aeb-46d0-8b02-6b41db34671c",
+    "runByUserId": 1,
+    "runByScheduleId": null,
+    "runByAPI": null,
+    "data": {
+        "textData": {},
+        "listData": {
+            "List Data 1": [
+                {
+                    "Label 4": "https://winmart.vn/products/meizan-hat-nem-thit-xotcr-heo-1kg--s10141530?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Hạt Nêm Meizan Vị Heo 1kg",
+                    "Label 6": "Gói",
+                    "Label 7": "",
+                    "Label 8": "39.900 ₫",
+                    "Label 9": "66.300 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/meizan-dau-dau-nanh-chai-1l--s10010075?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Dầu đậu nành Meizan chai 1L",
+                    "Label 6": "Chai",
+                    "Label 7": "",
+                    "Label 8": "43.700 ₫",
+                    "Label 9": "63.900 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/nam-duong-tuong-ca-265255gr--s10624156?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Tương cà Nam Dương chai 265g",
+                    "Label 6": "Chai",
+                    "Label 7": "",
+                    "Label 8": "8.700 ₫",
+                    "Label 9": "12.800 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/nam-duong-dau-hao-270g--s10181131?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Dầu Hào Nam Dương chai 270g",
+                    "Label 6": "Chai",
+                    "Label 7": "",
+                    "Label 8": "12.200 ₫",
+                    "Label 9": "17.100 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/meizan-dau-dau-nanh-chai-2l--s10010076?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Dầu đậu nành Meizan chai 2L",
+                    "Label 6": "Chai",
+                    "Label 7": "",
+                    "Label 8": "93.400 ₫",
+                    "Label 9": "129.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/nam-duong-tuong-ot-cay-vua-255g--s10141980?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Tương ớt cay vừa Nam Dương 255g",
+                    "Label 6": "Chai",
+                    "Label 7": "",
+                    "Label 8": "8.600 ₫",
+                    "Label 9": "12.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/nam-duong-nuoc-tuong-len-men-500ml--s10181129?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Nước tương lên men Nam Dương 500ml",
+                    "Label 6": "Chai",
+                    "Label 7": "",
+                    "Label 8": "17.000 ₫",
+                    "Label 9": "23.400 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/nam-duong-tuong-ca-500g--s10141529?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "NAM DƯƠNG Tương Cà 500g",
+                    "Label 6": "Chai",
+                    "Label 7": "",
+                    "Label 8": "15.900 ₫",
+                    "Label 9": "21.600 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/nam-duong-nuoc-tuong-toi-ot-310g--s10181130?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Nước tương tỏi ớt tươi Nam Dương chai 310g",
+                    "Label 6": "Chai",
+                    "Label 7": "",
+                    "Label 8": "13.000 ₫",
+                    "Label 9": "17.600 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/nam-duong-nuoc-tuong-dam-dac-500ml--s10327429?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Nước tương đậm đặc Nam Dương chai 500ml",
+                    "Label 6": "Chai",
+                    "Label 7": "",
+                    "Label 8": "16.000 ₫",
+                    "Label 9": "21.600 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/maggi-hat-nem-nam-huong-goi-200g--s10009303?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Hạt nêm nấm hương Maggi gói 200g",
+                    "Label 6": "Gói",
+                    "Label 7": "",
+                    "Label 8": "19.900 ₫",
+                    "Label 9": "26.300 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/tuong-an-dau-dau-nanh-chai-2l--s10010116?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Dầu đậu nành Tường An chai 2L",
+                    "Label 6": "Chai",
+                    "Label 7": "",
+                    "Label 8": "109.000 ₫",
+                    "Label 9": "139.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/otoki-dam-tao-chai-450ml--s10009110?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Dấm táo Ottogi chai 450ml",
+                    "Label 6": "Chai",
+                    "Label 7": "",
+                    "Label 8": "18.500 ₫",
+                    "Label 9": "23.500 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/maggi-dau-hao-nam-huong-350g--s10141888?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Dầu hào chay Maggi từ nấm hương chai 350g",
+                    "Label 6": "Chai",
+                    "Label 7": "",
+                    "Label 8": "26.500 ₫",
+                    "Label 9": "33.700 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/miwon-sot-uop-thit-vi-tr.thong-80g--s10181093?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Sốt uớp thịt vị truyền thống Miwon 80g",
+                    "Label 6": "Gói",
+                    "Label 7": "",
+                    "Label 8": "11.100 ₫",
+                    "Label 9": "14.100 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/otoki-sot-mayonnaise-chai-240g--s10008877?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Xốt mayonnaise Ottogi chai 240g",
+                    "Label 6": "Chai",
+                    "Label 7": "",
+                    "Label 8": "26.900 ₫",
+                    "Label 9": "33.600 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/meizan-dau-an-cao-cap-gold-1l--s10010069?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Dầu ăn cao cấp Meizan Gold chai 1 lít",
+                    "Label 6": "Chai",
+                    "Label 7": "",
+                    "Label 8": "48.300 ₫",
+                    "Label 9": "60.600 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/tuong-an-dau-cooking-1l--s10010151?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Dầu ăn Tường An chai 1 lít",
+                    "Label 6": "Chai",
+                    "Label 7": "",
+                    "Label 8": "47.000 ₫",
+                    "Label 9": "59.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/knorr-nuoc-mam-ngon-tron-vi-750ml--s10142012?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Nước mắm Knorr ngon tròn vị 15 độ đạm 750ml",
+                    "Label 6": "Chai",
+                    "Label 7": "",
+                    "Label 8": "47.300 ₫",
+                    "Label 9": "59.400 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/miwon-sot-uop-thit-hq-vi-cay-80g--s10181091?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Sốt uớp thịt Hàn Quốc Miwon vị cay 80g",
+                    "Label 6": "Gói",
+                    "Label 7": "",
+                    "Label 8": "11.300 ₫",
+                    "Label 9": "14.100 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/nam-duong-nuoc-tuong-thuong-hang-210ml--s10600001?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Nước tương thượng hạng Nam Dương chai 210ml",
+                    "Label 6": "Chai",
+                    "Label 7": "",
+                    "Label 8": "18.200 ₫",
+                    "Label 9": "22.800 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/meizan-dau-an-cao-cap-gold-2l--s10010070?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Dầu thực vật cao cấp Meizan chai 2L",
+                    "Label 6": "Chai",
+                    "Label 7": "",
+                    "Label 8": "94.400 ₫",
+                    "Label 9": "116.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/sloboda-dau-huong-duong-oganic-1l--s10010194?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Dầu hướng dương Organic Sloboda chai 1 lít",
+                    "Label 6": "Chai",
+                    "Label 7": "",
+                    "Label 8": "61.000 ₫",
+                    "Label 9": "75.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/miwon-sot-muoi-kim-chi-han-quoc-180g-t40--s10141666?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Sốt muối kim chi Hàn Quốc Miwon 180g",
+                    "Label 6": "Gói",
+                    "Label 7": "",
+                    "Label 8": "28.900 ₫",
+                    "Label 9": "35.700 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/neptune-light-dau-an-thuong-hang-1l--s10170264?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "NEPTUNE Light Dầu ăn thượng hạng 1L",
+                    "Label 6": "Lốc, Lô, Lố",
+                    "Label 7": "",
+                    "Label 8": "119.000 ₫",
+                    "Label 9": "133.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/tuong-an-dau-nanh-chai-1l--s10010117?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Dầu nành Tường An chai 1L",
+                    "Label 6": "Chai",
+                    "Label 7": "",
+                    "Label 8": "56.700 ₫",
+                    "Label 9": "69.300 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/simply-mayonnaise-cham-tron-230g--s10140940?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Xốt Mayonnaise Simply Chấm Và Trộn Đều Ngon chai 230g",
+                    "Label 6": "Chai",
+                    "Label 7": "",
+                    "Label 8": "31.900 ₫",
+                    "Label 9": "38.800 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/miwon-sot-uop-thit-vi-tr.thong-240g--s10181092?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Sốt uớp Miwon thịt vị truyền thống 240g",
+                    "Label 6": "Chai",
+                    "Label 7": "",
+                    "Label 8": "33.200 ₫",
+                    "Label 9": "40.500 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/chungjungone-miwon-tuong-dau-200g--s10313306?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Tương đậu Chungjungone Daesang hộp 200g",
+                    "Label 6": "Hộp",
+                    "Label 7": "",
+                    "Label 8": "30.000 ₫",
+                    "Label 9": "36.700 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/nam-duong-tuong-ot-dac-biet-cay-250g255--s10327431?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Tương ớt đặc biệt cay Nam Dương chai 250g",
+                    "Label 6": "Chai",
+                    "Label 7": "",
+                    "Label 8": "10.200 ₫",
+                    "Label 9": "12.500 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/thuan-phat-nm-ca-com-than-490ml-t18--s10621537?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Nước mắm Cá Cơm Than Thuận Phát chai 490ml",
+                    "Label 6": "Chai",
+                    "Label 7": "",
+                    "Label 8": "27.200 ₫",
+                    "Label 9": "33.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/simply-dau-dau-nanh-chai-2l--s10010066?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Dầu đậu nành Simply chai 2L",
+                    "Label 6": "Chai",
+                    "Label 7": "",
+                    "Label 8": "109.000 ₫",
+                    "Label 9": "132.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/simply-mayonnaise-huong-gaorang-230g--s10140939?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Sốt mayonnaise Simply hương gạo rang chai 230g",
+                    "Label 6": "Chai",
+                    "Label 7": "",
+                    "Label 8": "32.900 ₫",
+                    "Label 9": "39.800 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/chin-su-tuong-ca-500g--s10141773?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Tương cà Chinsu chai 500g",
+                    "Label 6": "Chai",
+                    "Label 7": "",
+                    "Label 8": "28.700 ₫",
+                    "Label 9": "34.500 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/le-gia-nuoc-mam-cot-db-525ml--s10602832?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Nước mắm cốt DB Lê Gia chai 525ml",
+                    "Label 6": "Chai",
+                    "Label 7": "",
+                    "Label 8": "99.000 ₫",
+                    "Label 9": "118.800 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/barona-xot-gvhc-bo-kho-80gr--s10617338?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Xốt gia vị hoàn chỉnh Barona bò kho gói 80g",
+                    "Label 6": "Gói",
+                    "Label 7": "",
+                    "Label 8": "12.300 ₫",
+                    "Label 9": "14.900 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/neptune-hat-nem-nam-380gr--s10622832?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Hạt nêm Neptune nấm 380g",
+                    "Label 6": "Gói",
+                    "Label 7": "",
+                    "Label 8": "33.700 ₫",
+                    "Label 9": "40.800 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/maggi-nuoc-tuong-dam-dac-700ml--s10008688?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Nước tương Đậm đặc Maggi 700ml",
+                    "Label 6": "Chai",
+                    "Label 7": "",
+                    "Label 8": "31.500 ₫",
+                    "Label 9": "37.400 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/maggi-nuoc-tuong-dau-nanh-chai-700ml--s10009301?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Nước tương đậu nành Maggi chai 700ml",
+                    "Label 6": "Chai",
+                    "Label 7": "",
+                    "Label 8": "27.500 ₫",
+                    "Label 9": "32.900 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/simply-dau-huong-duong-chai-1l--s10010073?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Dầu hướng dương chai Simply chai 1L",
+                    "Label 6": "Chai",
+                    "Label 7": "",
+                    "Label 8": "70.900 ₫",
+                    "Label 9": "84.900 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/ssh-lau-rieu-cua-bo-nanocurcumin-70g--s10140903?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Gói gia vị Lẩu riêu cua bò nanocurcumin SSH gói 70g",
+                    "Label 6": "Gói",
+                    "Label 7": "",
+                    "Label 8": "24.900 ₫",
+                    "Label 9": "29.600 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/nam-duong-sot-dau-dam-tron-salad-250g--s10327433?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Sốt dầu dấm trộn salad Nam Dương chai 250g",
+                    "Label 6": "Chai",
+                    "Label 7": "",
+                    "Label 8": "17.000 ₫",
+                    "Label 9": "20.200 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/sb-gia-vi-wasabi-neri-43g--s10009100?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Gia vị wasabi neri S&B 43g",
+                    "Label 6": "Tuýp",
+                    "Label 7": "",
+                    "Label 8": "26.900 ₫",
+                    "Label 9": "31.500 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/tuong-an-dau-nanh-can-5l--s10010115?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Dầu nành Tường An can 5L",
+                    "Label 6": "Chai",
+                    "Label 7": "",
+                    "Label 8": "285.900 ₫",
+                    "Label 9": "338.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/chin-su-tuong-ot-1kg--s10141747?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Tương ớt Chin Su chai 1kg",
+                    "Label 6": "Chai",
+                    "Label 7": "",
+                    "Label 8": "52.200 ₫",
+                    "Label 9": "61.200 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/simply-huong-duong-2l--s10405275?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Hướng dương Simply 2L",
+                    "Label 6": "Chai",
+                    "Label 7": "",
+                    "Label 8": "138.000 ₫",
+                    "Label 9": "162.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/tuong-an-dau-an-gold-2l--s10600401?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Dầu ăn Tường An Gold chai 2L",
+                    "Label 6": "Chai",
+                    "Label 7": "",
+                    "Label 8": "108.000 ₫",
+                    "Label 9": "127.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/tuong-an-dau-an-gold-1l--s10600400?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Dầu ăn Tường An Gold chai 1L",
+                    "Label 6": "Chai",
+                    "Label 7": "",
+                    "Label 8": "54.000 ₫",
+                    "Label 9": "63.900 ₫"
+                }
+            ]
+        },
+        "markdown": "",
+        "html": ""
+    },
+    "screenshots": []
+}

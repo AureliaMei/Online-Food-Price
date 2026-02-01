@@ -1,0 +1,160 @@
+{
+    "id": "cf02949c-944d-446d-93e0-0fa45e9f0979",
+    "status": "success",
+    "name": "Egg and Soy Products",
+    "robotId": "809764ec-5e4c-4eb9-aad6-cc809430648b",
+    "startedAt": "1/9/2026, 3:34:46 PM",
+    "finishedAt": "1/9/2026, 3:41:48 PM",
+    "runId": "a5c515b1-11fc-41a9-821b-efdf142d7734",
+    "runByUserId": 1,
+    "runByScheduleId": null,
+    "runByAPI": null,
+    "data": {
+        "textData": {},
+        "listData": {
+            "List Data 1": [
+                {
+                    "Label 1": "https://winmart.vn/products/ichiban-tau-hu-bo-duong-tafu-goi-300g--s10005169?storeGroupCode=1998&storeCode=1535",
+                    "Label 4": "Tàu hũ bổ dưỡng Tafu gói 300g",
+                    "Label 5": "Cái",
+                    "Label 6": "8.100 ₫"
+                },
+                {
+                    "Label 1": "https://winmart.vn/products/dabaco-trung-ga-dha-hop-10-qua--s10006069?storeGroupCode=1998&storeCode=1535",
+                    "Label 4": "Trứng gà DHA Dabaco hộp 10 quả",
+                    "Label 5": "Hộp",
+                    "Label 6": "51.300 ₫"
+                },
+                {
+                    "Label 1": "https://winmart.vn/products/dabaco-trung-ga-que-gio-10-qua--s10006067?storeGroupCode=1998&storeCode=1535",
+                    "Label 4": "Trứng gà quê Dabaco giỏ 10 quả",
+                    "Label 5": "Bộ",
+                    "Label 6": "51.300 ₫"
+                },
+                {
+                    "Label 1": "https://winmart.vn/products/ichiban-tau-hu-trung-bo-duong-goi-240g--s10005170?storeGroupCode=1998&storeCode=1535",
+                    "Label 4": "Tàu hũ trứng bổ dưỡng Ichiban gói 240g",
+                    "Label 5": "Cái",
+                    "Label 6": "19.000 ₫"
+                },
+                {
+                    "Label 1": "https://winmart.vn/products/ichiban-dau-hu-momen-hop-330g--s10005171?storeGroupCode=1998&storeCode=1535",
+                    "Label 4": "Tàu hũ chiên Ichiban hộp 300g",
+                    "Label 5": "Hộp",
+                    "Label 6": "14.800 ₫"
+                },
+                {
+                    "Label 1": "https://winmart.vn/products/ichiban-dau-hu-mem-ome-hop-330g--s10005172?storeGroupCode=1998&storeCode=1535",
+                    "Label 4": "Tàu hũ mềm Ichiban hộp 300g",
+                    "Label 5": "Hộp",
+                    "Label 6": "13.900 ₫"
+                },
+                {
+                    "Label 1": "https://winmart.vn/products/ichiban-tau-hu-trung-fuji-san-goi-240g--s10005173?storeGroupCode=1998&storeCode=1535",
+                    "Label 4": "Tàu hũ trứng Ichiban Fuji San gói 240g",
+                    "Label 5": "Cái",
+                    "Label 6": "19.500 ₫"
+                },
+                {
+                    "Label 1": "https://winmart.vn/products/lang-mo-dau-phu-tuoi-hop-400g--s10006085?storeGroupCode=1998&storeCode=1535",
+                    "Label 4": "Đậu phụ tươi Làng Mơ hộp 400g",
+                    "Label 5": "Hộp",
+                    "Label 6": "12.000 ₫"
+                },
+                {
+                    "Label 1": "https://winmart.vn/products/729-ba-vi-trung-ga-ac-ga-ac-gio-10-qua--s10006026?storeGroupCode=1998&storeCode=1535",
+                    "Label 4": "Trứng gà ác 729 ba Vì giỏ 10 quả",
+                    "Label 5": "Bộ",
+                    "Label 6": "61.000 ₫"
+                },
+                {
+                    "Label 1": "https://winmart.vn/products/dabaco-trung-ga-j-gio-10-qua--s10006068?storeGroupCode=1998&storeCode=1535",
+                    "Label 4": "Trứng gà J Dabaco giỏ 10 quả",
+                    "Label 5": "Bộ",
+                    "Label 6": "53.500 ₫"
+                },
+                {
+                    "Label 1": "https://winmart.vn/products/dabaco-trung-ga-omega-3-hop-10-qua--s10006037?storeGroupCode=1998&storeCode=1535",
+                    "Label 4": "Trứng gà Omega 3 Dabaco hộp 10 quả",
+                    "Label 5": "Hộp",
+                    "Label 6": "57.600 ₫"
+                },
+                {
+                    "Label 1": "https://winmart.vn/products/729-ba-vi-trung-ga-so-gio-10-qua--s10006025?storeGroupCode=1998&storeCode=1535",
+                    "Label 4": "Trứng gà so 729 Ba Vì giỏ 10 quả",
+                    "Label 5": "Bộ",
+                    "Label 6": "55.000 ₫"
+                },
+                {
+                    "Label 1": "https://winmart.vn/products/dabaco-trung-ga-tuoi-hop-10-qua--s10006029?storeGroupCode=1998&storeCode=1535",
+                    "Label 4": "Trứng gà tươi Dabaco hộp 10 quả",
+                    "Label 5": "Hộp",
+                    "Label 6": "35.000 ₫"
+                },
+                {
+                    "Label 1": "https://winmart.vn/products/dabaco-trung-ga-vo-xanh-hop-12-qua--s10006070?storeGroupCode=1998&storeCode=1535",
+                    "Label 4": "Trứng gà vỏ DABACO xanh hộp 12 quả",
+                    "Label 5": "Hộp",
+                    "Label 6": "79.900 ₫"
+                },
+                {
+                    "Label 1": "https://winmart.vn/products/729-ba-vi-trung-ga-ta-que-gio-10-qua--s10006024?storeGroupCode=1998&storeCode=1535",
+                    "Label 4": "Trứng gà ta quê 729 Ba Vì giỏ 10 quả",
+                    "Label 5": "Bộ",
+                    "Label 6": "53.500 ₫"
+                },
+                {
+                    "Label 1": "https://winmart.vn/products/ichiban-dau-hu-lang-mo-500g--s10170044?storeGroupCode=1998&storeCode=1535",
+                    "Label 4": "Đậu hũ đậu hũ Làng Mơ Thai corp",
+                    "Label 5": "Hộp",
+                    "Label 6": "15.900 ₫"
+                },
+                {
+                    "Label 1": "https://winmart.vn/products/abc-dau-phu-non-lang-mo-300g--s10184007?storeGroupCode=1998&storeCode=1535",
+                    "Label 4": "Đâu phụ ABC non làng mơ 300g",
+                    "Label 5": "Hộp",
+                    "Label 6": "11.000 ₫"
+                },
+                {
+                    "Label 1": "https://winmart.vn/products/abc-dau-thanh-truyen-thong-500g--s10184163?storeGroupCode=1998&storeCode=1535",
+                    "Label 4": "Đậu thanh truyền thống ABC 500g",
+                    "Label 5": "Gói",
+                    "Label 6": "21.100 ₫"
+                },
+                {
+                    "Label 1": "https://winmart.vn/products/olala-trung-ga-sach-hop-10_tc--s10195014?storeGroupCode=1998&storeCode=1535",
+                    "Label 4": "Trứng gà sạch O'LALA hộp 10 quả",
+                    "Label 5": "Hộp",
+                    "Label 6": "39.000 ₫"
+                },
+                {
+                    "Label 1": "https://winmart.vn/products/dabaco-trung-ga-que-hop-10-qua--s10195051?storeGroupCode=1998&storeCode=1535",
+                    "Label 4": "Trứng gà quê Dabaco 10 quả",
+                    "Label 5": "Hộp",
+                    "Label 6": "51.900 ₫"
+                },
+                {
+                    "Label 1": "https://winmart.vn/products/729-ba-vi-trung-ga-ta-que-hop-10-qua--s10225937?storeGroupCode=1998&storeCode=1535",
+                    "Label 4": "Trứng gà ta quê 729 Ba Vì hộp 10 quả",
+                    "Label 5": "Hộp",
+                    "Label 6": "53.000 ₫"
+                },
+                {
+                    "Label 1": "https://winmart.vn/products/729-ba-vi-trung-chim-cut-hop-30-qua--s10225936?storeGroupCode=1998&storeCode=1535",
+                    "Label 4": "Trứng chim cút 729 Ba Vì hộp 30 quả",
+                    "Label 5": "Hộp",
+                    "Label 6": "40.000 ₫"
+                },
+                {
+                    "Label 1": "https://winmart.vn/products/729-ba-vi-trung-ga-ta-omega-3--s10606717?storeGroupCode=1998&storeCode=1535",
+                    "Label 4": "Trứng gà ta Ba Vì 729 Omega 3",
+                    "Label 5": "Bộ",
+                    "Label 6": "60.000 ₫"
+                }
+            ]
+        },
+        "markdown": "",
+        "html": ""
+    },
+    "screenshots": []
+}

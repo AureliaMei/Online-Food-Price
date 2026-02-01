@@ -1,0 +1,19 @@
+{
+    "id": "783a0d79-b6a8-4aa6-afa0-7785f6f2bc3f",
+    "status": "failed",
+    "name": "Spices",
+    "robotId": "4e4a60d2-68b3-4f41-a3a0-80fdd3783c45",
+    "startedAt": "1/18/2026, 4:23:06 PM",
+    "finishedAt": "1/18/2026, 11:40:40 PM",
+    "runId": "3600746b-dc0c-4e73-ab70-46027ee3515e",
+    "runByUserId": 1,
+    "runByScheduleId": null,
+    "runByAPI": null,
+    "data": {
+        "textData": {},
+        "listData": {},
+        "markdown": "",
+        "html": ""
+    },
+    "screenshots": []
+}

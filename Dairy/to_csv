@@ -1,0 +1,80 @@
+import os
+import json
+import pandas as pd
+import re
+
+# --- CONFIGURATION ---
+TARGET_FOLDER = "Dairy/JSON"
+
+def clean_price(val):
+    """Turns '105.000 ₫' into 105000.0"""
+    if not val or pd.isna(val) or val == "":
+        return 0.0
+    digits = re.sub(r'[^\d]', '', str(val))
+    return float(digits) if digits else 0.0
+
+def process_dairy_to_csv():
+    # 1. Path Setup
+    input_dir = TARGET_FOLDER
+    output_dir = os.path.join(input_dir, "CSV")
+    
+    if not os.path.exists(output_dir):
+        os.makedirs(output_dir)
+        print(f"📁 Created subfolder: {output_dir}")
+
+    # 2. Process Files
+    for filename in os.listdir(input_dir):
+        if filename.endswith(".json"):
+            json_path = os.path.join(input_dir, filename)
+            csv_path = os.path.join(output_dir, filename.replace(".json", ".csv"))
+
+            # Skip if already done
+            if os.path.exists(csv_path):
+                continue
+
+            with open(json_path, 'r', encoding='utf-8') as f:
+                try:
+                    run_data = json.load(f)
+                    
+                    # Only process successful runs
+                    if run_data.get('status') != 'success':
+                        continue
+
+                    raw_list = run_data.get('data', {}).get('listData', {}).get('List Data 1', [])
+                    cleaned_rows = []
+
+                    for item in raw_list:
+                        # Extract Dairy-specific named keys
+                        p_marked = clean_price(item.get('Marked Price'))
+                        p_discount = clean_price(item.get('Discounted Price'))
+
+                        # Logic: Lower price is the Final Price
+                        # If both exist, compare. If one is 0, take the other.
+                        if p_marked > 0 and p_discount > 0:
+                            final = min(p_marked, p_discount)
+                            marked = max(p_marked, p_discount)
+                        else:
+                            final = p_discount if p_discount > 0 else p_marked
+                            marked = p_marked if (p_marked > p_discount and p_discount > 0) else None
+
+                        cleaned_rows.append({
+                            'product_name': item.get('Product Name'),
+                            'unit': item.get('Unit'),
+                            'final_price': final,
+                            'marked_price': marked,
+                            'product_url': item.get('Product URL'),
+                            'scrape_timestamp': run_data.get('startedAt'),
+                            'run_id': run_data.get('id')
+                        })
+
+                    # 3. Save individual CSV
+                    if cleaned_rows:
+                        df = pd.DataFrame(cleaned_rows)
+                        df.to_csv(csv_path, index=False, encoding='utf-8-sig')
+                        print(f"  ✅ Converted: {filename}")
+
+                except Exception as e:
+                    print(f"  ⚠️ Error processing {filename}: {e}")
+
+if __name__ == "__main__":
+    process_dairy_to_csv()

@@ -1,0 +1,19 @@
+{
+    "id": "aa6a333a-caec-43fd-90ef-e5486122e898",
+    "status": "failed",
+    "name": "Instant Foods",
+    "robotId": "f2a242f9-8a04-4cce-a5c6-2f11eda952b7",
+    "startedAt": "1/25/2026, 4:28:21 PM",
+    "finishedAt": "1/25/2026, 4:40:04 PM",
+    "runId": "76c2725e-23e8-4318-b13c-aac04baad77f",
+    "runByUserId": 1,
+    "runByScheduleId": null,
+    "runByAPI": null,
+    "data": {
+        "textData": {},
+        "listData": {},
+        "markdown": "",
+        "html": ""
+    },
+    "screenshots": []
+}

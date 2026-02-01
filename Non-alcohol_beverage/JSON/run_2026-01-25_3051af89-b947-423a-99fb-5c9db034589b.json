@@ -1,0 +1,19 @@
+{
+    "id": "3051af89-b947-423a-99fb-5c9db034589b",
+    "status": "failed",
+    "name": "Non-alcohol Beverages",
+    "robotId": "191f10fe-1d04-49e0-b3e4-fc5a4fc4b90b",
+    "startedAt": "1/25/2026, 4:28:26 PM",
+    "finishedAt": "1/25/2026, 4:40:07 PM",
+    "runId": "9cfe8a69-0111-4fe4-8327-81b112946630",
+    "runByUserId": 1,
+    "runByScheduleId": null,
+    "runByAPI": null,
+    "data": {
+        "textData": {},
+        "listData": {},
+        "markdown": "",
+        "html": ""
+    },
+    "screenshots": []
+}

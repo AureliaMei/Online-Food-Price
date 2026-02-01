@@ -1,0 +1,379 @@
+{
+    "id": "396be146-4077-4db3-9959-605797824685",
+    "status": "success",
+    "name": "Baby Products",
+    "robotId": "62a10810-19db-4076-86af-169320baf441",
+    "startedAt": "1/3/2026, 3:10:20 PM",
+    "finishedAt": "1/3/2026, 3:17:06 PM",
+    "runId": "878a28e1-abef-40eb-9cbd-6024fac90cb8",
+    "runByUserId": 1,
+    "runByScheduleId": null,
+    "runByAPI": null,
+    "data": {
+        "textData": {},
+        "listData": {
+            "List Data 1": [
+                {
+                    "Label 4": "https://winmart.vn/products/xuyen-a-h21-dep-le-10836-44--s10263668?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Dép lê Xuyên Á H21 108 size 36",
+                    "Label 6": "Đôi",
+                    "Label 7": "59.000 ₫",
+                    "Label 8": "129.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/nutifood-sdd-growplus-tckm-h.vani180ml--s10010511?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Sữa bột pha sẵn hương vani Grow Plus+ NutiFood lốc 4 hộp x 180ml",
+                    "Label 6": "Gói 4",
+                    "Label 7": "47.700 ₫",
+                    "Label 8": "56.400 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/nutifood-sua-dd-grow-plus-tckm-110ml--s10010510?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Lốc 4 hộp sữa dinh dưỡng pha sẵn NutiFood Grow Plus+ vani hộp 110ml",
+                    "Label 6": "Gói 4",
+                    "Label 7": "34.100 ₫",
+                    "Label 8": "40.200 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/nutifood-sua-dd-grow-plus-110ml--s10010512?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Sữa dinh dưỡng NutiFood Grow Plus+ lốc 4 hộp x 110ml",
+                    "Label 6": "Gói 4",
+                    "Label 7": "39.100 ₫",
+                    "Label 8": "46.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/nutifood-sua-dd-grow-plus-h.vani-180ml--s10010513?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Sữa dinh dưỡng hương vani Grow Plus+ NutiFood lốc 4 hộp x 180ml",
+                    "Label 6": "Gói 4",
+                    "Label 7": "56.800 ₫",
+                    "Label 8": "67.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/spdddps-growplus-it-duong-hop-110ml--s10195088?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "SPDDDPS GrowPLUS+ Ít đường hộp 110ml",
+                    "Label 6": "Thùng",
+                    "Label 7": "514.900 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/abbott-grow-sua-dinh-duong-h.vani-180ml--s10011169?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Lốc 4 hộp sữa dinh dưỡng Abbott Grow 180ml",
+                    "Label 6": "Gói 4",
+                    "Label 7": "72.800 ₫",
+                    "Label 8": "78.500 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/pediasure-tpdd-huong-vani-180ml--s10170141?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "PEDIASURE TPDD hương vani 180ml",
+                    "Label 6": "Gói 4",
+                    "Label 7": "133.800 ₫",
+                    "Label 8": "144.300 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/pediasure-tpdd-huong-vani-110ml--s10170142?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "PEDIASURE TPDD hương vani 110ml",
+                    "Label 6": "Gói 4",
+                    "Label 7": "91.300 ₫",
+                    "Label 8": "98.500 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/pediasure-sua-d.duongvani-10180ml--s10195052?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Lốc 4 hộp sữa dinh dưỡng Pediasure vani 10+ 180ml",
+                    "Label 6": "Gói 4",
+                    "Label 7": "133.800 ₫",
+                    "Label 8": "144.300 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/similac-sdd-hmo-iq-huong-vani110ml--s10195065?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Sữa dinh dưỡng Abbott Similac HMO hương vani 110ml - Lốc 4 hộp",
+                    "Label 6": "Gói 4",
+                    "Label 7": "55.100 ₫",
+                    "Label 8": "59.500 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/similac-sdd-eye-q-huong-vani-180ml--s10600867?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Lốc 4 hộp sữa dinh dưỡng Similac Eye-Q hương vani 180ml",
+                    "Label 6": "Gói 4",
+                    "Label 7": "79.900 ₫",
+                    "Label 8": "86.200 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/abbott-grow-sdd-h.vani-110ml--s10638799?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Lốc 4 hộp sữa dinh dưỡng Abbott Grow hương vani 110ml",
+                    "Label 6": "Gói 4",
+                    "Label 7": "53.400 ₫",
+                    "Label 8": "57.500 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/nutifood-sb-nutri-nguyen-kem-900g--s10010516?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Sữa bột Nutifood nutri nguyên kem 900g",
+                    "Label 6": "Lon",
+                    "Label 7": "183.500 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/grow-sb-abbott-g.gold3-850g-tre-3-6--s10010558?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Sữa bột hương vani Abbott Grow G-Power 3 - 6 tuổi 900g",
+                    "Label 6": "Lon",
+                    "Label 7": "469.000 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/johnson-baby-sua-tam-top-to-toe-500ml--s10017376?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Sữa tắm gội toàn thân không cay mắt Johnson's Baby 500ml",
+                    "Label 6": "Chai",
+                    "Label 7": "169.800 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/johnson-baby-st-chua-suagao-500ml--s10017378?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Sữa tắm tinh chất sữa và gạo Johnson & Johnson 500ml",
+                    "Label 6": "Chai",
+                    "Label 7": "150.300 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/aquafresh-kdr-tre-em-big-teeth-6-50ml--s10018367?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Kem đánh răng trẻ em Aquafresh big teeth 6+",
+                    "Label 6": "Tuýp",
+                    "Label 7": "40.300 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/jordan-bcdr-tre-em-3-5-tuoi-step2--s10018378?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bàn chải đánh răng Jordan Step 2 cho trẻ 3 - 5 tuổi (Giao màu ngẫu nhiên)",
+                    "Label 6": "Cái",
+                    "Label 7": "40.600 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/ps-nsm-complete-diet-khuan-500ml--s10018467?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Nước súc miệng P/S Expert Protection Pro Complete chai 500ml",
+                    "Label 6": "Chai",
+                    "Label 7": "73.700 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/lipzo-ban-chai-danh-rang-kids1--s10018681?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bàn chải cho bé 1 - 5 tuổi Lipzo Kids 1 lông mềm (giao màu ngẫu nhiên)",
+                    "Label 6": "Cái",
+                    "Label 7": "45.000 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/lactacyd-milky-sua-tam-goi-tre-em-250ml--s10018995?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Sữa tắm gội trẻ em hằng ngày Milky Lactacyd 250ml",
+                    "Label 6": "Chai",
+                    "Label 7": "111.500 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/bobby-ta-quan-sm-kho-thoang-xl4248--s10020232?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Tã quần Bobby XL48 48 miếng",
+                    "Label 6": "Gói",
+                    "Label 7": "349.000 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/bobby-ta-quan-sm-kho-thoang-xxl3844--s10071648?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Tã quần Bobby XXL44",
+                    "Label 6": "Gói",
+                    "Label 7": "347.000 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/nuvi-grow-spdd-tren-2-tuoi-lon-900g--s10141617?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Sữa bột Nutifood Nuvi Grow 4 900g",
+                    "Label 6": "Lon",
+                    "Label 7": "359.000 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/sunmate-ta-dan-nguoi-lon-m10--s10160775?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Tã dán người lớn Sunmate M10",
+                    "Label 6": "Gói",
+                    "Label 7": "85.400 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/listerine-nsm-tre-em-huong-dau-250ml--s10161495?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Nước súc miệng Listerine Trẻ em hương dâu 250ml",
+                    "Label 6": "Chai",
+                    "Label 7": "54.000 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/lipzo-kem-danh-rang-tre-em-vi-chuoi-75g--s10162323?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Kem đánh răng trẻ em Lipzo vị chuối 75g",
+                    "Label 6": "Tuýp",
+                    "Label 7": "44.200 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/vinamilk-sdd-pha-san-yoko-gold-110ml--s10170170?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Lốc 4 hộp sữa dinh dưỡng pha sẵn Vinamilk Yoko Gold 110mll",
+                    "Label 6": "Gói 4",
+                    "Label 7": "45.000 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/vinamilk-sua-socoa-lua-mach-susu-80ml--s10170386?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Sữa Sôcôla Lúa Mạch SuSu - Lốc 6 Chai 80ml",
+                    "Label 6": "Gói 6",
+                    "Label 7": "26.000 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/sunmate-ta-dan-nguoi-lon-adp-ml18--s10170896?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Tã dán người lớn Sunmate ADP M/L18",
+                    "Label 6": "Gói",
+                    "Label 7": "165.900 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/oral-clean-bcdr-royalfomular-kids-soft--s10205726?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bàn chải đánh răng Oral Clean Royal Kid Soft màu xanh",
+                    "Label 6": "Cái",
+                    "Label 7": "54.000 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/under-pad-mieng-lot-10m-10x12--s10210568?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Miếng lót Under Pad",
+                    "Label 6": "Gói",
+                    "Label 7": "60.900 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/ps-bcdr-tre-em-2-6-tuoi--s10237334?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bàn chải cho bé 2 - 6 tuổi P/S lông chải siêu mềm",
+                    "Label 6": "Cái",
+                    "Label 7": "18.000 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/lactacyd-milky-sua-tam-goi-tre-em-500ml--s10311520?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Sữa tắm gội trẻ em Lactacyd Milky chai 500ml",
+                    "Label 6": "Chai",
+                    "Label 7": "201.000 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/carrie-junior-tam-goi-huong-chery-700g--s10318801?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Sữa tắm gội toàn thân Carrie Junior hương chery chai 700g",
+                    "Label 6": "Chai",
+                    "Label 7": "189.500 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/pediasure-tpdd-huong-vani-237ml--s10317251?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Sữa nước Abbott Pediasure BA 3+ hương vani 237ml",
+                    "Label 6": "Chai",
+                    "Label 7": "47.300 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/carrie-junior-tam-goi-huong-nho-700g--s10318803?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Sữa tắm gội toàn thân Carrie Junior hương nho chai 700g",
+                    "Label 6": "Chai",
+                    "Label 7": "189.500 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/carrie-junior-tam-goi-tinh-chat-sua-700g--s10318805?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Sữa tắm gội toàn thân Carrie Junior tinh chất sữa chai 700g",
+                    "Label 6": "Chai",
+                    "Label 7": "189.500 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/ps-bo-2-bcdr-long-to-mem-mai--s10406482?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bộ 2 bàn chải đánh răng P/S lông tơ mềm mại",
+                    "Label 6": "Bộ",
+                    "Label 7": "34.500 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/ps-kdr-tre-em-huong-dau-45g--s10601184?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Kem đánh răng trẻ em P/S hương dâu và trái cây hộp 35g",
+                    "Label 6": "Hộp",
+                    "Label 7": "19.700 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/ps-kdr-tre-em-huong-cam-45g--s10601183?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Kem đánh răng trẻ em P/S hương cam 2-6 tuổi 45g",
+                    "Label 6": "Hộp",
+                    "Label 7": "19.700 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/johnson-baby-tam-goi-tt-top-to-toe-500ml--s10625583?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Sữa tắm gội toàn thân Johnson's mềm mịn như bông 500ml",
+                    "Label 6": "Chai",
+                    "Label 7": "192.500 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/colgate-kdr-tre-em-kid-minion-80g--s10625598?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Kem đánh răng trẻ em Colgate Minions 80g",
+                    "Label 6": "Tuýp",
+                    "Label 7": "34.400 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/oral-clean-kdr-tre-em-tutti-frutti--s10628014?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Kem đánh răng Oral Clean Tom&Jerry Tutti Frutti 75ml",
+                    "Label 6": "Hộp",
+                    "Label 7": "57.000 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/ps-bcdr-tre-em-superkid-2-6t--s10628562?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bàn chải đánh răng P/S trẻ em 2-6 tuổi cao cấp",
+                    "Label 6": "Cái",
+                    "Label 7": "32.500 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/unidry-ta-quan-l54--s10639177?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Tã quần Unidry L54",
+                    "Label 6": "Gói",
+                    "Label 7": "289.600 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/unidry-ta-quan-xxl44--s10639179?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Tã quần Unidry XXL44",
+                    "Label 6": "Gói",
+                    "Label 7": "289.600 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/unidry-ta-quan-m60--s10639176?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Tã quần Unidry M60",
+                    "Label 6": "Gói",
+                    "Label 7": "289.600 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/sunmate-ta-quan-nguoi-lon-l8--s10639184?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Tã quần người lớn Sunmate L8",
+                    "Label 6": "Gói",
+                    "Label 7": "93.300 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/unidry-ta-quan-xl48--s10639178?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Tã quần Unidry XL48",
+                    "Label 6": "Gói",
+                    "Label 7": "289.600 ₫",
+                    "Label 8": ""
+                }
+            ]
+        },
+        "markdown": "",
+        "html": ""
+    },
+    "screenshots": []
+}

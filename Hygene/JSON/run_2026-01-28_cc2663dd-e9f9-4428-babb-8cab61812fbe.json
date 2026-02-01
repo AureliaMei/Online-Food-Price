@@ -1,0 +1,1695 @@
+{
+    "id": "cc2663dd-e9f9-4428-babb-8cab61812fbe",
+    "status": "success",
+    "name": "Hygene (no URL)",
+    "robotId": "3f88e569-057e-4319-892f-834416e6188d",
+    "startedAt": "1/28/2026, 2:43:18 PM",
+    "finishedAt": "1/28/2026, 2:51:00 PM",
+    "runId": "ed2ee018-7dfe-484c-aa3f-c54f5a07519f",
+    "runByUserId": 1,
+    "runByScheduleId": null,
+    "runByAPI": null,
+    "data": {
+        "textData": {},
+        "listData": {
+            "List Data 1": [
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2024/11/8934839134068_1-20241104031352-thumb-1.jpg",
+                    "Label 3": "CLOSEUP KDR WhiteNow BlueSapphire 100g",
+                    "Label 4": "Tuýp",
+                    "Label 5": "",
+                    "Label 6": "45.000 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2024/11/8934839134075_1-20241104031233-thumb-1.jpg",
+                    "Label 3": "CLOSEUP KDR WhiteNow khoáng tự nhiên100g",
+                    "Label 4": "Tuýp",
+                    "Label 5": "",
+                    "Label 6": "45.000 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2024/11/8934839128142_1-20241104030337-thumb-1.jpg",
+                    "Label 3": "Kem đánh răng P/S bảo vệ 123 baking soda & hương thảo hộp 230g",
+                    "Label 4": "Tuýp",
+                    "Label 5": "",
+                    "Label 6": "48.200 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2023/04/8934868167938-20230425044955-thumb-1.png",
+                    "Label 3": "Dầu Gội Tresemme Keratin Smooth vào nếp mượt mà chai 480g",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "167.000 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2024/11/8934868153283_1-20241104030057-thumb-1.jpg",
+                    "Label 3": "Dầu gội Tresemme Keratin vào nếp suôn mượt chai 640g",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "226.800 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2024/11/8934868179245_1-20241104030619-thumb-1.jpg",
+                    "Label 3": "Dầu gội Tresemme ngăn gãy rụng Salon Rebond chai 640g",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "226.800 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2024/11/8934839133689_1-20241104033747-thumb-1.jpg",
+                    "Label 3": "Bàn chải đánh răng Closeup Precision lông chải siêu mềm",
+                    "Label 4": "Cái",
+                    "Label 5": "",
+                    "Label 6": "37.500 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2024/11/8934839121037_1-20241104025747-thumb-1.jpg",
+                    "Label 3": "Kem đánh răng Closeup Diamond Attraction trắng răng 100g",
+                    "Label 4": "Tuýp",
+                    "Label 5": "",
+                    "Label 6": "38.300 ₫"
+                },
+                {
+                    "Label 1": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+                    "Label 3": "Bộ đôi nước súc miệng diệt khuẩn Listerine Cool Mint 750ml",
+                    "Label 4": "Bộ",
+                    "Label 5": "",
+                    "Label 6": "227.300 ₫"
+                },
+                {
+                    "Label 1": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+                    "Label 3": "Xịt nước hoa toàn thân AXE cho nam Gold temptation chai 135ml",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "82.900 ₫"
+                },
+                {
+                    "Label 1": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+                    "Label 3": "Kem đánh răng P/S Baking Soda 180g (Tặng KDR Chăm sóc nướu 30g)",
+                    "Label 4": "Tuýp",
+                    "Label 5": "",
+                    "Label 6": "33.600 ₫"
+                },
+                {
+                    "Label 1": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+                    "Label 3": "Xà phòng sạch khuẩn Aiken Protection 90g",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "12.300 ₫"
+                },
+                {
+                    "Label 1": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+                    "Label 3": "Xà phòng sạch khuẩn Aiken Revitalise 90g",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "12.300 ₫"
+                },
+                {
+                    "Label 1": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+                    "Label 3": "Nước súc miệng Mondahmin PeperMint 300ml",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "58.000 ₫"
+                },
+                {
+                    "Label 1": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+                    "Label 3": "Dầu gội Clear 9 thảo dược cổ truyền 630g",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "205.000 ₫"
+                },
+                {
+                    "Label 1": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+                    "Label 3": "Bộ 2 bàn chải đánh răng than hoạt tính P/S Charcoal (Giao màu ngẫu nhiên)",
+                    "Label 4": "Bộ",
+                    "Label 5": "",
+                    "Label 6": "59.000 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2024/11/10170553-20241105025528-thumb-1.png",
+                    "Label 3": "Xà phòng sạch khuẩn Aiken Revitalise 90g",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "12.300 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2023/03/nuoc-suc-mieng-mondahmin-pepermint-300ml-20230324160300-thumb-1.jpg",
+                    "Label 3": "Nước súc miệng Mondahmin PeperMint 300ml",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "58.000 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2023/04/8934868170556_1-20230424025452-thumb-1.jpg",
+                    "Label 3": "Dầu gội Clear 9 thảo dược cổ truyền 630g",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "205.000 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2024/11/8934839127954_1-20241113063004-thumb-1.jpg",
+                    "Label 3": "Bộ 2 bàn chải đánh răng than hoạt tính P/S Charcoal (Giao màu ngẫu nhiên)",
+                    "Label 4": "Bộ",
+                    "Label 5": "",
+                    "Label 6": "59.000 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/10230785_perfect-white-clay-thumb-1.jpg",
+                    "Label 3": "Sữa rửa mặt đất sét trắng Senka Perfect Whiteclay 120g",
+                    "Label 4": "Tuýp",
+                    "Label 5": "",
+                    "Label 6": "59.000 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2025/08/10236299-0-20250812032330-thumb-1.png",
+                    "Label 3": "Bàn chải đánh răng Colgate siêu mềm",
+                    "Label 4": "Cái",
+                    "Label 5": "",
+                    "Label 6": "55.000 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/10601173-thumb-1.png",
+                    "Label 3": "Dầu gội Clear Men Cool Sport bạc hà sạch gàu 630g",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "196.000 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2024/11/10602563-jpg-20241117095525-thumb-1.jpg",
+                    "Label 3": "Nước rửa tay Lifebuoy bảo vệ vượt trội 10 chai 500g",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "76.600 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2024/11/8934839128692_1-20241104032910-thumb-1.jpg",
+                    "Label 3": "Kem đánh răng Closeup than hoạt tính detox trắng răng 230g",
+                    "Label 4": "Hộp",
+                    "Label 5": "",
+                    "Label 6": "50.100 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2024/11/8934839128708_1-20241104034649-thumb-1.jpg",
+                    "Label 3": "Kem đánh răng Closeup muối biển detox trắng răng 180g",
+                    "Label 4": "Hộp",
+                    "Label 5": "",
+                    "Label 6": "42.300 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/9606865715230-og-thumb-1.jpg",
+                    "Label 3": "Miếng dán lột mụn mũi Biore hộp 4 miếng",
+                    "Label 4": "Hộp",
+                    "Label 5": "",
+                    "Label 6": "25.600 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/sd-thumb-1.png",
+                    "Label 3": "Miếng dán mũi lột mụn dành cho nam Men's Biore",
+                    "Label 4": "Hộp",
+                    "Label 5": "",
+                    "Label 6": "25.600 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/kerasys-dg-moisturizing-doam-600g-t_62afc433-4929-4e8d-80c7-c80298a2a817-og.xanh",
+                    "Label 3": "Dầu gội dưỡng ẩm Kerasys Moisturizing Shampoo 600g",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "139.000 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2023/08/hada-labo_11zon-20230822093059-thumb-1.jpeg",
+                    "Label 3": "Kem rửa mặt dưỡng ẩm tối ưu Hada Labo Advance Nourish Hyaluron Cleanser 80g",
+                    "Label 4": "Tuýp",
+                    "Label 5": "",
+                    "Label 6": "82.500 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/rejoice-dau-goi-sieu-muot-900ml_de64a7ed-8797-47c1-80f9-ee40f26ffe34-og-thumb-1.jpg",
+                    "Label 3": "Dầu gội siêu mượt Rejoice 900ml",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "228.000 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/4902430451734-thumb-1.jpeg",
+                    "Label 3": "Dầu gội siêu mượt Rejoice 650g",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "145.400 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/4902430467773-20221007075448-og-thumb-1.jpeg",
+                    "Label 3": "Dầu gội Pantene Pro-V dưỡng tóc suôn mượt óng ả 650g",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "159.900 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/4902430467810-thumb-1.jpeg",
+                    "Label 3": "Dầu gội Pantene Pro-V làm sạch gàu 670g",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "163.900 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/4902430467797-20221007075537-og-thumb-1.jpeg",
+                    "Label 3": "Dầu gội Pantene Pro-V dưỡng chất ngăn rụng tóc 650g",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "159.900 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/4902430379809-thumb-1.jpeg",
+                    "Label 3": "Dầu gội Head & Shoulders bạc hà mát rượi chai 625ml",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "175.800 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/4902430379830-thumb-1.jpeg",
+                    "Label 3": "Dầu gội Head & Shoulders cho da đầu ngứa 625ml",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "161.000 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2025/05/10016782-20250509022256-thumb-1.png",
+                    "Label 3": "Dầu gội dưỡng tóc siêu mượt Enchanteur Charming 650g",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "180.700 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2024/12/10016764-20241212063010-thumb-1.jpg",
+                    "Label 3": "Dầu gội Head & Shoulder suôn mềm óng mượt 650g",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "139.900 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2023/11/10016793-romano-gel-classic-tao-kieu-giu-nep-150g-20231101035429-thumb-1.jpg",
+                    "Label 3": "Gel tạo kiểu tóc Romano Classic 150g",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "53.600 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2024/11/10016795-20241105030029-thumb-1.png",
+                    "Label 3": "Bọt tạo kiểu tóc Romano Classic 175g",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "80.600 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2024/11/10016785-20241105030157-thumb-1.png",
+                    "Label 3": "Dầu gội Romano Classic 650g",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "159.000 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2023/04/8934868156918_1-20230425035608-thumb-1.png",
+                    "Label 3": "Dầu gội Sunsilk óng mượt rạng ngời 320g",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "95.300 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2023/04/10016798-20230403042140-thumb-1.jpg",
+                    "Label 3": "Dầu gội Sunsilk óng mượt rạng ngời chai 650g",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "162.000 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2023/04/8934868156970_1-20230425035802-thumb-1.png",
+                    "Label 3": "Dầu gội Sunsilk mềm mượt diệu kỳ 320g",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "95.300 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2025/09/10016814-8934868192251-01-20250930171153-thumb-1.png",
+                    "Label 3": "Dầu gội Dove phục hồi hư tổn chai 880g",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "220.500 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2023/04/10016800-20230403041916-thumb-1.jpg",
+                    "Label 3": "Dầu gội Sunsilk mềm mượt diệu kỳ chai 650g",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "162.000 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2023/04/8934868156840-20230425035345-thumb-1.png",
+                    "Label 3": "Dầu xả Sunsilk óng mượt rạng ngời 320g",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "95.300 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2024/08/graphical-user-interface-description-automatically-generated-20240812035607-thumb-1.png",
+                    "Label 3": "Dầu gội Sunsilk mềm mượt diệu kỳ chai 900g",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "201.300 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2023/04/8934868156871_1-20230425040015-thumb-1.png",
+                    "Label 3": "Dầu xả Sunsilk mềm mượt diệu kỳ 320g",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "95.300 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2024/08/graphical-user-interface-description-automatically-generated-1--20240812035741-thumb-1.png",
+                    "Label 3": "Dầu gội đen óng ả Sunsilk chai 900g",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "201.300 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2025/01/dg-xm-fire-650_10016836-20250107110506-thumb-1.png",
+                    "Label 3": "Dầu gội nước hoa X-men Active 650g",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "189.500 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2025/01/dg-xm-wood-650_10016837-20250107110548-thumb-1.png",
+                    "Label 3": "Dầu gội nước hoa X-men Sport 650g",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "139.000 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/9497266225182-og-thumb-1.jpg",
+                    "Label 3": "Dầu gội nước hoa X-men For Boss Perfumed Shampoo Fragrance No.9 380g",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "109.000 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/4902430451758-thumb-1.jpeg",
+                    "Label 3": "Dầu gội làm sạch gàu 3 trong 1 Rejoice 650g",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "146.300 ₫"
+                },
+                {
+                    "Label 1": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+                    "Label 3": "Dầu xả Enchanteur suôn mượt charming 170g",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "53.100 ₫"
+                },
+                {
+                    "Label 1": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+                    "Label 3": "Dầu gội X-men For Boss Perfumed Shampoo 650g",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "145.000 ₫"
+                },
+                {
+                    "Label 1": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+                    "Label 3": "Dầu gội Romano Force 650g",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "201.300 ₫"
+                },
+                {
+                    "Label 1": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+                    "Label 3": "Dầu gội cao cấp Romano classic chai 380g",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "127.600 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2023/11/0016870-enchanteur-dxa-suon-muot-charminng-170g-20231101030135-thumb-1.jpg",
+                    "Label 3": "Dầu xả Enchanteur suôn mượt charming 170g",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "53.100 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2025/02/10016850-intense_shampoo-keratin_650ml-20250217205920-thumb-1.png",
+                    "Label 3": "Dầu gội X-men For Boss Perfumed Shampoo 650g",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "145.000 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2024/11/10016879-20241107080901-thumb-1.png",
+                    "Label 3": "Dầu gội Romano Force 650g",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "201.300 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2024/11/10016873-20241105030127-thumb-1.png",
+                    "Label 3": "Dầu gội cao cấp Romano classic chai 380g",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "127.600 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/4902430375825-thumb-1.jpeg",
+                    "Label 3": "Dầu gội bạc hà mát lạnh Head & Shoulders chai 170ml",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "69.800 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2023/09/10016912-20230926075438-thumb-1.png",
+                    "Label 3": "Dầu gội chống gàu Selsun Anti-Dandruff Shampoo 100ml",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "95.200 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2025/09/10016910-dove-ir-sp-640g-20250930165541-thumb-1.jpg",
+                    "Label 3": "Dầu gội Dove phục hồi hư tổn chai 640g",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "184.000 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/4902430432771-thumb-1.jpeg",
+                    "Label 3": "Dầu xả Pantene mượt mà óng ả 650ml",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "178.000 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2023/09/10016951-20230926080220-thumb-1.png",
+                    "Label 3": "Kem ủ dành cho tóc phục hồi Loreal 200ml",
+                    "Label 4": "Hộp",
+                    "Label 5": "",
+                    "Label 6": "119.000 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2024/11/10016956-20241105030058-thumb-1.png",
+                    "Label 3": "Dầu gội đầu Romano Attitude 650g",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "201.300 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2025/02/10016963-luxury_shampoo-keratin_650ml-20250217205955-thumb-1.png",
+                    "Label 3": "Dầu gội nước hoa X-men For Boss Perfumed Shampoo Gold 650g",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "206.200 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/82318073-04902430467759_ptn-shm-650ml-tdc-fop-thumb-1.png",
+                    "Label 3": "Dầu gội Pantene Pro-V chăm sóc tóc hư tổn 10 670g",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "159.900 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2024/11/10017158-20241105030402-thumb-1.png",
+                    "Label 3": "Dầu gội nước hoa cao cấp Romano VIP 650g",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "189.000 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/thuoc-nhuom-nam-bigen-101-mau-den-20221014063025-og-thumb-1.jpg",
+                    "Label 3": "Thuốc nhuộm nam Bigen 101 - Màu đen",
+                    "Label 4": "Hộp",
+                    "Label 5": "",
+                    "Label 6": "205.200 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/26850113224734-og-thumb-1.jpg",
+                    "Label 3": "Mặt nạ giấy dưỡng trắng nha đam Vedette 22ml",
+                    "Label 4": "Miếng",
+                    "Label 5": "",
+                    "Label 6": "15.800 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2023/07/nivea-kem-duong-mem-da-50ml-20230727063903-thumb-1.jpg",
+                    "Label 3": "Kem dưỡng mềm da Nivea 50ml",
+                    "Label 4": "Hộp",
+                    "Label 5": "",
+                    "Label 6": "74.700 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2023/08/10017342-20230831102634-thumb-1.jpeg",
+                    "Label 3": "Kem rửa mặt ngăn ngừa mụn Acnes Medicated tuýt 100g",
+                    "Label 4": "Tuýp",
+                    "Label 5": "",
+                    "Label 6": "75.600 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/162427577400810017351-tuy-kem-rua-mat-sach-khuan-mun-oxy-tuyp-100g-og-thumb-1.jpg",
+                    "Label 3": "Kem rửa mặt Perfect wash Oxy tuýp 100g",
+                    "Label 4": "Tuýp",
+                    "Label 5": "",
+                    "Label 6": "81.500 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/162427577294610017353-tuy-dau-dau-nanh-ozendy-khung-bien-doi-gen-2l-og-thumb-1.jpg",
+                    "Label 3": "Kem rửa mặt tác động sâu Oxy Deep Wash 100g",
+                    "Label 4": "Tuýp",
+                    "Label 5": "",
+                    "Label 6": "85.500 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/162428329959610017380-cha-phim-siou-tham-dau-jomi-70-to-og-thumb-1.jpg",
+                    "Label 3": "Sữa tắm dưỡng ẩm người lớn pH 5.5 Johnson's 2 in 1 750ml",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "183.600 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/sua-tam-jonhson-ph5.5%20h%E1%BA%A1nh%20nh%C3%A2n%20%20chai%20750ml",
+                    "Label 3": "Sữa tắm dưỡng thể Johnson’s pH5.5 dầu hạnh nhân chai 750ml",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "183.600 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/doublerich-stam-hoa-hong-550ml_d14245eb-7166-4234-9ae7-d7ee78f1405c-og-thumb-1.jpg",
+                    "Label 3": "Sữa tắm Double Rich Eva's Secret hoa hồng 550g",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "113.000 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2024/12/10017420-20241204083431-thumb-1.png",
+                    "Label 3": "Sữa tắm nước hoa dưỡng da Enchanteur deluxe charming chai 180g",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "64.800 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2024/12/10017422-20241204083412-thumb-1.png",
+                    "Label 3": "Sữa tắm Enchanteur Charming 650g",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "149.000 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2024/11/10017423-1-20241105025853-thumb-1.png",
+                    "Label 3": "Sữa tắm Gervenne trắng da tinh chất sữa dê 900g",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "116.900 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2024/11/10017425-20241105031121-thumb-1.png",
+                    "Label 3": "Sữa tắm Romano giữ ẩm classic chai 650g",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "192.400 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2023/08/10017460-20230831063939-thumb-1.jpg",
+                    "Label 3": "Nước rửa tay diệt khuẩn dưỡng da tinh chất dâu Dr. Clean Hand Wash Strawberry 500ml",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "48.200 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/sua-rua-tay-dr.%20clean%20h%C6%B0%C6%A1ng%20%C4%91%C3%A0o%20(500ml)",
+                    "Label 3": "Sữa Rửa Tay Dr. Clean Hương Đào (500ml)",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "48.200 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2023/08/10017462-20230831044809-thumb-1.jpeg",
+                    "Label 3": "Nước rửa tay diệt khuẩn dưỡng da tinh chất chanh Dr. Clean Hand Wash Lemon 500ml",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "48.200 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2023/08/nuoc-rua-tay-dr-clean_11zon-20230822080933-thumb-1.jpeg",
+                    "Label 3": "Nước rửa tay sạch khuẩn Dr. Clean hương táo chai 500ml",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "48.200 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2024/11/10017426-20241105031321-thumb-1.png",
+                    "Label 3": "Tắm gội Romano deluxe classic 2in1 180g",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "68.300 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2024/11/10017476-20241117100058-thumb-1.jpg",
+                    "Label 3": "Sữa tắm Lifebuoy mát lạnh sảng khoái chai 850g",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "161.100 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2023/04/8999999720094_1-20230425024456-thumb-1.png",
+                    "Label 3": "Nước hoa hồng Pond's làm sáng da chai 150ml",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "75.600 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2024/11/10017475-20241117100219-thumb-1.jpg",
+                    "Label 3": "Sữa tắm chăm sóc da Lifebuoy chai 850g",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "161.100 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2023/04/8851932199179_1-20230425023213-thumb-1.png",
+                    "Label 3": "Sữa rửa mặt ngăn ngừa lão hóa Pond's Age Miracle Facial Foam 100g",
+                    "Label 4": "Hộp",
+                    "Label 5": "",
+                    "Label 6": "119.800 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2025/02/10017524-xmen_sua-tam_650g_fire-20250217210356-thumb-1.png",
+                    "Label 3": "Sữa tắm X-men fire chai 650g",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "185.600 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2025/02/10017525-xmen_sua-tam_650g_wood-20250217210505-thumb-1.png",
+                    "Label 3": "Sữa tắm X-men wood chai 650g",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "185.600 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2024/11/10017513-20241117100125-thumb-1.jpg",
+                    "Label 3": "Sữa tắm Lifebuoy bảo vệ vượt trội 10s chai 850g",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "161.100 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2025/02/10017534-shower-gel-650-intense-20250217210543-thumb-1.png",
+                    "Label 3": "Sữa tắm nước hoa X-men For Boss Shower Gel 650g",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "159.000 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/sua-rua-mat-dabo-tinh-chat-tra-xanh-180ml-thumb-1.jpg",
+                    "Label 3": "Sữa rửa mặt Dabo tinh chất trà xanh 180ml",
+                    "Label 4": "Hộp",
+                    "Label 5": "",
+                    "Label 6": "108.000 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2025/05/10017575-20250509022532-thumb-1.png",
+                    "Label 3": "Sữa tắm Enchanteur magic 650g",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "192.500 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2025/05/10017576-20250509022733-thumb-1.png",
+                    "Label 3": "Sữa tắm trắng và dưỡng ẩm Enchanteur charming chai 650g",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "208.200 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2023/11/10017577-ench-st-trang-duong-am-hat-charming-650g-20231101031049-thumb-1.jpg",
+                    "Label 3": "Sữa tắm trắng và dưỡng ẩm Enchanteur hạt charming 650g",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "208.200 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2024/11/10017595-20241105030954-thumb-1.png",
+                    "Label 3": "Sữa tắm Romano force 650g",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "182.700 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2023/04/8934868153733-20230425075940-thumb-1.jpg",
+                    "Label 3": "Sữa dưỡng thể Vaseline Perfect 10 in 1 chai 350ml",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "148.800 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/sua-tam-biore-huong-sua-530g-thumb-1.jpg",
+                    "Label 3": "Sữa tắm Bioré hương sữa 530g",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "100.200 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/162428563888310017633-tuy-sua-tam-mot-lanh-khong-khuan-bioro-800g-og-thumb-1.jpg",
+                    "Label 3": "Sữa rửa mặt Biore sạch mụn và kháng khuẩn 100g",
+                    "Label 4": "Tuýp",
+                    "Label 5": "",
+                    "Label 6": "54.000 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/162428563912510017632-tuy-kem-chong-nang-duong-am-biore-50g-spf-50+-pa++++-og-thumb-1.jpg",
+                    "Label 3": "Sữa rửa mặt Bioré sạch nhờn lỗ chân lông nhỏ mịn 100g",
+                    "Label 4": "Tuýp",
+                    "Label 5": "",
+                    "Label 6": "54.000 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/9521277337630-og-thumb-1.jpg",
+                    "Label 3": "Sữa tắm trắng TheBol tinh chất hoa hồng 1.2kg",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "137.500 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/sua-tam-sang-dep-the-bol-tinh-chat-sua-de-va-ngoc-trai-1.2kg",
+                    "Label 3": "Sữa tắm sáng đẹp The Bol tinh chất sữa dê và ngọc trai 1.2kg",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "137.500 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2024/11/frame-2-12--20241105051525-thumb-1.jpg",
+                    "Label 3": "Xịt khử mùi toàn thân cho nam Romano Attitude chai 150ml",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "102.200 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2023/11/10017737-romano-xit-khu-mui-toan-than-force-150ml-20231101040817-thumb-1.jpg",
+                    "Label 3": "Xịt khử mùi toàn thân Romano force 150ml",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "106.000 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2024/11/10017739-20241105030848-thumb-1.png",
+                    "Label 3": "Sữa Tắm Atitude Romano 650g",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "192.400 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2023/11/10017736-romano-xit-khu-mui-t-than-classic-150ml-20231101040735-thumb-1.jpg",
+                    "Label 3": "Xịt khử mùi toàn thân Romano Classic 150ml",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "106.000 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2025/02/10017744-luxury_showergel-650ml-20250217210621-thumb-1.png",
+                    "Label 3": "Sữa tắm nước hoa X-men For Boss Gold chai 650g",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "209.200 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/kem-tay-te-bao-chet-dabo-180ml-thumb-1.jpg",
+                    "Label 3": "Kem tẩy tế bào chết Dabo 180ml",
+                    "Label 4": "Tuýp",
+                    "Label 5": "",
+                    "Label 6": "139.000 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/162428487859110017789-cai-sua-rua-mat-dabo-green-tea-natural-rich-foam-cleanser-180ml-og-thumb-1.jpg",
+                    "Label 3": "Mặt nạ tinh chất lô hội Dabo 23g",
+                    "Label 4": "Cái",
+                    "Label 5": "",
+                    "Label 6": "10.000 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2025/05/10017806-20250509022939-thumb-1.png",
+                    "Label 3": "Sữa tắm nước hoa Enchanteur Romantic chai 650g",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "192.500 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2023/11/10017857-gervenne-st-sua-de-huong-hoa-lily-900g-20231101034745-thumb-1.jpg",
+                    "Label 3": "Sữa tắm sữa dê trắng da Gervenne Goat's Milk Whitening & Fragrant Shower 900g",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "116.900 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/162428487946810017790-cai-sua-rua-mat-dabo-lu-hoi-3-in-1-cao-cap-60ml-og-thumb-1.jpg",
+                    "Label 3": "Mặt nạ tinh chất Collagen Dabo 23g",
+                    "Label 4": "Cái",
+                    "Label 5": "",
+                    "Label 6": "10.000 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2025/05/10017861-20250509023039-thumb-1.png",
+                    "Label 3": "Sữa tắm Enchanteur Sensation Perfumed Shower Gel 650g",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "149.000 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2025/05/10017862-20250509023149-thumb-1.png",
+                    "Label 3": "Sữa tắm nước hoa Enchanteur Charming 900g",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "179.000 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2024/11/10017865-20241105031151-thumb-1.png",
+                    "Label 3": "Dầu tắm gội Romano Force 650g",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "187.600 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2024/11/10017864-20241105030818-thumb-1.png",
+                    "Label 3": "Dầu tắm gội Romano Classic 650g",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "159.000 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2024/10/z5880730085535_425f3a7d3f8e0280d3a628bd5d1c056d-20241002064159-thumb-1.jpg",
+                    "Label 3": "Sữa tắm hoa anh đào Purite chai 850ml",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "240.600 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2024/10/z5880730124596_1c9d5c03aaf0c4348c441e19909221bf-20241002064254-thumb-1.jpg",
+                    "Label 3": "Sữa Tắm Purité De Prôvence Aroma chai 850ml",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "240.600 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2024/11/10018132-1-20241105030922-thumb-1.png",
+                    "Label 3": "Sữa tắm cao cấp Romano vip chai 650g",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "211.100 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2024/10/z5880730115621_38539ddb0312421bcd904038a8fabfe6-20241002064330-thumb-1.jpg",
+                    "Label 3": "Sữa Tắm Purité Lavender Shower Gel Hương Hoa Oải Hương 850ml",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "240.600 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2023/09/10018212-20230926092034-thumb-1.png",
+                    "Label 3": "Sữa rửa mặt Dabo than charcoal 150ml",
+                    "Label 4": "Hộp",
+                    "Label 5": "",
+                    "Label 6": "123.000 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2023/04/8934868167150_1-20230424080229-thumb-1.jpg",
+                    "Label 3": "Sữa tắm Lifebuoy bảo vệ vượt trội túi 850g",
+                    "Label 4": "Gói",
+                    "Label 5": "",
+                    "Label 6": "150.800 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/162428487149710018301-cha-sua-tam-tinh-chat-sua-dabo-body-cleanser-soft-milk-750ml-og-thumb-1.jpg",
+                    "Label 3": "Sữa rửa mặt nam Dabo homme black force chai 120ml",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "119.000 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2025/02/10017918-st-purite-hoa-hong-850gr-bundle-20250217210719-thumb-1.png",
+                    "Label 3": "Sữa tắm hoa hồngPurite chai 850ml",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "185.000 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2023/04/8934868167143_1-20230424080343-thumb-1.jpg",
+                    "Label 3": "Sữa tắm Lifebuoy chăm sóc da túi 850g",
+                    "Label 4": "Gói",
+                    "Label 5": "",
+                    "Label 6": "150.800 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2023/11/10018362-20231124034858-thumb-1.jpg",
+                    "Label 3": "Kem đánh răng Sensodyne Freshmint 100g",
+                    "Label 4": "Tuýp",
+                    "Label 5": "",
+                    "Label 6": "61.900 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/kem-danh-rang-darlie-tea-care-mint-160g-thumb-1.jpg",
+                    "Label 3": "Kem đánh răng Darlie tea Care mint 160g",
+                    "Label 4": "Tuýp",
+                    "Label 5": "",
+                    "Label 6": "42.300 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2024/11/8934839126483_1-20241113065346-thumb-1.png",
+                    "Label 3": "Nước súc miệng P/S Expert Protection Pro Complete chai 500ml",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "73.700 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2023/11/10018364-20231124034543-thumb-1.jpg",
+                    "Label 3": "Kem đánh răng Sensodyne Multi Care 100g",
+                    "Label 4": "Tuýp",
+                    "Label 5": "",
+                    "Label 6": "75.600 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2023/09/10018417-20230926031516-thumb-1.png",
+                    "Label 3": "Chỉ nha khoa Oral-B Essential Floss 50m",
+                    "Label 4": "Hộp",
+                    "Label 5": "",
+                    "Label 6": "63.900 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/tam-nha-khoa-dr_d9a191f0-2d81-4db6-9433-69c8865fc5ee-og.polir%2080%20c%C3%A2y",
+                    "Label 3": "Tăm nha khoa Dr.Polir 80 cây",
+                    "Label 4": "Gói",
+                    "Label 5": "",
+                    "Label 6": "32.400 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2023/08/listerine-20230816092422-thumb-1.jpeg",
+                    "Label 3": "Nước súc miệng diệt khuẩn Listerine Cool Mint chai 750ml",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "167.800 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2023/11/10018363-20231124034702-thumb-1.jpg",
+                    "Label 3": "Kem đánh răng Sensodyne Gentle Whitening 100g",
+                    "Label 4": "Tuýp",
+                    "Label 5": "",
+                    "Label 6": "54.500 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2023/04/listerine-nsm-natural-green-tea-250ml-20230405064145-thumb-1.jpg",
+                    "Label 3": "Nước súc miệng Listerine Natural Green Tea 250ml",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "59.000 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/listerine-nsm-natural-green-tea-750ml_5694a8e2-4e0b-4b77-aa94-4d4b69962451-og-thumb-1.jpg",
+                    "Label 3": "Nước súc miệng ngừa sâu răng vị Trà xanh Listerine Natural Green Tea chai 750ml",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "185.500 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/dung-cu-ve-sinh-luoi-beauty-formulas-20221007081055-og-thumb-1.jpg",
+                    "Label 3": "Dụng cụ vệ sinh lưỡi Beauty Formulas",
+                    "Label 4": "Cái",
+                    "Label 5": "",
+                    "Label 6": "63.000 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2025/08/10018515-0-20250812032837-thumb-1.png",
+                    "Label 3": "Bàn chải đánh răng Colgate slimsoft charcoal",
+                    "Label 4": "Cái",
+                    "Label 5": "",
+                    "Label 6": "49.000 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2025/08/10018558-0-20250812033007-thumb-1.png",
+                    "Label 3": "Bộ 2 bàn chải đánh răng Colgate slimsoft charcoal",
+                    "Label 4": "Bộ",
+                    "Label 5": "",
+                    "Label 6": "49.900 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/ban-chai-danh-rang-bizs-storm-20221014063413-og-thumb-1.jpg",
+                    "Label 3": "Bàn chải đánh răng Bizs+ storm",
+                    "Label 4": "Cái",
+                    "Label 5": "",
+                    "Label 6": "31.500 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/chi-ke-rang-okamura-110p_cd222613-46de-4bfb-aab2-bbceb4a99bcc-og-thumb-1.jpg",
+                    "Label 3": "Chỉ kẽ răng Okamura 110p",
+                    "Label 4": "Hộp",
+                    "Label 5": "",
+                    "Label 6": "60.800 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/kem-danh-rang-duoc-lieu-ngoc-chau-ho-tro-rang-chac-khoe-tu-goc-tuyp-100g-thumb-1.jpg",
+                    "Label 3": "Kem đánh răng dược liệu Ngọc Châu hỗ trợ răng chắc khỏe từ gốc tuýp 100g",
+                    "Label 4": "Tuýp",
+                    "Label 5": "",
+                    "Label 6": "50.100 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/162428232905810018682-cai-nuoc-syc-mieng-diet-khuan-listerine-cool-mint-500ml-og-thumb-1.jpg",
+                    "Label 3": "Bàn chải đánh răng Lipzo ruby charcoal",
+                    "Label 4": "Cái",
+                    "Label 5": "",
+                    "Label 6": "41.000 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/162427606614110018694-cai-lan-khu-mui-nivea-men-deep-dry-and-clean-feel-chai-50ml-og-thumb-1.jpg",
+                    "Label 3": "Lăn ngăn mùi giúp khô thoáng Nivea Men 50ml",
+                    "Label 4": "Cái",
+                    "Label 5": "",
+                    "Label 6": "70.700 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/162427606545210018695-cha-sua-rua-mat-giam-nhon-ngua-mun-nivea-men-anti-acne-oil-control-mud-foam-100g-og-thumb-1.jpg",
+                    "Label 3": "Lăn ngăn mùi mát lạnh Nivea Men Cool Kick 50ml",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "59.000 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2023/11/10018772-romano-lan-khu-mui-force-50ml-20231101042224-thumb-1.jpg",
+                    "Label 3": "Lăn Khử Mùi Romano Force 50ml",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "70.700 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2025/03/10018728-enchanteur-update-25-3--20250325114119-thumb-1.png",
+                    "Label 3": "Lăn khử mùi Enchanteur charming 25ml",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "50.100 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2023/11/10018793-romano-lan-khu-mui-atitude-50ml-20231101042631-thumb-1.jpg",
+                    "Label 3": "Lăn Khử Mùi Romano Attitude 50ml",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "70.700 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2023/11/10018892-romano-lan-khu-mui-vip-50ml-20231101043300-thumb-1.jpg",
+                    "Label 3": "Lăn khử mùi Romano Vip chai 50ml",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "78.500 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2024/11/10018836-20241105025736-thumb-1.png",
+                    "Label 3": "Lăn khử mùi Enchanteur nước hoa sensation 20ml",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "50.100 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2025/02/10018753-lan-xm4b-luxury-48h-20250217211117-thumb-1.png",
+                    "Label 3": "Lăn khử mùi X-men for boss luxury chai 50ml",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "77.600 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2023/04/8999999572709_1-20230420103527-thumb-1.jpg",
+                    "Label 3": "Xịt ngăn mùi toàn thân Axe Dark Temptation 150ml",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "106.100 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2024/02/10018800-1--20240202104225-thumb-1.png",
+                    "Label 3": "Lăn khử mùi Enchanteur sáp romantic 40g",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "91.300 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/162427606724710018711-cai-lan-ngan-mui-mot-lanh-nivea-men-cool-kick-50ml-og-thumb-1.jpg",
+                    "Label 3": "Lăn ngăn mùi tươi mát sức sống Nivea Energy Fresh 50ml",
+                    "Label 4": "Cái",
+                    "Label 5": "",
+                    "Label 6": "77.600 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/7702018085897-thumb-1.jpeg",
+                    "Label 3": "Lưỡi dao Gillette Fusion Pro 1 chiếc",
+                    "Label 4": "VỈ",
+                    "Label 5": "",
+                    "Label 6": "285.000 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/7702018085927-thumb-1.jpeg",
+                    "Label 3": "Lưỡi dao Gillette Power Fusion 1 chiếc",
+                    "Label 4": "VỈ",
+                    "Label 5": "",
+                    "Label 6": "359.000 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2025/05/10018727-20250509023241-thumb-1.png",
+                    "Label 3": "Lăn khử mùi cao cấp Enchanteur chai 50ml",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "85.500 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2023/11/10018900-enchanteur-xit-khu-mui-charming-150ml-20231101032646-thumb-1.jpg",
+                    "Label 3": "Xịt khử mùi hương nước hoa Charming Enchanteur 150ml",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "108.000 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2023/11/10018902-enchanteur-xit-khu-mui-romantic-150ml-20231101032736-thumb-1.jpg",
+                    "Label 3": "Xịt khử mùi hương nước hoa Enchanteur Romantic 150ml",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "108.000 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/162427604529310018717-cha-xit-khu-mui-nivea-tuoi-mot-tu-nhion-chai-150ml-og-thumb-1.jpg",
+                    "Label 3": "Xịt ngăn mùi ngọc trai đẹp quyến rũ Nivea 150ml",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "79.000 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/162427606762410018710-cai-lan-ngan-mui-giyp-khu-thoong-nivea-men-50ml-og-thumb-1.jpg",
+                    "Label 3": "Lăn khử mùi trắng mịn mờ vết thâm Extra Whitening Nivea 50ml",
+                    "Label 4": "Cái",
+                    "Label 5": "",
+                    "Label 6": "90.400 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2025/05/10018729-20250509023348-thumb-1.png",
+                    "Label 3": "Lăn khử mùi trắng da Enchanteur Charming chai 50ml",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "90.400 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/47400245105-thumb-1.jpeg",
+                    "Label 3": "Bọt cạo râu Gillette Foamy Lemon Lime 175g",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "101.100 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2024/11/10018730-20241105030713-thumb-1.png",
+                    "Label 3": "Lăn khử mùi Romano Classic chai 50ml",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "59.000 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/xit-ngan-mui-trang-min-nivea-150ml-20221014062041-og-thumb-1.jpg",
+                    "Label 3": "Xịt ngăn mùi trắng mịn Nivea 150ml",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "79.000 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/7702018017386-thumb-1.jpeg",
+                    "Label 3": "Dao cạo cán vàng Gillette",
+                    "Label 4": "Gói",
+                    "Label 5": "",
+                    "Label 6": "40.300 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/162427606489210018698-cai-sua-rua-mat-nivea-men-deep-dry-and-clean-feel-tuyp-100g-og-thumb-1.jpg",
+                    "Label 3": "Lăn ngăn mùi Nivea Men Invisible For Black & White 50ml",
+                    "Label 4": "Cái",
+                    "Label 5": "",
+                    "Label 6": "94.300 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/162427604773510018701-cai-xit-ngan-mui-ngoc-trai-dep-quyen-ru-nivea-150ml-og-thumb-1.jpg",
+                    "Label 3": "Xịt ngăn mùi Nivea Invisible For Black & White 150ml",
+                    "Label 4": "Cái",
+                    "Label 5": "",
+                    "Label 6": "122.800 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2023/09/10018700-20230926095427-thumb-1.png",
+                    "Label 3": "Xịt ngăn mùi Silver Protect Nivea Men 150ml",
+                    "Label 4": "Cái",
+                    "Label 5": "",
+                    "Label 6": "89.000 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2025/02/10018755-intense_deospray-150ml-20250217211155-thumb-1.png",
+                    "Label 3": "Xịt khử mùi X-men For Boss 150ml",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "83.900 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/8888826016175-thumb-1.jpeg",
+                    "Label 3": "Dao cạo râu Gillette Vector",
+                    "Label 4": "Cái",
+                    "Label 5": "",
+                    "Label 6": "34.500 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/162427606506410018697-cha-sua-rua-mat-song-da-kiem-soot-nhon-nivea-men-extra-white-oil-control-mud-foam-100g-og-thumb-1.jpg",
+                    "Label 3": "Lăn khử mùi Nivea Men Silver Protect chai 50ml",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "59.000 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/9546316349470-og-thumb-1.jpg",
+                    "Label 3": "Lăn ngăn mùi trắng mịn tự nhiên Nivea 50ml",
+                    "Label 4": "Cái",
+                    "Label 5": "",
+                    "Label 6": "90.400 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2025/02/10018752-lan-xm4b-intense-48h-20250225162601-thumb-1.png",
+                    "Label 3": "Lăn khử mùi X-men For Boss Perfumed Fragrance No.9 50ml",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "57.000 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/3014260301705-thumb-1.jpeg",
+                    "Label 3": "Vỉ 4 lưỡi dao cạo Gillette Vector 4S",
+                    "Label 4": "VỈ",
+                    "Label 5": "",
+                    "Label 6": "67.000 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/47400247307-20221007073326-og-thumb-1.jpg",
+                    "Label 3": "Bọt cạo râu Gillette Foamy Methol chai 175g",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "98.100 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/bao-cao-su-durex-fetherlite-ul-tima-12s-thumb-1.png",
+                    "Label 3": "Bao cao su Durex fetherlite ul tima 12s",
+                    "Label 4": "Hộp",
+                    "Label 5": "",
+                    "Label 6": "262.000 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/8888826016182-thumb-1.jpeg",
+                    "Label 3": "Lưỡi dao cạo Gillette Vector",
+                    "Label 4": "VỈ",
+                    "Label 5": "",
+                    "Label 6": "36.500 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2023/07/urgo-bang-ca-nhan-vai-durable-20-mieng-20230727064528-thumb-1.jpg",
+                    "Label 3": "Băng cá nhân vải Durable Urgo 20 miếng",
+                    "Label 4": "Hộp",
+                    "Label 5": "",
+                    "Label 6": "23.000 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/bao-cao-su-durex-fetherlite-3s-thumb-1.jpg",
+                    "Label 3": "Bao cao su Durex Fetherlite 3s",
+                    "Label 4": "Hộp",
+                    "Label 5": "",
+                    "Label 6": "68.000 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/bong-trang-diem-pop-puf-ep-bien-hop-180-mieng_5643ee2c-23e6-4fc9-91a3-9690354a9342-og-thumb-1.jpg",
+                    "Label 3": "Bông trang điểm PoP-Puf ép biên hộp 180 miếng",
+                    "Label 4": "Gói",
+                    "Label 5": "",
+                    "Label 6": "43.000 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/16866449522718-og-thumb-1.jpg",
+                    "Label 3": "Băng vệ sinh Kotex hàng ngày hương tự nhiên 20 miếng",
+                    "Label 4": "Gói",
+                    "Label 5": "",
+                    "Label 6": "17.600 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/162428259410510020129-g1-bang-ve-sinh-kotex-siou-mem-ban-dom-35cm-og-thumb-1.jpg",
+                    "Label 3": "Băng vệ sinh Kotex hàng ngày hương tự nhiên 40 miếng",
+                    "Label 4": "Gói",
+                    "Label 5": "",
+                    "Label 6": "23.900 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2023/04/10020131-kotex-bvs-style-luoi-sieu-tham-smc-8-goi-20230405064038-thumb-1.jpg",
+                    "Label 3": "Băng vệ sinh Kotex Style siêu mỏng cánh 8 miếng",
+                    "Label 4": "Gói",
+                    "Label 5": "",
+                    "Label 6": "22.600 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/10020159-diana-st-smc8_42642370-78c2-489e-ad52-62106a2b0f89-og-thumb-1.png",
+                    "Label 3": "Băng vệ sinh Diana siêu thấm siêu mỏng cánh 8 miếng",
+                    "Label 4": "Gói",
+                    "Label 5": "",
+                    "Label 6": "23.500 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/10020161-super-night-29-4m_0591bb67-0f2e-4916-acde-1e2cb1572386-og-thumb-1.png",
+                    "Label 3": "Băng vệ sinh ban đêm Diana Night Wings 4 miếng",
+                    "Label 4": "Gói",
+                    "Label 5": "",
+                    "Label 6": "19.800 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/10020162-super-night-35-3m_490ee32d-de0c-4f26-abdb-e558898f5823-og-thumb-1.png",
+                    "Label 3": "Băng vệ sinh ban đêm cánh Diana Super Night 3 miếng 35cm",
+                    "Label 4": "Gói",
+                    "Label 5": "",
+                    "Label 6": "21.900 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/bang-ve-sinh-hang-ngay-uucare-cool-tech-20221014063359-og-thumb-1.jpg",
+                    "Label 3": "Băng vệ sinh hàng ngày UUCare Cool tech",
+                    "Label 4": "Gói",
+                    "Label 5": "",
+                    "Label 6": "71.000 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/10020303-sensi-khang-khuan-40m_748e5490-201d-4dfe-a2f4-0ce22aa0e3c7-og-thumb-1.png",
+                    "Label 3": "Băng vệ sinh kháng khuẩn hàng ngày Diana gói 40 miếng",
+                    "Label 4": "Gói",
+                    "Label 5": "",
+                    "Label 6": "33.700 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/bang-ve-sinh-dung-hang-ngay-uucare-coole-tech-20221014063152-og-thumb-1.jpg",
+                    "Label 3": "Băng vệ sinh dùng hàng ngày Uucare Coole tech",
+                    "Label 4": "Gói",
+                    "Label 5": "",
+                    "Label 6": "57.900 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2023/09/10020176-20230905064932-thumb-1.jpeg",
+                    "Label 3": "Băng vệ sinh Laurier 20 miếng",
+                    "Label 4": "Gói",
+                    "Label 5": "",
+                    "Label 6": "45.000 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/162428479154110020208-g1-diep-co-dl-l1-vineco-og-thumb-1.jpg",
+                    "Label 3": "Băng vệ sinh hàng ngày Diana Daily lõi bông kháng khuẩn 20 miếng",
+                    "Label 4": "Gói",
+                    "Label 5": "",
+                    "Label 6": "18.400 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/10020292-super-night-35-12m_3788258f-71e0-4870-b6b9-6cecf969f3cd-og-thumb-1.png",
+                    "Label 3": "Băng vệ sinh ban đêm cánh Diana Super Night 12 miếng 35cm",
+                    "Label 4": "Gói",
+                    "Label 5": "",
+                    "Label 6": "76.600 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/10020239-diana-sensi-sm-canh-8-2-_a75aa485-d692-4a5b-986d-3e7ac6777aac-og-thumb-1.png",
+                    "Label 3": "Băng vệ sinh Diana Sensi Ultra Thin Wings 8 miếng",
+                    "Label 4": "Gói",
+                    "Label 5": "",
+                    "Label 6": "24.100 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2023/09/10020358-20230926095946-thumb-1.png",
+                    "Label 3": "Bông tai Niva túi zipper 100 que",
+                    "Label 4": "Gói",
+                    "Label 5": "",
+                    "Label 6": "11.000 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/10020304-sensi-smc-20-2-_1930431e-d18e-4897-915d-2f18c329b38c-og-thumb-1.png",
+                    "Label 3": "Băng vệ sinh siêu mỏng cánh Diana Sensi Ultra Thin Wings 20 miếng",
+                    "Label 4": "Gói",
+                    "Label 5": "",
+                    "Label 6": "52.500 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/162427607025210020359-g1-lan-khu-mui-nu-trang-min-mo-vet-thom-nivea-25ml-og-thumb-1.jpg",
+                    "Label 3": "Tăm bông Niva Cotton Buds 200 que",
+                    "Label 4": "Gói",
+                    "Label 5": "",
+                    "Label 6": "18.000 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/bong-tay-trang-bocoton-100-mieng-thumb-1.jpg",
+                    "Label 3": "Bông tẩy trang Bocoton 100 miếng",
+                    "Label 4": "Gói",
+                    "Label 5": "",
+                    "Label 6": "41.000 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2024/11/10020502-20241108081929-thumb-1.jpg",
+                    "Label 3": "Giấy bếp đa dụng 2 lớp Elene gói 100 tờ",
+                    "Label 4": "Gói",
+                    "Label 5": "",
+                    "Label 6": "15.700 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/khan-giay-an-rut-2-lop-watersilk-goi-200-to-thumb-1.jpg",
+                    "Label 3": "Khăn giấy ăn rút 2 lớp Watersilk gói 200 tờ",
+                    "Label 4": "Gói",
+                    "Label 5": "",
+                    "Label 6": "26.000 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/tam-bong-niva-hu-hinh-nl-200-que-ah2-thumb-1.jpg",
+                    "Label 3": "Tăm bông Niva hũ hình NL 200 Que - Ah2",
+                    "Label 4": "Hộp",
+                    "Label 5": "",
+                    "Label 6": "31.000 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2023/09/10020408-20230911101148-thumb-1.png",
+                    "Label 3": "Bông tẩy trang Tippys 120 miếng",
+                    "Label 4": "Gói",
+                    "Label 5": "",
+                    "Label 6": "51.000 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/162428219294610020515-g1-mang-chua-nguoi-thoi-nhat-minh-gui-350g-og-thumb-1.jpg",
+                    "Label 3": "Khăn ướt không mùi Mamamy 100 tờ",
+                    "Label 4": "Gói",
+                    "Label 5": "",
+                    "Label 6": "49.000 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/bong-tay-trang-tippys-classic-80-mieng-_2af701fd-3dc0-4bf9-9d66-12ac0e694c81-og-thumb-1.jpg",
+                    "Label 3": "Bông Tẩy Trang Tippys Classic (80 Miếng)",
+                    "Label 4": "Gói",
+                    "Label 5": "",
+                    "Label 6": "37.000 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2023/08/10020501-20230831064034-thumb-1.jpg",
+                    "Label 3": "Khăn giấy lụa 2 lớp Elene gói 260 tờ",
+                    "Label 4": "Gói",
+                    "Label 5": "",
+                    "Label 6": "27.900 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2023/08/10020414-20230829095011-thumb-1.jpeg",
+                    "Label 3": "Bông tẩy trang Ipek Cotton Pads 120 miếng",
+                    "Label 4": "Gói",
+                    "Label 5": "",
+                    "Label 6": "41.000 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/162428438201010020550-loc-dau-goi-duong-tuc-siou-muot-enchanteur-sensation-650g-og-thumb-1.jpg",
+                    "Label 3": "Giấy vệ sinh E'mos prem 10 cuộn 2 lớp cá heo xanh",
+                    "Label 4": "Lốc, Lô, Lố",
+                    "Label 5": "",
+                    "Label 6": "99.000 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/162428561516010020556-g1-to-don-bobby-siou-tham-khu-thoong-xl38-og-thumb-1.jpg",
+                    "Label 3": "Khăn ướt trẻ em Bobby 100 miếng",
+                    "Label 4": "Gói",
+                    "Label 5": "",
+                    "Label 6": "35.000 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/162428219421110020597-g1-mang-chua-ngom-dam-ot-nhat-minh-lo-850g-og-thumb-1.jpg",
+                    "Label 3": "Khăn ướt vệ sinh Mamamy 100 tờ có mùi",
+                    "Label 4": "Gói",
+                    "Label 5": "",
+                    "Label 6": "49.000 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/162428407982810020565-loc-mo-gui-an-lien-hao-hao-vi-tum-chua-cay-acecook-gui-75g-og-thumb-1.jpg",
+                    "Label 3": "Giấy vệ sinh Hà Nội không lõi 10 cuộn 3 lớp",
+                    "Label 4": "Lốc, Lô, Lố",
+                    "Label 5": "",
+                    "Label 6": "103.000 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/162428407972810020564-loc-mo-gui-an-lien-hao-hao-vi-tum-chua-cay-acecook-thung-30-gui-x-75g-og-thumb-1.jpg",
+                    "Label 3": "Giấy vệ sinh HANOI 10 cuộn 3 lớp có lõi",
+                    "Label 4": "Lốc, Lô, Lố",
+                    "Label 5": "",
+                    "Label 6": "92.500 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2023/09/10020616-min-20230915065331-thumb-1.png",
+                    "Label 3": "Giấy đa năng 2 lớp Elene gói 2 cuộn",
+                    "Label 4": "Gói",
+                    "Label 5": "",
+                    "Label 6": "35.000 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/khan-uot-ve-sinh-30-to-khong-mui-mamamy-thumb-1.jpg",
+                    "Label 3": "Khăn ướt vệ sinh 30 tờ không mùi Mamamy",
+                    "Label 4": "Gói",
+                    "Label 5": "",
+                    "Label 6": "18.900 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/162427358816310020639-g1-giay-ve-sinh-silkwell-10-cuon-3-lop-xanh-ngoc-og-thumb-1.jpg",
+                    "Label 3": "Giấy bếp đa năng Silkwell gói 100 tờ",
+                    "Label 4": "Gói",
+                    "Label 5": "",
+                    "Label 6": "16.900 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/giay-ve-sinh-khong-loi-cao-cap-lency-10-cuon-.webp",
+                    "Label 3": "Giấy vệ sinh không lõi cao cấp Lency (10 Cuộn)",
+                    "Label 4": "Lốc, Lô, Lố",
+                    "Label 5": "",
+                    "Label 6": "113.200 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/162427358757710020625-loc-khan-giay-ryt-hoa-hong-2-lop-silkwell-260-to-og-thumb-1.jpg",
+                    "Label 3": "Giấy vệ sinh cao cấp Silkwell 10 cuộn",
+                    "Label 4": "Lốc, Lô, Lố",
+                    "Label 5": "",
+                    "Label 6": "95.000 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/khan-giay-bo-tui-let-green-loc-9-goi-20221007081125-og-thumb-1.jpg",
+                    "Label 3": "Khăn giấy bỏ túi Let-Green lốc 9 gói",
+                    "Label 4": "Gói",
+                    "Label 5": "",
+                    "Label 6": "15.900 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/162427177921410020662-loc-giay-ve-sinh-watersilk-10-cuon-og-thumb-1.jpg",
+                    "Label 3": "Giấy vệ sinh Watersilk 36m 10 cuộn",
+                    "Label 4": "Lốc, Lô, Lố",
+                    "Label 5": "",
+                    "Label 6": "108.000 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2023/06/10020649-20230602024431-thumb-1.jpg",
+                    "Label 3": "Khăn ướt lau mặt FRESSICARE 20 tờ",
+                    "Label 4": "Gói",
+                    "Label 5": "",
+                    "Label 6": "17.000 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/162428592899410020648-g1-keo-sua-caramen-alpenliebe-gui-120g-og-thumb-1.jpg",
+                    "Label 3": "Khăn ướt chăm sóc da Fressi Care All 100 miếng",
+                    "Label 4": "Gói",
+                    "Label 5": "",
+                    "Label 6": "49.900 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/giay-ve-sinh-teddy-bear-baby-green-3-lop-15-cuon-co-loi_46729ab6-a4e8-4d49-b3bf-6df786c63d2c-og-thumb-1.jpg",
+                    "Label 3": "Giấy vệ sinh Teddy Bear Baby Green 3 lớp 15 cuộn có lõi",
+                    "Label 4": "Lốc, Lô, Lố",
+                    "Label 5": "",
+                    "Label 6": "111.900 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2023/08/10020624-20230831071454-thumb-1.jpeg",
+                    "Label 3": "Khăn giấy rút 2 lớp Silkwell 280 tờ",
+                    "Label 4": "Gói",
+                    "Label 5": "",
+                    "Label 6": "25.500 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2023/09/10020863-20230926101515-thumb-1.png",
+                    "Label 3": "Tăm bông Life thân giấy giọt nước 300 que",
+                    "Label 4": "Hộp",
+                    "Label 5": "",
+                    "Label 6": "49.000 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/silcot-premium_c0d7cf7a-1eb6-4c68-a0a4-b9647e7eaa7b-og-thumb-1.png",
+                    "Label 3": "Bông trang điểm Silcot Premium 66 miếng",
+                    "Label 4": "Hộp",
+                    "Label 5": "",
+                    "Label 6": "49.900 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2023/08/10020670-20230830030239-thumb-1.jpeg",
+                    "Label 3": "Giấy vệ sinh Elene xanh 10 cuộn 3 lớp không lõi",
+                    "Label 4": "Lốc, Lô, Lố",
+                    "Label 5": "",
+                    "Label 6": "117.700 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2023/07/giay-elene-20230707081504-thumb-1.png",
+                    "Label 3": "Giấy vệ sinh Elene hồng 3 lớp 10 cuộn",
+                    "Label 4": "Lốc, Lô, Lố",
+                    "Label 5": "",
+                    "Label 6": "75.900 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2023/08/1683685465_nuna-gold-100-mieng-5-20230824075922-thumb-1.jpg",
+                    "Label 3": "Khăn ướt Baby Nuna không mùi 80 tờ",
+                    "Label 4": "Gói",
+                    "Label 5": "",
+                    "Label 6": "47.200 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/bao-cao-su-durex-kingtex-3s-thumb-1.jpg",
+                    "Label 3": "Bao cao su Durex kingtex 3s",
+                    "Label 4": "Hộp",
+                    "Label 5": "",
+                    "Label 6": "41.000 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/bao-cao-su-durex-performa-3s-thumb-1.jpg",
+                    "Label 3": "Bao cao su Durex Performa 3s",
+                    "Label 4": "Hộp",
+                    "Label 5": "",
+                    "Label 6": "78.000 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/bao-cao-su-durex-superforma-12s-thumb-1.jpg",
+                    "Label 3": "Bao cao su Durex Superforma 12s",
+                    "Label 4": "Hộp",
+                    "Label 5": "",
+                    "Label 6": "259.000 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/4902430432795-thumb-1.jpeg",
+                    "Label 3": "Dầu xả dưỡng chất ngăn rụng tóc Pantene Hair Fall Control Conditioner 650ml",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "178.000 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/sua-chong-nang-sunplay-spf81-70g_9f9490ce-e252-41cf-a215-b51fd0ec1469-og-thumb-1.jpg",
+                    "Label 3": "Sữa chống nắng Sunplay SPF81 70g",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "191.500 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2022/bong-tay-trang-jomi-80-mieng-20221007080855-og-thumb-1.jpg",
+                    "Label 3": "Bông tẩy trang Jomi 80 miếng",
+                    "Label 4": "Gói",
+                    "Label 5": "",
+                    "Label 6": "31.000 ₫"
+                }
+            ]
+        },
+        "markdown": "",
+        "html": ""
+    },
+    "screenshots": []
+}

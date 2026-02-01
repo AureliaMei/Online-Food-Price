@@ -1,0 +1,19 @@
+{
+    "id": "d366e0d2-2121-4dca-8ae4-4986d87617ff",
+    "status": "failed",
+    "name": "Dry Food",
+    "robotId": "0ef9789a-f778-418d-8bd5-6c8b83a11286",
+    "startedAt": "1/25/2026, 4:28:18 PM",
+    "finishedAt": "1/25/2026, 4:40:02 PM",
+    "runId": "8a7d037c-6f0f-43f8-bfab-74a9cc78d587",
+    "runByUserId": 1,
+    "runByScheduleId": null,
+    "runByAPI": null,
+    "data": {
+        "textData": {},
+        "listData": {},
+        "markdown": "",
+        "html": ""
+    },
+    "screenshots": []
+}

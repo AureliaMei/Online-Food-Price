@@ -1,0 +1,83 @@
+import os
+import json
+import pandas as pd
+import re
+
+# --- CONFIGURATION ---
+ROBOT_FOLDERS = ["Baby_product/JSON"]
+
+def clean_price(val):
+    """Turns '49.000 ₫' into 49000.0"""
+    if not val or pd.isna(val) or val == "":
+        return 0.0
+    digits = re.sub(r'[^\d]', '', str(val))
+    return float(digits) if digits else 0.0
+
+def process_and_save():
+    for robot in ROBOT_FOLDERS:
+        if not os.path.exists(robot):
+            continue
+        
+        # Create the /CSV subfolder inside the robot folder
+        csv_folder = os.path.join(robot, "CSV")
+        if not os.path.exists(csv_folder):
+            os.makedirs(csv_folder)
+            print(f"📁 Created subfolder: {csv_folder}")
+
+        # Scan for JSON files in the robot folder
+        for file in os.listdir(robot):
+            if file.endswith(".json"):
+                json_path = os.path.join(robot, file)
+                csv_filename = file.replace(".json", ".csv")
+                csv_path = os.path.join(csv_folder, csv_filename)
+
+                # Skip if already processed
+                if os.path.exists(csv_path):
+                    continue
+
+                with open(json_path, 'r', encoding='utf-8') as f:
+                    try:
+                        run_data = json.load(f)
+                        
+                        # 1. Skip failed runs
+                        if run_data.get('status') != 'success':
+                            continue
+
+                        # 2. Extract and Standardize
+                        raw_list = run_data.get('data', {}).get('listData', {}).get('List Data 1', [])
+                        cleaned_rows = []
+
+                        for item in raw_list:
+                            # Standardizing WinMart Labels
+                            p1 = clean_price(item.get('Label 7'))
+                            p2 = clean_price(item.get('Label 8'))
+
+                            # Price Comparison Logic: Lower is Final, Higher is Marked
+                            if p2 > 0 and p2 > p1:
+                                final, marked = p1, p2
+                            elif p1 > 0 and p1 > p2 and p2 != 0:
+                                final, marked = p2, p1
+                            else:
+                                final, marked = (p1 if p1 > 0 else p2), None
+
+                            cleaned_rows.append({
+                                'product_name': item.get('Label 5'),
+                                'unit': item.get('Label 6'),
+                                'final_price': final,
+                                'marked_price': marked,
+                                'product_url': item.get('Label 4'),
+                                'scrape_timestamp': run_data.get('startedAt'),
+                                'run_id': run_data.get('id')
+                            })
+
+                        # 3. Save as CSV
+                        if cleaned_rows:
+                            df = pd.DataFrame(cleaned_rows)
+                            df.to_csv(csv_path, index=False, encoding='utf-8-sig')
+                            print(f"  ✅ Processed: {csv_filename}")
+
+                    except Exception as e:
+                        print(f"  ⚠️ Failed to process {file}: {e}")
+
+if __name__ == "__main__":
+    process_and_save()

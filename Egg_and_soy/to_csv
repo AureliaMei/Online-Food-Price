@@ -1,0 +1,83 @@
+import os
+import json
+import pandas as pd
+import re
+
+# --- CONFIGURATION ---
+TARGET_FOLDER = "Egg_and_soy" # Ensure this matches your folder name exactly
+
+def clean_price(val):
+    """Turns '51.900 ₫' into float 51900.0"""
+    if not val or pd.isna(val) or val == "":
+        return 0.0
+    digits = re.sub(r'[^\d]', '', str(val))
+    return float(digits) if digits else 0.0
+
+def process_egg_and_soy():
+    # 1. Path Management
+    json_dir = os.path.join(TARGET_FOLDER, "JSON")
+    csv_dir = os.path.join(TARGET_FOLDER, "CSV")
+    
+    if not os.path.exists(json_dir):
+        print(f"❌ Error: Could not find '{json_dir}'. Please check the folder name.")
+        return
+        
+    if not os.path.exists(csv_dir):
+        os.makedirs(csv_dir)
+        print(f"📁 Created folder: {csv_dir}")
+
+    # 2. Process Files
+    for filename in os.listdir(json_dir):
+        if filename.endswith(".json"):
+            json_path = os.path.join(json_dir, filename)
+            csv_path = os.path.join(csv_dir, filename.replace(".json", ".csv"))
+
+            # Skip if already processed
+            if os.path.exists(csv_path):
+                continue
+
+            with open(json_path, 'r', encoding='utf-8') as f:
+                try:
+                    run_data = json.load(f)
+                    
+                    # Filter out failed runs
+                    if run_data.get('status') != 'success':
+                        continue
+
+                    raw_list = run_data.get('data', {}).get('listData', {}).get('List Data 1', [])
+                    cleaned_rows = []
+
+                    for item in raw_list:
+                        # Logic: Lower Price is Final, Higher is Marked
+                        # In your Egg & Soy sample, only Label 6 exists (single price)
+                        # We use a fallback in case Label 7 appears in future runs
+                        p1 = clean_price(item.get('Label 6'))
+                        p2 = clean_price(item.get('Label 7')) # Future-proofing
+
+                        if p1 > 0 and p2 > 0:
+                            final, marked = min(p1, p2), max(p1, p2)
+                        else:
+                            final = p1 if p1 > 0 else p2
+                            marked = None # No discount detected
+
+                        cleaned_rows.append({
+                            'product_name': item.get('Label 4'),
+                            'unit': item.get('Label 5'),
+                            'final_price': final,
+                            'marked_price': marked,
+                            'product_url': item.get('Label 1'),
+                            'scrape_timestamp': run_data.get('startedAt'),
+                            'run_id': run_data.get('id')
+                        })
+
+                    # 3. Save Processed Dataset
+                    if cleaned_rows:
+                        df = pd.DataFrame(cleaned_rows)
+                        df.to_csv(csv_path, index=False, encoding='utf-8-sig')
+                        print(f"  ✅ Refined: {filename}")
+
+                except Exception as e:
+                    print(f"  ⚠️ Error processing {filename}: {e}")
+
+if __name__ == "__main__":
+    process_egg_and_soy()

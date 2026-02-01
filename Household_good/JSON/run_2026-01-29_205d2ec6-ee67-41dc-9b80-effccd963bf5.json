@@ -1,0 +1,694 @@
+{
+    "id": "205d2ec6-ee67-41dc-9b80-effccd963bf5",
+    "status": "success",
+    "name": "Household goods",
+    "robotId": "06165882-777a-4c19-8862-de530d54373d",
+    "startedAt": "1/29/2026, 2:39:09 PM",
+    "finishedAt": "1/29/2026, 2:45:19 PM",
+    "runId": "d61ee352-c11d-46ed-9cc7-d103d5181e32",
+    "runByUserId": 1,
+    "runByScheduleId": null,
+    "runByAPI": null,
+    "data": {
+        "textData": {},
+        "listData": {
+            "List Data 1": [
+                {
+                    "Label 4": "https://winmart.vn/products/scotch-brite-bo-lau-nha-cai-tien-2in1--s10250381?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bộ lau nhà 360 độ cải tiến 2 trong 1",
+                    "Label 6": "Bộ",
+                    "Label 7": "249.000 ₫",
+                    "Label 8": "658.800 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/ll-hop-nhua-thuc-pham-hsm8120-540ml--s10167193?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Hộp nhựa thực phẩm Lock&Lock HSM8220 540ml",
+                    "Label 6": "Cái",
+                    "Label 7": "22.000 ₫",
+                    "Label 8": "50.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/ll-binh-nuoc-easy-open-hap813n-1.2l--s10167127?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bình nước Lock & Lock Easy Open HAP813N 1.2L",
+                    "Label 6": "Cái",
+                    "Label 7": "29.900 ₫",
+                    "Label 8": "66.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/inochi-hop-banh-mut-vuong-haru-24cm--s10281615?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Hộp bánh mứt vuông Haru-24cm",
+                    "Label 6": "Cái",
+                    "Label 7": "139.000 ₫",
+                    "Label 8": "303.400 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/moriitalia-bgn-carlmann-inox-500ml--s10027478?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bình giữ nhiệt Carlmann inox BES523 500ml",
+                    "Label 6": "Cái",
+                    "Label 7": "99.000 ₫",
+                    "Label 8": "198.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/ll-noi-tu-stone-2-tay-cam-24cm-lca6242--s10025835?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Nồi Lock&Lock Stone 2 tay cầm LCA6242D 24cm (Dùng bếp từ)",
+                    "Label 6": "Cái",
+                    "Label 7": "495.000 ₫",
+                    "Label 8": "971.500 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/ll-binh-nuoc-nhua-pet-1.5l-hap812--s10235247?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bình nước nhựa Lock & Lock PET 1.5L HAP812",
+                    "Label 6": "Cái",
+                    "Label 7": "33.900 ₫",
+                    "Label 8": "65.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/ll-binh-nuoc-pet-1.2l-hap730--s10023987?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bình nước PET Lock&Lock HAP730 1.2L",
+                    "Label 6": "Cái",
+                    "Label 7": "29.000 ₫",
+                    "Label 8": "55.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/starplus-bo-lau-nha-starplus-ms212--s10320886?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bộ lau nhà Starplus MS212",
+                    "Label 6": "Bộ",
+                    "Label 7": "209.000 ₫",
+                    "Label 8": "372.100 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/ll-binh-dung-nuoc-15l-hap731--s10023988?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bình nước PET Lock&Lock HAP731 1,5L (Xanh dương)",
+                    "Label 6": "Cái",
+                    "Label 7": "44.900 ₫",
+                    "Label 8": "79.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/ll-goi-memory-foam-50d-hlw113--s10064937?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Gối Memory Foam 50D Lock&Lock HLW113",
+                    "Label 6": "Cái",
+                    "Label 7": "469.000 ₫",
+                    "Label 8": "802.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/wmh-khan-mat-cotton-326590g-gdpp--s10330217?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Khăn mặt cotton WinMart Home 32*65*90g",
+                    "Label 6": "Cái",
+                    "Label 7": "29.000 ₫",
+                    "Label 8": "49.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/ll-chao-ran-stone-28cm-xam-lca6283d--s10316558?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Chảo Cookplus Stone Lock&Lock LCA6283D - 28cm (Đen)",
+                    "Label 6": "Cái",
+                    "Label 7": "559.000 ₫",
+                    "Label 8": "927.900 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/ll-noi-tucookplusstone2tcam24cmlca6244d--s10025836?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Nồi thân cao CookPlus Stone hai tay cầm 24cm Lock&Lock LCA6244D",
+                    "Label 6": "Cái",
+                    "Label 7": "659.000 ₫",
+                    "Label 8": "1.079.500 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/starplus-bo-lau-nha-ms03--s10026891?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bộ lau nhà Starplus MS03",
+                    "Label 6": "Bộ",
+                    "Label 7": "269.000 ₫",
+                    "Label 8": "429.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/ll-bo-cay-ln-360-do-xanh-dg-mop-q2-1--s10027124?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bộ cây lau nhà xoay tay 360 độ Lock&Lock MOP-Q2-1",
+                    "Label 6": "Bộ",
+                    "Label 7": "719.000 ₫",
+                    "Label 8": "1.150.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/ll-binh-giu-nhiet-lhc6150-480ml-cac-mau--s10250950?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bình giữ nhiệt L&L LHC6150 480ml các màu",
+                    "Label 6": "Cái",
+                    "Label 7": "239.000 ₫",
+                    "Label 8": "378.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/wmh-khan-tam-cotton-50100235g-gdpp--s10330218?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Khăn tắm cotton WinMart Home 50*100*235g",
+                    "Label 6": "Cái",
+                    "Label 7": "69.000 ₫",
+                    "Label 8": "107.900 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/ll-binh-nuoc-pet-1.2l-hap781b--s10024048?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bình nước PET Lock&Lock HAP781 1.2L",
+                    "Label 6": "Bình",
+                    "Label 7": "39.900 ₫",
+                    "Label 8": "60.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/ll-bo-dao-nha-bep-6-mon-ckk101s01--s10403808?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bộ dao nhà bếp 6 món CookPlus Lock&Lock CKK101S01 (Đen trắng)",
+                    "Label 6": "Bộ",
+                    "Label 7": "219.000 ₫",
+                    "Label 8": "329.900 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/dq-o-cam-002a-02-2m--s10027530?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Ổ cắm Điện Quang 002A-02-2M",
+                    "Label 6": "Cái",
+                    "Label 7": "89.900 ₫",
+                    "Label 8": "135.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/locklock-binh-giunhiet-lhc6800fu-500ml--s10123518?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bình giữ nhiệt 500ml LHC6800FU xanh ngọc",
+                    "Label 6": "Cái",
+                    "Label 7": "229.000 ₫",
+                    "Label 8": "340.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/sunhouse-vot-muoi-she-mt1702-mau-vang--s10136847?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Vợt muỗi Sunhouse SHE-MT1702 màu vàng",
+                    "Label 6": "Cái",
+                    "Label 7": "139.900 ₫",
+                    "Label 8": "207.800 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/anhphuong-tham-len-cham-bi-40x60--s10164730?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Thảm len chấm bi AP 40x60",
+                    "Label 6": "Cái",
+                    "Label 7": "89.000 ₫",
+                    "Label 8": "132.500 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/ll-bo-cay-lau-nha-corner-2-bong-etm494--s10314721?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bộ cây lau nhà xoay tay Lock&Lock Corner ETM494",
+                    "Label 6": "Bộ",
+                    "Label 7": "620.000 ₫",
+                    "Label 8": "919.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/dq-bo-vot-muoi-da-nang-emr05l-wpi--s10405298?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bộ vợt muỗi đa năng Điện Quang EMR05L WPI",
+                    "Label 6": "Cái",
+                    "Label 7": "119.900 ₫",
+                    "Label 8": "178.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/sunhouse-vot-muoi-she-s800--s10136845?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Vợt muỗi SUNHOUSE SHE-S800",
+                    "Label 6": "Cái",
+                    "Label 7": "119.900 ₫",
+                    "Label 8": "176.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/ll-g.tay-c.su-m-32cm-etm803y--s10026855?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Găng tay cao su tự nhiên Lock&Lock ETM803Y size M 32cm",
+                    "Label 6": "Đôi",
+                    "Label 7": "19.900 ₫",
+                    "Label 8": "29.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/ll-hop-nhua-thuc-pham-hsm9140-640ml--s10167192?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Hộp nhựa thực phẩm Lock&Lock HSM9140 640ml",
+                    "Label 6": "Cái",
+                    "Label 7": "34.500 ₫",
+                    "Label 8": "49.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/homedeli-tui-dung-tp-thsh-1728100-cai--s10197087?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Túi đựng thực phẩm tự hủy sinh học HomeDeli 17*28*100 Cái",
+                    "Label 6": "Cuộn",
+                    "Label 7": "19.900 ₫",
+                    "Label 8": "28.500 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/hokkaido-hop-tp-tron-750ml--s10250120?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Hộp thực phẩm Hokkaido tròn 750ml",
+                    "Label 6": "Cái",
+                    "Label 7": "31.000 ₫",
+                    "Label 8": "44.200 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/hokkaido-bo-hop-tp-tron-500-1000-2000ml--s10250133?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bộ hộp thực phẩm tròn Hokkaido 500-1000-2000ml",
+                    "Label 6": "Bộ",
+                    "Label 7": "99.000 ₫",
+                    "Label 8": "141.400 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/tui-rac-thom-td-soji-50lx19c-l--s10251287?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Túi rác thơm tiện dụng Soji 50Lx19c (L)",
+                    "Label 6": "Cuộn",
+                    "Label 7": "24.500 ₫",
+                    "Label 8": "34.900 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/inochi-lo4-tui-rac-tien-dung-mau-5470--s10604748?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Lô 4 túi rác màu tiện dụng có quai Inochi 54 x 70 cm (112 túi)",
+                    "Label 6": "Gói",
+                    "Label 7": "66.500 ₫",
+                    "Label 8": "95.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/inochi-lo4-tui-rac-tien-dung-mau-4663--s10604747?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Lốc 4 cuộn túi rác màu quai xách Inochi 46x63cm",
+                    "Label 6": "Gói",
+                    "Label 7": "68.000 ₫",
+                    "Label 8": "95.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/inochi-thung-rac-nap-lat-hiro-5l--s10628091?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Thùng rác nắp lật Inochi 5L",
+                    "Label 6": "Cái",
+                    "Label 7": "99.000 ₫",
+                    "Label 8": "138.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/ll-hop-bq-classic-1.6l-hpl824c--s10023970?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Hộp bảo quản Classic Lock&Lock HPL824C 1.6L",
+                    "Label 6": "Cái",
+                    "Label 7": "139.000 ₫",
+                    "Label 8": "191.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/ll-gang-tay-cao-su-39cm-hong-etm801p--s10026852?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Găng tay cao su tự nhiên Lock&Lock ETM801P cỡ L 39cm (Hồng)",
+                    "Label 6": "Đôi",
+                    "Label 7": "39.900 ₫",
+                    "Label 8": "55.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/ll-g.tay-c.su-tu-nhien-37-cm-m-etm802p--s10026853?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Găng tay cao su tự nhiên Lock&Lock 37cm - ETM802P",
+                    "Label 6": "Đôi",
+                    "Label 7": "35.000 ₫",
+                    "Label 8": "48.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/inochi-thung-rac-dap-tron-hiro-12l--s10250427?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Thùng rác Inochi đạp tròn Hiro 12L",
+                    "Label 6": "Cái",
+                    "Label 7": "159.000 ₫",
+                    "Label 8": "218.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/aisen-ban-chai-nha-tam-th005--s10026487?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bàn chải Aisen hương chải nhà giản TH005",
+                    "Label 6": "Cái",
+                    "Label 7": "109.000 ₫",
+                    "Label 8": "148.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/lustro-gio-dung-do-giat-trung-l-5032wb--s10024023?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Giỏ đựng đồ giặt Modern Feel cỡ trung Lustroware L5032WB 47.5 x 28.5 x 33.5 cm",
+                    "Label 6": "Cái",
+                    "Label 7": "192.000 ₫",
+                    "Label 8": "256.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/aisen-ban-chai-nha-tam-th004--s10026486?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bàn chải nhà tắm Aisen TH004",
+                    "Label 6": "Cái",
+                    "Label 7": "73.500 ₫",
+                    "Label 8": "98.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/scotch-brite-cay-lan-bui836r-30--s10026555?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Cây lặn bụi Scoth Brite 836r-30",
+                    "Label 6": "Cái",
+                    "Label 7": "67.000 ₫",
+                    "Label 8": "89.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/aisen-luoi-giat-bao-ve-vuong-40x50cm--s10026615?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bộ 2 Túi lưới giặt đồ bảo vệ Aisen LL021 40x50cm",
+                    "Label 6": "Cái",
+                    "Label 7": "67.000 ₫",
+                    "Label 8": "89.400 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/command-vi-2-moc-treo-kl-1.3kg-17068--s10026651?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Vỉ 2 móc treo kl Command1.3kg 17068",
+                    "Label 6": "VỈ",
+                    "Label 7": "59.000 ₫",
+                    "Label 8": "79.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/ll-g.tay-c.su-tu-nhien-35-cm-s-etm805p--s10026854?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Găng tay cao su tự nhiên Lock&Lock ETM805P Size M 35cm",
+                    "Label 6": "Đôi",
+                    "Label 7": "36.000 ₫",
+                    "Label 8": "48.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/nnb-cay-lan-bui-90-lop--s10027092?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Cây lăn bụi quần áo N.N.B 90 lớp",
+                    "Label 6": "Cái",
+                    "Label 7": "36.000 ₫",
+                    "Label 8": "48.200 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/sbaby-cbo2-k.mat-soi-tre-unobaby2-2850--s10306388?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Combo 2 khăn mặt sợi tre Unobaby CBO2 28x50",
+                    "Label 6": "Gói 2",
+                    "Label 7": "59.000 ₫",
+                    "Label 8": "78.400 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/3m-gang-tay-co-moc-treo-38cm--s10604928?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Găng tay có móc treo 3M Scotch Brite 38cm",
+                    "Label 6": "Đôi",
+                    "Label 7": "52.000 ₫",
+                    "Label 8": "69.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/wmh-khan-tay-cotton-284245g-gdpp--s10330216?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Khăn tay cotton WinMart Home 28*42*45g",
+                    "Label 6": "Cái",
+                    "Label 7": "19.000 ₫",
+                    "Label 8": "24.400 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/scotch-brite-mieng-co-rua-inox-30gr--s10027131?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Gói 2 miếng cước inox chà nồi Scotch Brite 30g",
+                    "Label 6": "Gói",
+                    "Label 7": "34.500 ₫",
+                    "Label 8": "43.200 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/locklock-chao-caw2804-28cm--s10250567?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Chảo Lock & Lock CAW2804 - 28cm",
+                    "Label 6": "Cái",
+                    "Label 7": "349.000 ₫",
+                    "Label 8": "426.200 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/ll-bo-lau-nha-dual-pocket-etm478--s10250927?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bộ lau nhà Dual Lock & Lock pocket ETM478",
+                    "Label 6": "Bộ",
+                    "Label 7": "999.000 ₫",
+                    "Label 8": "1.221.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/ll-chao-ran-stone26cm-lca6263d--s10025839?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Chảo rán Lock$Lock stone 26cm",
+                    "Label 6": "Cái",
+                    "Label 7": "709.000 ₫",
+                    "Label 8": "852.300 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/ll-bo-cay-ln-360-do-xanh-la-mop-l003--s10027133?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bộ cây lau nhà xoay tay 360 độ Lock&Lock MOP-L003 xanh lá",
+                    "Label 6": "Bộ",
+                    "Label 7": "1.239.000 ₫",
+                    "Label 8": "1.499.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/sunhouse-bo-lau-nha-360-ks-cl330s--s10250938?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bộ lau nhà SunHouse 360 KS-CL330S",
+                    "Label 6": "Bộ",
+                    "Label 7": "339.000 ₫",
+                    "Label 8": "395.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/ll-noi-tu-stone-2-tay-cam-20cm-lca6202--s10025834?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Nồi hai tay cầm CookPlus Stone Lock&Lock LCA6202D 20cm",
+                    "Label 6": "Cái",
+                    "Label 7": "789.000 ₫",
+                    "Label 8": "884.700 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/ll-chao-ran-stone-30cm-lca6303d--s10316557?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Chảo chống dính Cookplus Stone Lock&Lock LCA6303D 30cm (Xám)",
+                    "Label 6": "Cái",
+                    "Label 7": "849.000 ₫",
+                    "Label 8": "949.500 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/ll-cay-lau-nha-dang-xit-nuoc127-etm461--s10232185?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Cây lau nhà Lock&Lock dạng xịt nước",
+                    "Label 6": "Cái",
+                    "Label 7": "539.000 ₫",
+                    "Label 8": "590.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/glade-sap-thom-huong-chanh-180g--s10019726?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Sáp thơm Glade hương chanh 180g",
+                    "Label 6": "Hộp",
+                    "Label 7": "54.000 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/gift-sap-thom-lily-ngot-ngao-200g--s10019821?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Sáp thơm Gift lily ngọt ngào 200g",
+                    "Label 6": "Hộp",
+                    "Label 7": "41.200 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/gift-sap-thom-ylang-nong-nan-200g--s10019822?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Sáp thơm ylang nồng nàn Gift hộp 200g",
+                    "Label 6": "Hộp",
+                    "Label 7": "41.200 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/glade-sap-thom-huong-som-mai-180g--s10019729?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Sáp thơm Glade hương sớm mai 180g",
+                    "Label 6": "Chai",
+                    "Label 7": "54.000 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/gift-sap-thom-h.lavender-thu-gian-200g--s10019819?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Sáp thơm Gift hương lavender thư giãn 200g",
+                    "Label 6": "Hộp",
+                    "Label 7": "41.200 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/glade-sap-thom-h.bien-phieu-bong-180g--s10019800?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Sáp thơm Glade ocean escape 180g",
+                    "Label 6": "Hộp",
+                    "Label 7": "54.300 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/glade-sap-thom-huong-lai-180g--s10019728?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Sáp thơm Glade hương hoa lài 180g (Xanh lá cây)",
+                    "Label 6": "Hộp",
+                    "Label 7": "54.000 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/glade-sap-thom-huong-oai-huong-180g--s10019727?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Sáp thơm Glade hương oải hương 180g",
+                    "Label 6": "Hộp",
+                    "Label 7": "54.000 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/glade-xit-phong-huong-lavender-280ml--s10019741?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Xịt phòng Glade hương lavender 280ml",
+                    "Label 6": "Chai",
+                    "Label 7": "55.000 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/glade-sap-thom-huong-co-hoa-180g--s10019732?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Sáp thơm Glade hương cỏ hoa 180g",
+                    "Label 6": "Hộp",
+                    "Label 7": "54.000 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/hometex-ruot-goi-ep-hoi-4060cm--s10023246?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Ruột gối ép hơi Hometex size 40*60cm",
+                    "Label 6": "Cái",
+                    "Label 7": "122.700 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/lustro-gio-dung-do-giat-lon-l-5033wb--s10024024?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Giỏ đựng đồ giặt cỡ lớn Modern Feel cỡ lớn Lustroware L-5033WB",
+                    "Label 6": "Cái",
+                    "Label 7": "343.000 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/kiwi-dao-171--s10025415?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Dao nhà bếp nhỏ Kiwi 171",
+                    "Label 6": "Cái",
+                    "Label 7": "117.000 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/sunhouse-chao-tu-22cm-shm22--s10025458?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Chảo từ Sunhouse SHM22 22cm",
+                    "Label 6": "Cái",
+                    "Label 7": "205.200 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/kiwi-dao-got-vo-502--s10025554?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Dao gọt quả cán gỗ 501/502-Kiwi",
+                    "Label 6": "Cái",
+                    "Label 7": "48.200 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/kiwi-dao-chat-xuong-850--s10025670?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Dao Chặt Xương Kiwi 850",
+                    "Label 6": "Cái",
+                    "Label 7": "329.000 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/inomata-hop-dung-tp-chiu-nhiet-lvs-1661--s10025787?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Hộp đựng thực phẩm Inomata chịu nhiệt LVS 1661",
+                    "Label 6": "Cái",
+                    "Label 7": "39.900 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/thuan-phat-dua-go-cam-hong-10-doi--s10025875?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Đũa gỗ Cẩm Hồng Thuận Phát 10 đôi/gói (Nâu)",
+                    "Label 6": "Gói",
+                    "Label 7": "62.000 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/luminarc-noi-t.tinh-amberline-1.5l--s10025970?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Nồi thủy tinh Luminarc Amberline Granite N1763 1.5L",
+                    "Label 6": "Cái",
+                    "Label 7": "890.000 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/hpp-keo-rong-can-vang--s10025986?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Kéo rồng Cán vàng Hùng Phát Phát",
+                    "Label 6": "Cái",
+                    "Label 7": "105.000 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/kiwi-bo-dao-can-nhua-set-3-chiec--s10026242?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bộ dao cán nhựa Kiwi 3 chiếc",
+                    "Label 6": "Bộ",
+                    "Label 7": "199.000 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/aisen-ban-chai-nha-tam-th001--s10026485?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bàn chải nhà tắm Aisen TH001",
+                    "Label 6": "Cái",
+                    "Label 7": "96.300 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/scotch-brite-khan-lau-da-nang-315257-g3--s10026560?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Khăn lau đa năng 3M Scotch Brite",
+                    "Label 6": "Gói",
+                    "Label 7": "163.000 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/aisen-luoi-giat-thua-60x60-cm--s10026613?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Túi giặt quần áo lưới vuông LK202 Aisen 60x60cm (Trắng)",
+                    "Label 6": "Cái",
+                    "Label 7": "117.800 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/yamada-moc-treo-654--s10026631?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Móc treo Yamada 654",
+                    "Label 6": "Cái",
+                    "Label 7": "39.900 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/kokusai-giay-tham-dau-20ctui--s10026593?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Giấy thấm dầu Kokusai 24.5cmx24cm (20 tờ /túi)",
+                    "Label 6": "Gói",
+                    "Label 7": "35.300 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/s.brite-khan-lau-micro-t.dung-3030-goi3--s10026675?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Khăn lau micro tiện dụng Scotch Brite 30*30",
+                    "Label 6": "Gói",
+                    "Label 7": "55.000 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/sola-bo-5-moc-ao-nhua-xoay-35002--s10026888?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Móc áo nhựa xoay Sola 35002",
+                    "Label 6": "Bộ",
+                    "Label 7": "66.000 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/scotch-brite-cuoc-co-rua-2-mat-2-lop--s10027115?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Cước cọ rửa Scotch Brite 2 mặt 2 lớp",
+                    "Label 6": "Gói",
+                    "Label 7": "68.700 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/kokubo-mut-co-rua-2203--s10027152?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Mút cọ rửa-2203 Kokobo",
+                    "Label 6": "Bộ",
+                    "Label 7": "39.900 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/dq-o-cam-002a-02--s10027529?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Ổ cắm Điện Quang 002A-02",
+                    "Label 6": "Cái",
+                    "Label 7": "185.000 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/energizer-pin-max-e92-bp2-size-aaa--s10027648?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Pin Max Energizer E92 BP2 size AAA",
+                    "Label 6": "VỈ",
+                    "Label 7": "45.000 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/energizer-pin-max-e91-bp2-size-aa--s10027650?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Pin Energizer max E91 BP2 AA",
+                    "Label 6": "VỈ",
+                    "Label 7": "45.000 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/energizer-pin-max-e92-bp4-size-aaa--s10027649?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Pin AAA Energizer max E92 BP4",
+                    "Label 6": "VỈ",
+                    "Label 7": "85.000 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/energizer-pin-max-e91-bp4-size-aa--s10027651?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Pin Energizer max E91 BP4 AA",
+                    "Label 6": "VỈ",
+                    "Label 7": "85.000 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/ambipure-sap-thom-mui-oai-huong-180g--s10085523?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Sáp thơm mùi oải hương Ambipure 180g",
+                    "Label 6": "Hộp",
+                    "Label 7": "60.400 ₫",
+                    "Label 8": ""
+                }
+            ]
+        },
+        "markdown": "",
+        "html": ""
+    },
+    "screenshots": []
+}
