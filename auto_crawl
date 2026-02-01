@@ -1,0 +1,106 @@
+import requests
+import time
+import os
+import subprocess
+from datetime import datetime
+
+# --- CONFIGURATION ---
+BASE_URL = "http://localhost:8080/api"  
+API_KEY = "4e1kjff5od9ndqkxz4khd3446t4rd7"
+HEADERS = {"x-api-key": API_KEY, "Content-Type": "application/json"}
+
+ROBOTS = {
+    "Electronics": "2b41463d-c127-4a97-b7f7-9f9dd1b07374",
+    "Hygene": "3f88e569-057e-4319-892f-834416e6188d",
+    "Dry_Food": "0ef9789a-f778-418d-8bd5-6c8b83a11286",
+    "Instant_food": "f2a242f9-8a04-4cce-a5c6-2f11eda952b7",
+    "Non-alcohol_beverage": "191f10fe-1d04-49e0-b3e4-fc5a4fc4b90b",
+    "Household_good": "06165882-777a-4c19-8862-de530d54373d",
+    "Baby_product": "62a10810-19db-4076-86af-169320baf441",
+    "Egg_and_soy": "809764ec-5e4c-4eb9-aad6-cc809430648b",
+    "Frozen": "70404316-22f8-4e52-a3a0-c60b302a482e",
+    "Spice": "4e4a60d2-68b3-4f41-a3a0-80fdd3783c45",
+    "Processed_food": "afa4380e-7f1f-4a4e-b005-746c5e7fa38d",
+    "Dairy": "95087cc5-1cfb-4d58-b66b-d2356b4e5b84",
+    "Confectionary": "facc434f-0c2d-4325-b925-deee45a85636",
+    "Detergent": "6479ca88-3fae-434d-8874-ec2e407e37ee",
+    "Veg_Fruit": "424e50fb-43a0-4417-a5b7-b0ecc72597ed"
+}
+
+def notify_mac(title, message):
+    """Sends a native macOS notification."""
+    cmd = f'display notification "{message}" with title "{title}"'
+    subprocess.run(["osascript", "-e", cmd])
+
+def trigger_robot(name, r_id):
+    url = f"{BASE_URL}/robots/{r_id}/run"
+    try:
+        response = requests.post(url, headers=HEADERS)
+        if response.status_code in [200, 201]:
+            # Expecting runId in response; Adjust if your Maxun version differs
+            return response.json().get('id') or response.json().get('runId')
+    except Exception as e:
+        print(f"Error triggering {name}: {e}")
+    return None
+
+def check_status(r_id, robot_uuid):
+    """Checks if a specific run is completed."""
+    url = f"{BASE_URL}/robots/{robot_uuid}/runs"
+    try:
+        response = requests.get(url, headers=HEADERS)
+        runs = response.json().get('runs', {}).get('items', [])
+        for run in runs:
+            if run.get('id') == r_id:
+                return run.get('status') # 'completed', 'failed', 'running', etc.
+    except:
+        pass
+    return "unknown"
+
+def main():
+    notify_mac("Maxun Automation", "Starting 10PM Scraping...")
+    
+    # Tracking: {name: {'id': run_id, 'uuid': uuid, 'retry': False, 'status': 'pending'}}
+    active_jobs = {}
+    for name, uuid in ROBOTS.items():
+        run_id = trigger_robot(name, uuid)
+        active_jobs[name] = {'id': run_id, 'uuid': uuid, 'retry_done': False, 'status': 'running' if run_id else 'failed'}
+
+    completed_count = 0
+    total_robots = len(ROBOTS)
+
+    while completed_count < total_robots:
+        time.sleep(60) # Poll every minute
+        for name, info in active_jobs.items():
+            if info['status'] in ['completed', 'skipped']:
+                continue
+            
+            status = check_status(info['id'], info['uuid'])
+            
+            if status == 'completed':
+                info['status'] = 'completed'
+                completed_count += 1
+                print(f"✅ {name} finished.")
+            
+            elif status == 'failed':
+                if not info['retry_done']:
+                    print(f"🔄 {name} failed. Retrying once...")
+                    new_id = trigger_robot(name, info['uuid'])
+                    info['id'] = new_id
+                    info['retry_done'] = True
+                    info['status'] = 'running'
+                else:
+                    print(f"⚠️ {name} failed twice. Skipping.")
+                    info['status'] = 'skipped'
+                    completed_count += 1
+
+    # Final Summary
+    successes = [n for n, i in active_jobs.items() if i['status'] == 'completed']
+    failures = [n for n, i in active_jobs.items() if i['status'] == 'skipped']
+    
+    msg = f"Finished: {len(successes)} Success, {len(failures)} Failed."
+    notify_mac("Scraping Complete", msg)
+    if failures:
+        notify_mac("Warning", f"Failed robots: {', '.join(failures)}")
+
+if __name__ == "__main__":
+    main()
