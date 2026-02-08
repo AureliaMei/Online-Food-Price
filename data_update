@@ -1,0 +1,109 @@
+import requests
+import json
+from datetime import datetime
+from pathlib import Path
+
+# --- CONFIGURATION ---
+BASE_URL = "http://localhost:8080/api"  
+API_KEY = "4e1kjff5od9ndqkxz4khd3446t4rd7"
+HEADERS = {"x-api-key": API_KEY, "Content-Type": "application/json"}
+
+ROBOTS = {
+    "Electronics": "2b41463d-c127-4a97-b7f7-9f9dd1b07374",
+    "Hygene": "3f88e569-057e-4319-892f-834416e6188d",
+    "Dry_Food": "0ef9789a-f778-418d-8bd5-6c8b83a11286",
+    "Instant_food": "f2a242f9-8a04-4cce-a5c6-2f11eda952b7",
+    "Non-alcohol_beverage": "191f10fe-1d04-49e0-b3e4-fc5a4fc4b90b",
+    "Household_good": "06165882-777a-4c19-8862-de530d54373d",
+    "Baby_product": "62a10810-19db-4076-86af-169320baf441",
+    "Egg_and_soy": "809764ec-5e4c-4eb9-aad6-cc809430648b",
+    "Frozen": "70404316-22f8-4e52-a3a0-c60b302a482e",
+    "Spice": "4e4a60d2-68b3-4f41-a3a0-80fdd3783c45",
+    "Processed_food": "afa4380e-7f1f-4a4e-b005-746c5e7fa38d",
+    "Dairy": "95087cc5-1cfb-4d58-b66b-d2356b4e5b84",
+    "Confectionary": "facc434f-0c2d-4325-b925-deee45a85636",
+    "Detergent": "6479ca88-3fae-434d-8874-ec2e407e37ee",
+    "Veg_Fruit": "424e50fb-43a0-4417-a5b7-b0ecc72597ed"
+}
+
+def sync_robot_data(name, r_id):
+    json_dir = Path(f"./{name}/JSON")
+    json_dir.mkdir(parents=True, exist_ok=True)
+    
+    # 1. Map existing Run IDs from filenames
+    local_ids = set()
+    for f in json_dir.glob("run_*.json"):
+        # Extracts 'e4b23364' from 'run_2026-01-30_e4b23364.json'
+        try:
+            run_id_part = f.stem.split('_')[-1]
+            local_ids.add(run_id_part)
+        except:
+            pass
+
+    print(f"🔍 Checking {name} ({len(local_ids)} local files)...")
+    
+    try:
+        # 2. Try to force sorting by Newest First + Large Limit
+        # We add multiple params because we aren't sure which one Maxun respects
+        url = f"{BASE_URL}/robots/{r_id}/runs?limit=5000&sort=startedAt:desc&order=DESC"
+        response = requests.get(url, headers=HEADERS)
+        
+        if response.status_code != 200:
+            print(f"  ❌ API Error {response.status_code}")
+            return
+
+        payload = response.json()
+        runs_list = payload.get('runs', {}).get('items', [])
+        
+        if not runs_list:
+            print(f"  ⚠️ No runs found.")
+            return
+
+        # 3. DEBUG: Print the dates of the First and Last item returned
+        # This will tell us if the 'sort' parameter worked
+        first_date = runs_list[0].get('startedAt', 'Unknown')
+        last_date = runs_list[-1].get('startedAt', 'Unknown')
+        print(f"  📊 Server sent {len(runs_list)} runs.")
+        print(f"     First item date: {first_date}")
+        print(f"     Last item date:  {last_date}")
+
+        missing_count = 0
+        
+        # 4. Process EVERY run returned (iterating backwards just to be safe)
+        for run in reversed(runs_list):
+            run_id = str(run.get('id'))
+            status = run.get('status')
+            
+            # Check strict ID match
+            if run_id not in local_ids:
+                if status.lower() == 'success':
+                    # Format Date
+                    created_at_raw = run.get('startedAt', '')
+                    try:
+                        date_str = created_at_raw.split(',')[0]
+                        dt_obj = datetime.strptime(date_str, '%m/%d/%Y')
+                        formatted_date = dt_obj.strftime('%Y-%m-%d')
+                    except:
+                        formatted_date = "unknown_date"
+
+                    # Save File
+                    file_name = f"run_{formatted_date}_{run_id}.json"
+                    file_path = json_dir / file_name
+
+                    with open(file_path, "w", encoding="utf-8") as f:
+                        json.dump(run, f, ensure_ascii=False, indent=4)
+                    
+                    missing_count += 1
+                    local_ids.add(run_id) # Prevent duplicates in same loop
+        
+        if missing_count > 0:
+            print(f"  📥 DOWNLOADED {missing_count} NEW RUNS!")
+        else:
+            print(f"  ✨ Local matches server.")
+
+    except Exception as e:
+        print(f"  ⚠️ Error syncing {name}: {e}")
+
+if __name__ == "__main__":
+    for name, r_id in ROBOTS.items():
+        sync_robot_data(name, r_id)

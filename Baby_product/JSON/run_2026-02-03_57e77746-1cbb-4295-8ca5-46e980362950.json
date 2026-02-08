@@ -1,0 +1,134 @@
+{
+    "id": "57e77746-1cbb-4295-8ca5-46e980362950",
+    "status": "success",
+    "name": "Baby Products",
+    "robotId": "62a10810-19db-4076-86af-169320baf441",
+    "startedAt": "2/3/2026, 3:22:33 PM",
+    "finishedAt": "2/3/2026, 3:34:17 PM",
+    "runId": "899d7a4e-b8b4-48ef-a3b7-70616029bf63",
+    "runByUserId": 1,
+    "runByScheduleId": null,
+    "runByAPI": null,
+    "data": {
+        "textData": {},
+        "listData": {
+            "List Data 1": [
+                {
+                    "Label 4": "https://winmart.vn/products/xuyen-a-h21-dep-le-10836-44--s10263668?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Dép lê Xuyên Á H21 108 size 36",
+                    "Label 6": "Đôi",
+                    "Label 7": "59.000 ₫",
+                    "Label 8": "129.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/huggiesta-quan-dry-l38--s10161030?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Tã quần Huggies dry pants big jumbo L38",
+                    "Label 6": "Gói",
+                    "Label 7": "169.000 ₫",
+                    "Label 8": "263.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/listerine-nsm-tre-em-huong-dau-250ml--s10161495?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Nước súc miệng Listerine Trẻ em hương dâu 250ml",
+                    "Label 6": "Chai",
+                    "Label 7": "39.000 ₫",
+                    "Label 8": "54.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/johnson-baby-sua-tam-top-to-toe-500ml--s10017376?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Sữa tắm gội toàn thân không cay mắt Johnson's Baby 500ml",
+                    "Label 6": "Chai",
+                    "Label 7": "129.000 ₫",
+                    "Label 8": "169.800 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/sunmate-ta-dan-nguoi-lon-adp-ml18--s10170896?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Tã dán người lớn Sunmate ADP M/L18",
+                    "Label 6": "Gói",
+                    "Label 7": "129.900 ₫",
+                    "Label 8": "165.900 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/sunmate-ta-quan-nguoi-lon-l8--s10639184?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Tã quần người lớn Sunmate L8",
+                    "Label 6": "Gói",
+                    "Label 7": "73.100 ₫",
+                    "Label 8": "93.300 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/johnson-baby-tam-goi-tt-top-to-toe-500ml--s10625583?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Sữa tắm gội toàn thân Johnson's mềm mịn như bông 500ml",
+                    "Label 6": "Chai",
+                    "Label 7": "155.200 ₫",
+                    "Label 8": "192.500 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/vinamilk-sua-socoa-lua-mach-susu-80ml--s10170386?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Sữa Sôcôla Lúa Mạch SuSu - Lốc 6 Chai 80ml",
+                    "Label 6": "Gói 6",
+                    "Label 7": "21.300 ₫",
+                    "Label 8": "26.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/similac-sdd-hmo-iq-huong-vani110ml--s10195065?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Sữa dinh dưỡng Abbott Similac HMO hương vani 110ml - Lốc 4 hộp",
+                    "Label 6": "Gói 4",
+                    "Label 7": "55.100 ₫",
+                    "Label 8": "59.500 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/similac-sdd-eye-q-huong-vani-180ml--s10600867?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Lốc 4 hộp sữa dinh dưỡng Similac Eye-Q hương vani 180ml",
+                    "Label 6": "Gói 4",
+                    "Label 7": "79.900 ₫",
+                    "Label 8": "86.200 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/abbott-grow-sdd-h.vani-110ml--s10638799?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Lốc 4 hộp sữa dinh dưỡng Abbott Grow hương vani 110ml",
+                    "Label 6": "Gói 4",
+                    "Label 7": "53.400 ₫",
+                    "Label 8": "57.500 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/nutifood-sdd-growplus-tckm-h.vani180ml--s10010511?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Sữa bột pha sẵn hương vani Grow Plus+ NutiFood lốc 4 hộp x 180ml",
+                    "Label 6": "Gói 4",
+                    "Label 7": "56.400 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/nutifood-sua-dd-grow-plus-tckm-110ml--s10010510?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Lốc 4 hộp sữa dinh dưỡng pha sẵn NutiFood Grow Plus+ vani hộp 110ml",
+                    "Label 6": "Gói 4",
+                    "Label 7": "40.200 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/nutifood-sb-nutri-nguyen-kem-900g--s10010516?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Sữa bột Nutifood nutri nguyên kem 900g",
+                    "Label 6": "Lon",
+                    "Label 7": "183.500 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/grow-sb-abbott-g.gold3-850g-tre-3-6--s10010558?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Sữa bột hương vani Abbott Grow G-Power 3 - 6 tuổi 900g",
+                    "Label 6": "Lon",
+                    "Label 7": "469.000 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/aquafresh-kdr-tre-em-big-teeth-6-50ml--s10018367?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Kem đánh răng trẻ em Aquafresh big teeth 6+",
+                    "Label 6": "Tuýp",
+                    "Label 7": "40.300 ₫",
+                    "Label 8": ""
+                }
+            ]
+        },
+        "markdown": "",
+        "html": ""
+    },
+    "screenshots": []
+}

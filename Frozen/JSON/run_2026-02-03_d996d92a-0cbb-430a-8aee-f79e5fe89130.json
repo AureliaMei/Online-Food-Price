@@ -1,0 +1,358 @@
+{
+    "id": "d996d92a-0cbb-430a-8aee-f79e5fe89130",
+    "status": "success",
+    "name": "Frozen Food",
+    "robotId": "70404316-22f8-4e52-a3a0-c60b302a482e",
+    "startedAt": "2/3/2026, 3:22:34 PM",
+    "finishedAt": "2/3/2026, 3:36:05 PM",
+    "runId": "b9d5d7ec-076d-4b05-b00b-0efe8aac0ad7",
+    "runByUserId": 1,
+    "runByScheduleId": null,
+    "runByAPI": null,
+    "data": {
+        "textData": {},
+        "listData": {
+            "List Data 1": [
+                {
+                    "Label 4": "https://winmart.vn/products/doi-dua-vang-khoai-tay-chien-goi-400g--s10006991?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Khoai tây chiên đông lạnh Đôi Đũa Vàng gói 500g",
+                    "Label 6": "Gói",
+                    "Label 7": "32.900 ₫",
+                    "Label 8": "43.500 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/icook-nuoc-lau-nam-ashima-goi-1l--s10006637?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Nước lẩu nấm Icook Ashima gói 1L",
+                    "Label 6": "Gói",
+                    "Label 7": "99.500 ₫",
+                    "Label 8": "126.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/cau-tre-cha-gio-da-xop-tom-thit-400g--s10170216?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Chả giò da xốp tôm thịt Cầu Tre gói 400g",
+                    "Label 6": "Gói",
+                    "Label 7": "60.800 ₫",
+                    "Label 8": "76.900 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/mccain-khoai-tay-golden-long-goi-750g--s10006987?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Khoai tây Golden Longs McCain 750g",
+                    "Label 6": "Gói",
+                    "Label 7": "85.100 ₫",
+                    "Label 8": "106.600 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/bibigo-banh-xep-hq-nhan-tom-300g--s10183401?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh xếp Hàn Quốc CJ Foods nhân tôm 300g",
+                    "Label 6": "Gói",
+                    "Label 7": "62.300 ₫",
+                    "Label 8": "77.500 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/kitkool-ca-vien-200g--s10183332?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Cá viên Kitkool 200g",
+                    "Label 6": "Gói",
+                    "Label 7": "29.900 ₫",
+                    "Label 8": "36.900 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/hoa-doanh-tom-viengoi-200g--s10602470?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Tôm viên Hoa Doanh gói 200g",
+                    "Label 6": "Gói",
+                    "Label 7": "25.900 ₫",
+                    "Label 8": "32.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/hoa-doanh-ca-vien-goi-200g--s10602574?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Cá viên Hoa Doanh gói 200g",
+                    "Label 6": "Gói",
+                    "Label 7": "20.500 ₫",
+                    "Label 8": "25.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/cau-tre-ha-cao-hai-san-goi-500g--s10006558?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Há cảo tôm cua Thực Phẩm Cầu Tre gói 500g",
+                    "Label 6": "Gói",
+                    "Label 7": "67.000 ₫",
+                    "Label 8": "80.500 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/cau-tre-cha-gio-dac-biet-hai-san-goi500g--s10007065?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Chả giò đặc biệt hải sản Thực Phẩm Cầu Tre gói 500g",
+                    "Label 6": "Gói",
+                    "Label 7": "67.900 ₫",
+                    "Label 8": "80.400 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/cau-tre-cha-gio-real-thit-goi-400g--s10321760?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Chả giò Real thịt gói 400g",
+                    "Label 6": "Gói",
+                    "Label 7": "59.900 ₫",
+                    "Label 8": "71.300 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/bibigo-banh-xep-hq-nhan-hai-san-350g--s10605332?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh xếp Hàn Quốc Bibigo nhân hải sản 350g",
+                    "Label 6": "Gói",
+                    "Label 7": "55.900 ₫",
+                    "Label 8": "66.500 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/ngoc-thom-gio-tai-luoi-xao-goi-250g--s10638307?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Giò tai lưỡi xào Thu Hằng Food gói 250g",
+                    "Label 6": "Gói",
+                    "Label 7": "56.000 ₫",
+                    "Label 8": "65.900 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/orifood-lau-tomyum-ba-chi-bo-my-1.3kg--s10601287?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Lẩu Tomyum ba chỉ bò Mỹ Orifood 1.3kg",
+                    "Label 6": "Hộp",
+                    "Label 7": "254.900 ₫",
+                    "Label 8": "292.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/home-food-tom-thit-1620-450g--s10006519?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Tôm thịt Home Food 16/20 450g",
+                    "Label 6": "Khay",
+                    "Label 7": "200.700 ₫",
+                    "Label 8": "229.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/lutosa-khoai-tay-d.lanh-soi-lon-1kg--s10006975?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Khoai tây đông lạnh sợi lớn Fries - Frites Lutosa túi 1kg",
+                    "Label 6": "Gói",
+                    "Label 7": "82.200 ₫",
+                    "Label 8": "92.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/fuji-thit-bo-bit-tet-200g--s10315293?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Thịt bò Bít tết Fuji gói 200g",
+                    "Label 6": "Gói",
+                    "Label 7": "193.900 ₫",
+                    "Label 8": "208.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/thuy-hung-nem-chua-uoc-le-goi-200g--s10005927?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Nem chua Ước Lễ Thủy Hùng gói 200g",
+                    "Label 6": "Gói",
+                    "Label 7": "54.200 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/thuy-hung-nem-chua-uoc-le-cay-200g--s10005926?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Nem chua Ước Lễ Thủy Hùng cây 200g",
+                    "Label 6": "Cái",
+                    "Label 7": "49.100 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/vissan-nem-chua-cay-200g--s10005925?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Nem chua Vissan cây 200g",
+                    "Label 6": "Cái",
+                    "Label 7": "41.700 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/vissan-gio-lua-cay-250g--s10005941?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Giò lụa Vissan cây 250g",
+                    "Label 6": "Cái",
+                    "Label 7": "58.400 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/vissan-gio-bo-dac-biet-cay-500g--s10006004?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Giò bò đặc biệt Vissan cây 500g",
+                    "Label 6": "Cái",
+                    "Label 7": "156.600 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/doi-dua-vang-tom-thit-5170-khay-252g--s10006472?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Tôm thịt 51/70 Đôi Đũa Vàng khay 252g",
+                    "Label 6": "Khay",
+                    "Label 7": "143.000 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/kani-supreme-que-surimi-h.cua-goi-250g--s10006482?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Que Surimi Kani Supreme hương cua gói 250g",
+                    "Label 6": "Gói",
+                    "Label 7": "95.000 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/thabifood-muc-trung-dl-loai-a-khay-450g--s10006499?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Mực trứng đông lạnh Thaibifood loại A khay 450g",
+                    "Label 6": "Khay",
+                    "Label 7": "124.000 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/thabifood-tom-thit-size-2630-khay-450g--s10006507?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Tôm thịt THABIFOOD size 26/30 khay 450g",
+                    "Label 6": "Khay",
+                    "Label 7": "174.600 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/kani-fresh-que-surimi-huong-cua-goi-250g--s10006483?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Que surimi Kani Fresh hương cua gói 250g",
+                    "Label 6": "Gói",
+                    "Label 7": "89.000 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/thabifood-tom-thit-size-812-khay-450g--s10006505?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Tôm thịt THABIFOOD size 8/12 khay 450g",
+                    "Label 6": "Khay",
+                    "Label 7": "235.900 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/home-food-tom-thit-size-7190-khay-450g--s10006522?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Tôm thịt Home Food size 71/90 khay 450g",
+                    "Label 6": "Khay",
+                    "Label 7": "163.600 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/thabifood-tom-thit-size-3140-khay-450g--s10006508?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Tôm thịt Thaibifood size 31/40 khay 450g",
+                    "Label 6": "Khay",
+                    "Label 7": "157.300 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/thabifood-vien-hai-san-rau-cu-goi-500g--s10006509?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Viên hải sản rau củ Thabifood gói 500g",
+                    "Label 6": "Gói",
+                    "Label 7": "64.000 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/doi-dua-vang-tom-thit-3140-khay-252g--s10006470?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Tôm thịt 31/40 Đôi Đũa Vàngkhay 252g",
+                    "Label 6": "Khay",
+                    "Label 7": "167.000 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/sgfood-lau-thai-viet-nam-500g--s10006456?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Lẩu Thái SGFood Việt Nam 500g",
+                    "Label 6": "Khay",
+                    "Label 7": "84.800 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/sgfood-ca-trung-goi-200g--s10006458?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Cá trứng SG Food khay 200g",
+                    "Label 6": "Khay",
+                    "Label 7": "48.400 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/doi-dua-vang-nem-tom-cua-goi-480g--s10006542?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Nem tôm cua Đôi Đũa Vàng gói 480g",
+                    "Label 6": "Gói",
+                    "Label 7": "80.500 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/cau-tre-ha-cao-goi-500g--s10006557?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Há cảo Thực Phẩm Cầu Tre gói 500g",
+                    "Label 6": "Gói",
+                    "Label 7": "58.200 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/doi-dua-vang-cha-muc-gia-tay-goi-480g--s10006550?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Chả mực giã tay Đôi Đũa Vàng gói 480g",
+                    "Label 6": "Gói",
+                    "Label 7": "229.700 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/cau-tre-xiu-mai-goi-500g--s10006563?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Xíu mại Thực Phẩm Cầu Tre Gói 500g",
+                    "Label 6": "Gói",
+                    "Label 7": "78.800 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/minh-tien-cua-dong-tinh-chat-goi-200g--s10006608?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Cua đồng tinh chất Minh Tiến gói 200g",
+                    "Label 6": "Gói",
+                    "Label 7": "71.700 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/cau-tre-ha-cao-mini-goi-500g--s10006560?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Há cảo mini Thực Phẩm Cầu Tre gói 500g",
+                    "Label 6": "Gói",
+                    "Label 7": "78.800 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/minh-tien-muc-trung-goi-400g--s10006621?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Mực trứng Minh Tiến gói 400g",
+                    "Label 6": "Khay",
+                    "Label 7": "109.200 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/minh-tien-tom-su-tuoi-size-6170-kh-450g--s10006624?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Tôm sú tươi Minh Tiến size 61/70 450g",
+                    "Label 6": "Khay",
+                    "Label 7": "137.300 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/minh-tien-cua-dong-xay-goi-500g--s10006654?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Cua đồng xay Minh Tiến gói 500g",
+                    "Label 6": "Gói",
+                    "Label 7": "80.700 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/home-food-tom-thit-size-4150-goi-450g--s10006656?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Tôm thịt Home Food sixe 41/50 gói 450g",
+                    "Label 6": "Khay",
+                    "Label 7": "178.200 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/vinacua-thit-cua-dong-tinh-che-goi-250g--s10006639?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Thịt cua đồng xay tinh chế Vinacua gói 250g",
+                    "Label 6": "Gói",
+                    "Label 7": "77.700 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/hai-nam-muc-ong-size-10-12-500g--s10006744?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Mực ống size 10-12 Hải Nam 500g",
+                    "Label 6": "Gói",
+                    "Label 7": "179.900 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/sgfood-bo-vien-xi-tin-goi-340g--s10006757?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bò viên Xì Tin gói 340g",
+                    "Label 6": "Gói",
+                    "Label 7": "82.000 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/doi-dua-vang-pizza-nhan-hai-san-hop-350g--s10006946?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Pizza Đôi Đũa Vàng nhân hải sản hộp 350g",
+                    "Label 6": "Hộp",
+                    "Label 7": "110.700 ₫",
+                    "Label 8": ""
+                }
+            ]
+        },
+        "markdown": "",
+        "html": ""
+    },
+    "screenshots": []
+}

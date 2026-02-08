@@ -1,0 +1,21 @@
+{
+    "id": "9c68b257-9a8d-461c-80e3-da3aac140a63",
+    "status": "success",
+    "name": "Confectionaries",
+    "robotId": "facc434f-0c2d-4325-b925-deee45a85636",
+    "startedAt": "1/17/2026, 3:35:29 PM",
+    "finishedAt": "1/17/2026, 3:54:16 PM",
+    "runId": "57b7bbb9-fcae-4cfe-a3f4-f9c1cc6c184b",
+    "runByUserId": 1,
+    "runByScheduleId": null,
+    "runByAPI": null,
+    "data": {
+        "textData": {},
+        "listData": {
+            "List Data 1": []
+        },
+        "markdown": "",
+        "html": ""
+    },
+    "screenshots": []
+}
