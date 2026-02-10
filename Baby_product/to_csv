@@ -3,9 +3,6 @@ import json
 import pandas as pd
 import re
 
-# --- CONFIGURATION ---
-ROBOT_FOLDERS = ["Baby_product/JSON"]
-
 def clean_price(val):
     """Turns '49.000 ₫' into 49000.0"""
     if not val or pd.isna(val) or val == "":
@@ -14,36 +11,57 @@ def clean_price(val):
     return float(digits) if digits else 0.0
 
 def process_and_save():
-    for robot in ROBOT_FOLDERS:
-        if not os.path.exists(robot):
+    # Get the directory where this script is running
+    base_path = os.getcwd()
+
+    # Scan all folders in the current directory
+    for folder_name in os.listdir(base_path):
+        category_path = os.path.join(base_path, folder_name)
+
+        # We only care about directories (e.g., "Baby_product")
+        if not os.path.isdir(category_path):
             continue
+
+        # Check if this folder has a "JSON" subfolder
+        json_dir = os.path.join(category_path, "JSON")
+        if not os.path.exists(json_dir):
+            continue  # Skip folders that aren't robot data
+
+        # Define the sibling "CSV" directory
+        csv_dir = os.path.join(category_path, "CSV")
         
-        # Create the /CSV subfolder inside the robot folder
-        csv_folder = os.path.join(robot, "CSV")
-        if not os.path.exists(csv_folder):
-            os.makedirs(csv_folder)
-            print(f"📁 Created subfolder: {csv_folder}")
+        # Create CSV folder if it doesn't exist
+        if not os.path.exists(csv_dir):
+            os.makedirs(csv_dir)
+            print(f"📁 Created folder: {csv_dir}")
 
-        # Scan for JSON files in the robot folder
-        for file in os.listdir(robot):
+        print(f"🔍 Scanning category: {folder_name}...")
+
+        # Process files inside the JSON folder
+        files_found = 0
+        for file in os.listdir(json_dir):
             if file.endswith(".json"):
-                json_path = os.path.join(robot, file)
+                files_found += 1
+                json_path = os.path.join(json_dir, file)
+                
+                # Create CSV filename matching the JSON name
                 csv_filename = file.replace(".json", ".csv")
-                csv_path = os.path.join(csv_folder, csv_filename)
+                csv_path = os.path.join(csv_dir, csv_filename)
 
-                # Skip if already processed
+                # SKIP if CSV already exists
                 if os.path.exists(csv_path):
                     continue
 
-                with open(json_path, 'r', encoding='utf-8') as f:
-                    try:
+                try:
+                    with open(json_path, 'r', encoding='utf-8') as f:
                         run_data = json.load(f)
                         
                         # 1. Skip failed runs
                         if run_data.get('status') != 'success':
                             continue
 
-                        # 2. Extract and Standardize
+                        # 2. Extract Data
+                        # Adjust 'List Data 1' if your robot uses a different list name
                         raw_list = run_data.get('data', {}).get('listData', {}).get('List Data 1', [])
                         cleaned_rows = []
 
@@ -52,7 +70,7 @@ def process_and_save():
                             p1 = clean_price(item.get('Label 7'))
                             p2 = clean_price(item.get('Label 8'))
 
-                            # Price Comparison Logic: Lower is Final, Higher is Marked
+                            # Price Comparison Logic
                             if p2 > 0 and p2 > p1:
                                 final, marked = p1, p2
                             elif p1 > 0 and p1 > p2 and p2 != 0:
@@ -74,10 +92,13 @@ def process_and_save():
                         if cleaned_rows:
                             df = pd.DataFrame(cleaned_rows)
                             df.to_csv(csv_path, index=False, encoding='utf-8-sig')
-                            print(f"  ✅ Processed: {csv_filename}")
+                            print(f"  ✅ Created: {csv_filename}")
 
-                    except Exception as e:
-                        print(f"  ⚠️ Failed to process {file}: {e}")
+                except Exception as e:
+                    print(f"  ⚠️ Error on {file}: {e}")
+        
+        if files_found == 0:
+            print("  (No JSON files found)")
 
 if __name__ == "__main__":
     process_and_save()

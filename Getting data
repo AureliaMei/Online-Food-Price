@@ -1,7 +1,7 @@
 import requests
-import os
 import json
 from datetime import datetime
+from pathlib import Path
 
 # --- CONFIGURATION ---
 BASE_URL = "http://localhost:8080/api"  
@@ -21,62 +21,97 @@ ROBOTS = {
     "Spice": "4e4a60d2-68b3-4f41-a3a0-80fdd3783c45",
     "Processed_food": "afa4380e-7f1f-4a4e-b005-746c5e7fa38d",
     "Dairy": "95087cc5-1cfb-4d58-b66b-d2356b4e5b84",
-    "Confectionary": "facc434f-0c2d-4325-b925-deee45a85636",
-    "Detergent": "6479ca88-3fae-434d-8874-ec2e407e37ee",
+    "Confectionary": "facc434f-0c2d-4325-b925-deee45a85636", # Removed * for safety
+    "Detergents": "6479ca88-3fae-434d-8874-ec2e407e37ee",
     "Veg_Fruit": "424e50fb-43a0-4417-a5b7-b0ecc72597ed"
 }
 
-def backup_all_runs_as_json():
-    for name, r_id in ROBOTS.items():
-        if not os.path.exists(name):
-            os.makedirs(name)
+def get_safe_date(date_str):
+    """Parses API date string into YYYY-MM-DD format."""
+    try:
+        # Tries to handle '1/30/2026, 2:56:52 PM' format
+        clean_date = date_str.split(',')[0].strip()
+        dt_obj = datetime.strptime(clean_date, '%m/%d/%Y')
+        return dt_obj.strftime('%Y-%m-%d')
+    except Exception:
+        return "date_unknown"
 
-        print(f"🔍 Extracting {name}...")
-        
-        # Based on your Ping, the plural 'robots' works perfectly
-        url = f"{BASE_URL}/robots/{r_id}/runs"
+def sync_robot_data(name, r_id):
+    # 1. Setup Directory: ./CategoryName/JSON/
+    # We use pathlib for cleaner path handling
+    save_dir = Path(f"./{name}/JSON")
+    save_dir.mkdir(parents=True, exist_ok=True)
+    
+    # 2. Map existing Run IDs from filenames
+    # Scans for files like: run_2026-01-30_e4b23364.json
+    local_ids = set()
+    for f in save_dir.glob("run_*.json"):
+        try:
+            # Splits filename by '_' and takes the last part (the ID)
+            run_id_part = f.stem.split('_')[-1]
+            local_ids.add(run_id_part)
+        except:
+            pass
+
+    print(f"🔍 {name}: Found {len(local_ids)} local runs. Checking server...")
+    
+    try:
+        # 3. Fetch Runs from API
+        # limit=5000 ensures we get older runs if this is the first time
+        # sort=startedAt:desc helps us see the newest ones first
+        url = f"{BASE_URL}/robots/{r_id}/runs?limit=5000&sort=startedAt:desc&order=DESC"
         response = requests.get(url, headers=HEADERS)
         
         if response.status_code != 200:
-            print(f"  ❌ API Error: {response.status_code}")
-            continue
+            print(f"  ❌ API Error {response.status_code}")
+            return
 
         payload = response.json()
+        runs_list = payload.get('runs', {}).get('items', [])
         
-        # Navigate the path: payload -> runs -> items
-        runs_container = payload.get('runs', {})
-        runs_list = runs_container.get('items', [])
-        total_available = runs_container.get('totalCount', 0)
-
         if not runs_list:
-            print(f"  ⚠️ No runs found (Total Count: {total_available})")
-            continue
+            print(f"  ⚠️ No runs found on server.")
+            return
 
+        # 4. Process runs (Iterate to save missing ones)
         new_files_count = 0
+        
         for run in runs_list:
-            run_id = run.get('id')
-            # Extract date for filename: 2026-01-30_T14-56
-            created_at_raw = run.get('startedAt', 'unknown')
+            run_id = str(run.get('id'))
+            status = run.get('status')
             
-            # Formatting the date for safe filenames
-            try:
-                # Handling "1/30/2026, 2:56:52 PM" style from your previous snippet
-                dt_obj = datetime.strptime(created_at_raw.split(',')[0], '%m/%d/%Y')
-                run_date = dt_obj.strftime('%Y-%m-%d')
-            except:
-                run_date = "date_unknown"
-
-            file_path = f"{name}/run_{run_date}_{run_id}.json"
-
-            if os.path.exists(file_path):
+            # OPTIONAL: Only save if status is SUCCESS? 
+            # If you want failed runs too, remove the 'if status == success' check.
+            if status.lower() != 'success':
                 continue
 
-            with open(file_path, 'w', encoding='utf-8') as f:
-                json.dump(run, f, ensure_ascii=False, indent=4)
-            
-            new_files_count += 1
+            # If we don't have this ID locally, save it
+            if run_id not in local_ids:
+                # Format Date
+                created_at_raw = run.get('startedAt', '')
+                formatted_date = get_safe_date(created_at_raw)
 
-        print(f"  ✅ Finished. Total in Maxun: {total_available}. Newly saved: {new_files_count}")
+                # Construct Filename
+                file_name = f"run_{formatted_date}_{run_id}.json"
+                file_path = save_dir / file_name
+
+                # Save File
+                with open(file_path, "w", encoding="utf-8") as f:
+                    json.dump(run, f, ensure_ascii=False, indent=4)
+                
+                new_files_count += 1
+                local_ids.add(run_id) # Add to set to prevent dupes in same session
+
+        if new_files_count > 0:
+            print(f"  📥 DOWNLOADED {new_files_count} NEW runs.")
+        else:
+            print(f"  ✨ Up to date (Server has {len(runs_list)} runs).")
+
+    except Exception as e:
+        print(f"  ⚠️ Error syncing {name}: {e}")
 
 if __name__ == "__main__":
-    backup_all_runs_as_json()
+    print("🚀 Starting Sync Job...")
+    for name, r_id in ROBOTS.items():
+        sync_robot_data(name, r_id)
+    print("✅ All jobs finished.")
