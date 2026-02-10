@@ -6,7 +6,7 @@ import json
 # --- CONFIGURATION ---
 csv_folder = '/Users/my/Online Food Price/Baby_product/CSV'
 json_path = '/Users/my/Online Food Price/Category list' 
-output_file = '/Users/my/Online Food Price/Baby_product/baby_product_lookup_table.csv'
+output_file = '/Users/my/Online Food Price/Baby_product/cat_lookup_table.csv'
 
 # Keeping your exact keywords and filtering logic
 SUB_MAP = {
