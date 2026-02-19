@@ -27,7 +27,8 @@ ROBOTS = {
     "Dairy": "95087cc5-1cfb-4d58-b66b-d2356b4e5b84",
     "Confectionary": "f9a623b7-e75e-416f-aeb6-9769c9a84cc8",
     "Detergent": "6479ca88-3fae-434d-8874-ec2e407e37ee",
-    "Veg_Fruit": "424e50fb-43a0-4417-a5b7-b0ecc72597ed"
+    "Veg_Fruit": "424e50fb-43a0-4417-a5b7-b0ecc72597ed",
+    "Actual Instant Food": "5a5c5856-ab1b-4133-a0de-148cf0837f92"
 }
 
 def notify_mac(title, message):
