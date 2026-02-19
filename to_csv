@@ -116,7 +116,8 @@ ROBOT_CONFIG = {
     "Frozen": map_processed_food,
     "Electronics": map_electronics,
     "Egg_and_soy": map_egg_soy,
-    "Baby_product": map_baby_product
+    "Baby_product": map_baby_product,
+    "Confectionary": map_processed_food # ĐÃ THÊM DÒNG NÀY (sử dụng map_processed_food vì cùng cấu trúc Label)
 }
 
 def process_all_robots():
