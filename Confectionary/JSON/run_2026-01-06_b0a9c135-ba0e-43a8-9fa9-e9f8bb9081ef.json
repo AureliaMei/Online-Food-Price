@@ -1,0 +1,92 @@
+{
+    "id": "b0a9c135-ba0e-43a8-9fa9-e9f8bb9081ef",
+    "status": "success",
+    "name": "Instant Foods",
+    "robotId": "f2a242f9-8a04-4cce-a5c6-2f11eda952b7",
+    "startedAt": "1/6/2026, 2:42:10 PM",
+    "finishedAt": "1/6/2026, 2:45:58 PM",
+    "runId": "6a8ac970-b40e-40e4-8dbe-da922a2de9b8",
+    "runByUserId": 1,
+    "runByScheduleId": null,
+    "runByAPI": null,
+    "data": {
+        "textData": {},
+        "listData": {
+            "List Data 1": [
+                {
+                    "Label 4": "https://winmart.vn/products/lc-food-chao-to-yen-rong-bien-t.bam-50g--s10142020?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Cháo tổ yến rong biển thịt bằm LC Foods 50g",
+                    "Label 6": "Gói",
+                    "Label 7": "7.500 ₫",
+                    "Label 8": "10.300 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/hoang-gia-banh-da-cua-vifon-120g--s10007952?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh đa cua Hoàng Gia gói 120g",
+                    "Label 6": "Gói",
+                    "Label 7": "19.900 ₫",
+                    "Label 8": "25.200 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/vifon-hu-tieu-nam-vang-hoang-gia-120g--s10007957?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Hủ tiếu Nam Vang Hoàng Gia Vifon thùng 18 gói x 120g",
+                    "Label 6": "Thùng",
+                    "Label 7": "460.000 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/ofood-tokpokki-hq-tron-pho-mai-140g--s10141088?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Tokpokki Hàn Quốc vị phô mai gói 140g",
+                    "Label 6": "Gói",
+                    "Label 7": "27.200 ₫",
+                    "Label 8": "33.900 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/ofood-tokpokki-hq-tron-pho-mai-105g--s10141087?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh gạo tokpokki tròn O'food vị phô mai ly 105g",
+                    "Label 6": "Hộp",
+                    "Label 7": "27.200 ₫",
+                    "Label 8": "33.900 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/ofood-tokpokki-hq-vi-truyen-thong-105g--s10181046?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Topokki Hàn Quốc vị truyền thống OFood hộp 105g",
+                    "Label 6": "Hộp",
+                    "Label 7": "27.200 ₫",
+                    "Label 8": "33.900 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/ofood-tokpokki-hq-vi-pho-mai-105g--s10181047?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Tokpokki MiWon Hàn Quốc vị phô mai hộp 105g",
+                    "Label 6": "Hộp",
+                    "Label 7": "27.200 ₫",
+                    "Label 8": "33.900 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/ofood-tokpokki-hq-vi-truyen-thong-140g--s10181048?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Tokpokki Hàn Quốc vị truyền thống gói 140g",
+                    "Label 6": "Gói",
+                    "Label 7": "27.200 ₫",
+                    "Label 8": "33.900 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/ofood-tokpokki-hq-vi-pho-mai-140g--s10181049?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Tokpokki MiWon Hàn Quốc vị phô mai gói 140g",
+                    "Label 6": "Gói",
+                    "Label 7": "27.200 ₫",
+                    "Label 8": "33.900 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/otoki-mi-jin-tuong-den-vi-bo-135g--s10181117?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Mì Ottogi Jin tương đen vị bò 135g",
+                    "Label 6": "Gói",
+                    "Label 7": "12.200 ₫",
+                    "Label 8": "15.200 ₫"
+                }
+            ]
+        },
+        "markdown": "",
+        "html": ""
+    },
+    "screenshots": []
+}

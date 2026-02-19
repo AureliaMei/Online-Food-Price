@@ -5,8 +5,8 @@ import re
 from datetime import datetime
 
 # --- CONFIGURATION ---
-TARGET_START_DATE = datetime(2026, 1, 31).date()
-TARGET_END_DATE = datetime(2026, 2, 7).date()
+TARGET_START_DATE = datetime(2026, 2, 8).date()
+TARGET_END_DATE = datetime(2026, 2, 18).date()
 
 def clean_price(val):
     if not val or pd.isna(val) or val == "":

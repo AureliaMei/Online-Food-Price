@@ -16,7 +16,7 @@ ROBOTS = {
     "Electronics": "2b41463d-c127-4a97-b7f7-9f9dd1b07374",
     "Hygene": "3f88e569-057e-4319-892f-834416e6188d",
     "Dry_Food": "0ef9789a-f778-418d-8bd5-6c8b83a11286",
-    "Instant_food": "f2a242f9-8a04-4cce-a5c6-2f11eda952b7",
+    "Instant_food": "f2a242f9-8a04-4cce-a5c6-2f11eda952b7", #actually Confectionary
     "Non-alcohol_beverage": "191f10fe-1d04-49e0-b3e4-fc5a4fc4b90b",
     "Household_good": "06165882-777a-4c19-8862-de530d54373d",
     "Baby_product": "62a10810-19db-4076-86af-169320baf441",
@@ -25,7 +25,7 @@ ROBOTS = {
     "Spice": "4e4a60d2-68b3-4f41-a3a0-80fdd3783c45",
     "Processed_food": "afa4380e-7f1f-4a4e-b005-746c5e7fa38d",
     "Dairy": "95087cc5-1cfb-4d58-b66b-d2356b4e5b84",
-    "Confectionary": "f9a623b7-e75e-416f-aeb6-9769c9a84cc8",
+    "Confectionary": "f9a623b7-e75e-416f-aeb6-9769c9a84cc8", #non-responding
     "Detergent": "6479ca88-3fae-434d-8874-ec2e407e37ee",
     "Veg_Fruit": "424e50fb-43a0-4417-a5b7-b0ecc72597ed",
     "Actual Instant Food": "5a5c5856-ab1b-4133-a0de-148cf0837f92"

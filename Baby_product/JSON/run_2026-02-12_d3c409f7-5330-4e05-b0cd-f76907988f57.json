@@ -1,0 +1,134 @@
+{
+    "id": "d3c409f7-5330-4e05-b0cd-f76907988f57",
+    "status": "success",
+    "name": "Baby Products",
+    "robotId": "62a10810-19db-4076-86af-169320baf441",
+    "startedAt": "2/12/2026, 3:05:49 PM",
+    "finishedAt": "2/12/2026, 3:28:29 PM",
+    "runId": "d675e7c4-e52f-4b46-8006-75456fd5be4d",
+    "runByUserId": 1,
+    "runByScheduleId": null,
+    "runByAPI": null,
+    "data": {
+        "textData": {},
+        "listData": {
+            "List Data 1": [
+                {
+                    "Label 4": "https://winmart.vn/products/xuyen-a-h21-dep-le-10836-44--s10263668?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Dép lê Xuyên Á H21 108 size 36",
+                    "Label 6": "Đôi",
+                    "Label 7": "59.000 ₫",
+                    "Label 8": "129.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/huggiesta-quan-dry-l38--s10161030?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Tã quần Huggies dry pants big jumbo L38",
+                    "Label 6": "Gói",
+                    "Label 7": "169.000 ₫",
+                    "Label 8": "263.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/sunmate-ta-dan-nguoi-lon-adp-ml18--s10170896?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Tã dán người lớn Sunmate ADP M/L18",
+                    "Label 6": "Gói",
+                    "Label 7": "129.900 ₫",
+                    "Label 8": "165.900 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/sunmate-ta-quan-nguoi-lon-l8--s10639184?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Tã quần người lớn Sunmate L8",
+                    "Label 6": "Gói",
+                    "Label 7": "73.100 ₫",
+                    "Label 8": "93.300 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/johnson-baby-tam-goi-tt-top-to-toe-500ml--s10625583?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Sữa tắm gội toàn thân Johnson's mềm mịn như bông 500ml",
+                    "Label 6": "Chai",
+                    "Label 7": "155.200 ₫",
+                    "Label 8": "192.500 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/vinamilk-sua-socoa-lua-mach-susu-80ml--s10170386?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Sữa Sôcôla Lúa Mạch SuSu - Lốc 6 Chai 80ml",
+                    "Label 6": "Gói 6",
+                    "Label 7": "21.300 ₫",
+                    "Label 8": "26.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/lactacyd-milky-sua-tam-goi-tre-em-500ml--s10311520?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Sữa tắm gội trẻ em Lactacyd Milky chai 500ml",
+                    "Label 6": "Chai",
+                    "Label 7": "165.000 ₫",
+                    "Label 8": "201.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/nutifood-sua-dd-grow-plus-110ml--s10010512?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Sữa dinh dưỡng NutiFood Grow Plus+ lốc 4 hộp x 110ml",
+                    "Label 6": "Gói 4",
+                    "Label 7": "39.100 ₫",
+                    "Label 8": "46.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/spdddps-growplus-it-duong-hop-110ml--s10195088?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "SPDDDPS GrowPLUS+ Ít đường hộp 110ml",
+                    "Label 6": "Thùng",
+                    "Label 7": "514.900 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/pediasure-tpdd-huong-vani-110ml--s10170142?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "PEDIASURE TPDD hương vani 110ml",
+                    "Label 6": "Gói 4",
+                    "Label 7": "84.900 ₫",
+                    "Label 8": "98.500 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/abbott-grow-sua-dinh-duong-h.vani-180ml--s10011169?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Lốc 4 hộp sữa dinh dưỡng Abbott Grow 180ml",
+                    "Label 6": "Gói 4",
+                    "Label 7": "72.800 ₫",
+                    "Label 8": "78.500 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/pediasure-tpdd-huong-vani-180ml--s10170141?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "PEDIASURE TPDD hương vani 180ml",
+                    "Label 6": "Gói 4",
+                    "Label 7": "133.800 ₫",
+                    "Label 8": "144.300 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/pediasure-sua-d.duongvani-10180ml--s10195052?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Lốc 4 hộp sữa dinh dưỡng Pediasure vani 10+ 180ml",
+                    "Label 6": "Gói 4",
+                    "Label 7": "133.800 ₫",
+                    "Label 8": "144.300 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/similac-sdd-hmo-iq-huong-vani110ml--s10195065?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Sữa dinh dưỡng Abbott Similac HMO hương vani 110ml - Lốc 4 hộp",
+                    "Label 6": "Gói 4",
+                    "Label 7": "55.100 ₫",
+                    "Label 8": "59.500 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/similac-sdd-eye-q-huong-vani-180ml--s10600867?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Lốc 4 hộp sữa dinh dưỡng Similac Eye-Q hương vani 180ml",
+                    "Label 6": "Gói 4",
+                    "Label 7": "79.900 ₫",
+                    "Label 8": "86.200 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/abbott-grow-sdd-h.vani-110ml--s10638799?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Lốc 4 hộp sữa dinh dưỡng Abbott Grow hương vani 110ml",
+                    "Label 6": "Gói 4",
+                    "Label 7": "53.400 ₫",
+                    "Label 8": "57.500 ₫"
+                }
+            ]
+        },
+        "markdown": "",
+        "html": ""
+    },
+    "screenshots": []
+}

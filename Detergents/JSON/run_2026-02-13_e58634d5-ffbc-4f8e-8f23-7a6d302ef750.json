@@ -1,0 +1,246 @@
+{
+    "id": "e58634d5-ffbc-4f8e-8f23-7a6d302ef750",
+    "status": "success",
+    "name": "Detergents",
+    "robotId": "6479ca88-3fae-434d-8874-ec2e407e37ee",
+    "startedAt": "2/13/2026, 3:16:30 PM",
+    "finishedAt": "2/13/2026, 3:23:59 PM",
+    "runId": "aec31198-8e17-4848-8c82-3b4ef551e08f",
+    "runByUserId": 1,
+    "runByScheduleId": null,
+    "runByAPI": null,
+    "data": {
+        "textData": {},
+        "listData": {
+            "List Data 1": [
+                {
+                    "Label 1": "https://winmart.vn/products/sunlight-nrc-t.nhien-tui-21kg2kg--s10640562?storeGroupCode=1998&storeCode=1535",
+                    "Label 4": "Nước Rửa Chén Sunlight Thiên Nhiên Lô Hội Túi 2kg",
+                    "Label 5": "Gói",
+                    "Label 6": "52.900 ₫",
+                    "Label 7": "73.600 ₫"
+                },
+                {
+                    "Label 1": "https://winmart.vn/products/omo-ng-ben-dep-cua-truoc-tui-4.1kg--s10161179?storeGroupCode=1998&storeCode=1535",
+                    "Label 4": "Nước Giặt OMO Matic Chuyên Gia Giữ Màu Cửa Trước 4.1KG",
+                    "Label 5": "Gói",
+                    "Label 6": "253.400 ₫",
+                    "Label 7": ""
+                },
+                {
+                    "Label 1": "https://winmart.vn/products/ariel-ng-downy-h.oai-huong-3.9kg4.1kg--s10171075?storeGroupCode=1998&storeCode=1535",
+                    "Label 4": "Nước giặt Ariel Downy hương oải túi 3.9kg",
+                    "Label 5": "Gói",
+                    "Label 6": "265.100 ₫",
+                    "Label 7": ""
+                },
+                {
+                    "Label 1": "https://winmart.vn/products/good-care-nrc-cao-cap-thien-nhien-36kg--s10171070?storeGroupCode=1998&storeCode=1535",
+                    "Label 4": "Nước rửa chén cao cấp Good Care thiên nhiên can 3,6kg",
+                    "Label 5": "Can",
+                    "Label 6": "127.600 ₫",
+                    "Label 7": ""
+                },
+                {
+                    "Label 1": "https://winmart.vn/products/comfort-ng-duong-vai-thoi-thuong-38kg--s10170634?storeGroupCode=1998&storeCode=1535",
+                    "Label 4": "Nước giặt Comfort dưỡng vải thời thượng túi 3.6L",
+                    "Label 5": "Gói",
+                    "Label 6": "191.500 ₫",
+                    "Label 7": ""
+                },
+                {
+                    "Label 1": "https://winmart.vn/products/essence-nuoc-giat-tim-19l--s10019433?storeGroupCode=1998&storeCode=1535",
+                    "Label 4": "Nước giặt đậm đặc Essence dạng chai 1,9L",
+                    "Label 5": "Chai",
+                    "Label 6": "190.400 ₫",
+                    "Label 7": ""
+                },
+                {
+                    "Label 1": "https://winmart.vn/products/essence-tay-co-ao-220ml--s10019436?storeGroupCode=1998&storeCode=1535",
+                    "Label 4": "Dung dịch tẩy vết bẩn cổ áo Essence dạng chai 220ml",
+                    "Label 5": "Chai",
+                    "Label 6": "39.300 ₫",
+                    "Label 7": ""
+                },
+                {
+                    "Label 1": "https://winmart.vn/products/d-nee-nuoc-giat-quan-ao-em-be-hong-3l--s10019414?storeGroupCode=1998&storeCode=1535",
+                    "Label 4": "Nước giặt quần áo em bé D-nee Honey Star can 3L",
+                    "Label 5": "Can",
+                    "Label 6": "247.500 ₫",
+                    "Label 7": ""
+                },
+                {
+                    "Label 1": "https://winmart.vn/products/carefor-nuoc-giat-xa-d.dac-hoa-lan-35l--s10019476?storeGroupCode=1998&storeCode=1535",
+                    "Label 4": "Nước giặt xả đậm đặc tím Carefor can 3.5L",
+                    "Label 5": "Can",
+                    "Label 6": "222.900 ₫",
+                    "Label 7": ""
+                },
+                {
+                    "Label 1": "https://winmart.vn/products/carefor-nuoc-giat-xa-d.dac-hoa-hong-35l--s10019475?storeGroupCode=1998&storeCode=1535",
+                    "Label 4": "Nước giặt xả cho bé Carefor Plus hương hoa hồng chai 3.5 lít",
+                    "Label 5": "Can",
+                    "Label 6": "221.000 ₫",
+                    "Label 7": ""
+                },
+                {
+                    "Label 1": "https://winmart.vn/products/aba-bot-giat-nhiet-matic-tui-29kg--s10019510?storeGroupCode=1998&storeCode=1535",
+                    "Label 4": "Bột giặt nhiệt Aba dùng cho giặt máy gói 3kg",
+                    "Label 5": "Gói",
+                    "Label 6": "128.400 ₫",
+                    "Label 7": ""
+                },
+                {
+                    "Label 1": "https://winmart.vn/products/ariel-bot-giat-dam-me-tui-38kg--s10019565?storeGroupCode=1998&storeCode=1535",
+                    "Label 4": "Bột giặt Ariel hương Downy đam mê túi 3,8kg",
+                    "Label 5": "Gói",
+                    "Label 6": "206.200 ₫",
+                    "Label 7": ""
+                },
+                {
+                    "Label 1": "https://winmart.vn/products/ariel-bot-giat-dam-me-tui-650g--s10019562?storeGroupCode=1998&storeCode=1535",
+                    "Label 4": "Bột giặt ARIEL đam mê túi 650g",
+                    "Label 5": "Gói",
+                    "Label 6": "42.300 ₫",
+                    "Label 7": ""
+                },
+                {
+                    "Label 1": "https://winmart.vn/products/ariel-bot-giat-dam-me-tui-5kg--s10019611?storeGroupCode=1998&storeCode=1535",
+                    "Label 4": "Bột giặt Ariel đam mê túi 5kg",
+                    "Label 5": "Gói",
+                    "Label 6": "270.000 ₫",
+                    "Label 7": ""
+                },
+                {
+                    "Label 1": "https://winmart.vn/products/ariel-bot-giat-h.nang-mai-tui-55kg--s10019612?storeGroupCode=1998&storeCode=1535",
+                    "Label 4": "Bột giặt Ariel hương nắng mai dạng túi 5,5kg",
+                    "Label 5": "Gói",
+                    "Label 6": "272.000 ₫",
+                    "Label 7": ""
+                },
+                {
+                    "Label 1": "https://winmart.vn/products/gift-tay-nha-tam-sieu-sach-900ml--s10019675?storeGroupCode=1998&storeCode=1535",
+                    "Label 4": "Tẩy nhà tắm siêu sạch Gift chai 900ml",
+                    "Label 5": "Chai",
+                    "Label 6": "35.400 ₫",
+                    "Label 7": ""
+                },
+                {
+                    "Label 1": "https://winmart.vn/products/gift-nuoc-lau-san-pink-sakura-38kg--s10019680?storeGroupCode=1998&storeCode=1535",
+                    "Label 4": "Nước lau sàn Gift pink sakura can 3,8kg",
+                    "Label 5": "Can",
+                    "Label 6": "92.200 ₫",
+                    "Label 7": ""
+                },
+                {
+                    "Label 1": "https://winmart.vn/products/gift-nuoc-lau-san-huong-bac-ha-38kg--s10019683?storeGroupCode=1998&storeCode=1535",
+                    "Label 4": "Nước lau sàn Gift hương bạc hà can 3,8kg",
+                    "Label 5": "Can",
+                    "Label 6": "92.200 ₫",
+                    "Label 7": ""
+                },
+                {
+                    "Label 1": "https://winmart.vn/products/gift-nuoc-lau-san-huong-lily-1l--s10019677?storeGroupCode=1998&storeCode=1535",
+                    "Label 4": "Nước lau sàn hương lily Gift chai 1L",
+                    "Label 5": "Chai",
+                    "Label 6": "32.400 ₫",
+                    "Label 7": ""
+                },
+                {
+                    "Label 1": "https://winmart.vn/products/gift-nuoc-lau-kinh-540ml--s10019689?storeGroupCode=1998&storeCode=1535",
+                    "Label 4": "Nước lau kính Gift 540ml/580ml",
+                    "Label 5": "Chai",
+                    "Label 6": "23.600 ₫",
+                    "Label 7": ""
+                },
+                {
+                    "Label 1": "https://winmart.vn/products/gift-nuoc-lau-bep-520ml--s10019692?storeGroupCode=1998&storeCode=1535",
+                    "Label 4": "Nước lau bếp Gift chai 520ml/540ml",
+                    "Label 5": "Chai",
+                    "Label 6": "30.500 ₫",
+                    "Label 7": ""
+                },
+                {
+                    "Label 1": "https://winmart.vn/products/gift-nuoc-lau-kinh-800ml--s10019688?storeGroupCode=1998&storeCode=1535",
+                    "Label 4": "Nước lau kính Gift 800ml",
+                    "Label 5": "Chai",
+                    "Label 6": "27.500 ₫",
+                    "Label 7": ""
+                },
+                {
+                    "Label 1": "https://winmart.vn/products/duck-tay-nha-tam-mr-muslce-pro-18l--s10019710?storeGroupCode=1998&storeCode=1535",
+                    "Label 4": "Nước tẩy rửa nhà tắm siêu tẩy Duck Mr. Muscle 1,8L",
+                    "Label 5": "Chai",
+                    "Label 6": "63.600 ₫",
+                    "Label 7": ""
+                },
+                {
+                    "Label 1": "https://winmart.vn/products/gift-nuoc-rua-chen-huong-chanh-38kg--s10019696?storeGroupCode=1998&storeCode=1535",
+                    "Label 4": "Nước rửa chén Gift hương chanh can 3,8kg",
+                    "Label 5": "Can",
+                    "Label 6": "97.200 ₫",
+                    "Label 7": ""
+                },
+                {
+                    "Label 1": "https://winmart.vn/products/duck-tay-nha-tam-mr-muslce-pro-900ml--s10019708?storeGroupCode=1998&storeCode=1535",
+                    "Label 4": "Tẩy bồn cầu Duck Mr Muslce pro chai 900ml",
+                    "Label 5": "Chai",
+                    "Label 6": "37.400 ₫",
+                    "Label 7": ""
+                },
+                {
+                    "Label 1": "https://winmart.vn/products/mrs-mckenic-nuoc-tay-vet-o-ban-500ml--s10019873?storeGroupCode=1998&storeCode=1535",
+                    "Label 4": "Nước tẩy vết ố bàn Mrs Mckenic chai 500ml",
+                    "Label 5": "Chai",
+                    "Label 6": "281.100 ₫",
+                    "Label 7": ""
+                },
+                {
+                    "Label 1": "https://winmart.vn/products/duck-nuoc-lau-bep-mr-muscle-500ml--s10019827?storeGroupCode=1998&storeCode=1535",
+                    "Label 4": "Nước lau bếp Mr Muscle chai 500ml",
+                    "Label 5": "Chai",
+                    "Label 6": "42.300 ₫",
+                    "Label 7": ""
+                },
+                {
+                    "Label 1": "https://winmart.vn/products/suzy-nuoc-rua-chen-huong-bac-ha-21kg--s10019906?storeGroupCode=1998&storeCode=1535",
+                    "Label 4": "Nước rửa chén Suzy hương bạc hà chai 2,1kg",
+                    "Label 5": "Chai",
+                    "Label 6": "47.000 ₫",
+                    "Label 7": "70.700 ₫"
+                },
+                {
+                    "Label 1": "https://winmart.vn/products/raid-xit-con-trung-khong-mui-600ml--s10020078?storeGroupCode=1998&storeCode=1535",
+                    "Label 4": "Bình xịt côn trùng Raid không mùi 600ml",
+                    "Label 5": "Chai",
+                    "Label 6": "55.000 ₫",
+                    "Label 7": "68.700 ₫"
+                },
+                {
+                    "Label 1": "https://winmart.vn/products/jumbo-vape-xit-c.trung-g4-hoa-lai-600ml--s10020111?storeGroupCode=1998&storeCode=1535",
+                    "Label 4": "Xịt côn trùng Jumpo Vape hương lài chai 600ml",
+                    "Label 5": "Chai",
+                    "Label 6": "68.700 ₫",
+                    "Label 7": ""
+                },
+                {
+                    "Label 1": "https://winmart.vn/products/jumbo-vape-xit-c.trung-g3-lavender-600ml--s10020112?storeGroupCode=1998&storeCode=1535",
+                    "Label 4": "Bình xịt côn trùng Jumbo Vape hương lavender dạng chai 600ml",
+                    "Label 5": "Chai",
+                    "Label 6": "68.700 ₫",
+                    "Label 7": ""
+                },
+                {
+                    "Label 1": "https://winmart.vn/products/jumbo-vape-xit-c.trung-g-cam-chanh-600ml--s10020110?storeGroupCode=1998&storeCode=1535",
+                    "Label 4": "Bình xịt côn trùng Jumbo Vape hương cam chanh dạng chai 600ml",
+                    "Label 5": "Chai",
+                    "Label 6": "68.700 ₫",
+                    "Label 7": ""
+                }
+            ]
+        },
+        "markdown": "",
+        "html": ""
+    },
+    "screenshots": []
+}

@@ -1,0 +1,134 @@
+{
+    "id": "1b50d136-893e-4ab0-8e6a-d49100f15232",
+    "status": "success",
+    "name": "Hygene (no URL)",
+    "robotId": "3f88e569-057e-4319-892f-834416e6188d",
+    "startedAt": "2/14/2026, 3:25:31 PM",
+    "finishedAt": "2/14/2026, 3:27:38 PM",
+    "runId": "c4b6c9cc-7f2d-40ca-84f0-e8b949e64949",
+    "runByUserId": 1,
+    "runByScheduleId": null,
+    "runByAPI": null,
+    "data": {
+        "textData": {},
+        "listData": {
+            "List Data 1": [
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2024/11/8934839134068_1-20241104031352-thumb-1.jpg",
+                    "Label 3": "CLOSEUP KDR WhiteNow BlueSapphire 100g",
+                    "Label 4": "Tuýp",
+                    "Label 5": "",
+                    "Label 6": "67.800 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2024/11/8934839134075_1-20241104031233-thumb-1.jpg",
+                    "Label 3": "CLOSEUP KDR WhiteNow khoáng tự nhiên100g",
+                    "Label 4": "Tuýp",
+                    "Label 5": "",
+                    "Label 6": "67.800 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2024/11/8934839128142_1-20241104030337-thumb-1.jpg",
+                    "Label 3": "Kem đánh răng P/S bảo vệ 123 baking soda & hương thảo hộp 230g",
+                    "Label 4": "Tuýp",
+                    "Label 5": "",
+                    "Label 6": "48.200 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2024/11/8934839128081_1-20241104031010-thumb-1.jpg",
+                    "Label 3": "Kem đánh răng P/S muối hồng và hoa cúc 230g",
+                    "Label 4": "Tuýp",
+                    "Label 5": "",
+                    "Label 6": "39.900 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2023/04/8934868167938-20230425044955-thumb-1.png",
+                    "Label 3": "Dầu Gội Tresemme Keratin Smooth vào nếp mượt mà chai 480g",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "167.000 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2024/11/8934868153283_1-20241104030057-thumb-1.jpg",
+                    "Label 3": "Dầu gội Tresemme Keratin vào nếp suôn mượt chai 640g",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "177.000 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2024/11/8934868179245_1-20241104030619-thumb-1.jpg",
+                    "Label 3": "Dầu gội Tresemme ngăn gãy rụng Salon Rebond chai 640g",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "177.000 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2024/11/8934839133689_1-20241104033747-thumb-1.jpg",
+                    "Label 3": "Bàn chải đánh răng Closeup Precision lông chải siêu mềm",
+                    "Label 4": "Cái",
+                    "Label 5": "",
+                    "Label 6": "49.000 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2024/11/8934839121037_1-20241104025747-thumb-1.jpg",
+                    "Label 3": "Kem đánh răng Closeup Diamond Attraction trắng răng 100g",
+                    "Label 4": "Tuýp",
+                    "Label 5": "",
+                    "Label 6": "38.300 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2023/07/listerine-20230704083611-thumb-1.jpg",
+                    "Label 3": "Bộ đôi nước súc miệng diệt khuẩn Listerine Cool Mint 750ml",
+                    "Label 4": "Bộ",
+                    "Label 5": "",
+                    "Label 6": "227.300 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2023/04/8999999572716_1-20230424024309-thumb-1.jpg",
+                    "Label 3": "Xịt nước hoa toàn thân AXE cho nam Gold temptation chai 135ml",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "107.100 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2025/01/hi-guideline-3-baking-soda-180g-20250105090523-thumb-1.jpg",
+                    "Label 3": "Kem đánh răng P/S Baking Soda 180g (Tặng KDR Chăm sóc nướu 30g)",
+                    "Label 4": "Tuýp",
+                    "Label 5": "",
+                    "Label 6": "39.800 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2024/11/frame-2-10--20241105034042-thumb-1.jpg",
+                    "Label 3": "Xà phòng sạch khuẩn Aiken Protection 90g",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "12.300 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2024/11/10170553-20241105025528-thumb-1.png",
+                    "Label 3": "Xà phòng sạch khuẩn Aiken Revitalise 90g",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "12.300 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2023/03/nuoc-suc-mieng-mondahmin-pepermint-300ml-20230324160300-thumb-1.jpg",
+                    "Label 3": "Nước súc miệng Mondahmin PeperMint 300ml",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "58.000 ₫"
+                },
+                {
+                    "Label 1": "https://s3-hcmc02.higiocloud.vn/images/2023/04/8934868170556_1-20230424025452-thumb-1.jpg",
+                    "Label 3": "Dầu gội Clear 9 thảo dược cổ truyền 630g",
+                    "Label 4": "Chai",
+                    "Label 5": "",
+                    "Label 6": "215.000 ₫"
+                }
+            ]
+        },
+        "markdown": "",
+        "html": ""
+    },
+    "screenshots": []
+}

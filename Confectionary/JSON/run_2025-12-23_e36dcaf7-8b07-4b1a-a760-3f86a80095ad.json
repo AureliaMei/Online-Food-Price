@@ -1,0 +1,78 @@
+{
+    "id": "e36dcaf7-8b07-4b1a-a760-3f86a80095ad",
+    "status": "success",
+    "name": "Instant Foods",
+    "robotId": "f2a242f9-8a04-4cce-a5c6-2f11eda952b7",
+    "startedAt": "12/23/2025, 3:38:12 PM",
+    "finishedAt": "12/23/2025, 3:43:47 PM",
+    "runId": "257cc10a-2369-45ce-aafe-b26f1d54c66a",
+    "runByUserId": 1,
+    "runByScheduleId": null,
+    "runByAPI": null,
+    "data": {
+        "textData": {},
+        "listData": {
+            "List Data 1": [
+                {
+                    "Label 4": "https://winmart.vn/products/meizan-nui-cao-cap-400g--s10622824?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Nui ống Meizan gói 400g",
+                    "Label 6": "Gói",
+                    "Label 7": "19.500 ₫",
+                    "Label 8": "25.600 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/meizan-mi-trung-cao-cap-meizan-250g--s10327470?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Mì trứng cao cấp Meizan gói 250g",
+                    "Label 6": "Gói",
+                    "Label 7": "12.600 ₫",
+                    "Label 8": "16.400 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/ofood-tokpokki-hq-tron-pho-mai-140g--s10141088?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Tokpokki Hàn Quốc vị phô mai gói 140g",
+                    "Label 6": "Gói",
+                    "Label 7": "27.200 ₫",
+                    "Label 8": "33.900 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/ofood-tokpokki-hq-tron-pho-mai-105g--s10141087?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh gạo tokpokki tròn O'food vị phô mai ly 105g",
+                    "Label 6": "Hộp",
+                    "Label 7": "27.200 ₫",
+                    "Label 8": "33.900 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/ofood-tokpokki-hq-vi-truyen-thong-105g--s10181046?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Topokki Hàn Quốc vị truyền thống OFood hộp 105g",
+                    "Label 6": "Hộp",
+                    "Label 7": "27.200 ₫",
+                    "Label 8": "33.900 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/ofood-tokpokki-hq-vi-pho-mai-105g--s10181047?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Tokpokki MiWon Hàn Quốc vị phô mai hộp 105g",
+                    "Label 6": "Hộp",
+                    "Label 7": "27.200 ₫",
+                    "Label 8": "33.900 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/ofood-tokpokki-hq-vi-pho-mai-140g--s10181049?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Tokpokki MiWon Hàn Quốc vị phô mai gói 140g",
+                    "Label 6": "Gói",
+                    "Label 7": "27.200 ₫",
+                    "Label 8": "33.900 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/ofood-tokpokki-hq-vi-truyen-thong-140g--s10181048?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Tokpokki Hàn Quốc vị truyền thống gói 140g",
+                    "Label 6": "Gói",
+                    "Label 7": "27.200 ₫",
+                    "Label 8": "33.900 ₫"
+                }
+            ]
+        },
+        "markdown": "",
+        "html": ""
+    },
+    "screenshots": []
+}

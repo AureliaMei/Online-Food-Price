@@ -1,0 +1,190 @@
+{
+    "id": "631d283f-15f5-448f-8328-986bf8a88c42",
+    "status": "success",
+    "name": "Instant Foods",
+    "robotId": "f2a242f9-8a04-4cce-a5c6-2f11eda952b7",
+    "startedAt": "2/12/2026, 3:05:49 PM",
+    "finishedAt": "2/12/2026, 3:08:22 PM",
+    "runId": "5fef9673-97da-43cd-ae68-2120d46a68ef",
+    "runByUserId": 1,
+    "runByScheduleId": null,
+    "runByAPI": null,
+    "data": {
+        "textData": {},
+        "listData": {
+            "List Data 1": [
+                {
+                    "Label 4": "https://winmart.vn/products/choco-pn-banh-scl-2-vi-an-280gt12--s10193900?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh phủ sôcôla 2 vị AN – Choco PN 280 (280g x 12 hộp)",
+                    "Label 6": "Hộp",
+                    "Label 7": "35.000 ₫",
+                    "Label 8": "68.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/borggreve-banh-quy-bo-gion-goldringe800g--s10193970?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh quy bơ giòn Borggreve 800g",
+                    "Label 6": "Hộp",
+                    "Label 7": "215.000 ₫",
+                    "Label 8": "386.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/snickers-keo-socola-240g--s10014581?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Kẹo socola Snickers 240g",
+                    "Label 6": "Gói",
+                    "Label 7": "75.000 ₫",
+                    "Label 8": "129.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/sugus-keo-mem-huong-trai-cay-210g--s10014797?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Kẹo mềm hương trái cây Sugus gói 210g",
+                    "Label 6": "Gói",
+                    "Label 7": "35.900 ₫",
+                    "Label 8": "56.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/vicenzovo-hop-banh-400g--s10616560?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh Ladyfingers nguyên gốc Ý Vicenzovo Matilde Vicenzi hộp 400g",
+                    "Label 6": "Hộp",
+                    "Label 7": "203.000 ₫",
+                    "Label 8": "296.400 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/la-suissa-hop-so-co-la-den-trung-mini-1--s10196374?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Hộp Sô Cô La Đen Trứng Mini 1 La Suissa",
+                    "Label 6": "Hộp",
+                    "Label 7": "214.000 ₫",
+                    "Label 8": "308.200 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/ferrero-socola-rocher-200g--s10056640?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Sô cô la Ferrero Rocher hộp 200g",
+                    "Label 6": "Hộp",
+                    "Label 7": "175.000 ₫",
+                    "Label 8": "249.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/ito-banh-quy-tong-hop-4539g--s10195555?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh quy ITO 470g",
+                    "Label 6": "Hộp",
+                    "Label 7": "270.000 ₫",
+                    "Label 8": "386.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/pringles-snack-k.tay-kem-sot-107g-102g--s10015827?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Snack khoai tây Pringles kem chua sốt hành 107g",
+                    "Label 6": "Hộp",
+                    "Label 7": "32.500 ₫",
+                    "Label 8": "45.500 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/pringles-snack-k.tay-tu-nhien-107g102g--s10015826?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Khoai tây vị tự nhiên Pringles lon 110g",
+                    "Label 6": "Hộp",
+                    "Label 7": "32.500 ₫",
+                    "Label 8": "45.500 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/pringles-snack-k.tay-pho-mai-107g102g--s10015828?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Snack khoai tây Pringles vị phô mai 110g",
+                    "Label 6": "Hộp",
+                    "Label 7": "32.500 ₫",
+                    "Label 8": "45.500 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/ferrerorocher-100-g-trai-tim--s10193880?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Sô cô la Ferrero Rocher hộp trái tim 100g",
+                    "Label 6": "Hộp",
+                    "Label 7": "159.000 ₫",
+                    "Label 8": "225.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/loc-xuan-phu-quy-713g--s10196329?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Lộc Xuân Phú Quý 794g",
+                    "Label 6": "Hộp",
+                    "Label 7": "152.000 ₫",
+                    "Label 8": "208.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/loc-xuan-an-khang-488g--s10616477?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Lộc Xuân An Khang hộp 400g",
+                    "Label 6": "Hộp",
+                    "Label 7": "113.000 ₫",
+                    "Label 8": "154.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/ferrero-chocolate-rocher-collection-162g--s10195470?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Chocolate Ferrero Rocher Collection",
+                    "Label 6": "Hộp",
+                    "Label 7": "259.000 ₫",
+                    "Label 8": "349.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/cha-cheer-hat-huong-duong-ngu-vi-130g--s10015629?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Hạt hướng dương ngũ vị Cha Cheer gói 130g",
+                    "Label 6": "Gói",
+                    "Label 7": "22.500 ₫",
+                    "Label 8": "29.900 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/cha-cheer-hat-huong-duong-vi-dua-130g--s10015630?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Hạt hướng dương vị dừa Cha Cheer gói 130g",
+                    "Label 6": "Gói",
+                    "Label 7": "22.500 ₫",
+                    "Label 8": "29.900 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/hop-tet-loc-phu-quy-vang-795.4g--s10196300?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "HỘP TẾT lộc phú quý vàng 795.4g",
+                    "Label 6": "Hộp",
+                    "Label 7": "141.900 ₫",
+                    "Label 8": "189.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/oreo-banh-socola-pie-vi-dau-180g168g--s10197435?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh Socola Pie vị Dâu Oreo 180g",
+                    "Label 6": "Hộp",
+                    "Label 7": "27.900 ₫",
+                    "Label 8": "37.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/cha-cheer-hat-h.duong-nguyen-vi-130g--s10607307?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Hạt hướng dương nguyên vị 130g",
+                    "Label 6": "Gói",
+                    "Label 7": "22.500 ₫",
+                    "Label 8": "29.900 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/snickers-keo-socola-tui-3-thanh-51g--s10192468?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Kẹo Socola Snickers Túi 3 thanh 51g",
+                    "Label 6": "Hộp",
+                    "Label 7": "51.900 ₫",
+                    "Label 8": "68.500 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/cosy-banh-quy-bo-tc-bo-sua-atv-390g--s10196294?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh quy thập cẩm bơ sữa Cosy 378g",
+                    "Label 6": "Hộp",
+                    "Label 7": "98.900 ₫",
+                    "Label 8": "129.900 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/cosy-banh-quy-tc-socola-atd-390g--s10616459?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh quy thập cẩm Cosy Socola 378g",
+                    "Label 6": "Hộp",
+                    "Label 7": "98.900 ₫",
+                    "Label 8": "129.900 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/oreo-banh-socola-pie-cadbury-180g168g--s10194651?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh Socola Pie Cadbury Oreo hộp 180g",
+                    "Label 6": "Hộp",
+                    "Label 7": "27.900 ₫",
+                    "Label 8": "36.200 ₫"
+                }
+            ]
+        },
+        "markdown": "",
+        "html": ""
+    },
+    "screenshots": []
+}
