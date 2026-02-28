@@ -9,12 +9,9 @@ API_KEY = "4e1kjff5od9ndqkxz4khd3446t4rd7"
 HEADERS = {"x-api-key": API_KEY, "Content-Type": "application/json"}
 
 ROBOTS = {
-    "Electronics": "2b41463d-c127-4a97-b7f7-9f9dd1b07374",
-    "Hygene": "3f88e569-057e-4319-892f-834416e6188d",
     "Dry_Food": "0ef9789a-f778-418d-8bd5-6c8b83a11286",
     "Instant_food": "5a5c5856-ab1b-4133-a0de-148cf0837f92", # Đã cập nhật thành Actual Instant Food
     "Non-alcohol_beverage": "191f10fe-1d04-49e0-b3e4-fc5a4fc4b90b",
-    "Household_good": "06165882-777a-4c19-8862-de530d54373d",
     "Baby_product": "62a10810-19db-4076-86af-169320baf441",
     "Egg_and_soy": "809764ec-5e4c-4eb9-aad6-cc809430648b",
     "Frozen": "70404316-22f8-4e52-a3a0-c60b302a482e",
@@ -22,7 +19,6 @@ ROBOTS = {
     "Processed_food": "afa4380e-7f1f-4a4e-b005-746c5e7fa38d",
     "Dairy": "95087cc5-1cfb-4d58-b66b-d2356b4e5b84",
     "Confectionary": "f2a242f9-8a04-4cce-a5c6-2f11eda952b7", # Đã cập nhật từ UUID bị nhầm của Instant_food
-    "Detergents": "6479ca88-3fae-434d-8874-ec2e407e37ee",
     "Veg_Fruit": "424e50fb-43a0-4417-a5b7-b0ecc72597ed"
 }
 

@@ -115,21 +115,17 @@ def map_instant_food(item):
 
 # --- CONFIG ---
 ROBOT_CONFIG = {
-    "Dairy": map_dairy,
-    "Detergents": map_detergents,
     "Dry_Food": map_dry_food,
-    "Veg_Fruit": map_veg_fruit,
+    "Instant_food": map_instant_food,
+    "Confectionary": map_processed_food, # ĐÃ THÊM DÒNG NÀY (sử dụng map_processed_food vì cùng cấu trúc Label)
+    "Dairy": map_dairy,
+    "Egg_and_soy": map_egg_soy,
     "Spice": map_spice,
     "Processed_food": map_processed_food,
+    "Veg_Fruit": map_veg_fruit,
     "Non-alcohol_beverage": map_processed_food,
-    "Instant_food": map_instant_food,
-    "Hygene": map_hygiene,
-    "Household_good": map_processed_food,
     "Frozen": map_processed_food,
-    "Electronics": map_electronics,
-    "Egg_and_soy": map_egg_soy,
-    "Baby_product": map_baby_product,
-    "Confectionary": map_processed_food # ĐÃ THÊM DÒNG NÀY (sử dụng map_processed_food vì cùng cấu trúc Label)
+    "Baby_product": map_baby_product
 }
 
 def process_all_robots():
