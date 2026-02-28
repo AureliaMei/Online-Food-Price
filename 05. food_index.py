@@ -1,9 +1,8 @@
 import pandas as pd
 from pathlib import Path
 
-# Set this to the root directory containing your category folders
-# '.' assumes you are running the script from within the 'ONLINE FOOD PRICE' folder
-root_dir = Path('.') 
+# Set the root directory explicitly
+root_dir = Path('/Users/my/Online Food Price')
 
 all_dfs = []
 
@@ -17,13 +16,11 @@ for file_path in root_dir.rglob('jevons_price_index.csv'):
         print(f"Warning: {file_path} is empty. Skipping.")
         continue
 
-    # Ensure there's a date column and set it as the index for alignment later
+    # Ensure there's a date column
     if 'date' not in df.columns:
         print(f"Warning: No 'date' column in {file_path}. Skipping.")
         continue
         
-    df.set_index('date', inplace=True)
-    
     # Get the name of the folder containing this CSV
     category_folder = file_path.parent.name
     
@@ -31,36 +28,54 @@ for file_path in root_dir.rglob('jevons_price_index.csv'):
     if category_folder == 'Baby_product':
         target_col = 'Sữa Bột - Sữa Dinh Dưỡng'
         if target_col in df.columns:
-            # Keep ONLY the target column as a DataFrame
-            df = df[[target_col]]
+            # Keep the date and ONLY the target column
+            df = df[['date', target_col]]
         else:
             print(f"Warning: '{target_col}' not found in Baby_product. Skipping.")
             continue
             
+    # Group by date to prevent the InvalidIndexError from duplicate days
+    df = df.groupby('date').mean()
     all_dfs.append(df)
 
 # Combine and calculate
 if all_dfs:
     # Concatenate all DataFrames horizontally (axis=1).
-    # This automatically aligns all data by the 'date' index. 
-    # Missing dates for certain subcategories will be filled with NaN.
     combined_df = pd.concat(all_dfs, axis=1)
     
-    # Calculate the average across all subcategory columns for each row (day).
-    # .mean(axis=1) automatically ignores NaN values, so it correctly averages 
-    # only the available subcategories for that specific day.
-    daily_average_index = combined_df.mean(axis=1).reset_index()
+    # Define your specific staple subcategories
+    staple_targets = ['Gạo - Nông Sản Khô', 'Ngũ Cốc - Yến Mạch']
     
-    # Rename columns and sort by date
-    daily_average_index.columns = ['date', 'overall_average_index']
-    daily_average_index.sort_values('date', inplace=True)
+    # Automatically categorize the columns into Staples vs Other Food
+    staple_cols = [col for col in combined_df.columns if col in staple_targets]
+    other_cols = [col for col in combined_df.columns if col not in staple_targets]
+    
+    # Create a new DataFrame for the final output
+    final_df = pd.DataFrame(index=combined_df.index)
+    
+    # 1. Overall Average (Everything)
+    final_df['overall_average_index'] = combined_df.mean(axis=1)
+    
+    # 2. Staples Average
+    if staple_cols:
+        final_df['staples_average_index'] = combined_df[staple_cols].mean(axis=1)
+    else:
+        print("Warning: Could not find Staple columns in the parsed data.")
+        
+    # 3. Other Food Average (Everything minus Staples)
+    if other_cols:
+        final_df['other_food_average_index'] = combined_df[other_cols].mean(axis=1)
+        
+    # Reset index to make 'date' a standard column again and sort
+    final_df.reset_index(inplace=True)
+    final_df.sort_values('date', inplace=True)
     
     # Save the final aggregated data
-    output_filename = 'overall_daily_average_index.csv'
-    daily_average_index.to_csv(output_filename, index=False)
+    output_filename = root_dir / 'overall_daily_average_index.csv'
+    final_df.to_csv(output_filename, index=False)
     
-    print(f"Successfully processed files. Aggregated index saved to '{output_filename}'")
-    print("\nPreview of the data:")
-    print(daily_average_index.head())
+    print(f"Successfully processed files. Aggregated indices saved to '{output_filename.name}'")
+    print("\nPreview of the final data:")
+    print(final_df.head())
 else:
     print("No data was found or processed. Check your directory path and file names.")

@@ -1,0 +1,14 @@
+{
+    "official_cpi_mom_pct": {
+        "2025-12": {
+            "overall_food": 0.75,
+            "staples": 0.55,
+            "thuc_pham": 0.98
+        },
+        "2026-01": {
+            "overall_food": 0.2,
+            "staples": 0.29,
+            "thuc_pham": 0.09
+        }
+    }
+}
