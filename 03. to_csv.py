@@ -123,7 +123,6 @@ ROBOT_CONFIG = {
     "Spice": map_spice,
     "Processed_food": map_processed_food,
     "Veg_Fruit": map_veg_fruit,
-    "Non-alcohol_beverage": map_processed_food,
     "Frozen": map_processed_food,
     "Baby_product": map_baby_product
 }

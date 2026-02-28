@@ -11,7 +11,6 @@ HEADERS = {"x-api-key": API_KEY, "Content-Type": "application/json"}
 ROBOTS = {
     "Dry_Food": "0ef9789a-f778-418d-8bd5-6c8b83a11286",
     "Instant_food": "5a5c5856-ab1b-4133-a0de-148cf0837f92", # Đã cập nhật thành Actual Instant Food
-    "Non-alcohol_beverage": "191f10fe-1d04-49e0-b3e4-fc5a4fc4b90b",
     "Baby_product": "62a10810-19db-4076-86af-169320baf441",
     "Egg_and_soy": "809764ec-5e4c-4eb9-aad6-cc809430648b",
     "Frozen": "70404316-22f8-4e52-a3a0-c60b302a482e",
