@@ -5,8 +5,8 @@ import re
 from datetime import datetime
 
 # --- CONFIGURATION ---
-TARGET_START_DATE = datetime(2026, 2, 8).date()
-TARGET_END_DATE = datetime(2026, 2, 18).date()
+TARGET_START_DATE = datetime(2026, 2, 18).date()
+TARGET_END_DATE = datetime(2026, 2, 27).date()
 
 def clean_price(val):
     if not val or pd.isna(val) or val == "":
@@ -101,6 +101,18 @@ def map_baby_product(item):
         'product_url': item.get('Label 4')
     }
 
+def map_instant_food(item):
+    # Updated to handle the new explicit keys
+    p1, p2 = clean_price(item.get('Actual price')), clean_price(item.get('Marked Price'))
+    final, marked = get_price_logic(p1, p2)
+    return {
+        'product_name': item.get('Product_name'), 
+        'unit': item.get('Unit'), 
+        'final_price': final, 
+        'marked_price': marked, 
+        'product_url': item.get('URL')
+    }
+
 # --- CONFIG ---
 ROBOT_CONFIG = {
     "Dairy": map_dairy,
@@ -110,7 +122,7 @@ ROBOT_CONFIG = {
     "Spice": map_spice,
     "Processed_food": map_processed_food,
     "Non-alcohol_beverage": map_processed_food,
-    "Instant_food": map_processed_food,
+    "Instant_food": map_instant_food,
     "Hygene": map_hygiene,
     "Household_good": map_processed_food,
     "Frozen": map_processed_food,
