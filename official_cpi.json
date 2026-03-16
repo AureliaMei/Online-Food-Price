@@ -9,6 +9,11 @@
             "overall_food": 0.2,
             "staples": 0.29,
             "thuc_pham": 0.09
+        },
+        "2026-02": {
+            "overall_food": 0.22,
+            "staples": 0.94,
+            "thuc_pham": 0.234
         }
     }
 }
