@@ -132,7 +132,7 @@ Tobit assumes one latent process drives both the 0/non-0 decision AND the magnit
 
 ### Step 4 — Tet Event Study (Chapter 3.4)
 
-Tet 2026 = January 29. Clean pre/during/post window inside data range.
+Tet 2026 = Febuary 10. Clean pre/during/post window inside data range.
 
 **Variable construction (subcategory-day panel):**
 - `days_from_tet`: signed integer, 0 = Jan 29
