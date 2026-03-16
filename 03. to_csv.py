@@ -129,13 +129,13 @@ ROBOT_CONFIG = {
 }
 
 def process_all_robots():
-    base_path = str(Path(__file__).parent)
+    base_path = Path(__file__).parent / 'data'
     print(f"📅 Filter Range: {TARGET_START_DATE} to {TARGET_END_DATE}")
 
     for folder_name, mapper_func in ROBOT_CONFIG.items():
-        robot_path = os.path.join(base_path, folder_name)
-        json_dir = os.path.join(robot_path, "JSON")
-        csv_dir = os.path.join(robot_path, "CSV")
+        robot_path = base_path / folder_name
+        json_dir = robot_path / "JSON"
+        csv_dir = robot_path / "CSV"
 
         if not os.path.exists(json_dir): continue
         if not os.path.exists(csv_dir): os.makedirs(csv_dir)

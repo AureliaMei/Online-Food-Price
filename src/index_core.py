@@ -25,7 +25,7 @@ def run_jevons_index(
     Reads:  <folder>/CSV/*.csv  and  <folder>/cat_lookup_table.csv
     Writes: <folder>/jevons_price_index.csv
     """
-    folder = PROJECT_ROOT / folder_name
+    folder = PROJECT_ROOT / 'data' / folder_name
     csv_folder = folder / "CSV"
     lookup_file = folder / "cat_lookup_table.csv"
     output_file = folder / "jevons_price_index.csv"

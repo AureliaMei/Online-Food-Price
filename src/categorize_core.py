@@ -59,7 +59,7 @@ def run_categorization(config: CategoryConfig) -> None:
     Full categorization pipeline for one category.
     Reads CSV/ folder, deduplicates product names, classifies, writes cat_lookup_table.csv.
     """
-    folder = PROJECT_ROOT / config.folder_name
+    folder = PROJECT_ROOT / 'data' / config.folder_name
     csv_folder = folder / "CSV"
     output_file = folder / "cat_lookup_table.csv"
 

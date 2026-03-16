@@ -34,7 +34,7 @@ def get_safe_date(date_str):
 def sync_robot_data(name, r_id):
     # 1. Setup Directory: ./CategoryName/JSON/
     # We use pathlib for cleaner path handling
-    save_dir = Path(f"./{name}/JSON")
+    save_dir = Path(__file__).parent / 'data' / name / 'JSON'
     save_dir.mkdir(parents=True, exist_ok=True)
     
     # 2. Map existing Run IDs from filenames

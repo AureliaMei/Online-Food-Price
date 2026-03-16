@@ -6,7 +6,7 @@ root_dir = Path(__file__).parent
 all_dfs = []
 
 # Find all 'jevons_price_index.csv' files in all subdirectories
-for file_path in root_dir.rglob('jevons_price_index.csv'):
+for file_path in (root_dir / 'data').rglob('jevons_price_index.csv'):
     
     # Read the current CSV
     try:
@@ -70,7 +70,7 @@ if all_dfs:
     final_df.sort_values('date', inplace=True)
     
     # Save the final aggregated data
-    output_filename = root_dir / 'overall_daily_average_index.csv'
+    output_filename = root_dir / 'output' / 'overall_daily_average_index.csv'
     final_df.to_csv(output_filename, index=False)
     
     print(f"Successfully processed files. Aggregated indices saved to '{output_filename.name}'")

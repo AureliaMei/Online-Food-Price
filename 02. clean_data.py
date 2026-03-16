@@ -14,11 +14,12 @@ def get_timestamp(json_path: Path):
         return pd.Timestamp.max
 
 def clean_same_day_runs():
-    root_dir = Path('.')
-    print(f"🚀 Scanning for same-day runs in: {root_dir.absolute()}\n")
+    root_dir = Path(__file__).parent
+    data_dir = root_dir / 'data'
+    print(f"🚀 Scanning for same-day runs in: {data_dir.absolute()}\n")
 
-    for category_dir in root_dir.iterdir():
-        if not category_dir.is_dir() or category_dir.name.startswith('.') or category_dir.name in ['venv', '__pycache__']:
+    for category_dir in data_dir.iterdir():
+        if not category_dir.is_dir() or category_dir.name.startswith('.'):
             continue
             
         json_dir = category_dir / 'JSON'

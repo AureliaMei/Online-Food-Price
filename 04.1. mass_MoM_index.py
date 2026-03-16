@@ -9,7 +9,7 @@ from src.utils import extract_date
 
 # --- CONFIGURATION ---
 root_dir = Path(__file__).parent
-output_index_file = root_dir / 'other_food_mom_change.csv'
+output_index_file = root_dir / 'output' / 'other_food_mom_change.csv'
 
 # Subcategories to EXCLUDE (because they belong to Staples)
 staples = ['Gạo - Nông Sản Khô', 'Ngũ Cốc - Yến Mạch']
@@ -22,8 +22,9 @@ def main():
     historical_dfs = {} 
 
     # 1. Collect and filter data from ALL category folders
-    for category_dir in root_dir.iterdir():
-        if not category_dir.is_dir() or category_dir.name.startswith('.') or category_dir.name in ['venv', '__pycache__']:
+    data_dir = root_dir / 'data'
+    for category_dir in data_dir.iterdir():
+        if not category_dir.is_dir() or category_dir.name.startswith('.'):
             continue
             
         csv_folder = category_dir / 'CSV'

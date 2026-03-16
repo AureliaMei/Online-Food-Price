@@ -28,8 +28,9 @@ def main():
     index_targets = []
     
     # 1. SCAN DIRECTORIES
-    for subdir in root_dir.iterdir():
-        if subdir.is_dir() and not subdir.name.startswith('.') and subdir.name not in ['venv', '__pycache__']:
+    data_dir = root_dir / 'data'
+    for subdir in data_dir.iterdir():
+        if subdir.is_dir() and not subdir.name.startswith('.'):
             
             for file_path in subdir.iterdir():
                 if file_path.is_file():
