@@ -6,8 +6,10 @@ import re
 from scipy.stats import gmean
 
 # --- CONFIGURATION (Cấu hình cho Spice) ---
-csv_folder = '/Users/my/Online Food Price/Spice/CSV'
-output_index_file = '/Users/my/Online Food Price/Spice/jevons_price_index.csv'
+from pathlib import Path
+_folder = Path(__file__).parent
+csv_folder = str(_folder / 'CSV')
+output_index_file = str(_folder / 'jevons_price_index.csv')
 
 def extract_date(filename):
     # Tìm chuỗi ngày tháng dạng YYYY-MM-DD trong tên file

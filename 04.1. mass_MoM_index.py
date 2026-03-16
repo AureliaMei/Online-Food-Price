@@ -1,19 +1,18 @@
 import pandas as pd
 import numpy as np
-import re
 from scipy.stats import gmean
 from pathlib import Path
 
+import sys
+sys.path.insert(0, str(Path(__file__).parent))
+from src.utils import extract_date
+
 # --- CONFIGURATION ---
-root_dir = Path('/Users/my/Online Food Price')
+root_dir = Path(__file__).parent
 output_index_file = root_dir / 'other_food_mom_change.csv'
 
 # Subcategories to EXCLUDE (because they belong to Staples)
 staples = ['Gạo - Nông Sản Khô', 'Ngũ Cốc - Yến Mạch']
-
-def extract_date(filename):
-    match = re.search(r'\d{4}-\d{2}-\d{2}', filename)
-    return match.group(0) if match else filename
 
 def main():
     print(f"🚀 Scanning all directories in: {root_dir.absolute()} for Other Food...")

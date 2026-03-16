@@ -3,6 +3,7 @@ import json
 import pandas as pd
 import re
 from datetime import datetime
+from pathlib import Path
 
 # --- CONFIGURATION ---
 TARGET_START_DATE = datetime(2026, 3, 8).date()
@@ -128,7 +129,7 @@ ROBOT_CONFIG = {
 }
 
 def process_all_robots():
-    base_path = os.getcwd()
+    base_path = str(Path(__file__).parent)
     print(f"📅 Filter Range: {TARGET_START_DATE} to {TARGET_END_DATE}")
 
     for folder_name, mapper_func in ROBOT_CONFIG.items():

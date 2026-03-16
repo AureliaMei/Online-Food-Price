@@ -1,8 +1,7 @@
 import pandas as pd
 from pathlib import Path
 
-# Set the root directory explicitly
-root_dir = Path('/Users/my/Online Food Price')
+root_dir = Path(__file__).parent
 
 all_dfs = []
 
