@@ -37,10 +37,10 @@ DAIRY = CategoryConfig(
               "sữa hạt", "macca", "đậu đỏ", "lúa", "yến mạch", "milo", "ovaltine"],
         "2": ["sữa bột", "bột", "công thức", "ensure", "pedia", "grow", "similac",
               "colosbaby", "famna", "optimum", "pediasure", "glucerna", "nan ", "nuvi"],
-        "3": ["bơ", "phô mai", "cheese", "bơ lạt", "bơ mặn", "thực vật", "mascarpone",
+        "3": ["bơ", "phô mai", "cheese", "bơ lạt", "bơ mặn", "bơ thực vật", "mascarpone",
               "cream cheese", "phomai", "kem sữa", "whipping", "cooking cream"],
         "4": ["sữa đặc", "ông thọ", "ngôi sao", "hoàn hảo", "creamer", "tài lộc"],
-        "5": ["chua", "váng", "men", "probi", "yakult", "betagen", "susu", "zott", "kun", "yomost"],
+        "5": ["chua", "váng", "men vi", "probi", "yakult", "betagen", "susu", "kun", "yomost"],
     },
     priority_order=["5", "4", "1", "3", "2"],
     fallback="Sữa tươi",
@@ -54,7 +54,7 @@ DAIRY = CategoryConfig(
 BABY_PRODUCT = CategoryConfig(
     folder_name="Baby_product",
     sub_map={
-        "70": ["sữa bột", "dinh dưỡng", "vani", "ăn dặm", "bột", "hộp", "sôcôla"],
+        "70": ["sữa bột", "dinh dưỡng", "vani", "ăn dặm", "bột", "sôcôla", "grow"],
         "71": ["tã", "bỉm", "tã quần", "tã dán", "lót"],
         "72": ["tắm", "gội", "phấn", "thân"],
     },
