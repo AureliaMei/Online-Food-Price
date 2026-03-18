@@ -6,13 +6,25 @@ For each unique product (product_name × unit), computes:
   - days_observed
   - promo_rate  (fraction of days where marked_price > final_price)
   - avg_discount_depth  (mean % discount on promoted days only)
+  - price_volatility  (CV of daily final_price)
+  - n_price_changes   (count of distinct final_price values)
+  - max_daily_jump_pct  (largest day-over-day % change)
+  - promo_streak_max  (longest consecutive promo days)
+  - promo_streak_avg  (average consecutive promo streak length)
+  - ever_promoted     (binary: was the product ever on promotion?)
+  - always_promoted   (binary: promoted on every observed day?)
+  - marked_price_changes  (count of distinct marked_price values)
+  - marked_price_increased  (binary: did marked price ever go up?)
+  - brand_name  (matched brand from BRAND_KEYWORDS, or empty)
 
 Output: output/product_dataset.csv
 """
 
+import unicodedata
+import numpy as np
 import pandas as pd
 from pathlib import Path
-from src.utils import PROJECT_ROOT
+from src.utils import PROJECT_ROOT, extract_date
 
 CATEGORIES = [
     "Dairy", "Baby_product", "Veg_Fruit", "Confectionary",
@@ -39,6 +51,7 @@ def load_category(folder_name: str) -> pd.DataFrame:
     for f in files:
         try:
             df = pd.read_csv(f, usecols=lambda c: c in NEEDED_COLS)
+            df['date'] = extract_date(f.name)
             frames.append(df)
         except Exception as e:
             print(f"  Warning skipping {f.name}: {e}")
@@ -69,14 +82,43 @@ def load_category(folder_name: str) -> pd.DataFrame:
     return daily
 
 
+def _max_daily_jump(prices: pd.Series) -> float:
+    """Largest absolute % change between consecutive observations."""
+    if len(prices) < 2:
+        return 0.0
+    pct = prices.pct_change().abs()
+    return pct.max() if not pct.empty else 0.0
+
+
+def _streak_stats(promo_flags: pd.Series) -> tuple[int, float]:
+    """Return (max_streak, avg_streak) of consecutive 1s in promo_flags."""
+    streaks = []
+    current = 0
+    for v in promo_flags:
+        if v == 1:
+            current += 1
+        else:
+            if current > 0:
+                streaks.append(current)
+            current = 0
+    if current > 0:
+        streaks.append(current)
+    if not streaks:
+        return 0, 0.0
+    return max(streaks), float(np.mean(streaks))
+
+
 def aggregate_products(daily: pd.DataFrame) -> pd.DataFrame:
     """Compute per-product summary statistics from stacked daily data."""
     daily = daily.copy()
 
+    # Sort by date for streak / jump calculations
+    daily = daily.sort_values(['product_name', 'date']).reset_index(drop=True)
+
     # Promotion flag: marked_price is set (>0) and higher than final_price
     has_marked = daily['marked_price'] > 0
     is_promo = has_marked & (daily['marked_price'] > daily['final_price'])
-    daily['is_promo'] = is_promo.astype(float)
+    daily['is_promo'] = is_promo.astype(int)
 
     # Discount depth only for promoted rows
     daily['discount_depth'] = float('nan')
@@ -96,15 +138,95 @@ def aggregate_products(daily: pd.DataFrame) -> pd.DataFrame:
         ['product_name', 'unit', 'subcategory', 'parent_category'],
         dropna=False,
     )
+
+    # --- Core aggregations ---
     agg = grp.agg(
         avg_final_price=('final_price', 'mean'),
         avg_marked_price=('marked_price_eff', 'mean'),
         days_observed=('final_price', 'count'),
         promo_rate=('is_promo', 'mean'),
         avg_discount_depth=('discount_depth', 'mean'),
+        # B1: Price anomaly detection
+        price_volatility=('final_price', lambda x: x.std() / x.mean() if x.mean() > 0 else 0.0),
+        n_price_changes=('final_price', 'nunique'),
+        max_daily_jump_pct=('final_price', _max_daily_jump),
+        # B3: Promotion patterns
+        ever_promoted=('is_promo', 'max'),
+        always_promoted=('is_promo', 'min'),
+        # B4: Marked price stability
+        marked_price_changes=('marked_price_eff', 'nunique'),
     ).reset_index()
 
+    # B3: Promotion streak stats
+    streak_rows = []
+    for keys, sub_df in grp:
+        smax, savg = _streak_stats(sub_df['is_promo'].values)
+        marked_inc = int((sub_df['marked_price_eff'].diff() > 0).any()) if len(sub_df) > 1 else 0
+        streak_rows.append({
+            'product_name': keys[0],
+            'unit': keys[1],
+            'subcategory': keys[2],
+            'parent_category': keys[3],
+            'promo_streak_max': smax,
+            'promo_streak_avg': savg,
+            'marked_price_increased': marked_inc,
+        })
+    streak_df = pd.DataFrame(streak_rows)
+    agg = agg.merge(
+        streak_df,
+        on=['product_name', 'unit', 'subcategory', 'parent_category'],
+        how='left',
+    )
+
     return agg
+
+
+# ---------------------------------------------------------------------------
+# B2: Brand name extraction
+# ---------------------------------------------------------------------------
+
+# Import brand keywords from nlp_features (already NFC-normalized there)
+from src.nlp_features import BRAND_KEYWORDS as _RAW_BRANDS
+
+# Build a display-name version: capitalize first letter of each keyword
+_BRAND_DISPLAY = {}
+for kw in _RAW_BRANDS:
+    # Use the keyword itself as display name, title-cased
+    display = kw.strip().title()
+    _BRAND_DISPLAY[kw] = display
+
+
+def _extract_brand_name(product_name: str) -> str:
+    """Return first matching brand keyword from product name, or empty string."""
+    name_norm = unicodedata.normalize('NFC', str(product_name)).lower().strip()
+    for kw in _RAW_BRANDS:
+        if kw in name_norm:
+            return _BRAND_DISPLAY[kw]
+    return ''
+
+
+def _build_brand_profiles(dataset: pd.DataFrame) -> pd.DataFrame:
+    """Aggregate brand-level stats and save to output."""
+    branded = dataset[dataset['brand_name'] != ''].copy()
+    if branded.empty:
+        return pd.DataFrame()
+
+    profiles = branded.groupby('brand_name').agg(
+        n_products=('product_name', 'count'),
+        n_categories=('parent_category', 'nunique'),
+        categories=('parent_category', lambda x: ', '.join(sorted(x.unique()))),
+        avg_price=('avg_final_price', 'mean'),
+        median_price=('avg_final_price', 'median'),
+        price_p10=('avg_final_price', lambda x: x.quantile(0.1)),
+        price_p90=('avg_final_price', lambda x: x.quantile(0.9)),
+        avg_promo_rate=('promo_rate', 'mean'),
+        avg_discount_depth=('avg_discount_depth', 'mean'),
+        avg_price_volatility=('price_volatility', 'mean'),
+    ).reset_index()
+
+    profiles['price_range_p90_p10'] = profiles['price_p90'] - profiles['price_p10']
+    profiles = profiles.sort_values('n_products', ascending=False)
+    return profiles
 
 
 def main() -> None:
@@ -125,13 +247,26 @@ def main() -> None:
 
     dataset = pd.concat(all_frames, ignore_index=True)
 
+    # B2: Extract brand names
+    dataset['brand_name'] = dataset['product_name'].map(_extract_brand_name)
+    n_branded = (dataset['brand_name'] != '').sum()
+    print(f"\nBrand extraction: {n_branded}/{len(dataset)} products matched a known brand")
+
     out_path = PROJECT_ROOT / 'output' / 'product_dataset.csv'
     dataset.to_csv(out_path, index=False, encoding='utf-8-sig')
-    print(f"\nSaved {len(dataset)} products → {out_path}")
+    print(f"Saved {len(dataset)} products → {out_path}")
+
+    # B2: Brand profiles table
+    profiles = _build_brand_profiles(dataset)
+    if not profiles.empty:
+        profiles_path = PROJECT_ROOT / 'output' / 'thesis_table_brand_profiles.csv'
+        profiles.to_csv(profiles_path, index=False, encoding='utf-8-sig')
+        print(f"Saved {len(profiles)} brand profiles → {profiles_path}")
 
     summary = (
         dataset.groupby('parent_category')
-        [['avg_final_price', 'promo_rate', 'avg_discount_depth']]
+        [['avg_final_price', 'promo_rate', 'avg_discount_depth',
+          'price_volatility', 'n_price_changes']]
         .mean()
         .round(3)
     )

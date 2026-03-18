@@ -1,0 +1,10 @@
+﻿category,n,brand_premium_marked,brand_premium_final,pct_premium_marked,pct_premium_final,erosion_pct,erosion_direction
+Bánh Kẹo,550,-0.2232,-0.2371,-20.0,-21.1,6.2,amplified (more negative)
+Chăm Sóc Bé,34,0.3483,0.4188,41.7,52.0,-20.2,amplified (larger premium)
+Gia Vị,294,-0.4953,-0.5954,-39.1,-44.9,20.2,amplified (more negative)
+Mì - Thực Phẩm Ăn Liền,220,-0.1633,-0.1796,-15.1,-16.4,10.0,amplified (more negative)
+Rau - Củ - Trái Cây,123,-0.0,-0.0,-0.0,-0.0,,amplified (more negative)
+Sữa Tươi,331,-0.2488,-0.2636,-22.0,-23.2,6.0,amplified (more negative)
+Thực Phẩm Chế Biến,167,0.0,0.0,0.0,0.0,,amplified (larger premium)
+Thực Phẩm Khô,170,-0.5225,-0.5874,-40.7,-44.4,12.4,amplified (more negative)
+Thực Phẩm Đông Lạnh,131,0.0,0.0,0.0,0.0,,amplified (larger premium)
