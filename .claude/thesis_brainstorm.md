@@ -130,8 +130,8 @@ Brand premium in marked_price > brand premium in final_price → promotions part
 1. Update thesis_brainstorm.md — rewrite to reflect hedonic pricing / food price premium framing
 2. Write `src/build_product_dataset.py` — aggregate daily CSVs → product-level dataset
 3. Write `src/nlp_features.py` — NLP extraction pipeline
-4. Write `notebooks/hedonic_regression.ipynb` — regressions + tables
-5. Write `notebooks/visualize_hedonic.ipynb` — charts for thesis
+4. Write `notebooks/08. hedonic_regression.ipynb` — regressions + tables
+5. Write `notebooks/09. visualize_hedonic.ipynb` — charts for thesis
 
 ## Verification
 
@@ -139,3 +139,56 @@ Brand premium in marked_price > brand premium in final_price → promotions part
 - β₁ positive and significant in Dairy, near-zero in Veg_Fruit
 - R² higher for brand-heavy categories (Dairy) than commodity categories (Veg_Fruit)
 - Coefficients stable across 3 different date snapshots
+
+---
+
+## Part D: Brand Price Gap Dynamics Over Time
+
+### Research Questions
+
+1. Is the branded-generic price gap (in VND and %) stable across the 88-day window, or does it widen/compress over time?
+2. Does the gap behave differently across categories (Dairy vs. Veg_Fruit vs. Processed_food)?
+3. Is there a visible Tet effect (around Jan 29, 2026) — do brands discount more during the holiday, narrowing the gap?
+
+### Methodology
+
+**Unit of analysis:** date × category (daily panel)
+
+**Gap metric:**
+- `gap_abs` = median(branded final_price) − median(generic final_price) in VND
+- `gap_pct` = gap_abs / median(generic final_price) × 100
+- Computed separately for `final_price` and `marked_price`
+- Using median (not mean) for robustness to outlier price jumps
+
+**Brand detection:** same `BRAND_KEYWORDS` substring match as hedonic regression (`is_branded = 1` if any keyword in product name)
+
+**Tet window:** Jan 22 – Feb 5, 2026 (±1 week around Jan 29)
+
+### Expected Findings
+
+| Category | Expected dynamic |
+|---|---|
+| Dairy | Persistent branded premium; slight narrowing at Tet (high promo_rate = 92.7%) |
+| Veg_Fruit | No meaningful gap (few/no branded products) |
+| Processed_food | Moderate gap; possible Tet widening (branded gift sets?) |
+| Instant_food | Moderate gap; stable (commodity pricing) |
+| Confectionary | Largest Tet effect — branded snacks as gift items |
+
+### Output
+
+- `notebooks/10. brand_price_dynamics.ipynb` — 4-panel visualization
+- `output/brand_gap_daily.csv` — daily × category timeseries
+- `output/brand_gap_summary.csv` — per-category summary with Tet vs. non-Tet comparison
+
+### Connection to Main Thesis
+
+This is a **temporal robustness check** for the cross-sectional hedonic findings:
+- If branded premium is stable over time → cross-sectional average is representative
+- If branded premium shrinks during Tet → promotional pricing partially equalizes consumer prices (supports the "promotions erode premiums" finding from Fig 3)
+- Connects to the Discussion section: consumer welfare implications of promotional pricing
+
+### Thesis Placement
+
+Section 4 (Results) → 4.4 Temporal Dynamics of Brand Premiums
+- Short section (~1 page): reference Figure D1 (gap over time) + Table D1 (summary stats)
+- Bridge to Discussion: are the premiums found in hedonic regression permanent features or partially eroded by seasonal promotions?

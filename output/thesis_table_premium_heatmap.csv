@@ -1,51 +1,51 @@
 ﻿category,n,attribute,coefficient,pct_effect,p_value,significance
-Bánh Kẹo,550,Branded,-0.2371,-21.1,0.0052,***
-Bánh Kẹo,550,Imported,0.0266,2.7,0.8819,
-Bánh Kẹo,550,House brand,-0.0,-0.0,0.0,***
-Bánh Kẹo,550,Health claim,0.1591,17.2,0.3034,
-Bánh Kẹo,550,Freshness claim,0.0133,1.3,0.9303,
+Bánh Kẹo,550,Branded,0.1131,12.0,0.0433,**
+Bánh Kẹo,550,Imported,0.0903,9.4,0.6146,
+Bánh Kẹo,550,House brand,0.0,0.0,0.0,***
+Bánh Kẹo,550,Health claim,0.1668,18.2,0.2823,
+Bánh Kẹo,550,Freshness claim,0.0118,1.2,0.9383,
 Chăm Sóc Bé,34,Branded,0.4188,52.0,0.289,
-Chăm Sóc Bé,34,Imported,-0.0,-0.0,0.0,***
-Chăm Sóc Bé,34,House brand,0.0,0.0,0.0,***
+Chăm Sóc Bé,34,Imported,0.0,0.0,0.0,***
+Chăm Sóc Bé,34,House brand,-0.0,-0.0,0.0053,***
 Chăm Sóc Bé,34,Health claim,-0.0366,-3.6,0.866,
 Chăm Sóc Bé,34,Freshness claim,-0.7575,-53.1,0.0726,*
-Gia Vị,294,Branded,-0.5954,-44.9,0.0,***
-Gia Vị,294,Imported,-0.2342,-20.9,0.1795,
-Gia Vị,294,House brand,-0.0,-0.0,0.0,***
-Gia Vị,294,Health claim,0.3175,37.4,0.0864,*
-Gia Vị,294,Freshness claim,-0.3771,-31.4,0.2109,
-Mì - Thực Phẩm Ăn Liền,220,Branded,-0.1796,-16.4,0.0241,**
-Mì - Thực Phẩm Ăn Liền,220,Imported,0.0537,5.5,0.6873,
-Mì - Thực Phẩm Ăn Liền,220,House brand,-0.0,-0.0,0.3196,
+Gia Vị,294,Branded,-0.2986,-25.8,0.0456,**
+Gia Vị,294,Imported,-0.1849,-16.9,0.6829,
+Gia Vị,294,House brand,0.0,0.0,0.0,***
+Gia Vị,294,Health claim,0.3019,35.2,0.1343,
+Gia Vị,294,Freshness claim,-0.3807,-31.7,0.2354,
+Mì - Thực Phẩm Ăn Liền,220,Branded,0.0143,1.4,0.8925,
+Mì - Thực Phẩm Ăn Liền,220,Imported,0.0758,7.9,0.6066,
+Mì - Thực Phẩm Ăn Liền,220,House brand,0.0,0.0,0.0,***
 Mì - Thực Phẩm Ăn Liền,220,Health claim,0.0,0.0,,
-Mì - Thực Phẩm Ăn Liền,220,Freshness claim,-0.3625,-30.4,0.1026,
-Rau - Củ - Trái Cây,123,Branded,-0.0,-0.0,0.0,***
-Rau - Củ - Trái Cây,123,Imported,0.7464,110.9,0.0014,***
-Rau - Củ - Trái Cây,123,House brand,-0.3622,-30.4,0.0684,*
-Rau - Củ - Trái Cây,123,Health claim,0.0,0.0,,
-Rau - Củ - Trái Cây,123,Freshness claim,0.3847,46.9,0.072,*
-Sữa Tươi,331,Branded,-0.2636,-23.2,0.0004,***
-Sữa Tươi,331,Imported,0.1465,15.8,0.4467,
-Sữa Tươi,331,House brand,-0.0,-0.0,0.1533,
-Sữa Tươi,331,Health claim,-0.1746,-16.0,0.0656,*
-Sữa Tươi,331,Freshness claim,0.0192,1.9,0.8417,
-Thực Phẩm Chế Biến,167,Branded,0.0,0.0,0.0,***
-Thực Phẩm Chế Biến,167,Imported,-0.4898,-38.7,0.0199,**
-Thực Phẩm Chế Biến,167,House brand,-0.0,-0.0,0.0,***
-Thực Phẩm Chế Biến,167,Health claim,-0.0028,-0.3,0.9936,
-Thực Phẩm Chế Biến,167,Freshness claim,0.0955,10.0,0.6963,
-Thực Phẩm Khô,170,Branded,-0.5874,-44.4,0.0,***
-Thực Phẩm Khô,170,Imported,0.116,12.3,0.6235,
-Thực Phẩm Khô,170,House brand,0.0,0.0,0.0,***
-Thực Phẩm Khô,170,Health claim,0.4175,51.8,0.1436,
-Thực Phẩm Khô,170,Freshness claim,-0.6709,-48.9,0.0348,**
-Thực Phẩm Đông Lạnh,131,Branded,0.0,0.0,0.733,
-Thực Phẩm Đông Lạnh,131,Imported,-0.1557,-14.4,0.1232,
-Thực Phẩm Đông Lạnh,131,House brand,-0.0,-0.0,0.0006,***
+Mì - Thực Phẩm Ăn Liền,220,Freshness claim,-0.3093,-26.6,0.1677,
+Rau - Củ - Trái Cây,123,Branded,-0.112,-10.6,0.5769,
+Rau - Củ - Trái Cây,123,Imported,1.1953,230.4,0.0,***
+Rau - Củ - Trái Cây,123,House brand,-0.3934,-32.5,0.0409,**
+Rau - Củ - Trái Cây,123,Health claim,-0.0,-0.0,0.0335,**
+Rau - Củ - Trái Cây,123,Freshness claim,0.3967,48.7,0.053,*
+Sữa Tươi,331,Branded,-0.0586,-5.7,0.5959,
+Sữa Tươi,331,Imported,-0.0198,-2.0,0.9172,
+Sữa Tươi,331,House brand,-0.0,-0.0,0.1236,
+Sữa Tươi,331,Health claim,-0.2004,-18.2,0.0384,**
+Sữa Tươi,331,Freshness claim,0.0186,1.9,0.8497,
+Thực Phẩm Chế Biến,167,Branded,0.1671,18.2,0.232,
+Thực Phẩm Chế Biến,167,Imported,-0.6241,-46.4,0.0176,**
+Thực Phẩm Chế Biến,167,House brand,0.0,0.0,0.7619,
+Thực Phẩm Chế Biến,167,Health claim,0.0137,1.4,0.969,
+Thực Phẩm Chế Biến,167,Freshness claim,0.0866,9.0,0.7221,
+Thực Phẩm Khô,170,Branded,-0.0969,-9.2,0.3663,
+Thực Phẩm Khô,170,Imported,0.8791,140.9,0.1135,
+Thực Phẩm Khô,170,House brand,-0.0,-0.0,0.0217,**
+Thực Phẩm Khô,170,Health claim,0.2689,30.8,0.3686,
+Thực Phẩm Khô,170,Freshness claim,-0.2867,-24.9,0.341,
+Thực Phẩm Đông Lạnh,131,Branded,-0.0864,-8.3,0.2726,
+Thực Phẩm Đông Lạnh,131,Imported,-0.145,-13.5,0.3164,
+Thực Phẩm Đông Lạnh,131,House brand,-0.0,-0.0,0.0,***
 Thực Phẩm Đông Lạnh,131,Health claim,0.0,0.0,,
-Thực Phẩm Đông Lạnh,131,Freshness claim,0.0934,9.8,0.735,
-(Pooled),2028,Branded,-0.3229,-27.6,0.0,***
-(Pooled),2028,Imported,0.0303,3.1,0.7652,
-(Pooled),2028,House brand,-0.1858,-17.0,0.0009,***
-(Pooled),2028,Health claim,-0.0132,-1.3,0.9087,
-(Pooled),2028,Freshness claim,0.0032,0.3,0.9605,
+Thực Phẩm Đông Lạnh,131,Freshness claim,0.1327,14.2,0.6318,
+(Pooled),2028,Branded,0.0338,3.4,0.7075,
+(Pooled),2028,Imported,0.1114,11.8,0.3721,
+(Pooled),2028,House brand,-0.1846,-16.9,0.0017,***
+(Pooled),2028,Health claim,-0.0268,-2.6,0.8159,
+(Pooled),2028,Freshness claim,0.0044,0.4,0.9486,
