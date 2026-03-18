@@ -1,0 +1,134 @@
+{
+    "id": "780b2c62-78c7-4846-8a4b-e7aa9b480cda",
+    "status": "success",
+    "name": "Processed Food",
+    "robotId": "afa4380e-7f1f-4a4e-b005-746c5e7fa38d",
+    "startedAt": "3/18/2026, 2:22:14 PM",
+    "finishedAt": "3/18/2026, 2:30:44 PM",
+    "runId": "ae90165e-f9ef-4062-9650-33c72419df8c",
+    "runByUserId": 1,
+    "runByScheduleId": null,
+    "runByAPI": null,
+    "data": {
+        "textData": {},
+        "listData": {
+            "List Data 1": [
+                {
+                    "Label 4": "https://winmart.vn/products/thai-son-tra-sua-go-330ml--s10240055?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Trà sữa Go Thái Sơn 330ml",
+                    "Label 6": "Chai",
+                    "Label 7": "10.900 ₫",
+                    "Label 8": "19.500 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/lc-food-xuc-xich-pho-mai-200g--s10183841?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Xúc xích phô mai LC Food 200g",
+                    "Label 6": "Gói",
+                    "Label 7": "46.500 ₫",
+                    "Label 8": "60.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/fasty-banh-trung-soi-thit-ga-156g--s10281159?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh trứng tươi sợi thịt gà Fasty túi 6gói x 26g",
+                    "Label 6": "Gói 6",
+                    "Label 7": "31.900 ₫",
+                    "Label 8": "41.500 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/bauli-moonfils-banh-sung-bo-socola-45g--s10603099?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh sừng bò Bauli Moonfils Socola 45g",
+                    "Label 6": "Cái",
+                    "Label 7": "8.500 ₫",
+                    "Label 8": "10.600 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/bauli-moonfils-banh-sung-bo-dau-45g--s10603101?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh sừng bò Bauli Moonfils Dâu 45g",
+                    "Label 6": "Cái",
+                    "Label 7": "8.500 ₫",
+                    "Label 8": "10.600 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/duc-viet-xuc-xich-roma-goi-500g--s10005307?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Xúc xích Roma Đức Việt gói 500g",
+                    "Label 6": "Gói",
+                    "Label 7": "54.000 ₫",
+                    "Label 8": "66.400 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/duc-viet-xuc-xich-my-goi-500g--s10005609?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Xúc xích Mỹ Đức Việt gói 500g",
+                    "Label 6": "Gói",
+                    "Label 7": "51.500 ₫",
+                    "Label 8": "63.700 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/thach-an-thach-den-cao-bang-480g--s10315702?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Thạch đen Cao Bằng Thạch An 480g",
+                    "Label 6": "Hộp",
+                    "Label 7": "27.500 ₫",
+                    "Label 8": "34.100 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/bibigo-kim-chi-cai-thao-cat-lat-500g--s10006081?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Kim chi cải thảo cắt lát Ông Kim's hộp 500g",
+                    "Label 6": "Hộp",
+                    "Label 7": "39.900 ₫",
+                    "Label 8": "48.600 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/duc-viet-xuc-xich-pari-goi-10-cay-500g--s10321381?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Xúc xích Pari Đức Việt gói 500g",
+                    "Label 6": "Gói",
+                    "Label 7": "52.500 ₫",
+                    "Label 8": "63.800 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/duc-viet-xuc-xich-hotdog-goi-200g--s10005635?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Xúc xích Hotdog Đức Việt gói 200g",
+                    "Label 6": "Gói",
+                    "Label 7": "21.000 ₫",
+                    "Label 8": "24.900 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/ponnie-xuc-xich-thit-heo-5-cay-35g--s10132417?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Xúc xích dinh dưỡng thịt heo Ponnie (35gr x 5 Cây)",
+                    "Label 6": "Gói",
+                    "Label 7": "19.500 ₫",
+                    "Label 8": "22.900 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/karo-banh-trung-cha-bong-26g--s10140247?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Lốc 6 gói bánh trứng Karo chà bông 26g",
+                    "Label 6": "Gói 6",
+                    "Label 7": "32.900 ₫",
+                    "Label 8": "38.800 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/karo-banh-trung-cha-bong-phomai-26g--s10281742?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bịch 6 gói Karo Bánh trứng chà bông phô mai 26g",
+                    "Label 6": "Gói",
+                    "Label 7": "32.900 ₫",
+                    "Label 8": "38.800 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/ong-gia-ika-ga-hun-khoi-goi-450g--s10005534?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Gà hun khói Ông Già Ika gói 450g",
+                    "Label 6": "Gói",
+                    "Label 7": "135.000 ₫",
+                    "Label 8": "157.100 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/duc-viet-xuc-xich-toi-goi-200g--s10005524?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Xúc xích tỏi Đức Việt gói 200g",
+                    "Label 6": "Gói",
+                    "Label 7": "37.200 ₫",
+                    "Label 8": "43.000 ₫"
+                }
+            ]
+        },
+        "markdown": "",
+        "html": ""
+    },
+    "screenshots": []
+}
