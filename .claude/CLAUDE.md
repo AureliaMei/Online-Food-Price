@@ -83,7 +83,7 @@ product_name, unit, final_price, marked_price, product_url, scrape_timestamp, ru
   - Processed_food: 22.5%
   - Veg_Fruit: **11.6%**
 - Discount depth (when promoted): Dairy ~11.7%, Processed_food ~16.8%, Veg_Fruit ~18.4%
-- Tet 2026 = January 29, 2026 — falls within data window
+- Tet 2026 = February 17, 2026 — falls within data window
 
 ---
 
@@ -95,7 +95,7 @@ See `.claude/thesis_brainstorm.md` for full plan.
 **Topic:** Promotional Pricing Patterns in Vietnamese Online Grocery Markets
 **Angle:** Cross-sectional + temporal analysis of discount rates using the `marked_price` vs `final_price` gap
 **Key finding to investigate:** Why do packaged goods (Dairy ~93%) have far higher promotion rates than fresh produce (Veg_Fruit ~12%)?
-**Bonus:** Tet holiday event study — Jan 29, 2026 falls inside the data window
+**Bonus:** Tet holiday event study — Feb 17, 2026 falls inside the data window
 
 ---
 

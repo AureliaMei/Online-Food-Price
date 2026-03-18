@@ -148,7 +148,7 @@ Brand premium in marked_price > brand premium in final_price → promotions part
 
 1. Is the branded-generic price gap (in VND and %) stable across the 88-day window, or does it widen/compress over time?
 2. Does the gap behave differently across categories (Dairy vs. Veg_Fruit vs. Processed_food)?
-3. Is there a visible Tet effect (around Jan 29, 2026) — do brands discount more during the holiday, narrowing the gap?
+3. Is there a visible Tet effect (around Feb 17, 2026) — do brands discount more during the holiday, narrowing the gap?
 
 ### Methodology
 
@@ -162,7 +162,7 @@ Brand premium in marked_price > brand premium in final_price → promotions part
 
 **Brand detection:** same `BRAND_KEYWORDS` substring match as hedonic regression (`is_branded = 1` if any keyword in product name)
 
-**Tet window:** Jan 22 – Feb 5, 2026 (±1 week around Jan 29)
+**Tet window:** Feb 10 – Feb 24, 2026 (±1 week around Feb 17)
 
 ### Expected Findings
 
