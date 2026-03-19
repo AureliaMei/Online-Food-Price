@@ -187,13 +187,15 @@ def aggregate_products(daily: pd.DataFrame) -> pd.DataFrame:
 
 # Import brand keywords from nlp_features (already NFC-normalized there)
 from src.nlp_features import BRAND_KEYWORDS as _RAW_BRANDS
+from src.brand_quadrants import (
+    BRAND_CANONICAL, BRAND_QUADRANTS,
+    is_premium as _is_premium, is_high_recognition as _is_high_recognition,
+)
 
-# Build a display-name version: capitalize first letter of each keyword
+# Build a display-name version: use canonical mapping first, else title-case
 _BRAND_DISPLAY = {}
 for kw in _RAW_BRANDS:
-    # Use the keyword itself as display name, title-cased
-    display = kw.strip().title()
-    _BRAND_DISPLAY[kw] = display
+    _BRAND_DISPLAY[kw] = BRAND_CANONICAL.get(kw, kw.strip().title())
 
 
 def _extract_brand_name(product_name: str) -> str:
@@ -214,7 +216,7 @@ def _build_brand_profiles(dataset: pd.DataFrame) -> pd.DataFrame:
     profiles = branded.groupby('brand_name').agg(
         n_products=('product_name', 'count'),
         n_categories=('parent_category', 'nunique'),
-        categories=('parent_category', lambda x: ', '.join(sorted(x.unique()))),
+        categories=('parent_category', lambda x: ', '.join(sorted(str(v) for v in x.unique() if pd.notna(v)))),
         avg_price=('avg_final_price', 'mean'),
         median_price=('avg_final_price', 'median'),
         price_p10=('avg_final_price', lambda x: x.quantile(0.1)),
@@ -225,6 +227,8 @@ def _build_brand_profiles(dataset: pd.DataFrame) -> pd.DataFrame:
     ).reset_index()
 
     profiles['price_range_p90_p10'] = profiles['price_p90'] - profiles['price_p10']
+    # Add quadrant classification
+    profiles['brand_quadrant'] = profiles['brand_name'].map(BRAND_QUADRANTS).fillna('')
     profiles = profiles.sort_values('n_products', ascending=False)
     return profiles
 
@@ -251,6 +255,24 @@ def main() -> None:
     dataset['brand_name'] = dataset['product_name'].map(_extract_brand_name)
     n_branded = (dataset['brand_name'] != '').sum()
     print(f"\nBrand extraction: {n_branded}/{len(dataset)} products matched a known brand")
+
+    # B2b: Brand quadrant classification
+    dataset['brand_quadrant'] = dataset['brand_name'].map(BRAND_QUADRANTS).fillna('')
+    dataset['is_premium'] = dataset['brand_quadrant'].apply(
+        lambda q: _is_premium(q) if q else 0
+    )
+    dataset['is_high_recognition'] = dataset['brand_quadrant'].apply(
+        lambda q: _is_high_recognition(q) if q else 0
+    )
+    n_quadrant = (dataset['brand_quadrant'] != '').sum()
+    n_missing = n_branded - n_quadrant
+    if n_missing > 0:
+        missing = dataset[
+            (dataset['brand_name'] != '') & (dataset['brand_quadrant'] == '')
+        ]['brand_name'].unique()
+        print(f"  WARNING: {n_missing} branded products missing quadrant assignment: {list(missing)}")
+    else:
+        print(f"  Quadrant assignment: {n_quadrant}/{n_branded} branded products classified")
 
     out_path = PROJECT_ROOT / 'output' / 'product_dataset.csv'
     dataset.to_csv(out_path, index=False, encoding='utf-8-sig')

@@ -651,6 +651,26 @@ def extract_features(df: pd.DataFrame) -> pd.DataFrame:
     df['is_branded'] = names_norm.map(_check_brands)
 
     # ------------------------------------------------------------------
+    # Brand quadrant features: is_premium, is_high_recognition
+    # Requires brand_quadrant column (set by build_product_dataset.py).
+    # If not present, derive from brand_name if available.
+    # ------------------------------------------------------------------
+    if 'brand_quadrant' not in df.columns and 'brand_name' in df.columns:
+        from src.brand_quadrants import BRAND_QUADRANTS as _BQ
+        df['brand_quadrant'] = df['brand_name'].map(_BQ).fillna('')
+
+    if 'brand_quadrant' in df.columns:
+        from src.brand_quadrants import (
+            is_premium as _is_prem, is_high_recognition as _is_hr,
+        )
+        df['is_premium'] = df['brand_quadrant'].apply(
+            lambda q: _is_prem(q) if q else 0
+        )
+        df['is_high_recognition'] = df['brand_quadrant'].apply(
+            lambda q: _is_hr(q) if q else 0
+        )
+
+    # ------------------------------------------------------------------
     # is_house_brand: WinEco / Win Eco
     # ------------------------------------------------------------------
     def _check_house(name_norm: str) -> int:
