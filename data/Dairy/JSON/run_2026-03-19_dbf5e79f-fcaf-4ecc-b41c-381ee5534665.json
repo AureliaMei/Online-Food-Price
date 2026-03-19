@@ -1,0 +1,134 @@
+{
+    "id": "dbf5e79f-fcaf-4ecc-b41c-381ee5534665",
+    "status": "success",
+    "name": "Dairy Products",
+    "robotId": "95087cc5-1cfb-4d58-b66b-d2356b4e5b84",
+    "startedAt": "3/19/2026, 2:26:26 PM",
+    "finishedAt": "3/19/2026, 2:34:14 PM",
+    "runId": "20854743-3bc5-484a-ba64-f684f38b1423",
+    "runByUserId": 1,
+    "runByScheduleId": null,
+    "runByAPI": null,
+    "data": {
+        "textData": {},
+        "listData": {
+            "List Data 1": [
+                {
+                    "Unit": "Gói 4",
+                    "Product URL": "https://winmart.vn/products/nutimilk100-sttt-co-duong-180ml--s10170370?storeGroupCode=1998&storeCode=1535",
+                    "Marked Price": "33.900 ₫",
+                    "Product Name": "Lốc 4 hộp sữa tươi tiệt trùng Nutimilk100 có đường 180ml",
+                    "Discounted Price": "26.100 ₫"
+                },
+                {
+                    "Unit": "Gói 4",
+                    "Product URL": "https://winmart.vn/products/nutimilk100-sttt-it-duong-180ml--s10170372?storeGroupCode=1998&storeCode=1535",
+                    "Marked Price": "33.900 ₫",
+                    "Product Name": "Lốc 4 hộp sữa tươi tiệt trùng Nutimilk100 ít đường 180ml",
+                    "Discounted Price": "26.100 ₫"
+                },
+                {
+                    "Unit": "Gói 4",
+                    "Product URL": "https://winmart.vn/products/hoff-sua-chua-vi-dau-tay-55g--s10170423?storeGroupCode=1998&storeCode=1535",
+                    "Marked Price": "47.600 ₫",
+                    "Product Name": "Sữa chua hoa quả Hoff vị dâu tây vỉ 4 hộp 55g",
+                    "Discounted Price": "37.100 ₫"
+                },
+                {
+                    "Unit": "Gói 4",
+                    "Product URL": "https://winmart.vn/products/kaka-thuc-uong-dd-cacao-lua-mach-4180ml--s10197398?storeGroupCode=1998&storeCode=1535",
+                    "Marked Price": "33.000 ₫",
+                    "Product Name": "Lốc 4 hộp thức uống dinh dưỡng Kaka cacao lúa mạch 180ml",
+                    "Discounted Price": "25.600 ₫"
+                },
+                {
+                    "Unit": "Hộp",
+                    "Product URL": "https://winmart.vn/products/meadow-fresh-sua-tiet-trung-nguyenkem-1l--s10010634?storeGroupCode=1998&storeCode=1535",
+                    "Marked Price": "57.700 ₫",
+                    "Product Name": "Sữa tươi tiệt trùng nguyên kem Meadow Fresh hộp 1L",
+                    "Discounted Price": "45.400 ₫"
+                },
+                {
+                    "Unit": "Hộp",
+                    "Product URL": "https://winmart.vn/products/meadow-fresh-sua-tiet-trung-canxi-1l--s10010636?storeGroupCode=1998&storeCode=1535",
+                    "Marked Price": "69.000 ₫",
+                    "Product Name": "Sữa tươi tiệt trùng Meadow Fresh giàu canxi hộp 1L",
+                    "Discounted Price": "54.300 ₫"
+                },
+                {
+                    "Unit": "Gói",
+                    "Product URL": "https://winmart.vn/products/westgold-bo-lat-250g--s10170182?storeGroupCode=1998&storeCode=1535",
+                    "Marked Price": "123.000 ₫",
+                    "Product Name": "Bơ lạt Westgold 250g",
+                    "Discounted Price": "99.600 ₫"
+                },
+                {
+                    "Unit": "Gói",
+                    "Product URL": "https://winmart.vn/products/westgold-bo-man-250g--s10170183?storeGroupCode=1998&storeCode=1535",
+                    "Marked Price": "123.000 ₫",
+                    "Product Name": "Bơ mặn Westgold 250g",
+                    "Discounted Price": "99.600 ₫"
+                },
+                {
+                    "Unit": "Gói 6",
+                    "Product URL": "https://winmart.vn/products/vinamilk-scu-susu-huong-dau-chai-80ml--s10010494?storeGroupCode=1998&storeCode=1535",
+                    "Marked Price": "26.000 ₫",
+                    "Product Name": "Lốc 6 chai sữa chua uống Vinamilk Susu hương dâu 80ml",
+                    "Discounted Price": "21.300 ₫"
+                },
+                {
+                    "Unit": "Gói 6",
+                    "Product URL": "https://winmart.vn/products/vinamilk-scu-susu-huong-cam-chai-80ml--s10010495?storeGroupCode=1998&storeCode=1535",
+                    "Marked Price": "26.000 ₫",
+                    "Product Name": "Lốc 6 chai sữa chua uống Vinamilk Susu hương cam 80ml",
+                    "Discounted Price": "21.300 ₫"
+                },
+                {
+                    "Unit": "Gói 6",
+                    "Product URL": "https://winmart.vn/products/fami-sdn-canxi-plus-200ml--s10196198?storeGroupCode=1998&storeCode=1535",
+                    "Marked Price": "38.700 ₫",
+                    "Product Name": "Lốc 6 hộp sữa đậu nành canxi plus Fami 200ml",
+                    "Discounted Price": "31.900 ₫"
+                },
+                {
+                    "Unit": "Gói 4",
+                    "Product URL": "https://winmart.vn/products/topkid-scutt-huong-cam-180ml--s10196790?storeGroupCode=1998&storeCode=1535",
+                    "Marked Price": "33.400 ₫",
+                    "Product Name": "Lốc 4 hộp sữa chua uống Topkid hương cam 180ml",
+                    "Discounted Price": "27.500 ₫"
+                },
+                {
+                    "Unit": "Gói 4",
+                    "Product URL": "https://winmart.vn/products/topkid-scutt-huong-dau-180ml--s10196789?storeGroupCode=1998&storeCode=1535",
+                    "Marked Price": "33.400 ₫",
+                    "Product Name": "Lốc 4 hộp sữa chua uống Topkid hương dâu 180ml",
+                    "Discounted Price": "27.500 ₫"
+                },
+                {
+                    "Unit": "Gói",
+                    "Product URL": "https://winmart.vn/products/dutch-lady-sua-tt-k.duong-goi-180ml--s10005425?storeGroupCode=1998&storeCode=1535",
+                    "Marked Price": "7.200 ₫",
+                    "Product Name": "Sữa tươi tiệt trùng Cô gái Hà Lan không đường túi 180ml",
+                    "Discounted Price": "6.000 ₫"
+                },
+                {
+                    "Unit": "Gói",
+                    "Product URL": "https://winmart.vn/products/bega-pho-mai-strongbitey-vintage-g250g--s10005868?storeGroupCode=1998&storeCode=1535",
+                    "Marked Price": "139.000 ₫",
+                    "Product Name": "Phô mai Bega Strong & Bitey Vintage 250g",
+                    "Discounted Price": "115.900 ₫"
+                },
+                {
+                    "Unit": "Gói 6",
+                    "Product URL": "https://winmart.vn/products/fami-sdn-canxi-pho-mai-200ml--s10195828?storeGroupCode=1998&storeCode=1535",
+                    "Marked Price": "31.200 ₫",
+                    "Product Name": "Lốc 6 hộp sữa đậu nành Fami canxi cà phê 200ml",
+                    "Discounted Price": "25.800 ₫"
+                }
+            ]
+        },
+        "markdown": "",
+        "html": ""
+    },
+    "screenshots": []
+}

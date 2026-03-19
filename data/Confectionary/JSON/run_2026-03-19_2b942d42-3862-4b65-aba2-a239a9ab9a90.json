@@ -1,0 +1,974 @@
+{
+    "id": "2b942d42-3862-4b65-aba2-a239a9ab9a90",
+    "status": "success",
+    "name": "Instant Foods",
+    "robotId": "f2a242f9-8a04-4cce-a5c6-2f11eda952b7",
+    "startedAt": "3/19/2026, 2:26:26 PM",
+    "finishedAt": "3/19/2026, 2:29:52 PM",
+    "runId": "afcab249-c76e-456d-844d-7e729b408b0a",
+    "runByUserId": 1,
+    "runByScheduleId": null,
+    "runByAPI": null,
+    "data": {
+        "textData": {},
+        "listData": {
+            "List Data 1": [
+                {
+                    "Label 4": "https://winmart.vn/products/ferrerorocher-100-g-trai-tim--s10193880?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Sô cô la Ferrero Rocher hộp trái tim 100g",
+                    "Label 6": "Hộp",
+                    "Label 7": "116.000 ₫",
+                    "Label 8": "225.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/raffaello-keo-dua-h.nhan-confett-150g--s10606942?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Kẹo dừa hạnh nhân Ferrero Confett 150g",
+                    "Label 6": "Hộp",
+                    "Label 7": "119.000 ₫",
+                    "Label 8": "225.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/ferrero-keo-socola-rocher-375g--s10015253?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Kẹo Socola Ferrero Rocher 375g",
+                    "Label 6": "Hộp",
+                    "Label 7": "266.000 ₫",
+                    "Label 8": "448.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/ferrero-socola-rocher-200g--s10056640?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Sô cô la Ferrero Rocher hộp 200g",
+                    "Label 6": "Hộp",
+                    "Label 7": "147.000 ₫",
+                    "Label 8": "249.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/snickers-keo-socola-51g--s10014580?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Kẹo socola Snickers gói 51g",
+                    "Label 6": "Cái",
+                    "Label 7": "20.000 ₫",
+                    "Label 8": "26.900 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/pringles-snack-k.tay-kem-sot-107g-102g--s10015827?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Snack khoai tây Pringles kem chua sốt hành 107g",
+                    "Label 6": "Hộp",
+                    "Label 7": "33.500 ₫",
+                    "Label 8": "45.500 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/pringles-snack-k.tay-tu-nhien-107g102g--s10015826?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Khoai tây vị tự nhiên Pringles lon 110g",
+                    "Label 6": "Hộp",
+                    "Label 7": "33.500 ₫",
+                    "Label 8": "45.500 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/pringles-snack-k.tay-pho-mai-107g102g--s10015828?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Snack khoai tây Pringles vị phô mai 110g",
+                    "Label 6": "Hộp",
+                    "Label 7": "33.500 ₫",
+                    "Label 8": "45.500 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/lay-stax-snack-k.tay-suon-bbq-160155g--s10193134?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Snack Lay Stax khoai tây sườn BBQ 160g",
+                    "Label 6": "Lon",
+                    "Label 7": "36.900 ₫",
+                    "Label 8": "48.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/richy-banh-kenju-kem-deo-goi-186g--s10195893?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh Kenju kem dẻo Richy túi 186g",
+                    "Label 6": "Gói",
+                    "Label 7": "35.000 ₫",
+                    "Label 8": "45.500 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/kitkat-socola-chunky-3-thanh-114g--s10013846?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Socola chunky Kitkat 3 thanh 114g",
+                    "Label 6": "Gói",
+                    "Label 7": "59.900 ₫",
+                    "Label 8": "76.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/doublemint-gum-h.bac-ha-58.4g--s10014541?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Kẹo gum hương bạc hà Doublemint hộp 58.4g",
+                    "Label 6": "Hộp",
+                    "Label 7": "24.500 ₫",
+                    "Label 8": "31.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/mentos-keo-ngam-k.dg-bac-ha-35g--s10192798?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Kẹo ngậm Mentos không đường bạc hà 35g",
+                    "Label 6": "Hộp",
+                    "Label 7": "29.000 ₫",
+                    "Label 8": "36.800 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/haribo-keo-deo-happy-cola-160g--s10014416?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Kẹo dẻo Haribo Happy Cola gói 160g",
+                    "Label 6": "Gói",
+                    "Label 7": "41.900 ₫",
+                    "Label 8": "52.500 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/haribo-keo-deo-goldbears-160g--s10014415?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Kẹo dẻo trái cây Haribo Goldbears gói 160g",
+                    "Label 6": "Gói",
+                    "Label 7": "41.900 ₫",
+                    "Label 8": "52.500 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/haribo-keo-deo-star-mix-160g--s10014417?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Kẹo dẻo Starmix Haribo gói 160g",
+                    "Label 6": "Gói",
+                    "Label 7": "41.900 ₫",
+                    "Label 8": "52.500 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/mms-keo-socola-dau-phong-90g--s10014578?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Kẹo socola nhân đậu phộng M&M's gói 100g",
+                    "Label 6": "Gói",
+                    "Label 7": "50.500 ₫",
+                    "Label 8": "63.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/lays-khoai-tay-vi-tao-bien-nori-150g--s10194183?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Khoai tây Lay's vị tảo biển Nori 150g",
+                    "Label 6": "Gói",
+                    "Label 7": "26.300 ₫",
+                    "Label 8": "33.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/layskhoai-tay-vi-than-bo-nuongtexas150g--s10194184?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Khoai tây Lay's vị thăn bò nướng Texas 150g",
+                    "Label 6": "Gói",
+                    "Label 7": "26.300 ₫",
+                    "Label 8": "33.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/oreo-banh-socola-pie-336g420g--s10194650?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh Socola OREO Pie Cadbury hộp 360g",
+                    "Label 6": "Hộp",
+                    "Label 7": "50.900 ₫",
+                    "Label 8": "63.900 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/gokochi-snack-k.tay-vi-muoi-tu-nhien-65g--s10196010?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Snack Khoai tây Gokochi vị muối tự nhiên gói 65g",
+                    "Label 6": "Gói",
+                    "Label 7": "16.500 ₫",
+                    "Label 8": "20.500 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/belgi-banh-trung-sua-mem-230g--s10303873?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh trứng sữa mềm Belgi 240g/230g",
+                    "Label 6": "Gói",
+                    "Label 7": "31.400 ₫",
+                    "Label 8": "39.100 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/swing-snack-vi-bit-tet-newyork-105g95g--s10015741?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh snack vị bít tết kiểu New York Swing gói 90g",
+                    "Label 6": "Gói",
+                    "Label 7": "18.000 ₫",
+                    "Label 8": "21.600 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/swing-snack-vi-ga-teriyaki-105g95g--s10303866?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh snack Swing vị gà Teriyali Osaka Orion gói 90g",
+                    "Label 6": "Gói",
+                    "Label 7": "18.000 ₫",
+                    "Label 8": "21.600 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/lays-snack-k.tay-tu-nhien-classic-58g--s10015616?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Snack khoai tây Lay's vị khoai tây tự nhiên Classic 56g",
+                    "Label 6": "Gói",
+                    "Label 7": "9.200 ₫",
+                    "Label 8": "10.900 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/toonies-snack-vi-so-co-la-60g--s10197482?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Snack vị sô cô la Toonies 60g",
+                    "Label 6": "Gói",
+                    "Label 7": "10.000 ₫",
+                    "Label 8": "11.900 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/toonies-snack-vi-pho-mai-bung-no-60g--s10197481?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Snack vị phô mai bùng nổ Toonies 60g",
+                    "Label 6": "Gói",
+                    "Label 7": "10.000 ₫",
+                    "Label 8": "11.900 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/cosy-banh-que-vi-dau-126g1176gt24--s10013649?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh quế vị kem dâu Cosy gói 132g",
+                    "Label 6": "Gói",
+                    "Label 7": "12.900 ₫",
+                    "Label 8": "15.200 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/cosy-banh-que-vi-dua-126g1176gt24--s10013650?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh quế vị kem lá dứa Cosy gói 132g",
+                    "Label 6": "Gói",
+                    "Label 7": "12.900 ₫",
+                    "Label 8": "15.200 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/cosy-banh-que-vi-socola-1261176g--s10013652?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh quế vị kem socola Cosy Kinh Đô gói 132g",
+                    "Label 6": "Gói",
+                    "Label 7": "12.900 ₫",
+                    "Label 8": "15.200 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/poca-snack-vi-bo-luc-lac-75g--s10195058?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Snack vị bò lúc lắc Poca gói 75g",
+                    "Label 6": "Gói",
+                    "Label 7": "8.900 ₫",
+                    "Label 8": "10.500 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/cosy-banh-que-xoai-xi-muoi-1261176g--s10197436?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh quế Cosy xoài xí muội 126/117,6g",
+                    "Label 6": "Gói",
+                    "Label 7": "12.900 ₫",
+                    "Label 8": "15.200 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/haribo-keo-xop-c.pink-white-70g--s10303010?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Kẹo xốp Haribo C.Pink & White 70g",
+                    "Label 6": "Gói",
+                    "Label 7": "24.500 ₫",
+                    "Label 8": "28.800 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/kitkat-tra-xanh-8-thanh-2f-136g--s10015413?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh xốp phủ sô cô la trà xanh Nestlé KitKat gói 8 + 2 thanh 2F 136g",
+                    "Label 6": "Gói",
+                    "Label 7": "98.200 ₫",
+                    "Label 8": "114.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/snack-bap-koimucho-vi-sua-bap-57g60g--s10625390?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Snack bắp vị sữa bắp Koimucho gói 64g",
+                    "Label 6": "Gói",
+                    "Label 7": "8.500 ₫",
+                    "Label 8": "9.900 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/coffee-joy-banh-qui-vi-ca-phe-312g--s10014042?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh Qui Coffê Joy Vị Cà Phê 312/360g",
+                    "Label 6": "Hộp",
+                    "Label 7": "44.500 ₫",
+                    "Label 8": "51.300 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/kitkat-banh-socola-nestle-4f-35g--s10014779?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh sô cô la KitKat Nestlé gói 35g",
+                    "Label 6": "Cái",
+                    "Label 7": "19.800 ₫",
+                    "Label 8": "22.700 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/vinamit-mit-say-goi-250g--s10015645?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Mít sấy gói Vinamit 250g",
+                    "Label 6": "Gói",
+                    "Label 7": "92.000 ₫",
+                    "Label 8": "105.600 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/tuan-dat-hat-dieu-lua-hop-450g--s10230548?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Hạt điều lụa Tuấn Đạt hộp 450g",
+                    "Label 6": "Hộp",
+                    "Label 7": "190.000 ₫",
+                    "Label 8": "219.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/cal-cheese-banh-xop-8.5-x18g--s10060926?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh xốp phô mai Cal Cheese Mayora hộp 20 x 8.5g",
+                    "Label 6": "Hộp",
+                    "Label 7": "25.500 ₫",
+                    "Label 8": "28.900 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/vinamit-mit-say-goi-100g--s10015642?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Mít sấy Vinamit gói 100g",
+                    "Label 6": "Gói",
+                    "Label 7": "39.900 ₫",
+                    "Label 8": "45.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/marika-banh-quy-bo-tu-nhien-432gr-t4--s10193895?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh quy bơ Marika vị tự nhiên 432g",
+                    "Label 6": "Hộp",
+                    "Label 7": "146.900 ₫",
+                    "Label 8": "165.900 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/goute-banh-vi-me-gion-tan-475.2g-t6--s10014262?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh Gouté mè giòn tan Orion hộp 475.2g",
+                    "Label 6": "Hộp",
+                    "Label 7": "138.900 ₫",
+                    "Label 8": "154.900 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/hong-lam-o-mai-chanh-man-ngot-200g--s10005039?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Ô mai chanh mặn ngọt Hồng Lam hộp 200g",
+                    "Label 6": "Hộp",
+                    "Label 7": "60.500 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/hong-lam-o-mai-mo-cam-thao-200g--s10005043?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Ô mai mơ cam thảo Hồng Lam hộp 200g",
+                    "Label 6": "Hộp",
+                    "Label 7": "70.700 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/hong-lam-o-mai-mo-gung-200g-ds--s10005048?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Ô mai mơ gừng Hồng Lam 200g",
+                    "Label 6": "Hộp",
+                    "Label 7": "71.300 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/hong-lam-o-mai-man-com-chua-ngot-200g--s10005071?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Ô mai mận cơm chua ngọt Hồng Lam hộp 200g",
+                    "Label 6": "Hộp",
+                    "Label 7": "60.500 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/hong-lam-o-mai-mo-gung-cmn-200g--s10005050?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Ô mai mơ gừng Hồng Lam chua mặn ngọt hộp 200g",
+                    "Label 6": "Hộp",
+                    "Label 7": "71.300 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/hong-lam-o-mai-mo-chua-man-ngot-200g--s10005045?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Ô mai mơ chua mặn ngọt Hồng Lam hộp 200g",
+                    "Label 6": "Hộp",
+                    "Label 7": "71.300 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/hong-lam-o-mai-man-xao-chua-ngot-200g--s10005083?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Ô mai mận xào chua ngọt Hồng Lam 200g",
+                    "Label 6": "Hộp",
+                    "Label 7": "60.500 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/duc-hanh-keo-chobisca-kg--s10005140?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Kẹo Chobisca Đức Hạnh (kg)",
+                    "Label 6": "0.5KG",
+                    "Label 7": "90.900 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/hong-lam-o-mai-mo-xi-muoi-chua-ngot-200g--s10005100?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Ô mai mơ xí muội Hồng Lam chua ngọt 200g",
+                    "Label 6": "Hộp",
+                    "Label 7": "71.300 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/hong-lam-o-mai-sau-bao-tu-200g--s10005087?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Ô mai sấu bao tử Hồng Lam hộp 200g",
+                    "Label 6": "Hộp",
+                    "Label 7": "60.200 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/bento-snack-hai-san-namprik-thai-18g--s10011145?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Mực tẩm gia vị Thái Bento gói 24g",
+                    "Label 6": "Gói",
+                    "Label 7": "29.500 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/bento-snack-hai-san-cay-ngot-18g--s10011147?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Snack mực tẩm gia vị cay ngọt Bento gói 24g",
+                    "Label 6": "Gói",
+                    "Label 7": "29.500 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/deedo-thach-3-trong-1-720g--s10011523?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Thạch Thái Lan 3in1 Trái Cây Deedo 720g",
+                    "Label 6": "Gói",
+                    "Label 7": "50.600 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/pep-farm-banh-quy-bo-chessmen-206g--s10013412?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh quy bơ Pep Farm Chessmen 206g",
+                    "Label 6": "Gói",
+                    "Label 7": "130.000 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/goute-banh-vi-me-gion-tan-hop-144g--s10013456?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh mè giòn tan Orion Gouté hộp 144g",
+                    "Label 6": "Hộp",
+                    "Label 7": "30.000 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/marine-boy-vi-tom-nuong-moi-do-35g--s10013462?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh quy Marine Boy vị tôm nướng môi đỏ Orion hộp 32g",
+                    "Label 6": "Hộp",
+                    "Label 7": "14.100 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/marine-boy-vi-r.bien-tuyet-xanh-35g--s10013463?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh quy Marine Boy vị rong biển tuyết xanh hộp 32g",
+                    "Label 6": "Hộp",
+                    "Label 7": "13.900 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/danisa-banh-quy-bo-hop-908g--s10013472?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh quy bơ Danisa hộp 908g",
+                    "Label 6": "Hộp",
+                    "Label 7": "281.000 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/doakbua-banh-que-vi-truyen-thong-50g--s10013465?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh que tôm Doakbua gói 55g",
+                    "Label 6": "Gói",
+                    "Label 7": "17.100 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/chocopie-banh-orion-hop-396g435.6g--s10013500?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh Choco-Pie Orion hộp 396g",
+                    "Label 6": "Hộp",
+                    "Label 7": "58.200 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/chocopie-banh-orion-hop-198g217.8g--s10013501?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh Choco-Pie Orion hộp 198g",
+                    "Label 6": "Hộp",
+                    "Label 7": "34.500 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/custas-banh-cao-cap-orion-hop-282g--s10013503?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh Custas kem trứng Orion hộp 276g",
+                    "Label 6": "Hộp",
+                    "Label 7": "60.000 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/goody-chip-banh-quy-hat-dieu-80g--s10013515?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh quy Goody Chip hạt điều 80g",
+                    "Label 6": "Cái",
+                    "Label 7": "10.000 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/custas-banh-cao-cap-orion-hop-138g--s10013504?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh cao cấp Orion CUSTAS hộp 138g",
+                    "Label 6": "Hộp",
+                    "Label 7": "33.000 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/solite-banh-bl-vi-bo-sua-378g324g--s10013613?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh bông lan vị bơ sữa Solite khay 360g",
+                    "Label 6": "Khay",
+                    "Label 7": "53.100 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/solite-banh-bl-cuon-vi-dau-378g324g--s10013614?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh bông lan cuốn vị dâu Solite hộp 360g",
+                    "Label 6": "Khay",
+                    "Label 7": "52.500 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/oneone-banh-gao-vi-bo-nuong-150g--s10013531?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh gạo vị bò nướng One-One gói 150g",
+                    "Label 6": "Gói",
+                    "Label 7": "33.000 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/leibniz-banh-qui-bo-it-duong-200g--s10013549?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh quy bơ Diet Leibniz gói 200g",
+                    "Label 6": "Gói",
+                    "Label 7": "82.000 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/solite-banh-bl-cuon-la-dua-378g324g--s10013615?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh bông lan cuốn kem vị lá dứa Solite hộp 360g",
+                    "Label 6": "Khay",
+                    "Label 7": "52.500 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/afc-banh-bo-bit-tet-200g172gt16--s10013620?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh cracker vị bò bít tết AFC hộp 200g",
+                    "Label 6": "Hộp",
+                    "Label 7": "30.500 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/afc-tpbs-banh-lua-mi-172g-t16--s10013618?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh cracker dinh dưỡng AFC vị lúa mì hộp 200g",
+                    "Label 6": "Hộp",
+                    "Label 7": "30.500 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/afc-banh-tao-bien-200g172gt16--s10013621?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh cracker AFC vị tảo biển hộp 200g",
+                    "Label 6": "Hộp",
+                    "Label 7": "30.500 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/cosy-banh-quy-marie-408g480g--s10013638?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh quy Marie Cosy Kinh Đô gói 450g",
+                    "Label 6": "Gói",
+                    "Label 7": "46.500 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/afc-tpbs-banh-rau-cai-172g-t16--s10013619?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh cracker dinh dưỡng AFC vị rau hộp 200g",
+                    "Label 6": "Hộp",
+                    "Label 7": "29.600 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/tpbs-cosy-banh-quy-marie-136g120g-t24--s10013635?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh quy Marie Cosy Kinh Đô gói 144g",
+                    "Label 6": "Gói",
+                    "Label 7": "19.400 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/yan-yan-banh-que-vani-50g--s10013656?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh que Yan Yan hương vani 50g",
+                    "Label 6": "Cái",
+                    "Label 7": "25.600 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/yan-yan-banh-que-socola-50g--s10013655?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh que Yan Yan socola 50g",
+                    "Label 6": "Cái",
+                    "Label 7": "25.600 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/lucky-stick-banh-que-huong-socola-45g--s10013667?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh que Lucky Stick hương socola 45g",
+                    "Label 6": "Hộp",
+                    "Label 7": "25.600 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/lucky-stick-banh-que-huong-dau-45g--s10013668?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh que hương dâu Lucky Stick 45g",
+                    "Label 6": "Hộp",
+                    "Label 7": "25.600 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/gullon-banh-qui-k.dg-shortbread-330g--s10013680?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh qui Gullon Doradas al Horno 330g",
+                    "Label 6": "Hộp",
+                    "Label 7": "127.300 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/gullon-banh-qui-0-dg-hat-scl-125g--s10013681?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh ăn kiêng Gullon Cookíe Socola gói 125g",
+                    "Label 6": "Gói",
+                    "Label 7": "79.700 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/phaner-pie-banh-choco-marshmallow-216g--s10013702?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh Choco Phaner Marshmallow P&N Chocolate gói 216g",
+                    "Label 6": "Gói",
+                    "Label 7": "25.200 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/hello-panda-banh-gau-nhan-kem-scl-50g--s10013658?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh kem sô cô la Hello Panda Meiji hộp 500g",
+                    "Label 6": "Hộp",
+                    "Label 7": "24.500 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/yan-yan-banh-que-vi-dau-50g--s10013657?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh que Yan Yan vị dâu 50g",
+                    "Label 6": "Cái",
+                    "Label 7": "25.600 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/gullon-banh-qui-0-dg-chat-xo-170g--s10013682?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh Gullon ăn kiêng không đường nhiều chất xơ 170g",
+                    "Label 6": "Gói",
+                    "Label 7": "71.300 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/gullon-banh-xop-0-dg-nhan-vani-180g--s10013679?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh xốp Gullon ăn kiêng không đường 210g/180g",
+                    "Label 6": "Gói",
+                    "Label 7": "112.500 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/ostar-snack-vi-kim-chi-h.quoc-60g55g--s10013764?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Snack Ostar vị Kim Chi Hàn Quốc 58/63g",
+                    "Label 6": "Gói",
+                    "Label 7": "11.900 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/doakbua-banh-que-thit-heo-x.khoi-20g--s10013794?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh que thịt heo xông khói Doakbua gói 25g",
+                    "Label 6": "Gói",
+                    "Label 7": "8.200 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/doakbua-banh-que-vi-truyen-thong-20g--s10013793?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh que tôm Doakbua gói 25g",
+                    "Label 6": "Gói",
+                    "Label 7": "8.200 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/tipo-banh-trung-220g240g--s10013765?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh trứng Tipo Hữu Nghị gói 220g",
+                    "Label 6": "Gói",
+                    "Label 7": "43.300 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/doakbua-banh-que-thit-xong-khoi-50g--s10013795?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh que thịt xông khói Doakbua gói 55g",
+                    "Label 6": "Gói",
+                    "Label 7": "17.100 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/toppo-banh-que-socola-hop-40g--s10013811?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh que sô cô la Toppo hộp 40g",
+                    "Label 6": "Hộp",
+                    "Label 7": "17.200 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/richy-banh-gao-vi-ngot-303g--s10013857?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh gạo vị ngọt Richy gói 315g",
+                    "Label 6": "Gói",
+                    "Label 7": "41.300 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/kitkat-socola-chunky-38g--s10013845?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Sô cô la KitKat Chunky gói 38g",
+                    "Label 6": "Cái",
+                    "Label 7": "26.500 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/richy-banh-karo-bo-trung-gion-270g--s10013858?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh bơ trứng Richy gói 270g",
+                    "Label 6": "Gói",
+                    "Label 7": "37.700 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/royal-family-banh-mochi-dau-do-120g--s10013863?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh Mochi đậu đỏ Royal Family 120g",
+                    "Label 6": "Gói",
+                    "Label 7": "52.000 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/oreo-banh-quy-kem-vani-9x27.6g9x26.25g--s10013883?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh quy kem vani Oreo gói 264.6g",
+                    "Label 6": "Gói",
+                    "Label 7": "34.900 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/ichi-banh-gao-nhat-kameda-100g--s10013881?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh gạo Nhật Ichi Kameda gói 100g",
+                    "Label 6": "Gói",
+                    "Label 7": "25.000 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/coffee-joy-banh-qui-vi-ca-phe-156g--s10013920?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh cà phê Mayora hộp 180g",
+                    "Label 6": "Hộp",
+                    "Label 7": "27.200 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/coffee-joy-banh-qui-vi-ca-phe-142g--s10013919?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh quy cà phê Roma gói 142g",
+                    "Label 6": "Gói",
+                    "Label 7": "20.300 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/ostar-snack-vi-kim-chi-h.quoc-105g95g--s10013932?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh snack vị kim chi Hàn Quốc O'Star gói 90g",
+                    "Label 6": "Gói",
+                    "Label 7": "21.600 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/ostar-snack-k.tay-vi-tao-bien-105g95g--s10013935?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh snack khoai tây tươi vị tảo biển O'Star gói 90g",
+                    "Label 6": "Gói",
+                    "Label 7": "21.600 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/nabati-tpbsbanh-k.xop-richeese-p.mai120g--s10013957?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh kem xốp phômai Richeese Nabati cheese wafer hộp 160g",
+                    "Label 6": "Hộp",
+                    "Label 7": "40.800 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/royal-family-banh-mochi-tra-xanh-152g--s10013973?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh mochi vị trà xanh Royal Family hộp 152g",
+                    "Label 6": "Hộp",
+                    "Label 7": "50.900 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/royal-family-banh-mochi-txanh-kem180g--s10013976?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh mochi trà xanh kem Royal Family hộp 180g",
+                    "Label 6": "Hộp",
+                    "Label 7": "67.700 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/nabati-banh-k.xop-richeese-p.mai320300g--s10013962?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh kem xốp phômai Richeese Nabati cheese wafer 320g (16gr x20)",
+                    "Label 6": "Hộp",
+                    "Label 7": "51.000 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/danisa-banh-qui-bo-200g--s10013980?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh qui bơ Danisa hộp 200g",
+                    "Label 6": "Hộp",
+                    "Label 7": "61.600 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/yukilove-b.-mochi-nhan-tong-hop-450g--s10014047?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh Mochi nhân tổng hợp Yuki& Love 450g",
+                    "Label 6": "Hộp",
+                    "Label 7": "152.000 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/toppo-banh-que-nhan-socola-goi-132g--s10013979?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh que nhân socola Toppo gói 132g",
+                    "Label 6": "Gói",
+                    "Label 7": "56.500 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/yukilove-b.-mochi-h.hop-sanshugong-300g--s10014048?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh Mochi hỗn hợp SanShuGong 300g",
+                    "Label 6": "Hộp",
+                    "Label 7": "163.000 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/cremon-banh-qui-16-loai-ngu-coc-190g--s10014089?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh qui Cremon 16 loại ngũ cốc 190g",
+                    "Label 6": "Gói",
+                    "Label 7": "87.000 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/akiko-banh-que-nhan-sua-140g--s10014111?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Snack que nhân sữa Akiko gói 160g",
+                    "Label 6": "Gói",
+                    "Label 7": "21.000 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/akiko-banh-que-nhan-cafe-moka-140g--s10014110?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh snack que nhân cà phê moka Akiko gói 160g",
+                    "Label 6": "Gói",
+                    "Label 7": "21.000 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/ichi-banh-gao-nhat-vi-m.ong-kameda-180g--s10014231?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh gạo Nhật Ichi vị mật ong Kameda gói 180g",
+                    "Label 6": "Gói",
+                    "Label 7": "42.500 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/nabati-banh-k.xop-richeese-p.mai-50g--s10014286?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh xốp nhân phô mai Nabati gói 52g",
+                    "Label 6": "Gói",
+                    "Label 7": "7.800 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/haribo-keo-deo-goldbears-80g--s10014412?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Kẹo dẻo Goldbears Haribo gói 80g",
+                    "Label 6": "Gói",
+                    "Label 7": "28.500 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/lindt-socola-85-cocoa-excellence-100g--s10014426?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Sô cô la 85% cocoa Lindt Excellence thanh 100g",
+                    "Label 6": "Cái",
+                    "Label 7": "167.200 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/hanh-dung-thach-dua-tui-1kg--s10014449?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Thạch dừa Hạnh Dung túi 1kg",
+                    "Label 6": "Gói",
+                    "Label 7": "32.200 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/merci-socola-hon-hop-250g--s10014454?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Socola đen Merci 250g",
+                    "Label 6": "Hộp",
+                    "Label 7": "223.000 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/haribo-keo-deo-fruity-basket-80g--s10014414?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Kẹo dẻo Haribo Fruity Basket 80g",
+                    "Label 6": "Gói",
+                    "Label 7": "28.800 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/haribo-keo-deo-happy-cola-80g--s10014413?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Kẹo dẻo Happy Cola Haribo gói 80g",
+                    "Label 6": "Gói",
+                    "Label 7": "28.500 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/kopiko-keo-ca-phe-coffeeshot-140g--s10014464?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Kẹo cà phê Coffeeshot Kopiko gói 150g",
+                    "Label 6": "Gói",
+                    "Label 7": "17.000 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/jelly-chip-chip-keo-hai-ha-450g--s10014480?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Kẹo Hải hà Jelly Chip Chip 450g",
+                    "Label 6": "Gói",
+                    "Label 7": "50.200 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/yubi-keo-deo-burger-84g--s10014498?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Kẹo dẻo burger Yubi gói 96g/90g",
+                    "Label 6": "Gói",
+                    "Label 7": "33.200 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/yubi-keo-deo-frankurter-84g--s10014499?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Kẹo dẻo Yubi Frankurter 96g/90g",
+                    "Label 6": "Gói",
+                    "Label 7": "33.400 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/kopiko-keo-capuchianocoffeeshot-140g--s10014466?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Kẹoo Kopiko Capuchiano Coffếhot 140g",
+                    "Label 6": "Gói",
+                    "Label 7": "17.000 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/xylitol-keo-gum-limemint-58g55.1g--s10014525?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Kẹo gum không đường hương Chanh Bạc Hà Xylitol Lotte hộp 58g",
+                    "Label 6": "Hộp",
+                    "Label 7": "28.800 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/xylitol-keo-gum-blueberry-58g55.1g--s10014526?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Kẹo gum không đường hương Việt Quất Xylitol hộp 58g",
+                    "Label 6": "Hộp",
+                    "Label 7": "28.800 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/xylitol-keo-gum-strawberry-58g55.1g--s10014528?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Kẹo gum không đường hương Dâu Bạc Hà Xylitol hộp 58g",
+                    "Label 6": "Hộp",
+                    "Label 7": "28.800 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/xylitol-keo-gum-fresh-mint-58g55.1g--s10014527?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Kẹo gum Xylitol Fresh Mint hũ 58g",
+                    "Label 6": "Hộp",
+                    "Label 7": "28.800 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/xylitol-keo-gum-limemint-137.8g130.5g--s10014529?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Kẹo gum không đường hương Chanh Bạc Hà Xylitol hộp 145g",
+                    "Label 6": "Hộp",
+                    "Label 7": "58.600 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/xylitol-keo-gum-blueberry-137.8g130.5g--s10014530?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Kẹo gum không đường hương Việt Quất Xylitol hộp 145g",
+                    "Label 6": "Hộp",
+                    "Label 7": "58.600 ₫",
+                    "Label 8": ""
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/doublemint-keo-ngam-h.chanh-23.8g--s10014553?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Kẹo ngậm Doublemin hương Chanh tuýp 23,8g",
+                    "Label 6": "Tuýp",
+                    "Label 7": "32.500 ₫",
+                    "Label 8": ""
+                }
+            ]
+        },
+        "markdown": "",
+        "html": ""
+    },
+    "screenshots": []
+}
