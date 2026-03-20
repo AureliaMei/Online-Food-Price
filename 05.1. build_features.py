@@ -16,25 +16,25 @@ from pathlib import Path
 ROOT = Path(__file__).parent.resolve()
 
 STEPS = [
-    (ROOT / "src" / "build_product_dataset.py", "Build product-level dataset"),
-    (ROOT / "src" / "nlp_features.py",          "Extract NLP features"),
+    ("src.build_product_dataset", "Build product-level dataset"),
+    ("src.nlp_features",          "Extract NLP features"),
 ]
 
 
-def run_step(script: Path, label: str) -> int:
+def run_step(module: str, label: str) -> int:
     print(f"\n{'='*60}")
     print(f"⏳  {label}")
-    print(f"    {script.relative_to(ROOT)}")
+    print(f"    python -m {module}")
     print("=" * 60)
     result = subprocess.run(
-        [sys.executable, str(script)],
+        [sys.executable, "-m", module],
         check=False,
         cwd=str(ROOT),
     )
     if result.returncode == 0:
-        print(f"✅  Done: {script.name}")
+        print(f"✅  Done: {module}")
     else:
-        print(f"❌  Failed (exit {result.returncode}): {script.name}")
+        print(f"❌  Failed (exit {result.returncode}): {module}")
     return result.returncode
 
 
@@ -43,18 +43,12 @@ def main() -> int:
     print("🚀  FEATURE ENGINEERING PIPELINE  (05.1)")
     print("=" * 60)
 
-    missing = [s for s, _ in STEPS if not s.exists()]
-    if missing:
-        for p in missing:
-            print(f"⚠️  Script not found: {p}")
-        return 1
-
     failures = 0
-    for script, label in STEPS:
-        rc = run_step(script, label)
+    for module, label in STEPS:
+        rc = run_step(module, label)
         if rc != 0:
             failures += 1
-            print(f"\n⛔  Stopping — fix errors in {script.name} before continuing.")
+            print(f"\n⛔  Stopping — fix errors in {module} before continuing.")
             break   # dataset must succeed before NLP features can run
 
     print(f"\n{'='*60}")
