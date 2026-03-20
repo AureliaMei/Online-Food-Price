@@ -192,3 +192,39 @@ This is a **temporal robustness check** for the cross-sectional hedonic findings
 Section 4 (Results) → 4.4 Temporal Dynamics of Brand Premiums
 - Short section (~1 page): reference Figure D1 (gap over time) + Table D1 (summary stats)
 - Bridge to Discussion: are the premiums found in hedonic regression permanent features or partially eroded by seasonal promotions?
+
+---
+
+## Part E: Decision Tree Price Predictor
+
+### Motivation
+
+The OLS hedonic regression captures *marginal effects* of individual attributes holding others fixed. A decision tree complements this by:
+1. Capturing **interaction effects** (e.g., "imported dairy costs X, but imported confectionery costs Y")
+2. Giving **intuitive price ranges** ("if a product is Prestige Leader dairy with a health claim, expect 45,000–120,000 VND")
+3. Being fully interpretable as explicit if-then rules — no log-transformation interpretation needed
+
+### Model
+
+**Target:** `avg_final_price` (VND checkout price — direct, intuitive)
+**Algorithm:** `DecisionTreeRegressor(max_depth=5, min_samples_leaf=15)`
+**Evaluation:** 5-fold CV R², MAE, median absolute error
+
+### Features
+
+**Structured (12):** `parent_category` (one-hot), `brand_quadrant` (one-hot), `ln_pack_size`, `pack_count`, `is_import`, `has_health_claim`, `has_freshness_claim`, `promo_rate`, `avg_discount_depth`, `price_volatility`, `name_length`, `ever_promoted`
+
+**Name keywords (up to 60):** `CountVectorizer(ngram_range=(1,2), max_features=60, min_df=10, binary=True)` on `product_name`. Vietnamese is space-separated so standard tokenization works. Captures signals like "cao cấp" (premium), "hữu cơ" (organic), "rang muối" (salted roast), "lốc" (multipack), "nhập khẩu" (imported) that go beyond the structured features.
+
+### Outputs (in notebook 08)
+
+- **DT1:** Tree diagram (max 4 levels displayed), colored green→red by price
+- **DT2:** Leaf PI chart — horizontal bars showing 50%/90% prediction intervals per leaf, sorted by median price, colored by majority product category
+- **DT3:** Feature importances (color-coded: category/brand/keyword/continuous) + actual vs. predicted scatter (log-log) with 50%/90% PI bands
+
+### Thesis Placement
+
+Appendix or Section 4.5 (Supplementary): "Alternative Approach — Decision Tree Price Predictor"
+- Supports the hedonic findings: if the same attributes dominate (brand_quadrant, parent_category, ln_pack_size) the tree importance ranking validates the OLS finding that these are the main price drivers
+- Adds keyword-level evidence: "hữu cơ" / "nhập khẩu" / "cao cấp" appearing in feature importances confirms that name signals carry price information beyond structured attributes
+- The leaf PI chart is the most intuitive takeaway: a reader can locate their product type and see the expected price range directly
