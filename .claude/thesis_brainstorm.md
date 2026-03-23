@@ -1,230 +1,281 @@
-# Thesis: What Makes Vietnamese Groceries Expensive? Decomposing Food Price Premiums via Hedonic Pricing
+# Thesis: Hedonic Price Decomposition with Promotional Erosion — Evidence from Vietnamese Online Grocery
 
-## Context
+## Research Question
 
-The dataset contains 1,000+ unique products across 10 food categories scraped daily from Winmart over ~88 days. Product names are information-dense Vietnamese text containing brand names, pack sizes, origin signals, health claims, and quality modifiers. The core question: within any food category, some products cost far more than others. How much of that price gap is explained by what the product is (brand, origin, health claims, size) vs. being unexplained? This is a hedonic pricing decomposition of food price premiums in a Vietnamese online grocery context.
+**Single RQ:** *"What product attributes generate price premiums in Vietnamese online grocery, and to what extent do promotional pricing strategies erode those premiums?"*
 
-## Research Questions
+**One-sentence pitch:** Using 88 days of web-scraped dual-price data from Vietnam's largest online grocery platform, I decompose food price premiums into attribute components and show that promotional pricing partially — but not fully — erodes brand and import premiums at checkout, with erosion patterns that vary systematically by product category.
 
-**Primary:** What product characteristics (brand, import origin, health claims, pack size) generate price premiums within Vietnamese online food categories?
+---
 
-**Secondary:** Do the same attributes that generate sticker price premiums (marked_price) also generate premiums in what consumers actually pay (final_price)? Or do promotions erode premiums at checkout?
-
-## Methodology
-
-### Time Treatment: Cross-Sectional
-Average final_price and marked_price per product across all available days. No time series required.
-
-### Step 1 — Build Product-Level Dataset
-Source files:
-
-- `data/[CATEGORY]/cat_lookup_table.csv` — unique product list (~1,000+ products across 10 categories)
-- `data/[CATEGORY]/CSV/*.csv` — daily prices to average per product
-
-Output table — one row per product:
+## Chapter Outline
 
 ```
-product_name, subcategory, category, avg_final_price, avg_marked_price,
-days_observed, promo_rate, avg_discount_depth
+Chapter 1  Introduction
+  - Food inflation in Vietnam; premium tax framing
+  - Contribution statement (use qualified claim from thesis_todo_lit_search.md)
+  - Single-retailer design rationale (§3.1 preview)
+
+Chapter 2  Literature Review
+  - Hedonic pricing theory (Rosen 1974, Lancaster 1966)
+  - Brand equity and positioning (Aaker 1991, Kapferer 2012)
+  - Online retail pricing and promotional strategy (Varian 1997, Cavallo 2016)
+  - Vietnamese consumer market — gap identification
+
+Chapter 3  Data & Methods
+  3.1  Data collection (Winmart scraping, 10 categories, 88 days, ~2,280 products)
+  3.2  Data limitations and coverage (Confectionary cold-start, Instant_food gap)
+  3.3  NLP feature extraction (9 features from product names)
+  3.4  Brand positioning typology and dummy hierarchy
+  3.5  Hedonic specification (pooled OLS + subcategory FE + cluster-robust SE)
+  3.6  Dual-price design: marked_price vs. final_price
+
+Chapter 4  Results
+  4.1  Descriptive statistics (Table 1, incl. promotion penetration by category)
+  4.2  Pooled hedonic regression (Table 2) — marked vs. final side-by-side
+  4.3  Per-category heterogeneity (Table 3) — why premiums differ across categories
+  4.4  Promotional erosion analysis — THE key finding (coefficient comparison + forest plot)
+  4.5  Diagnostics and robustness
+       - VIF (all < 2.0), Breusch-Pagan, partial F-tests
+       - Cook's distance influence diagnostics
+       - 3-month snapshot stability (Dec/Jan/Feb)
+
+Chapter 5  Discussion
+  5.1  Why some premiums survive checkout (import, health claims) and others don't
+  5.2  The WinEco effect: house brand discount amplified by promotions (431% erosion)
+  5.3  Tet context (1–2 paragraphs — not an event study, but contextualizing the data window)
+  5.4  Limitations
+       - Single-retailer (Winmart only)
+       - NLP proxy quality (brand list, health claim keywords)
+       - Dynamic product catalog
+       - No transaction volumes (cannot compute sales-weighted indices)
+
+Chapter 6  Conclusion
+
+Appendix A  NLP feature dictionary and keyword lists
+Appendix B  Full per-category regression tables (with dropped-variable footnotes)
+Appendix C  Diagnostics (VIF table, residual plots, QQ plots)
+Appendix D  Brand gap temporal dynamics (1-page stability check, NO Tet analysis)
 ```
 
-### Step 2 — NLP Feature Extraction Pipeline
-Features extracted from product_name and unit columns using regex + keyword dictionaries.
-
-| Feature | Method | Captures |
-|---|---|---|
-| is_branded | Known brand list (~30 brands) | Brand premium |
-| brand_origin | Origin keywords (Mỹ, Úc, Nhật, nhập khẩu…) | Import premium |
-| is_house_brand | Exact match (WinEco) | Retailer private label discount |
-| ln_pack_size | Regex on unit + name (ml/g/kg/L) | Returns to scale |
-| pack_count | Regex on "Lốc X", "Gói X" | Bulk bundling premium |
-| has_health_claim | Keyword list (canxi, probiotic, DHA, organic, ít đường) | Health premium |
-| has_freshness_claim | Keyword list (tươi, sạch, nguyên chất) | Freshness premium |
-| name_length | Token count | Information richness proxy |
-| unit_type | weight / volume / count / bundle | Comparability control |
-
-### Step 3 — Hedonic Regression
-Dependent variable: ln(price_per_standardized_unit) — price per 100g/100ml after pack size normalization
-
-Specification:
-
-```
-ln(P/unit) = α + β₁·is_branded + β₂·is_import + β₃·is_house_brand
-           + β₄·ln(pack_size) + β₅·pack_count
-           + β₆·has_health_claim + β₇·has_freshness_claim
-           + β₈·name_length + γ·subcategory_FE + ε
-```
-
-The β coefficients are the implicit prices (premiums) for each attribute.
-
-Run twice:
-- DV = ln(marked_price/unit) — sticker price premiums
-- DV = ln(final_price/unit) — actual paid price premiums
-
-If β₁ (brand premium) shrinks in specification 2, promotions are partially equalizing consumer prices.
-
-Cross-category analysis:
-- Run specification per category group (or with attribute × category interactions)
-- Compare premium magnitude: Dairy vs. Veg_Fruit vs. Dry_Food vs. Processed_food
-- Expected gradient: import/brand premiums largest in Dairy, near-zero in Veg_Fruit
-
-### Step 4 — Decomposition Summary
-For each subcategory, report:
-- Total price variation (std dev of ln price)
-- Explained by: brand, origin, health claims, pack size (from R²)
-- Unexplained (residual) — potential market power signal
+---
 
 ## Theoretical Framework
 
 - **Hedonic pricing** (Rosen 1974): goods are bundles of attributes; market prices reveal implicit values for each attribute
-- **Brand equity** (Keller 1993): brand identity creates a sustainable price premium above physical product characteristics
+- **Brand equity** (Aaker 1991, Kapferer 2012): brand identity creates a sustainable price premium above physical product characteristics — anchor for the brand positioning typology
 - **Price discrimination via versioning** (Varian 1997): same core product in premium/economy variants
-- **Promotional pricing paradox:** categories with highest promotion penetration (Dairy 92.7%) also have highest branded price premiums — are promotions the mechanism that keeps premium products competitive?
-
-## Expected Findings
-
-| Attribute | Expected Premium | Strongest in |
-|---|---|---|
-| Branded vs. generic | +20–40% | Dairy, Processed_food |
-| Imported vs. domestic | +15–30% | Dairy |
-| House brand (WinEco) | −5–15% | Veg_Fruit |
-| Health claim | +10–20% | Dairy, Baby_product |
-| Freshness claim | +5–15% | Veg_Fruit, Frozen |
-| Larger pack size | −X% per unit | Packaged goods |
-
-Brand premium in marked_price > brand premium in final_price → promotions partially close the gap.
-
-## Thesis Structure
-
-1. Introduction — food inflation in Vietnam; how much of grocery spending is a "premium tax"?
-2. Literature Review — hedonic pricing, brand equity, online retail pricing, Vietnamese consumer market
-3. Data & Methods — scraping pipeline, NLP feature engineering, regression specification
-4. Results
-   - Descriptive: price distributions by brand/origin/health claim tier
-   - Main regression table (pooled and by category)
-   - Marked price vs. final price premium comparison
-   - Robustness checks
-5. Discussion — consumer welfare, retailer strategy, implications for food affordability
-6. Conclusion
-
-## Critical Files
-
-| File | Role |
-|---|---|
-| `data/[CATEGORY]/cat_lookup_table.csv` | Master product list (10 files) |
-| `data/[CATEGORY]/CSV/*.csv` | Daily prices to average |
-| `output/subcategory_kmeans_groups.csv` | Validate subcategory clusters |
-| `.claude/thesis_brainstorm.md` | UPDATE this file to reflect new thesis direction |
-
-## Rigor Levers
-
-- Cluster-robust SE by subcategory
-- VIF check for NLP feature multicollinearity
-- Partial F-tests: brand block, health claim block
-- Robustness: re-run on 3 separate date snapshots (not just average)
-- Sensitivity: narrow brand list (top 15) vs. broad (all capitalized tokens)
-- Adjusted R² decomposition per category
-
-## Implementation Steps (post plan approval)
-
-1. Update thesis_brainstorm.md — rewrite to reflect hedonic pricing / food price premium framing
-2. Write `src/build_product_dataset.py` — aggregate daily CSVs → product-level dataset
-3. Write `src/nlp_features.py` — NLP extraction pipeline
-4. Write `notebooks/08. hedonic_regression.ipynb` — regressions + tables
-5. Write `notebooks/09. visualize_hedonic.ipynb` — charts for thesis
-
-## Verification
-
-- Branded products should have higher mean prices than generic in each category (sanity check)
-- β₁ positive and significant in Dairy, near-zero in Veg_Fruit
-- R² higher for brand-heavy categories (Dairy) than commodity categories (Veg_Fruit)
-- Coefficients stable across 3 different date snapshots
+- **Online price measurement** (Cavallo 2016, 2017): web-scraped prices as real-time economic indicators
 
 ---
 
-## Part D: Brand Price Gap Dynamics Over Time
+## §3.2 — Data Limitations and Coverage
 
-### Research Questions
+### Confectionary 46-Day Cold-Start
 
-1. Is the branded-generic price gap (in VND and %) stable across the 88-day window, or does it widen/compress over time?
-2. Does the gap behave differently across categories (Dairy vs. Veg_Fruit vs. Processed_food)?
-3. Is there a visible Tet effect (around Feb 17, 2026) — do brands discount more during the holiday, narrowing the gap?
+The Confectionary (Bánh Kẹo) price index begins **2026-02-02** with base = 1.0, 46 days after the Dec 18 base date used for all other categories. The Confectionary category page was not included in the initial scraping robot configuration and was added on Feb 2, 2026.
 
-### Methodology
+**Consequences:**
+- The overall Jevons index (`overall_daily_average_index.csv`) is computed as `combined_df.mean(axis=1)` with `skipna=True` in `05. food_index.py`. Before Feb 2, the overall index averages over 9 categories; from Feb 2 onward, over 10. This creates a **silent composition break** in the aggregate series.
+- Cross-category time-series charts comparing Confectionary alongside Dec-18-based categories are misleading (different base dates, different observation windows).
+- Confectionary is one of the highest-demand Tet categories — the entire pre-Tet surge window is unobserved.
 
-**Unit of analysis:** date × category (daily panel)
+**Mitigation for hedonic regression:** The cross-sectional product dataset averages prices over each product's available days. Confectionary products simply have fewer averaged observations (max ~50 days vs. ~88 for other categories). The `days_observed` variable controls for this, and sparse products (< 7 days) are already filtered.
 
-**Gap metric:**
-- `gap_abs` = median(branded final_price) − median(generic final_price) in VND
-- `gap_pct` = gap_abs / median(generic final_price) × 100
-- Computed separately for `final_price` and `marked_price`
-- Using median (not mean) for robustness to outlier price jumps
+**Thesis text:** "Confectionary data collection began on February 2, 2026, 46 days after the other nine categories. This category is excluded from temporal analyses spanning the full December–March window. Cross-sectional hedonic estimates for Confectionary are based on a shorter observation window (maximum 50 days) but remain valid as the `days_observed` variable controls for observation length."
 
-**Brand detection:** same `BRAND_KEYWORDS` substring match as hedonic regression (`is_branded = 1` if any keyword in product name)
+### Instant_food 18-Day Tet Gap
 
-**Tet window:** Feb 10 – Feb 24, 2026 (±1 week around Feb 17)
+Instant_food has a continuous **18-day gap from January 31 to February 18, 2026**, spanning the entire Tet holiday period (Tet = Feb 17). Additionally, 3 of 4 subcategories (Cháo, Miến-Hủ Tíu, Phở-Bún) have no data for the first ~10 days (Dec 18–28), with only Mì reporting from day 1.
 
-### Expected Findings
+**Consequences:**
+- Instant noodles are a classic Tet stockpiling category — the missing window is exactly where a price spike would be expected.
+- The chain-linked Jevons index bridges the gap by linking Jan 31 directly to Feb 18, but this masks whatever happened during the 18 missing days.
 
-| Category | Expected dynamic |
-|---|---|
-| Dairy | Persistent branded premium; slight narrowing at Tet (high promo_rate = 92.7%) |
-| Veg_Fruit | No meaningful gap (few/no branded products) |
-| Processed_food | Moderate gap; possible Tet widening (branded gift sets?) |
-| Instant_food | Moderate gap; stable (commodity pricing) |
-| Confectionary | Largest Tet effect — branded snacks as gift items |
+**Mitigation:** Same as Confectionary — the cross-sectional hedonic regression averages over available days and is robust to temporal gaps.
 
-### Output
+**Thesis text:** "The Instant_food category exhibits an 18-day data gap (January 31 – February 18, 2026) coinciding with the Tet holiday period. No claims about Tet-period pricing effects are made for this category."
 
-- `notebooks/10. brand_price_dynamics.ipynb` — 4-panel visualization
-- `output/brand_gap_daily.csv` — daily × category timeseries
-- `output/brand_gap_summary.csv` — per-category summary with Tet vs. non-Tet comparison
+### Why No Tet Event Study
 
-### Connection to Main Thesis
-
-This is a **temporal robustness check** for the cross-sectional hedonic findings:
-- If branded premium is stable over time → cross-sectional average is representative
-- If branded premium shrinks during Tet → promotional pricing partially equalizes consumer prices (supports the "promotions erode premiums" finding from Fig 3)
-- Connects to the Discussion section: consumer welfare implications of promotional pricing
-
-### Thesis Placement
-
-Section 4 (Results) → 4.4 Temporal Dynamics of Brand Premiums
-- Short section (~1 page): reference Figure D1 (gap over time) + Table D1 (summary stats)
-- Bridge to Discussion: are the premiums found in hedonic regression permanent features or partially eroded by seasonal promotions?
+Confectionary (missing pre-Tet entirely) and Instant_food (missing Tet week) are the two most Tet-sensitive product categories. Without these, a formal Tet event study would exclude the categories where the effect is strongest, rendering the analysis incomplete. **No formal Tet event study is included.** However, Tet is discussed in §5.3 as contextual background — see below.
 
 ---
 
-## Part E: Decision Tree Price Predictor
+## §5.3 — Tet Context (Discussion, 1–2 Paragraphs)
 
-### Motivation
+The data window (Dec 18, 2025 – Mar 2026) spans Tet Nguyên Đán 2026 (February 17). This is not incidental — Tet is the single largest demand shock in the Vietnamese food calendar, driving stockpiling of staples, gift-giving of packaged goods, and promotional surges by retailers.
 
-The OLS hedonic regression captures *marginal effects* of individual attributes holding others fixed. A decision tree complements this by:
-1. Capturing **interaction effects** (e.g., "imported dairy costs X, but imported confectionery costs Y")
-2. Giving **intuitive price ranges** ("if a product is Prestige Leader dairy with a health claim, expect 45,000–120,000 VND")
-3. Being fully interpretable as explicit if-then rules — no log-transformation interpretation needed
+**What can be said (for categories with continuous data):** For the 8 categories with uninterrupted data through the Tet window (Dairy, Veg_Fruit, Dry_Food, Frozen, Processed_food, Egg_and_soy, Spice, Baby_product), the brand gap temporal dynamics in Appendix D provide descriptive context. Any visible compression or widening of the branded–generic price gap around mid-February can be noted as suggestive, but should not be interpreted causally.
+
+**What cannot be said:** Confectionary (46-day cold-start, missing pre-Tet) and Instant_food (18-day gap spanning Tet week) are the two most Tet-sensitive categories. Their absence from the Tet window makes any formal event study indefensible.
+
+**Draft text:** "The 88-day observation window encompasses Tet Nguyên Đán 2026 (February 17), Vietnam's most significant consumption event. While a formal Tet event study is precluded by data gaps in two key holiday categories (Confectionary and Instant_food), the temporal stability of brand premiums across this period — observable for the remaining eight categories — suggests that the cross-sectional hedonic estimates are not artifacts of a single seasonal pricing regime."
+
+---
+
+## §3.4 — Brand Positioning Typology and Dummy Hierarchy
+
+### The 4-Quadrant Brand Classification
+
+Products are classified into four quadrants based on:
+1. **Brand recognition** — substring matching against a curated keyword list of ~30 nationally distributed brands (e.g., Vinamilk, TH True Milk, Dutch Lady)
+2. **Price tier** — whether the product's average price exceeds its subcategory median
+
+| Quadrant | is_branded | is_premium | is_high_recognition | n |
+|---|---|---|---|---|
+| Generic (no brand) | 0 | 0 | 0 | 564 |
+| Local & Value | 1 | 0 | 0 | 563 |
+| Household Giant | 1 | 0 | 1 | 308 |
+| Niche Professional | 1 | 1 | 0 | 144 |
+| Prestige Leader | 1 | 1 | 1 | — |
+
+### Hierarchical Dummy Encoding
+
+The three brand dummies are **hierarchical**, not independent:
+- `is_premium = 1` **implies** `is_branded = 1`
+- `is_high_recognition = 1` **implies** `is_branded = 1`
+
+This means the coefficients must be read as **incremental** effects:
+
+| Premium over Generic | Coefficient formula |
+|---|---|
+| Local & Value vs. Generic | β(is_branded) |
+| Niche Professional vs. Generic | β(is_branded) + β(is_premium) |
+| Household Giant vs. Generic | β(is_branded) + β(is_high_recognition) |
+| Prestige Leader vs. Generic | β(is_branded) + β(is_premium) + β(is_high_recognition) |
+
+### Actual Coefficients (from pooled regression)
+
+| Variable | β (marked) | β (final) | Erosion |
+|---|---|---|---|
+| is_branded | +0.017 (n.s.) | +0.006 (n.s.) | 65.6% |
+| is_premium | +0.429*** | +0.437*** | −1.9% (stable) |
+| is_high_recognition | −0.251*** | −0.262*** | 4.3% |
+
+**Key interpretation:** The brand name alone (`is_branded`) carries essentially zero premium — the coefficient is not statistically significant. The premium comes entirely from the **price-tier positioning** (`is_premium`). High-recognition brands (Household Giants) are actually *cheaper* conditional on being branded, possibly reflecting economies of scale or heavier promotional activity.
+
+**Do NOT say:** "There is a brand premium of X%."
+**DO say:** "The brand-name signal alone does not generate a statistically significant premium. Price premiums are driven by the price-tier positioning of the brand, with premium-tier products commanding a 43.7% markup over generic equivalents."
+
+### Footnote Template for Regression Tables
+
+> "Brand dummies are hierarchically encoded. `is_branded` captures the Local & Value vs. Generic contrast only. The total premium for a Prestige Leader product equals β₁ + β₂ + β₃. See Section 3.4 for the full interpretation guide."
+
+---
+
+## Single-Retailer Framing
+
+### Methods Paragraph (§3.1 or §3.7)
+
+> "This study employs a single-retailer research design, drawing all price observations from Winmart's online platform. This design choice is deliberate: by restricting data to one retailer, all products face the same platform-level pricing strategy, promotional calendar, and supply chain logistics. This controls for retailer-level confounds that would complicate a multi-retailer hedonic analysis, where observed price differences might reflect retailer positioning rather than product attributes."
+
+### Limitations Paragraph (§5.3)
+
+> "A key limitation is that findings are specific to Winmart's online channel and cannot be generalized to the Vietnamese food retail sector as a whole. Winmart occupies a mid-market position in Vietnam's modern trade segment; premium retailers (e.g., Annam Gourmet) or traditional wet markets would likely exhibit different premium structures. The product assortment over-represents branded and packaged goods relative to traditional trade channels. Future work should extend this analysis to multiple retail formats to test whether the attribute premiums identified here are retailer-specific or reflect broader market-level valuations."
+
+**Important:** These are two separate paragraphs in different sections. Do NOT combine them — it reads as defensive rationalization.
+
+---
+
+## Hedonic Regression Specification
+
+### Dependent Variable
+`ln(price_per_standardized_unit)` — log price per 100g/100ml after pack size normalization
 
 ### Model
+```
+ln(P/unit) = α + β₁·is_branded + β₂·is_premium + β₃·is_high_recognition
+           + β₄·is_import + β₅·is_house_brand
+           + β₆·ln(pack_size) + β₇·pack_count
+           + β₈·has_health_claim + β₉·has_freshness_claim
+           + β₁₀·name_length + γ·subcategory_FE + ε
+```
 
-**Target:** `avg_final_price` (VND checkout price — direct, intuitive)
-**Algorithm:** `DecisionTreeRegressor(max_depth=5, min_samples_leaf=15)`
-**Evaluation:** 5-fold CV R², MAE, median absolute error
+### Dual-Price Design
+Run the same specification twice:
+- **Specification A:** DV = ln(marked_price / unit) — sticker price premiums
+- **Specification B:** DV = ln(final_price / unit) — checkout price premiums
 
-### Features
+If a coefficient shrinks from A → B, promotions are eroding that attribute's premium at checkout.
 
-**Structured (12):** `parent_category` (one-hot), `brand_quadrant` (one-hot), `ln_pack_size`, `pack_count`, `is_import`, `has_health_claim`, `has_freshness_claim`, `promo_rate`, `avg_discount_depth`, `price_volatility`, `name_length`, `ever_promoted`
+### Standard Errors
+Cluster-robust SE by subcategory. Justified by:
+- Breusch-Pagan test rejects homoskedasticity (BP χ², p < 0.01)
+- Products within the same subcategory share unobserved pricing factors
 
-**Name keywords (up to 60):** `CountVectorizer(ngram_range=(1,2), max_features=60, min_df=10, binary=True)` on `product_name`. Vietnamese is space-separated so standard tokenization works. Captures signals like "cao cấp" (premium), "hữu cơ" (organic), "rang muối" (salted roast), "lốc" (multipack), "nhập khẩu" (imported) that go beyond the structured features.
+### Sample Filters
+- Sparse product filter: `days_observed >= 7` (removes 87 products, 3.8%)
+- Effective N ≈ 2,175 (after KG-sold produce unit normalization recovery)
 
-### Outputs (in notebook 08)
+---
 
-- **DT1:** Tree diagram (max 4 levels displayed), colored green→red by price
-- **DT2:** Leaf PI chart — horizontal bars showing 50%/90% prediction intervals per leaf, sorted by median price, colored by majority product category
-- **DT3:** Feature importances (color-coded: category/brand/keyword/continuous) + actual vs. predicted scatter (log-log) with 50%/90% PI bands
+## What Was Cut vs. Kept
 
-### Thesis Placement
+| Old Content | Disposition | Rationale |
+|---|---|---|
+| Hedonic regression (Steps 1-4) | **KEPT**, expanded | Core of thesis |
+| Dual-price comparison (marked vs final) | **KEPT**, deepened | Centerpiece finding |
+| Per-category heterogeneity | **KEPT** | Shows systematic variation |
+| Brand gap dynamics (Part D) | **DEMOTED** → 1-page Appendix D | Temporal stability check only |
+| Tet event study | **DEMOTED** → 1–2 paragraphs in §5.3 | No formal study (data gaps), but Tet contextualized in Discussion |
+| Decision tree (Part E) | **CUT entirely** | Supplementary, distracts from hedonic story |
+| 5-hypothesis promo chapter | **CUT** | Absorbed into §4.1 descriptives + §4.4 erosion |
 
-Appendix or Section 4.5 (Supplementary): "Alternative Approach — Decision Tree Price Predictor"
-- Supports the hedonic findings: if the same attributes dominate (brand_quadrant, parent_category, ln_pack_size) the tree importance ranking validates the OLS finding that these are the main price drivers
-- Adds keyword-level evidence: "hữu cơ" / "nhập khẩu" / "cao cấp" appearing in feature importances confirms that name signals carry price information beyond structured attributes
-- The leaf PI chart is the most intuitive takeaway: a reader can locate their product type and see the expected price range directly
+---
+
+## Existing Output Files
+
+### Tables (12 CSV files)
+- `thesis_table1_descriptive.csv` — Table 1: descriptive stats by category
+- `thesis_table2_pooled_regression.csv` — Table 2: pooled OLS (marked vs final)
+- `thesis_table3_category_regression.csv` — Table 3: per-category regressions
+- `thesis_table_vif.csv` — VIF diagnostics (all < 2.0)
+- `thesis_table_coefficient_comparison.csv` — Erosion analysis (coefficient comparison)
+- `thesis_table_category_heterogeneity.csv` — Standardized coefficients by category
+- `thesis_table_brand_distribution.csv` — Brand prevalence across categories
+- `thesis_table_brand_erosion.csv` — Per-category brand premium erosion
+- `thesis_table_promo_vs_premium.csv` — Promo penetration vs brand premium
+- `thesis_table_brand_profiles.csv` — 150+ brands with quadrants
+- `thesis_table_premium_heatmap.csv` — Category × brand quadrant cross-tab
+- `thesis_table_forest_plot.csv` — Forest plot data
+
+### Figures (16 PNG files)
+- `thesis_fig1_brand_price_distribution.png` — Price distributions by brand tier
+- `thesis_fig2_forest_plot.png` — Regression coefficient forest plot
+- `thesis_fig3_brand_premium_marked_vs_final.png` — **Core finding: erosion visualization**
+- `thesis_fig4_premium_heatmap.png` — Category × brand quadrant heatmap
+- `thesis_fig5_promo_vs_brand_premium.png` — Promo penetration scatter
+- `thesis_fig_coefficient_erosion.png` — Detailed coefficient erosion
+- `thesis_fig_category_heterogeneity.png` — Category heterogeneity
+- `thesis_figD1–D5` — Brand gap dynamics (Appendix D)
+- `thesis_dt_*.png` — Decision tree outputs (NOT used in thesis, kept for reference)
+
+---
+
+## Deferred Tasks (User-Driven)
+
+### 1. Brand Quadrant Theory Grounding
+**File:** `.claude/thesis_todo_brand_theory.md`
+**Feeds into:** Chapter 2 (literature review) + §3.4 (brand typology)
+**Task:** Anchor the 4-quadrant decomposition in Aaker (1991) brand equity model or Kapferer (2012) brand identity prism. Call it "market positioning typology," not "brand equity measure."
+
+### 2. Literature Gap Verification
+**File:** `.claude/thesis_todo_lit_search.md`
+**Feeds into:** Chapter 1 (contribution statement)
+**Task:** Run structured Google Scholar searches to verify the novelty claim. Use qualified template: "To the author's knowledge, this is the first hedonic analysis of brand, import, and health claim premiums using web-scraped daily data from Vietnamese online grocery retail."
+
+---
+
+## Rigor Checklist (What's Already Done)
+
+- [x] VIF check: all < 2.0
+- [x] Breusch-Pagan test: heteroskedasticity confirmed → justifies cluster-robust SE
+- [x] Partial F-tests for variable blocks
+- [x] Cook's distance influence diagnostics
+- [x] 3-snapshot robustness (Dec/Jan/Feb)
+- [x] Sparse product filter (days_observed >= 7)
+- [x] Pre-flight variance check in per-category regressions
+- [x] KG-sold produce unit normalization recovered (~100 products)
+- [ ] Brand quadrant theory grounding (user task)
+- [ ] Literature gap verification (user task)

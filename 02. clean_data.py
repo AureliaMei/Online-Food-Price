@@ -2,6 +2,12 @@ import json
 import pandas as pd
 from pathlib import Path
 
+# Override: when multiple runs exist for these (category, date) pairs,
+# keep the specified run ID instead of defaulting to the first.
+PREFERRED_RUN = {
+    ("Egg_and_soy", "2026-03-21"): "bce9274a-451a-4efd-b767-71eeb418e70d",
+}
+
 def get_timestamp(json_path: Path):
     """Reads the JSON to extract the exact startedAt timestamp for sorting."""
     try:
@@ -54,9 +60,14 @@ def clean_same_day_runs():
             if len(runs) > 1:
                 # Sort runs chronologically (oldest/first run at index 0)
                 runs.sort(key=lambda x: x['timestamp'])
-                
-                # Keep the first run, target the rest for deletion
-                runs_to_delete = runs[1:]
+
+                # Check if there's a preferred run for this (category, date)
+                preferred_id = PREFERRED_RUN.get((category_dir.name, date_str))
+                if preferred_id:
+                    runs_to_delete = [r for r in runs if r['run_id'] != preferred_id]
+                else:
+                    # Default: keep the first (earliest) run
+                    runs_to_delete = runs[1:]
                 
                 for run in runs_to_delete:
                     # A. Delete the JSON

@@ -92,10 +92,10 @@ product_name, unit, final_price, marked_price, product_url, scrape_timestamp, ru
 ### Bachelor Thesis Project
 See `.claude/thesis_brainstorm.md` for full plan.
 
-**Topic:** Promotional Pricing Patterns in Vietnamese Online Grocery Markets
-**Angle:** Cross-sectional + temporal analysis of discount rates using the `marked_price` vs `final_price` gap
-**Key finding to investigate:** Why do packaged goods (Dairy ~93%) have far higher promotion rates than fresh produce (Veg_Fruit ~12%)?
-**Bonus:** Tet holiday event study — Feb 17, 2026 falls inside the data window
+**Topic:** Hedonic Price Decomposition with Promotional Erosion — Evidence from Vietnamese Online Grocery
+**RQ:** What product attributes generate price premiums in Vietnamese online grocery, and to what extent do promotional pricing strategies erode those premiums?
+**Core finding:** Dual-price hedonic regression (marked vs final price) shows promotional pricing erodes brand-name premiums (65.6%) but not price-tier premiums (−1.9%), with systematic variation across categories
+**Status:** Analysis complete. Thesis writing phase — see `thesis_brainstorm.md` for chapter outline and pre-drafted disclosure text
 
 ---
 
