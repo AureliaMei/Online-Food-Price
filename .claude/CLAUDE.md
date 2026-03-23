@@ -56,14 +56,14 @@ product_name, unit, final_price, marked_price, product_url, scrape_timestamp, ru
 
 ### Jevons Price Index (per category)
 - Base date: Dec 18, 2025 (= 1.0)
-- Geometric mean of price ratios per subcategory
+- Chain-linked geometric mean of daily price relatives per subcategory
 - Tracked daily
 
 ---
 
 ## Price Index Methodology
 
-**Jevons Index** = geometric mean of (P_current / P_base) across products in subcategory
+**Jevons Index** = chain-linked geometric mean where each day's index = previous day's index × geometric mean of matched-product price relatives (P_t / P_{t-1}). Base date Dec 18, 2025 = 1.0. Products not present on consecutive days are excluded from that day's link.
 
 **Aggregation:**
 - Staples = Gạo-Nông Sản Khô + Ngũ Cốc-Yến Mạch (from Dry_Food)

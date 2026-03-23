@@ -768,6 +768,21 @@ def extract_features(df: pd.DataFrame) -> pd.DataFrame:
     df.drop(columns=['_size_val', '_size_unit'], inplace=True)
 
     # ------------------------------------------------------------------
+    # Fallback: parse unit field for KG-sold produce (e.g. "1KG", "0.5KG")
+    # These products have no size in product_name because the unit IS the size.
+    # ------------------------------------------------------------------
+    _kg_unit_re = re.compile(r'(\d+(?:[.,]\d+)?)\s*kg', re.IGNORECASE)
+    _bare_kg_re = re.compile(r'^kg$', re.IGNORECASE)
+    missing_size = df['size_g'].isna() & df['size_ml'].isna()
+    for idx in df.index[missing_size]:
+        unit_str = str(df.at[idx, 'unit'])
+        m = _kg_unit_re.search(unit_str)
+        if m:
+            df.at[idx, 'size_g'] = float(m.group(1).replace(',', '.')) * 1000
+        elif _bare_kg_re.match(unit_str.strip()):
+            df.at[idx, 'size_g'] = 1000.0  # bare "Kg" = 1 kg
+
+    # ------------------------------------------------------------------
     # ln_pack_size: log of individual container size (ml or g, unified)
     # ------------------------------------------------------------------
     # Combine into one size column (prefer ml for beverages, g for solids)
