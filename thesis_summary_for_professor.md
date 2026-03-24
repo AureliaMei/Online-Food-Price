@@ -1,0 +1,134 @@
+# Hedonic Price Decomposition with Promotional Erosion — Evidence from Vietnamese Online Grocery
+
+## Research Question
+
+*"What product attributes generate price premiums in Vietnamese online grocery, and to what extent do promotional pricing strategies erode those premiums?"*
+
+Using 88 days of web-scraped dual-price data from Vietnam's largest online grocery platform, I decompose food price premiums into attribute components and show that promotional pricing partially — but not fully — erodes brand and import premiums at checkout, with erosion patterns that vary systematically by product category.
+
+---
+
+## Chapter Outline
+
+**Chapter 1 — Introduction**
+- Food inflation in Vietnam; premium tax framing
+- Contribution statement
+- Single-retailer design rationale
+
+**Chapter 2 — Literature Review**
+- Hedonic pricing theory (Rosen 1974, Lancaster 1966)
+- Brand equity and positioning (Aaker 1991, Kapferer 2012)
+- Online retail pricing and promotional strategy (Varian 1997, Cavallo 2016)
+- Vietnamese consumer market — gap identification
+
+**Chapter 3 — Data & Methods**
+- 3.1 Data collection (Winmart scraping, 10 categories, 88 days, ~2,280 products)
+- 3.2 Data limitations and coverage
+- 3.3 NLP feature extraction (9 features from product names)
+- 3.4 Brand positioning typology and dummy hierarchy
+- 3.5 Hedonic specification (pooled OLS + subcategory FE + cluster-robust SE)
+- 3.6 Dual-price design: marked_price vs. final_price
+
+**Chapter 4 — Results**
+- 4.1 Descriptive statistics (promotion penetration by category)
+- 4.2 Pooled hedonic regression — marked vs. final side-by-side
+- 4.3 Per-category heterogeneity — why premiums differ across categories
+- 4.4 Promotional erosion analysis — coefficient comparison + forest plot
+- 4.5 Diagnostics and robustness (VIF, Breusch-Pagan, Cook's distance, 3-month snapshot stability)
+
+**Chapter 5 — Discussion**
+- 5.1 Why some premiums survive checkout (import, health claims) and others don't
+- 5.2 The WinEco effect: house brand discount amplified by promotions
+- 5.3 Tet context (contextualizing the data window, not a formal event study)
+- 5.4 Limitations (single-retailer, NLP proxy quality, dynamic catalog, no transaction volumes)
+
+**Chapter 6 — Conclusion**
+
+**Appendices**
+- A: NLP feature dictionary and keyword lists
+- B: Full per-category regression tables
+- C: Diagnostics (VIF table, residual plots, QQ plots)
+- D: Brand gap temporal dynamics (stability check)
+
+---
+
+## Theoretical Framework
+
+- **Hedonic pricing** (Rosen 1974): goods are bundles of attributes; market prices reveal implicit values for each attribute
+- **Brand equity** (Aaker 1991, Kapferer 2012): brand identity creates a sustainable price premium above physical product characteristics
+- **Price discrimination via versioning** (Varian 1997): same core product in premium/economy variants
+- **Online price measurement** (Cavallo 2016, 2017): web-scraped prices as real-time economic indicators
+
+---
+
+## Data & Methods
+
+### Data Collection
+Daily web-scraped prices from Winmart's online platform across 10 food categories, spanning December 18, 2025 to March 2026 (~88 days, ~2,280 products). Each observation records both a marked price (sticker/original) and a final price (checkout/discounted).
+
+### Data Limitations
+- **Confectionary cold-start:** Data collection began February 2, 2026 (46 days after other categories). Excluded from temporal analyses spanning the full window; cross-sectional estimates remain valid with `days_observed` control.
+- **Instant_food Tet gap:** 18-day gap (Jan 31 – Feb 18) spanning the Tet holiday. No claims about Tet-period pricing effects are made for this category.
+- **No formal Tet event study** is included — the two most Tet-sensitive categories (Confectionary, Instant_food) have data gaps during the relevant window.
+
+### Brand Positioning Typology
+
+Products are classified into four quadrants based on brand recognition (keyword matching against ~30 nationally distributed brands) and price tier (above/below subcategory median). The classification is based on Aaker (1991) brand identity model:
+
+| Quadrant | is_branded | is_premium | is_high_recognition | n |
+|---|---|---|---|---|
+| Generic | 0 | 0 | 0 | 564 |
+| Local & Value | 1 | 0 | 0 | 563 |
+| Household Giant | 1 | 0 | 1 | 308 |
+| Niche Professional | 1 | 1 | 0 | 144 |
+| Prestige Leader | 1 | 1 | 1 | — |
+
+Brand dummies are hierarchically encoded — coefficients read as incremental effects.
+
+### Hedonic Specification
+
+```
+ln(P/unit) = α + β₁·is_branded + β₂·is_premium + β₃·is_high_recognition
+           + β₄·is_import + β₅·is_house_brand
+           + β₆·ln(pack_size) + β₇·pack_count
+           + β₈·has_health_claim + β₉·has_freshness_claim
+           + β₁₀·name_length + γ·subcategory_FE + ε
+```
+
+- **Dependent variable:** ln(price per 100g/100ml) after pack size normalization
+- **Dual-price design:** Same specification run on marked_price (Spec A) and final_price (Spec B). Coefficient shrinkage from A → B indicates promotional erosion of that attribute's premium.
+- **Standard errors:** Cluster-robust by subcategory (Breusch-Pagan rejects homoskedasticity, p < 0.01)
+- **Sample filter:** Products with fewer than 7 observed days excluded (87 products, 3.8%)
+
+---
+
+## Key Findings
+
+### Pooled Regression Coefficients
+
+| Variable | β (marked price) | β (final price) | Erosion |
+|---|---|---|---|
+| is_branded | +0.017 (n.s.) | +0.006 (n.s.) | 65.6% |
+| is_premium | +0.429*** | +0.437*** | −1.9% (stable) |
+| is_high_recognition | −0.251*** | −0.262*** | 4.3% |
+
+The brand-name signal alone does not generate a statistically significant premium. Price premiums are driven by price-tier positioning, with premium-tier products commanding a 43.7% markup over generic equivalents. High-recognition brands (Household Giants) are actually cheaper conditional on being branded, possibly reflecting economies of scale or heavier promotional activity.
+
+Promotional pricing erodes brand-name premiums (65.6% erosion) but not price-tier premiums (−1.9%), with systematic variation across categories.
+
+### Diagnostics Completed
+- VIF: all < 2.0
+- Breusch-Pagan test: heteroskedasticity confirmed → justifies cluster-robust SE
+- Partial F-tests for variable blocks
+- Cook's distance influence diagnostics
+- 3-snapshot robustness check (Dec/Jan/Feb)
+
+---
+
+## Existing Output
+
+### Tables (12 CSV files)
+Descriptive statistics, pooled and per-category regression results, VIF diagnostics, coefficient comparison/erosion analysis, brand distribution and profiles, premium heatmap, and forest plot data.
+
+### Figures (16 PNG files)
+Price distributions by brand tier, regression coefficient forest plot, core erosion visualization (marked vs. final), category-brand quadrant heatmap, promotion penetration scatter, category heterogeneity, and brand gap dynamics (Appendix D).
