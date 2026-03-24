@@ -125,6 +125,53 @@ Promotional pricing erodes brand-name premiums (65.6% erosion) but not price-tie
 
 ---
 
+## Single-Retailer Framing
+
+### Methods Paragraph (§3.1 or §3.7)
+
+> "This study employs a single-retailer research design, drawing all price observations from Winmart's online platform. This design choice is deliberate: by restricting data to one retailer, all products face the same platform-level pricing strategy, promotional calendar, and supply chain logistics. This controls for retailer-level confounds that would complicate a multi-retailer hedonic analysis, where observed price differences might reflect retailer positioning rather than product attributes."
+
+### Limitations Paragraph (§5.3)
+
+> "A key limitation is that findings are specific to Winmart's online channel and cannot be generalized to the Vietnamese food retail sector as a whole. Winmart occupies a mid-market position in Vietnam's modern trade segment; premium retailers (e.g., Annam Gourmet) or traditional wet markets would likely exhibit different premium structures. The product assortment over-represents branded and packaged goods relative to traditional trade channels. Future work should extend this analysis to multiple retail formats to test whether the attribute premiums identified here are retailer-specific or reflect broader market-level valuations."
+
+**Important:** These are two separate paragraphs in different sections. Do NOT combine them — it reads as defensive rationalization.
+
+---
+
+## Hedonic Regression Specification
+
+### Dependent Variable
+`ln(price_per_standardized_unit)` — log price per 100g/100ml after pack size normalization
+
+### Model
+```
+ln(P/unit) = α + β₁·is_branded + β₂·is_premium + β₃·is_high_recognition
+           + β₄·is_import + β₅·is_house_brand
+           + β₆·ln(pack_size) + β₇·pack_count
+           + β₈·has_health_claim + β₉·has_freshness_claim
+           + β₁₀·name_length + γ·subcategory_FE + ε
+```
+
+### Dual-Price Design
+Run the same specification twice:
+- **Specification A:** DV = ln(marked_price / unit) — sticker price premiums
+- **Specification B:** DV = ln(final_price / unit) — checkout price premiums
+
+If a coefficient shrinks from A → B, promotions are eroding that attribute's premium at checkout.
+
+### Standard Errors
+Cluster-robust SE by subcategory. Justified by:
+- Breusch-Pagan test rejects homoskedasticity (BP χ², p < 0.01)
+- Products within the same subcategory share unobserved pricing factors
+
+### Sample Filters
+- Sparse product filter: `days_observed >= 7` (removes 87 products, 3.8%)
+- Effective N ≈ 2,175 (after KG-sold produce unit normalization recovery)
+
+---
+
+
 ## Existing Output
 
 ### Tables (12 CSV files)
