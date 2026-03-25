@@ -12,9 +12,18 @@
 
 ```
 Chapter 1  Introduction
-  - Food inflation in Vietnam; premium tax framing
-  - Contribution statement (use qualified claim from thesis_todo_lit_search.md)
-  - Single-retailer design rationale (§3.1 preview)
+  1.1  Research subject and scope
+       - Food price premiums in Vietnamese online grocery retail
+       - Scope: 10 food categories, ~2,280 products, 88 days of web-scraped data from Winmart
+  1.2  Research objectives
+       - Identify which product attributes generate price premiums
+       - Quantify how promotional pricing erodes those premiums at checkout
+  1.3  Overview of research methods
+       - Web scraping + NLP feature extraction → dual-price hedonic regression (marked vs final)
+       - Single-retailer design rationale (preview of §3.1)
+  1.4  Contribution to the topic
+       - Contribution statement (use qualified claim from thesis_todo_lit_search.md)
+       - First dual-price hedonic analysis of Vietnamese online grocery
 
 Chapter 2  Literature Review
   - Hedonic pricing theory (Rosen 1974, Lancaster 1966)
@@ -30,7 +39,7 @@ Chapter 3  Data & Methods
   3.5  Hedonic specification (pooled OLS + subcategory FE + cluster-robust SE)
   3.6  Dual-price design: marked_price vs. final_price
 
-Chapter 4  Results
+Chapter 4  Results and Discussion
   4.1  Descriptive statistics (Table 1, incl. promotion penetration by category)
   4.2  Pooled hedonic regression (Table 2) — marked vs. final side-by-side
   4.3  Per-category heterogeneity (Table 3) — why premiums differ across categories
@@ -39,18 +48,17 @@ Chapter 4  Results
        - VIF (all < 2.0), Breusch-Pagan, partial F-tests
        - Cook's distance influence diagnostics
        - 3-month snapshot stability (Dec/Jan/Feb)
-
-Chapter 5  Discussion
-  5.1  Why some premiums survive checkout (import, health claims) and others don't
-  5.2  The WinEco effect: house brand discount amplified by promotions (431% erosion)
-  5.3  Tet context (1–2 paragraphs — not an event study, but contextualizing the data window)
-  5.4  Limitations
+  4.6  Discussion
+       - Why some premiums survive checkout (import, health claims) and others don't
+       - The WinEco effect: house brand discount amplified by promotions (431% erosion)
+       - Tet context (1–2 paragraphs — not an event study, but contextualizing the data window)
+  4.7  Limitations
        - Single-retailer (Winmart only)
        - NLP proxy quality (brand list, health claim keywords)
        - Dynamic product catalog
        - No transaction volumes (cannot compute sales-weighted indices)
 
-Chapter 6  Conclusion
+Chapter 5  Conclusion
 
 Appendix A  NLP feature dictionary and keyword lists
 Appendix B  Full per-category regression tables (with dropped-variable footnotes)
@@ -98,11 +106,11 @@ Instant_food has a continuous **18-day gap from January 31 to February 18, 2026*
 
 ### Why No Tet Event Study
 
-Confectionary (missing pre-Tet entirely) and Instant_food (missing Tet week) are the two most Tet-sensitive product categories. Without these, a formal Tet event study would exclude the categories where the effect is strongest, rendering the analysis incomplete. **No formal Tet event study is included.** However, Tet is discussed in §5.3 as contextual background — see below.
+Confectionary (missing pre-Tet entirely) and Instant_food (missing Tet week) are the two most Tet-sensitive product categories. Without these, a formal Tet event study would exclude the categories where the effect is strongest, rendering the analysis incomplete. **No formal Tet event study is included.** However, Tet is discussed in §4.6 as contextual background — see below.
 
 ---
 
-## §5.3 — Tet Context (Discussion, 1–2 Paragraphs)
+## §4.6 — Tet Context (Discussion, 1–2 Paragraphs)
 
 The data window (Dec 18, 2025 – Mar 2026) spans Tet Nguyên Đán 2026 (February 17). This is not incidental — Tet is the single largest demand shock in the Vietnamese food calendar, driving stockpiling of staples, gift-giving of packaged goods, and promotional surges by retailers.
 
@@ -170,7 +178,7 @@ This means the coefficients must be read as **incremental** effects:
 
 > "This study employs a single-retailer research design, drawing all price observations from Winmart's online platform. This design choice is deliberate: by restricting data to one retailer, all products face the same platform-level pricing strategy, promotional calendar, and supply chain logistics. This controls for retailer-level confounds that would complicate a multi-retailer hedonic analysis, where observed price differences might reflect retailer positioning rather than product attributes."
 
-### Limitations Paragraph (§5.3)
+### Limitations Paragraph (§4.7)
 
 > "A key limitation is that findings are specific to Winmart's online channel and cannot be generalized to the Vietnamese food retail sector as a whole. Winmart occupies a mid-market position in Vietnam's modern trade segment; premium retailers (e.g., Annam Gourmet) or traditional wet markets would likely exhibit different premium structures. The product assortment over-represents branded and packaged goods relative to traditional trade channels. Future work should extend this analysis to multiple retail formats to test whether the attribute premiums identified here are retailer-specific or reflect broader market-level valuations."
 
@@ -218,7 +226,7 @@ Cluster-robust SE by subcategory. Justified by:
 | Dual-price comparison (marked vs final) | **KEPT**, deepened | Centerpiece finding |
 | Per-category heterogeneity | **KEPT** | Shows systematic variation |
 | Brand gap dynamics (Part D) | **DEMOTED** → 1-page Appendix D | Temporal stability check only |
-| Tet event study | **DEMOTED** → 1–2 paragraphs in §5.3 | No formal study (data gaps), but Tet contextualized in Discussion |
+| Tet event study | **DEMOTED** → 1–2 paragraphs in §4.6 | No formal study (data gaps), but Tet contextualized in Discussion |
 | Decision tree (Part E) | **CUT entirely** | Supplementary, distracts from hedonic story |
 | 5-hypothesis promo chapter | **CUT** | Absorbed into §4.1 descriptives + §4.4 erosion |
 
