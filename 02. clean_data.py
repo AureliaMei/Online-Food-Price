@@ -66,8 +66,8 @@ def clean_same_day_runs():
                 if preferred_id:
                     runs_to_delete = [r for r in runs if r['run_id'] != preferred_id]
                 else:
-                    # Default: keep the first (earliest) run
-                    runs_to_delete = runs[1:]
+                    # Default: keep the last (latest) run
+                    runs_to_delete = runs[:-1]
                 
                 for run in runs_to_delete:
                     # A. Delete the JSON
