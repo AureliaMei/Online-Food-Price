@@ -1,34 +1,34 @@
 ﻿category,brand_quadrant,quadrant_label,n_days,mean_gap_pct,std_gap_pct,tet_mean_gap,non_tet_mean_gap,trend_slope,trend_p,tet_delta
-Bánh Kẹo,household_giant,Household Giant,47,-17.064,27.368,-3.814,-23.276,0.022,0.94,19.462
-Bánh Kẹo,local_value,Local & Value,49,6.015,32.744,4.822,6.542,0.184,0.584,-1.7199999999999998
-Bánh Kẹo,niche_professional,Niche Professional,49,103.234,52.473,99.117,105.051,-0.084,0.876,-5.9339999999999975
-Bánh Kẹo,prestige_leader,Prestige Leader,37,239.587,336.129,167.599,278.58,11.748,0.005,-110.981
-Chăm Sóc Bé,household_giant,Household Giant,88,-47.575,18.319,-42.332,-48.567,-0.219,0.001,6.234999999999999
-Chăm Sóc Bé,local_value,Local & Value,93,-10.371,33.264,-4.945,-11.414,-0.312,0.013,6.468999999999999
-Chăm Sóc Bé,niche_professional,Niche Professional,93,158.013,95.88,154.54,158.681,-1.125,0.002,-4.1410000000000196
-Chăm Sóc Bé,prestige_leader,Prestige Leader,93,63.536,83.032,69.467,62.396,-0.564,0.073,7.070999999999998
-Gia Vị,household_giant,Household Giant,68,-50.419,11.881,-61.082,-48.793,0.1,0.038,-12.289000000000001
-Gia Vị,local_value,Local & Value,68,-61.799,10.095,-69.832,-60.574,0.061,0.141,-9.257999999999996
-Gia Vị,niche_professional,Niche Professional,68,9.039,27.464,-7.564,11.572,0.181,0.106,-19.136
-Mì - Thực Phẩm Ăn Liền,household_giant,Household Giant,75,18.886,98.642,8.805,19.924,0.48,0.206,-11.119
-Mì - Thực Phẩm Ăn Liền,local_value,Local & Value,57,-1.995,53.944,9.712,-3.634,1.707,0.0,13.346
-Mì - Thực Phẩm Ăn Liền,niche_professional,Niche Professional,44,145.396,198.999,99.319,154.114,4.129,0.0,-54.795
-Mì - Thực Phẩm Ăn Liền,prestige_leader,Prestige Leader,36,574.792,657.14,585.72,572.154,5.409,0.381,13.566000000000031
-Rau - Củ - Trái Cây,local_value,Local & Value,92,43.311,77.997,90.545,34.11,0.567,0.057,56.435
-Rau - Củ - Trái Cây,niche_professional,Niche Professional,75,19.199,12.062,17.488,19.462,-0.033,0.544,-1.9740000000000002
-Sữa Tươi,household_giant,Household Giant,89,-24.689,45.899,-25.326,-24.58,-0.142,0.428,-0.7460000000000022
-Sữa Tươi,local_value,Local & Value,89,-16.809,41.74,-13.921,-17.303,-0.046,0.778,3.3820000000000014
-Sữa Tươi,niche_professional,Niche Professional,89,87.543,91.515,102.397,85.003,-0.046,0.897,17.394000000000005
-Sữa Tươi,prestige_leader,Prestige Leader,88,9.085,107.259,15.149,8.034,-0.496,0.238,7.114999999999998
-Thực Phẩm Chế Biến,household_giant,Household Giant,89,51.686,60.219,19.325,57.727,0.277,0.235,-38.402
-Thực Phẩm Chế Biến,local_value,Local & Value,89,-11.386,35.738,-28.46,-8.199,0.197,0.155,-20.261000000000003
-Thực Phẩm Chế Biến,niche_professional,Niche Professional,89,264.676,119.295,228.398,271.448,0.698,0.131,-43.04999999999998
-Thực Phẩm Khô,household_giant,Household Giant,92,-44.606,10.646,-46.311,-44.274,-0.112,0.005,-2.036999999999999
-Thực Phẩm Khô,local_value,Local & Value,92,11.624,21.875,0.041,13.881,-0.108,0.201,-13.84
-Thực Phẩm Khô,niche_professional,Niche Professional,88,60.451,32.421,40.253,64.601,-0.064,0.614,-24.348
-Thực Phẩm Khô,prestige_leader,Prestige Leader,60,183.678,16.577,173.555,185.236,-0.355,0.0,-11.680999999999983
-Thực Phẩm Đông Lạnh,household_giant,Household Giant,93,-12.262,11.521,-18.385,-11.085,-0.253,0.0,-7.300000000000001
-Thực Phẩm Đông Lạnh,local_value,Local & Value,93,-17.996,14.307,-17.945,-18.006,-0.153,0.004,0.06099999999999994
-Thực Phẩm Đông Lạnh,niche_professional,Niche Professional,93,32.01,32.437,39.404,30.589,-0.273,0.026,8.815000000000005
-Trứng - Đậu Hũ,household_giant,Household Giant,90,214.339,55.153,236.345,209.938,-0.131,0.54,26.40700000000001
-Trứng - Đậu Hũ,local_value,Local & Value,90,60.31,40.625,90.502,54.272,0.254,0.106,36.23
+Bánh Kẹo,household_giant,Household Giant,51,-16.98,28.672,0.095,-22.821,-0.056,0.822,22.916
+Bánh Kẹo,local_value,Local & Value,53,6.291,32.833,5.701,6.482,0.111,0.688,-0.7810000000000006
+Bánh Kẹo,niche_professional,Niche Professional,53,102.758,51.619,99.995,103.655,-0.164,0.706,-3.6599999999999966
+Bánh Kẹo,prestige_leader,Prestige Leader,39,240.33,330.585,175.044,265.978,6.512,0.058,-90.934
+Chăm Sóc Bé,household_giant,Household Giant,91,-50.329,20.672,-41.615,-51.652,-0.327,0.0,10.036999999999999
+Chăm Sóc Bé,local_value,Local & Value,96,-14.828,36.369,-6.407,-16.147,-0.497,0.0,9.739999999999998
+Chăm Sóc Bé,niche_professional,Niche Professional,96,144.581,105.788,149.561,143.801,-1.656,0.0,5.760000000000019
+Chăm Sóc Bé,prestige_leader,Prestige Leader,96,57.237,86.234,74.723,54.499,-0.851,0.004,20.223999999999997
+Gia Vị,household_giant,Household Giant,73,-49.743,11.789,-61.082,-48.149,0.114,0.007,-12.933
+Gia Vị,local_value,Local & Value,73,-61.842,9.936,-69.832,-60.718,0.05,0.171,-9.11399999999999
+Gia Vị,niche_professional,Niche Professional,73,11.021,28.117,-7.564,13.635,0.244,0.017,-21.198999999999998
+Mì - Thực Phẩm Ăn Liền,household_giant,Household Giant,77,18.529,98.037,7.208,19.315,0.4,0.251,-12.107000000000001
+Mì - Thực Phẩm Ăn Liền,local_value,Local & Value,59,0.385,57.351,6.243,-0.157,1.588,0.0,6.4
+Mì - Thực Phẩm Ăn Liền,niche_professional,Niche Professional,46,151.403,205.811,90.73,158.802,3.765,0.0,-68.07199999999999
+Mì - Thực Phẩm Ăn Liền,prestige_leader,Prestige Leader,38,502.718,656.883,497.624,503.49,1.078,0.847,-5.8659999999999854
+Rau - Củ - Trái Cây,local_value,Local & Value,94,44.703,76.624,79.202,39.166,0.621,0.02,40.036
+Rau - Củ - Trái Cây,niche_professional,Niche Professional,76,19.94,12.222,15.7,20.509,0.014,0.774,-4.809000000000001
+Sữa Tươi,household_giant,Household Giant,90,-25.761,45.767,-25.9,-25.742,-0.183,0.267,-0.1579999999999977
+Sữa Tươi,local_value,Local & Value,90,-17.551,41.616,-14.028,-18.041,-0.085,0.571,4.013
+Sữa Tươi,niche_professional,Niche Professional,90,89.249,90.569,104.361,87.145,0.013,0.967,17.216000000000008
+Sữa Tươi,prestige_leader,Prestige Leader,89,6.833,106.54,9.972,6.39,-0.504,0.189,3.582
+Thực Phẩm Chế Biến,household_giant,Household Giant,87,52.266,57.9,15.117,58.21,0.343,0.109,-43.093
+Thực Phẩm Chế Biến,local_value,Local & Value,87,-10.698,36.55,-30.061,-7.601,0.225,0.095,-22.46
+Thực Phẩm Chế Biến,niche_professional,Niche Professional,87,263.994,111.458,215.119,271.814,0.575,0.164,-56.69500000000002
+Thực Phẩm Khô,household_giant,Household Giant,96,-45.117,10.541,-46.741,-44.862,-0.116,0.001,-1.8789999999999978
+Thực Phẩm Khô,local_value,Local & Value,96,11.447,21.357,-2.935,13.7,-0.088,0.233,-16.634999999999998
+Thực Phẩm Khô,niche_professional,Niche Professional,92,58.045,31.559,36.055,61.663,-0.164,0.139,-25.607999999999997
+Thực Phẩm Khô,prestige_leader,Prestige Leader,65,183.445,15.91,173.988,184.586,-0.277,0.0,-10.598000000000013
+Thực Phẩm Đông Lạnh,household_giant,Household Giant,96,-12.636,11.761,-18.613,-11.7,-0.235,0.0,-6.913
+Thực Phẩm Đông Lạnh,local_value,Local & Value,96,-18.637,14.135,-18.917,-18.593,-0.156,0.001,-0.3240000000000016
+Thực Phẩm Đông Lạnh,niche_professional,Niche Professional,96,30.771,32.269,39.096,29.467,-0.287,0.01,9.628999999999998
+Trứng - Đậu Hũ,household_giant,Household Giant,92,213.354,54.856,234.569,209.863,-0.118,0.545,24.70599999999999
+Trứng - Đậu Hũ,local_value,Local & Value,92,59.784,39.235,86.214,55.434,0.244,0.079,30.78

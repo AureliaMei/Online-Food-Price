@@ -1,71 +1,71 @@
 ﻿category,n,attribute,coefficient,pct_effect,p_value,significance
-Bánh Kẹo,550,Branded,0.119,12.6,0.0872,*
-Bánh Kẹo,550,Premium tier,0.3734,45.3,0.0,***
-Bánh Kẹo,550,High recognition,-0.4319,-35.1,0.0,***
-Bánh Kẹo,550,Imported,-0.0642,-6.2,0.7025,
-Bánh Kẹo,550,House brand,-0.0,-0.0,0.0,***
-Bánh Kẹo,550,Health claim,0.0999,10.5,0.491,
-Bánh Kẹo,550,Freshness claim,0.0503,5.2,0.7235,
-Chăm Sóc Bé,34,Branded,0.52,68.2,0.2297,
-Chăm Sóc Bé,34,Premium tier,0.1018,10.7,0.7146,
-Chăm Sóc Bé,34,High recognition,-0.2244,-20.1,0.3523,
+Bánh Kẹo,557,Branded,0.1178,12.5,0.0903,*
+Bánh Kẹo,557,Premium tier,0.382,46.5,0.0,***
+Bánh Kẹo,557,High recognition,-0.4312,-35.0,0.0,***
+Bánh Kẹo,557,Imported,-0.1524,-14.1,0.3039,
+Bánh Kẹo,557,House brand,-0.0,0.0,0.2622,
+Bánh Kẹo,557,Health claim,0.1091,11.5,0.4516,
+Bánh Kẹo,557,Freshness claim,-0.0026,-0.3,0.9848,
+Chăm Sóc Bé,34,Branded,0.5189,68.0,0.2309,
+Chăm Sóc Bé,34,Premium tier,0.1038,10.9,0.7091,
+Chăm Sóc Bé,34,High recognition,-0.225,-20.2,0.3511,
 Chăm Sóc Bé,34,Imported,0.0,0.0,0.0,***
 Chăm Sóc Bé,34,House brand,0.0,0.0,0.0,***
-Chăm Sóc Bé,34,Health claim,-0.0278,-2.7,0.9002,
-Chăm Sóc Bé,34,Freshness claim,-0.7242,-51.5,0.0932,*
-Gia Vị,294,Branded,-0.197,-17.9,0.1845,
-Gia Vị,294,Premium tier,0.7101,103.4,0.0,***
-Gia Vị,294,High recognition,-0.3063,-26.4,0.0007,***
-Gia Vị,294,Imported,0.1,10.5,0.8003,
+Chăm Sóc Bé,34,Health claim,-0.0286,-2.8,0.8974,
+Chăm Sóc Bé,34,Freshness claim,-0.7254,-51.6,0.0928,*
+Gia Vị,294,Branded,-0.1965,-17.8,0.1856,
+Gia Vị,294,Premium tier,0.7097,103.3,0.0,***
+Gia Vị,294,High recognition,-0.3061,-26.4,0.0007,***
+Gia Vị,294,Imported,0.1018,10.7,0.7967,
 Gia Vị,294,House brand,-0.0,-0.0,0.0,***
-Gia Vị,294,Health claim,0.3822,46.6,0.0295,**
+Gia Vị,294,Health claim,0.382,46.5,0.0296,**
 Gia Vị,294,Freshness claim,-0.2667,-23.4,0.3381,
-Mì - Thực Phẩm Ăn Liền,224,Branded,-0.133,-12.5,0.2536,
-Mì - Thực Phẩm Ăn Liền,224,Premium tier,0.3122,36.6,0.0004,***
-Mì - Thực Phẩm Ăn Liền,224,High recognition,0.0847,8.8,0.3369,
-Mì - Thực Phẩm Ăn Liền,224,Imported,0.1028,10.8,0.4767,
-Mì - Thực Phẩm Ăn Liền,224,House brand,0.0,0.0,0.6135,
-Mì - Thực Phẩm Ăn Liền,224,Health claim,0.0,0.0,,
-Mì - Thực Phẩm Ăn Liền,224,Freshness claim,-0.2813,-24.5,0.2005,
-Rau - Củ - Trái Cây,124,Branded,-0.1111,-10.5,0.5811,
-Rau - Củ - Trái Cây,124,Premium tier,-0.0,-0.0,0.0,***
-Rau - Củ - Trái Cây,124,High recognition,-0.0,-0.0,0.0,***
-Rau - Củ - Trái Cây,124,Imported,1.1623,219.7,0.0,***
-Rau - Củ - Trái Cây,124,House brand,-0.3929,-32.5,0.0417,**
-Rau - Củ - Trái Cây,124,Health claim,0.0,0.0,,
-Rau - Củ - Trái Cây,124,Freshness claim,0.3904,47.8,0.0575,*
-Sữa Tươi,330,Branded,-0.1846,-16.9,0.1098,
-Sữa Tươi,330,Premium tier,0.4554,57.7,0.0,***
-Sữa Tươi,330,High recognition,-0.1751,-16.1,0.0364,**
-Sữa Tươi,330,Imported,-0.2958,-25.6,0.1176,
-Sữa Tươi,330,House brand,-0.0,0.0,0.8186,
-Sữa Tươi,330,Health claim,-0.1409,-13.1,0.1255,
-Sữa Tươi,330,Freshness claim,-0.0776,-7.5,0.4286,
-Thực Phẩm Chế Biến,167,Branded,0.1658,18.0,0.2186,
-Thực Phẩm Chế Biến,167,Premium tier,0.5028,65.3,0.0036,***
-Thực Phẩm Chế Biến,167,High recognition,-0.3608,-30.3,0.0119,**
-Thực Phẩm Chế Biến,167,Imported,-0.6124,-45.8,0.0128,**
-Thực Phẩm Chế Biến,167,House brand,0.0,0.0,0.8269,
-Thực Phẩm Chế Biến,167,Health claim,0.0937,9.8,0.7757,
-Thực Phẩm Chế Biến,167,Freshness claim,0.1922,21.2,0.4029,
-Thực Phẩm Khô,170,Branded,0.0525,5.4,0.6541,
-Thực Phẩm Khô,170,Premium tier,0.1517,16.4,0.2997,
-Thực Phẩm Khô,170,High recognition,-0.446,-36.0,0.0001,***
-Thực Phẩm Khô,170,Imported,0.6676,94.9,0.2005,
-Thực Phẩm Khô,170,House brand,0.0,0.0,0.3634,
-Thực Phẩm Khô,170,Health claim,0.1067,11.3,0.7055,
-Thực Phẩm Khô,170,Freshness claim,-0.3661,-30.7,0.2213,
-Thực Phẩm Đông Lạnh,131,Branded,-0.2111,-19.0,0.0196,**
-Thực Phẩm Đông Lạnh,131,Premium tier,0.2948,34.3,0.0028,***
-Thực Phẩm Đông Lạnh,131,High recognition,0.1274,13.6,0.2516,
-Thực Phẩm Đông Lạnh,131,Imported,-0.1648,-15.2,0.245,
-Thực Phẩm Đông Lạnh,131,House brand,-0.0,-0.0,0.0867,*
-Thực Phẩm Đông Lạnh,131,Health claim,0.0,0.0,,
-Thực Phẩm Đông Lạnh,131,Freshness claim,0.3077,36.0,0.2641,
-(Pooled),2032,Branded,-0.0026,-0.3,0.9726,
-(Pooled),2032,Premium tier,0.4292,53.6,0.0,***
-(Pooled),2032,High recognition,-0.2791,-24.4,0.0,***
-(Pooled),2032,Imported,-0.0225,-2.2,0.8575,
-(Pooled),2032,House brand,-0.1918,-17.4,0.001,***
-(Pooled),2032,Health claim,-0.0084,-0.8,0.9427,
-(Pooled),2032,Freshness claim,-0.0252,-2.5,0.711,
+Mì - Thực Phẩm Ăn Liền,226,Branded,-0.1354,-12.7,0.243,
+Mì - Thực Phẩm Ăn Liền,226,Premium tier,0.3135,36.8,0.0003,***
+Mì - Thực Phẩm Ăn Liền,226,High recognition,0.0806,8.4,0.3577,
+Mì - Thực Phẩm Ăn Liền,226,Imported,0.1042,11.0,0.4689,
+Mì - Thực Phẩm Ăn Liền,226,House brand,-0.0,-0.0,0.0353,**
+Mì - Thực Phẩm Ăn Liền,226,Health claim,-0.0,0.0,0.885,
+Mì - Thực Phẩm Ăn Liền,226,Freshness claim,-0.2803,-24.4,0.2004,
+Rau - Củ - Trái Cây,209,Branded,0.0038,0.4,0.9841,
+Rau - Củ - Trái Cây,209,Premium tier,0.0333,3.4,0.9578,
+Rau - Củ - Trái Cây,209,High recognition,-0.0,-0.0,0.2467,
+Rau - Củ - Trái Cây,209,Imported,0.98,166.4,0.0,***
+Rau - Củ - Trái Cây,209,House brand,-0.2645,-23.2,0.0883,*
+Rau - Củ - Trái Cây,209,Health claim,0.0,0.0,,
+Rau - Củ - Trái Cây,209,Freshness claim,0.4092,50.6,0.048,**
+Sữa Tươi,336,Branded,-0.217,-19.5,0.0607,*
+Sữa Tươi,336,Premium tier,0.5025,65.3,0.0,***
+Sữa Tươi,336,High recognition,-0.1937,-17.6,0.0213,**
+Sữa Tươi,336,Imported,-0.3044,-26.2,0.1097,
+Sữa Tươi,336,House brand,0.0,0.0,0.0,***
+Sữa Tươi,336,Health claim,-0.1622,-15.0,0.0736,*
+Sữa Tươi,336,Freshness claim,-0.1461,-13.6,0.12,
+Thực Phẩm Chế Biến,168,Branded,0.1616,17.5,0.2184,
+Thực Phẩm Chế Biến,168,Premium tier,0.5025,65.3,0.0035,***
+Thực Phẩm Chế Biến,168,High recognition,-0.3588,-30.1,0.012,**
+Thực Phẩm Chế Biến,168,Imported,-0.6093,-45.6,0.0129,**
+Thực Phẩm Chế Biến,168,House brand,-0.0,-0.0,0.0,***
+Thực Phẩm Chế Biến,168,Health claim,0.0942,9.9,0.7738,
+Thực Phẩm Chế Biến,168,Freshness claim,0.1895,20.9,0.4072,
+Thực Phẩm Khô,170,Branded,0.056,5.8,0.6322,
+Thực Phẩm Khô,170,Premium tier,0.1516,16.4,0.2989,
+Thực Phẩm Khô,170,High recognition,-0.449,-36.2,0.0001,***
+Thực Phẩm Khô,170,Imported,0.6713,95.7,0.1967,
+Thực Phẩm Khô,170,House brand,0.0,0.0,0.5018,
+Thực Phẩm Khô,170,Health claim,0.1081,11.4,0.7011,
+Thực Phẩm Khô,170,Freshness claim,-0.3658,-30.6,0.2205,
+Thực Phẩm Đông Lạnh,134,Branded,-0.1668,-15.4,0.0648,*
+Thực Phẩm Đông Lạnh,134,Premium tier,0.2851,33.0,0.0043,***
+Thực Phẩm Đông Lạnh,134,High recognition,0.1112,11.8,0.3258,
+Thực Phẩm Đông Lạnh,134,Imported,-0.1954,-17.7,0.1766,
+Thực Phẩm Đông Lạnh,134,House brand,-0.0,0.0,0.0398,**
+Thực Phẩm Đông Lạnh,134,Health claim,0.0,0.0,,
+Thực Phẩm Đông Lạnh,134,Freshness claim,-0.0716,-6.9,0.7357,
+(Pooled),2136,Branded,0.0052,0.5,0.9471,
+(Pooled),2136,Premium tier,0.4379,54.9,0.0,***
+(Pooled),2136,High recognition,-0.2766,-24.2,0.0,***
+(Pooled),2136,Imported,0.0968,10.2,0.6515,
+(Pooled),2136,House brand,-0.2273,-20.3,0.0,***
+(Pooled),2136,Health claim,-0.0322,-3.2,0.8058,
+(Pooled),2136,Freshness claim,-0.0583,-5.7,0.4203,
