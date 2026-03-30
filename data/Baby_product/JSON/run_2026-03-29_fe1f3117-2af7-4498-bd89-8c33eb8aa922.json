@@ -1,0 +1,21 @@
+{
+    "id": "fe1f3117-2af7-4498-bd89-8c33eb8aa922",
+    "status": "success",
+    "name": "Baby Products",
+    "robotId": "62a10810-19db-4076-86af-169320baf441",
+    "startedAt": "3/29/2026, 3:32:52 PM",
+    "finishedAt": "3/29/2026, 3:38:51 PM",
+    "runId": "ea62367a-52c5-4f65-8300-562e8fc50b1f",
+    "runByUserId": 1,
+    "runByScheduleId": null,
+    "runByAPI": null,
+    "data": {
+        "textData": {},
+        "listData": {
+            "List Data 1": []
+        },
+        "markdown": "",
+        "html": ""
+    },
+    "screenshots": []
+}

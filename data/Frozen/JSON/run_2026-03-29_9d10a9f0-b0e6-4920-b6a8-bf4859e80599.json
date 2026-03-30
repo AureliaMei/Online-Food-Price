@@ -1,0 +1,21 @@
+{
+    "id": "9d10a9f0-b0e6-4920-b6a8-bf4859e80599",
+    "status": "success",
+    "name": "Frozen Food",
+    "robotId": "70404316-22f8-4e52-a3a0-c60b302a482e",
+    "startedAt": "3/29/2026, 3:32:52 PM",
+    "finishedAt": "3/29/2026, 3:40:07 PM",
+    "runId": "d28bbb0f-d416-4639-8cc8-2f027e138c7b",
+    "runByUserId": 1,
+    "runByScheduleId": null,
+    "runByAPI": null,
+    "data": {
+        "textData": {},
+        "listData": {
+            "List Data 1": []
+        },
+        "markdown": "",
+        "html": ""
+    },
+    "screenshots": []
+}

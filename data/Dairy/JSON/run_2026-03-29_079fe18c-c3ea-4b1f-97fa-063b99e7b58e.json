@@ -1,0 +1,21 @@
+{
+    "id": "079fe18c-c3ea-4b1f-97fa-063b99e7b58e",
+    "status": "success",
+    "name": "Dairy Products",
+    "robotId": "95087cc5-1cfb-4d58-b66b-d2356b4e5b84",
+    "startedAt": "3/29/2026, 3:32:52 PM",
+    "finishedAt": "3/29/2026, 3:41:17 PM",
+    "runId": "859cc145-6b5c-46e6-bdfa-03594a670ffa",
+    "runByUserId": 1,
+    "runByScheduleId": null,
+    "runByAPI": null,
+    "data": {
+        "textData": {},
+        "listData": {
+            "List Data 1": []
+        },
+        "markdown": "",
+        "html": ""
+    },
+    "screenshots": []
+}

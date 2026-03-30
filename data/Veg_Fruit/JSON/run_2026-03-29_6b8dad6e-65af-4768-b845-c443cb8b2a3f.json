@@ -1,0 +1,21 @@
+{
+    "id": "6b8dad6e-65af-4768-b845-c443cb8b2a3f",
+    "status": "success",
+    "name": "Veg + Fruits",
+    "robotId": "424e50fb-43a0-4417-a5b7-b0ecc72597ed",
+    "startedAt": "3/29/2026, 3:32:53 PM",
+    "finishedAt": "3/29/2026, 3:43:49 PM",
+    "runId": "a04a2102-6a97-4731-9cdf-6a2d9c292859",
+    "runByUserId": 1,
+    "runByScheduleId": null,
+    "runByAPI": null,
+    "data": {
+        "textData": {},
+        "listData": {
+            "List Data 1": []
+        },
+        "markdown": "",
+        "html": ""
+    },
+    "screenshots": []
+}
