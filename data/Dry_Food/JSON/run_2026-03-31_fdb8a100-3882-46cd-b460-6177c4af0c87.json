@@ -1,0 +1,302 @@
+{
+    "id": "fdb8a100-3882-46cd-b460-6177c4af0c87",
+    "status": "success",
+    "name": "Dry Food",
+    "robotId": "0ef9789a-f778-418d-8bd5-6c8b83a11286",
+    "startedAt": "3/31/2026, 2:38:07 PM",
+    "finishedAt": "3/31/2026, 2:40:49 PM",
+    "runId": "79ab0f2e-2dfe-4119-a9cf-24b7f28ee75e",
+    "runByUserId": 1,
+    "runByScheduleId": null,
+    "runByAPI": null,
+    "data": {
+        "textData": {},
+        "listData": {
+            "List Data 1": [
+                {
+                    "Label 4": "https://winmart.vn/products/oatta-yen-mach-hanh-nhan-pho-mai-300g--s10181145?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Yến Mạch Hạnh nhân Phô mai Oatta gói 300g",
+                    "Label 6": "Gói",
+                    "Label 7": "94.900 ₫",
+                    "Label 8": "129.900 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/xuan-an-yen-mach-nc-an-lien-nk-uc-400g--s10625513?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Yến mạch nguyên chất ăn liền nhập khẩu Úc Xuân An hộp 400g",
+                    "Label 6": "Hộp",
+                    "Label 7": "60.500 ₫",
+                    "Label 8": "83.100 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/xuan-an-yen-mach-nchat-oganic-400g--s10131094?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Yến Mạch nguyên chất Oganic Xuân An gói 400g",
+                    "Label 6": "Gói",
+                    "Label 7": "83.600 ₫",
+                    "Label 8": "113.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/ngoc-nuong-gao-lua-tom-st25-5kg_vns--s10141515?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Gạo Ngọc Nương lúa tôm ST25 5Kg",
+                    "Label 6": "Gói",
+                    "Label 7": "154.900 ₫",
+                    "Label 8": "205.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/ngoc-nuong-gao-st-25-dac-san-3kg-vns--s10141993?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Gạo Ngọc Nương ST 25 đặc sản 3Kg",
+                    "Label 6": "Gói",
+                    "Label 7": "94.900 ₫",
+                    "Label 8": "123.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/vinaseed-gao-st25-tui-3kg--s10141040?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Gạo ST25 Giống Cây Trồng TW túi 3kg",
+                    "Label 6": "Gói",
+                    "Label 7": "94.900 ₫",
+                    "Label 8": "119.900 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/miwon-la-kim-cuon-com-10g--s10060831?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Lá kim cuốn cơm Gimbab & Roll Miwon gói 10g",
+                    "Label 6": "Gói",
+                    "Label 7": "26.800 ₫",
+                    "Label 8": "33.300 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/meizan-bot-my-da-dung-1kg-mb--s10010027?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bột mì đa dụng Meizan gói 1kg",
+                    "Label 6": "Gói",
+                    "Label 7": "24.900 ₫",
+                    "Label 8": "30.700 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/meizan-bot-my-da-dung-500g-mb--s10010026?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bột mì đa dụng Meizan gói 500g",
+                    "Label 6": "Gói",
+                    "Label 7": "13.100 ₫",
+                    "Label 8": "16.100 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/meizan-meizan-bot-chien-gion-150g--s10323880?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bột chiên giòn Meizan gói 150g",
+                    "Label 6": "Gói",
+                    "Label 7": "6.700 ₫",
+                    "Label 8": "8.300 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/bao-minh-gao-st25-lua-ruong-ruoi-3kg--s10142024?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Gạo ST25 Bảo Minh lúa ruộng rươi 3kg",
+                    "Label 6": "Gói",
+                    "Label 7": "122.800 ₫",
+                    "Label 8": "147.600 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/meizan-bo-thuc-vat-meizan-hop-80g--s10005754?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bơ Thực Vật Cao Cấp Meizan 80g",
+                    "Label 6": "Hộp",
+                    "Label 7": "9.300 ₫",
+                    "Label 8": "11.100 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/sonka-tao-bien-wild-sonka-tui-3-goix5g--s10010269?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Tảo biển Wild Sonka túi 3 gói x 4g",
+                    "Label 6": "Gói 3",
+                    "Label 7": "37.900 ₫",
+                    "Label 8": "45.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/kelloggs-n.coc-dd-muesli-355g--s10015539?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Ngũ cốc dinh dưỡng Mueslix Orchard Beauty Kellogg's hộp 375g",
+                    "Label 6": "Hộp",
+                    "Label 7": "116.700 ₫",
+                    "Label 8": "139.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/meizan-bot-my-chuyen-banh-bong-lan-1-kg--s10180849?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bột mỳ chuyên bánh bông lan Meizan gói 1 kg",
+                    "Label 6": "Gói",
+                    "Label 7": "30.900 ₫",
+                    "Label 8": "37.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/miwon-rong-bien-gion-tron-gia-vi-30g40g--s10181045?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Rong Biển Giòn Trộn Gia Vị Miwon 30g",
+                    "Label 6": "Gói",
+                    "Label 7": "32.000 ₫",
+                    "Label 8": "37.900 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/meizanbot-chien-gion-nem-san-gia-vi150g--s10327464?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bột chiên giòn nêm sẵn gia vị Meizan gói 150g",
+                    "Label 6": "Gói",
+                    "Label 7": "8.200 ₫",
+                    "Label 8": "9.800 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/an-vinh-tom-kho-hop-100g--s10081043?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Tôm khô An Vĩnh hộp 100g",
+                    "Label 6": "Hộp",
+                    "Label 7": "100.000 ₫",
+                    "Label 8": "118.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/miwon-rb-gion-tron-oc-cho-h.nhan-30g40g--s10141364?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Rong Biển Giòn Trộn Óc Chó, Hạnh Nhân 30g",
+                    "Label 6": "Gói",
+                    "Label 7": "34.900 ₫",
+                    "Label 8": "41.200 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/seacrown-ca-ngu-c.khuc-ngamdaut.vat-140g--s10007734?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Cá ngừ Nautilus xắt khúc ngâm dầu thực vật",
+                    "Label 6": "Lon",
+                    "Label 7": "33.500 ₫",
+                    "Label 8": "39.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/meizan-bo-thuc-vat-meizan-hop-200g--s10005755?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bơ Thực Vật Cao Cấp Meizan 200g",
+                    "Label 6": "Hộp",
+                    "Label 7": "19.300 ₫",
+                    "Label 8": "22.200 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/tuong-an-bo-thuc-vat-tuong-an-hop-200g--s10010121?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bơ thực vật Tường An hộp 200g",
+                    "Label 6": "Hộp",
+                    "Label 7": "18.300 ₫",
+                    "Label 8": "21.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/ajinomoto-bot-bran-phasan-viscl200g--s10322785?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bột bánh rán pha sẵn Ajinomoto vị socola 200g",
+                    "Label 6": "Gói",
+                    "Label 7": "17.800 ₫",
+                    "Label 8": "20.400 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/tuong-an-bo-thuc-vat-tuong-an-hop-80g--s10005891?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bơ thực vật Tường An hộp 80g",
+                    "Label 6": "Hộp",
+                    "Label 7": "9.600 ₫",
+                    "Label 8": "10.900 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/vissan-pate-thit-heo-vissan-hop-170g--s10007363?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Pate thịt heo Vissan hộp 170g",
+                    "Label 6": "Hộp",
+                    "Label 7": "29.100 ₫",
+                    "Label 8": "33.200 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/vinafood1-gao-dac-san-tam-go-cong-3.5kg--s10086842?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Gạo tám Gò Công Vinafood1 túi 3kg",
+                    "Label 6": "Gói",
+                    "Label 7": "129.100 ₫",
+                    "Label 8": "147.200 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/meizan-bot-nang-da-dung-400g--s10170267?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bột năng đa dụng Meizan gói 400g",
+                    "Label 6": "Gói",
+                    "Label 7": "12.000 ₫",
+                    "Label 8": "13.700 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/meizan-bot-mi-chuyen-cho-banh-mi-1kg--s10180848?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bột mì chuyên dụng cho Bánh Mì Meizan gói 1kg",
+                    "Label 6": "Gói",
+                    "Label 7": "32.700 ₫",
+                    "Label 8": "37.100 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/ajinomoto-bot-banh-ran-pha-san-200g--s10223985?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bột bánh rán pha sẵn Ajinomoto gói 200g",
+                    "Label 6": "Gói",
+                    "Label 7": "18.700 ₫",
+                    "Label 8": "21.300 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/miwon-rong-bien-gion-tron-gia-vi-50g--s10327450?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Rong biển giòn trộn gia vị Daesang Miwon 50g",
+                    "Label 6": "Gói",
+                    "Label 7": "60.000 ₫",
+                    "Label 8": "67.800 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/miwon-bot-chien-miwon-goi-100g--s10008571?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bột chiên Miwon gói 100g",
+                    "Label 6": "Gói",
+                    "Label 7": "7.200 ₫",
+                    "Label 8": "8.100 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/krunch-nestle-ngu-coc-kokoscl-300g--s10013752?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Ngũ cốc ăn sáng Koko Krunch vị sô cô la Nestlé hộp 330g",
+                    "Label 6": "Hộp",
+                    "Label 7": "102.100 ₫",
+                    "Label 8": "115.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/honey-stars-ngu-coc-matong-300g--s10015558?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Ngũ cốc mật ong Honey Stars hộp 300g",
+                    "Label 6": "Hộp",
+                    "Label 7": "102.100 ₫",
+                    "Label 8": "115.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/milo-nestle-ngu-coc-an-sang-h300--s10015556?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Ngũ cốc ăn sáng Milo Nestlé hộp 330g",
+                    "Label 6": "Gói",
+                    "Label 7": "102.100 ₫",
+                    "Label 8": "115.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/miwon-bot-chien-ga-gion-70g--s10234347?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bột chiên gà giòn Miwon gói 70g",
+                    "Label 6": "Gói",
+                    "Label 7": "11.000 ₫",
+                    "Label 8": "12.400 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/meizan-bot-banh-xeo-meizan-400g--s10326501?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bột bánh xèo Meizan 400g",
+                    "Label 6": "Gói",
+                    "Label 7": "16.300 ₫",
+                    "Label 8": "18.300 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/aji-quick-bot-tam-kho-chiengion-210g--s10302891?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bột tẩm khô chiên giòn Aji-Quick Ajinomoto gói 210g",
+                    "Label 6": "Gói",
+                    "Label 7": "34.200 ₫",
+                    "Label 8": "37.900 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/meizan-bot-bap-meizan-150g--s10622829?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bột bắp Meizan 150g",
+                    "Label 6": "Gói",
+                    "Label 7": "6.700 ₫",
+                    "Label 8": "7.100 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/godbawee-tao-bien-vi-truyen-thong-5g3--s10010284?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Tảo biển Godbawee gói 3 x 15g",
+                    "Label 6": "Gói 3",
+                    "Label 7": "41.600 ₫",
+                    "Label 8": "44.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/miwon-la-kim-tre-em-15g-loc-3--s10141926?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Lốc 3 Miwon lá lim trẻ em 5g",
+                    "Label 6": "Gói 3",
+                    "Label 7": "39.100 ₫",
+                    "Label 8": "41.300 ₫"
+                }
+            ]
+        },
+        "markdown": "",
+        "html": ""
+    },
+    "screenshots": []
+}
