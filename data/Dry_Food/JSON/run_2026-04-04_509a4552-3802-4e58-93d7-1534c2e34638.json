@@ -1,0 +1,78 @@
+{
+    "id": "509a4552-3802-4e58-93d7-1534c2e34638",
+    "status": "success",
+    "name": "Dry Food",
+    "robotId": "0ef9789a-f778-418d-8bd5-6c8b83a11286",
+    "startedAt": "4/4/2026, 9:34:42 AM",
+    "finishedAt": "4/4/2026, 9:39:32 AM",
+    "runId": "d4494faa-dc48-4284-827d-308770f2da35",
+    "runByUserId": 1,
+    "runByScheduleId": null,
+    "runByAPI": null,
+    "data": {
+        "textData": {},
+        "listData": {
+            "List Data 1": [
+                {
+                    "Label 4": "https://winmart.vn/products/xuan-an-yen-mach-uc-nchat-goi-400g--s10013397?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Yến mạch Úc nguyên chất Xuân An gói 400g",
+                    "Label 6": "Gói",
+                    "Label 7": "58.700 ₫",
+                    "Label 8": "81.200 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/krunch-tpbs-n.coc-an-sang-koko-h150g-t18--s10015554?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Ngũ cốc ăn sáng Koko Krunch Nestlé hộp 170g",
+                    "Label 6": "Hộp",
+                    "Label 7": "52.200 ₫",
+                    "Label 8": "70.500 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/milo-tpbs-n.coc-an-sang-milo-h150g-t18--s10015555?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Ngũ cốc ăn sáng Milo hộp 170g",
+                    "Label 6": "Hộp",
+                    "Label 7": "52.200 ₫",
+                    "Label 8": "70.500 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/honey-stars-ngu-coc-an-sang-nestle-150g--s10015557?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Ngũ cốc ăn sáng Nestlé Honey Star hộp 150g",
+                    "Label 6": "Hộp",
+                    "Label 7": "51.200 ₫",
+                    "Label 8": "69.500 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/ngoc-nuong-gao-st-25-dac-san-3kg-vns--s10141993?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Gạo Ngọc Nương ST 25 đặc sản 3Kg",
+                    "Label 6": "Gói",
+                    "Label 7": "94.900 ₫",
+                    "Label 8": "123.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/vinaseed-gao-st25-tui-3kg--s10141040?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Gạo ST25 Giống Cây Trồng TW túi 3kg",
+                    "Label 6": "Gói",
+                    "Label 7": "94.900 ₫",
+                    "Label 8": "119.900 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/humanwell-rbien-be-cuoi-tom-va-ca-com50g--s10140950?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Rong biển em bé cười tôm và cá cơm Humanwell gói 50g",
+                    "Label 6": "Gói",
+                    "Label 7": "38.600 ₫",
+                    "Label 8": "48.500 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/humanwell-rbien-be-cuoi-hduong-hnhan-50g--s10140951?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Rong biển em bé cười hạt hướng dương và hạnh nhân Humanwell gói 50g",
+                    "Label 6": "Gói",
+                    "Label 7": "38.600 ₫",
+                    "Label 8": "48.500 ₫"
+                }
+            ]
+        },
+        "markdown": "",
+        "html": ""
+    },
+    "screenshots": []
+}
