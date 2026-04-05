@@ -1,0 +1,134 @@
+{
+    "id": "672ce901-a8aa-4cb6-ab27-682466fa76ab",
+    "status": "success",
+    "name": "Instant Foods",
+    "robotId": "f2a242f9-8a04-4cce-a5c6-2f11eda952b7",
+    "startedAt": "4/5/2026, 3:17:30 PM",
+    "finishedAt": "4/5/2026, 3:21:01 PM",
+    "runId": "aeaf29d8-485e-4378-829a-0865fc89e1c8",
+    "runByUserId": 1,
+    "runByScheduleId": null,
+    "runByAPI": null,
+    "data": {
+        "textData": {},
+        "listData": {
+            "List Data 1": [
+                {
+                    "Label 4": "https://winmart.vn/products/ferrero-keo-socola-rocher-375g--s10015253?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Kẹo Socola Ferrero Rocher 375g",
+                    "Label 6": "Hộp",
+                    "Label 7": "266.000 ₫",
+                    "Label 8": "448.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/ferrero-socola-rocher-200g--s10056640?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Sô cô la Ferrero Rocher hộp 200g",
+                    "Label 6": "Hộp",
+                    "Label 7": "147.000 ₫",
+                    "Label 8": "249.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/mms-socola-minis-35g--s10640270?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Socola Minis M&M'S 35g",
+                    "Label 6": "Cái",
+                    "Label 7": "24.900 ₫",
+                    "Label 8": "35.500 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/kinder-joy-socola-cho-be-gai-20g--s10060963?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Socola trứng Kinder Joy bé gái hộp 20g",
+                    "Label 6": "Qủa",
+                    "Label 7": "24.500 ₫",
+                    "Label 8": "33.900 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/kinder-joy-socola-cho-be-trai-20g--s10081368?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Socola trứng Kinder Joy bé trai hộp 20g",
+                    "Label 6": "Qủa",
+                    "Label 7": "24.500 ₫",
+                    "Label 8": "33.900 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/nabati-tpbsbanh-k.xop-richeese-p.mai120g--s10013957?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh kem xốp phômai Richeese Nabati cheese wafer hộp 160g",
+                    "Label 6": "Hộp",
+                    "Label 7": "29.900 ₫",
+                    "Label 8": "40.800 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/snickers-keo-socola-tui-3-thanh-51g--s10192468?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Kẹo Socola Snickers Túi 3 thanh 51g",
+                    "Label 6": "Hộp",
+                    "Label 7": "55.000 ₫",
+                    "Label 8": "75.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/swing-max-bo-nuong-tieu-den-9578g--s10191553?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bò nướng tiêu đen Swing Max 108g",
+                    "Label 6": "Gói",
+                    "Label 7": "15.900 ₫",
+                    "Label 8": "21.600 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/oreo-banh-socola-pie-vi-dau-180g168g--s10197435?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh Socola Pie vị Dâu Oreo 180g",
+                    "Label 6": "Hộp",
+                    "Label 7": "27.900 ₫",
+                    "Label 8": "37.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/mms-keo-socola-sua-37g--s10014574?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Socola Sữa M&M'S gói 40g/37g",
+                    "Label 6": "Gói",
+                    "Label 7": "18.500 ₫",
+                    "Label 8": "23.900 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/mms-keo-socola-dau-phong-37g--s10014577?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Socola Đậu Phộng M&M'S gói 40g/37g",
+                    "Label 6": "Gói",
+                    "Label 7": "18.500 ₫",
+                    "Label 8": "23.900 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/oreo-banh-socola-pie-cadbury-180g168g--s10194651?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh Socola Pie Cadbury Oreo hộp 180g",
+                    "Label 6": "Hộp",
+                    "Label 7": "27.900 ₫",
+                    "Label 8": "36.200 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/chupa-chups-keo-deo-cola--s10406918?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Kẹo dẻo Cola Chupa Chups gói 90g",
+                    "Label 6": "Gói",
+                    "Label 7": "18.900 ₫",
+                    "Label 8": "24.400 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/oreo-banh-quy-kem-socola-110.4g105g--s10014785?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh quy nhân kem sô cô la Oreo gói 133g",
+                    "Label 6": "Cái",
+                    "Label 7": "14.000 ₫",
+                    "Label 8": "18.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/oreo-banh-quy-kem-vani-110.4g105g--s10014784?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh quy nhân kem vani Oreo gói 137g",
+                    "Label 6": "Cái",
+                    "Label 7": "14.000 ₫",
+                    "Label 8": "18.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/oreo-banh-quy-kem-dau-110.4g105g--s10014787?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh quy kem dâu Oreo gói 133g",
+                    "Label 6": "Cái",
+                    "Label 7": "14.000 ₫",
+                    "Label 8": "18.000 ₫"
+                }
+            ]
+        },
+        "markdown": "",
+        "html": ""
+    },
+    "screenshots": []
+}
