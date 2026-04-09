@@ -12,53 +12,97 @@
 
 ```
 Chapter 1  Introduction
-  1.1  Research subject and scope
-       - Food price premiums in Vietnamese online grocery retail
-       - Scope: 10 food categories, ~2,280 products, 88 days of web-scraped data from Winmart
-  1.2  Research objectives
-       - Identify which product attributes generate price premiums
-       - Quantify how promotional pricing erodes those premiums at checkout
-  1.3  Overview of research methods
-       - Web scraping + NLP feature extraction → dual-price hedonic regression (marked vs final)
-       - Single-retailer design rationale (preview of §3.1)
-  1.4  Contribution to the topic
-       - Contribution statement (use qualified claim from thesis_todo_lit_search.md)
-       - First dual-price hedonic analysis of Vietnamese online grocery
+  1.1  Motivation for Research
+       - The Consumer Perspective
+       - Career Aspirations
+       - Expected Relevance to Daily Grocery Decisions
+  1.2  Research Subject and Scope
+  1.3  Research Objectives
+  1.4  Overview of Research Methods
+  1.5  Contribution
+  1.6  Thesis Structure
 
 Chapter 2  Literature Review
-  - Hedonic pricing theory (Rosen 1974, Lancaster 1966)
-  - Brand equity and positioning (Aaker 1991, Kapferer 2012)
-  - Online retail pricing and promotional strategy (Varian 1997, Cavallo 2016)
-  - Vietnamese consumer market — gap identification
+  2.1  Hedonic Pricing Theory: Goods as Attribute Bundles
+       - Lancaster (1966), Rosen (1974), Ekeland et al. (2001), Lucas (1975)
+  2.2  Hedonic Methods in Food and Agricultural Markets
+       - Search, Experience, and Credence Attributes (Nelson, Darby & Karni)
+       - Methodological Precedents in Food Hedonics
+  2.3  Brand Equity, Product Differentiation, and Price Premiums
+       - Customer-Based Brand Equity: Keller (1993)
+       - Perceived Quality as Brand Equity: Aaker (1991)
+       - The Four-Quadrant Brand Positioning Typology
+       - Other Attribute Premiums: Origin, Quality Signals, and Versioning
+  2.4  Online Retail Pricing and Web-Scraped Price Data
+  2.5  Vietnamese Food Market Context and Research Gap
 
-Chapter 3  Data & Methods
-  3.1  Data collection (Winmart scraping, 10 categories, 88 days, ~2,280 products)
-  3.2  Data limitations and coverage (Confectionary cold-start, Instant_food gap)
-  3.3  NLP feature extraction (9 features from product names)
-  3.4  Brand positioning typology and dummy hierarchy
-  3.5  Hedonic specification (pooled OLS + subcategory FE + cluster-robust SE)
-  3.6  Dual-price design: marked_price vs. final_price
+Chapter 3  Methodology
+  3.1  Hedonic price model
+       - Rosen's framework, first-stage estimation only
+       - Why not: discrete choice models, machine learning approaches
+       - Fit for single-retailer, multi-category cross-sectional design
+  3.2  Functional form and estimation strategy
+       - Log-linear OLS with subcategory FE + cluster-robust SE
+       - Why not: Box-Cox transformation, quantile regression
+       - Justification via Breusch-Pagan, within-subcategory identification
+  3.3  Dual-price design
+       - Marked vs. final price comparison as methodological innovation
+       - Why not: single-price hedonic, difference-in-differences
+       - Descriptive framing (not causal identification)
+  3.4  Feature extraction and brand positioning typology
+       - NLP pipeline for Vietnamese product names (9 features)
+       - Keller (1993) × Aaker (1991) four-quadrant classification
+       - Hierarchical dummy encoding and interpretation
+  3.5  Price index methodology
+       - Jevons index (chain-linked geometric mean)
+       - Why not: Laspeyres (no quantity weights), Törnqvist (no expenditure shares)
 
-Chapter 4  Results and Discussion
-  4.1  Descriptive statistics (Table 1, incl. promotion penetration by category)
-  4.2  Pooled hedonic regression (Table 2) — marked vs. final side-by-side
-  4.3  Per-category heterogeneity (Table 3) — why premiums differ across categories
-  4.4  Promotional erosion analysis — THE key finding (coefficient comparison + forest plot)
-  4.5  Diagnostics and robustness
+Chapter 4  Empirical Application
+  4.1  Data source, collection, and single-retailer design
+       - Winmart scraping architecture (15 robots, 10 categories, 88 days, ~2,280 products)
+       - Dual-price structure (marked_price vs. final_price)
+       - Single-retailer rationale (Schipmann & Qaim 2011)
+  4.2  Data limitations and coverage
+       - Confectionary 46-day cold-start
+       - Instant_food 18-day Tet gap
+       - Dynamic product catalog + sparse product filter (days_observed ≥ 7)
+       - No transaction volumes
+       - Why no formal Tet event study
+  4.3  Variable definitions and descriptive statistics
+       - 9 NLP-extracted features + subcategory FE
+       - Table 1: descriptive stats by category (promotion penetration, brand presence, import share)
+  4.4  Pooled hedonic regression results
+       - Table 2: marked vs. final side-by-side
+  4.5  Per-category heterogeneity
+       - Table 3: why premiums differ across categories
+  4.6  Promotional erosion analysis — THE key finding
+       - Coefficient comparison + erosion metric + forest plot
+  4.7  Diagnostics and robustness
        - VIF (all < 2.0), Breusch-Pagan, partial F-tests
        - Cook's distance influence diagnostics
        - 3-month snapshot stability (Dec/Jan/Feb)
-  4.6  Discussion
+
+Chapter 5  Conclusions and Recommendations
+  5.1  Discussion
        - Why some premiums survive checkout (import, health claims) and others don't
        - The WinEco effect: house brand discount amplified by promotions (431% erosion)
-       - Tet context (1–2 paragraphs — not an event study, but contextualizing the data window)
-  4.7  Limitations
-       - Single-retailer (Winmart only)
+       - Interpreting results in Vietnamese grocery market context
+  5.2  Tet context
+       - Tet Nguyên Đán 2026 (Feb 17) within data window
+       - Descriptive context only — not a formal event study
+       - Temporal stability of brand premiums across the Tet period
+  5.3  Limitations
+       - Single-retailer (Winmart only) — external validity
        - NLP proxy quality (brand list, health claim keywords)
        - Dynamic product catalog
        - No transaction volumes (cannot compute sales-weighted indices)
-
-Chapter 5  Conclusion
+       - Endogeneity of is_premium (price-based regressor in price regression)
+  5.4  Conclusions
+       - Summary of key findings relative to research objectives
+  5.5  Recommendations
+       - For consumers: which premiums are real vs. promotional framing
+       - For retailers: which promotions actually erode premiums
+       - For future research: multi-retailer, demand-side data, longitudinal design
 
 Appendix A  NLP feature dictionary and keyword lists
 Appendix B  Full per-category regression tables (with dropped-variable footnotes)
@@ -77,7 +121,7 @@ Appendix D  Brand gap temporal dynamics (1-page stability check, NO Tet analysis
 
 ---
 
-## §3.2 — Data Limitations and Coverage
+## §4.2 — Data Limitations and Coverage
 
 ### Confectionary 46-Day Cold-Start
 
@@ -106,11 +150,11 @@ Instant_food has a continuous **18-day gap from January 31 to February 18, 2026*
 
 ### Why No Tet Event Study
 
-Confectionary (missing pre-Tet entirely) and Instant_food (missing Tet week) are the two most Tet-sensitive product categories. Without these, a formal Tet event study would exclude the categories where the effect is strongest, rendering the analysis incomplete. **No formal Tet event study is included.** However, Tet is discussed in §4.6 as contextual background — see below.
+Confectionary (missing pre-Tet entirely) and Instant_food (missing Tet week) are the two most Tet-sensitive product categories. Without these, a formal Tet event study would exclude the categories where the effect is strongest, rendering the analysis incomplete. **No formal Tet event study is included.** However, Tet is discussed in §5.2 as contextual background — see below.
 
 ---
 
-## §4.6 — Tet Context (Discussion, 1–2 Paragraphs)
+## §5.2 — Tet Context (Discussion, 1–2 Paragraphs)
 
 The data window (Dec 18, 2025 – Mar 2026) spans Tet Nguyên Đán 2026 (February 17). This is not incidental — Tet is the single largest demand shock in the Vietnamese food calendar, driving stockpiling of staples, gift-giving of packaged goods, and promotional surges by retailers.
 
@@ -122,7 +166,7 @@ The data window (Dec 18, 2025 – Mar 2026) spans Tet Nguyên Đán 2026 (Februa
 
 ---
 
-## §3.4 — Brand Positioning Typology and Dummy Hierarchy
+## §3.4 — Brand Positioning Typology and Dummy Hierarchy (Methodology)
 
 ### The 4-Quadrant Brand Classification
 
@@ -168,17 +212,17 @@ This means the coefficients must be read as **incremental** effects:
 
 ### Footnote Template for Regression Tables
 
-> "Brand dummies are hierarchically encoded. `is_branded` captures the Local & Value vs. Generic contrast only. The total premium for a Prestige Leader product equals β₁ + β₂ + β₃. See Section 3.4 for the full interpretation guide."
+> "Brand dummies are hierarchically encoded. `is_branded` captures the Local & Value vs. Generic contrast only. The total premium for a Prestige Leader product equals β₁ + β₂ + β₃. See §3.4 for the methodological framework and §4.3 for variable definitions."
 
 ---
 
 ## Single-Retailer Framing
 
-### Methods Paragraph (§3.1 or §3.7)
+### Methods Paragraph (§4.1)
 
 > "This study employs a single-retailer research design, drawing all price observations from Winmart's online platform. This design choice is deliberate: by restricting data to one retailer, all products face the same platform-level pricing strategy, promotional calendar, and supply chain logistics. This controls for retailer-level confounds that would complicate a multi-retailer hedonic analysis, where observed price differences might reflect retailer positioning rather than product attributes."
 
-### Limitations Paragraph (§4.7)
+### Limitations Paragraph (§5.3)
 
 > "A key limitation is that findings are specific to Winmart's online channel and cannot be generalized to the Vietnamese food retail sector as a whole. Winmart occupies a mid-market position in Vietnam's modern trade segment; premium retailers (e.g., Annam Gourmet) or traditional wet markets would likely exhibit different premium structures. The product assortment over-represents branded and packaged goods relative to traditional trade channels. Future work should extend this analysis to multiple retail formats to test whether the attribute premiums identified here are retailer-specific or reflect broader market-level valuations."
 
@@ -226,9 +270,9 @@ Cluster-robust SE by subcategory. Justified by:
 | Dual-price comparison (marked vs final) | **KEPT**, deepened | Centerpiece finding |
 | Per-category heterogeneity | **KEPT** | Shows systematic variation |
 | Brand gap dynamics (Part D) | **DEMOTED** → 1-page Appendix D | Temporal stability check only |
-| Tet event study | **DEMOTED** → 1–2 paragraphs in §4.6 | No formal study (data gaps), but Tet contextualized in Discussion |
+| Tet event study | **DEMOTED** → 1–2 paragraphs in §5.2 | No formal study (data gaps), but Tet contextualized in Discussion |
 | Decision tree (Part E) | **CUT entirely** | Supplementary, distracts from hedonic story |
-| 5-hypothesis promo chapter | **CUT** | Absorbed into §4.1 descriptives + §4.4 erosion |
+| 5-hypothesis promo chapter | **CUT** | Absorbed into §4.3 descriptives + §4.6 erosion |
 
 ---
 
@@ -265,7 +309,7 @@ Cluster-robust SE by subcategory. Justified by:
 
 ### 1. Brand Quadrant Theory Grounding
 **File:** `.claude/thesis_todo_brand_theory.md`
-**Feeds into:** Chapter 2 (literature review) + §3.4 (brand typology)
+**Feeds into:** Chapter 2 (literature review) + §3.4 (brand typology methodology)
 **Task:** Anchor the 4-quadrant decomposition in Aaker (1991) brand equity model or Kapferer (2012) brand identity prism. Call it "market positioning typology," not "brand equity measure."
 
 ### 2. Literature Gap Verification

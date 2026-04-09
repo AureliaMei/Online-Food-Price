@@ -11,38 +11,42 @@ Using 88 days of web-scraped dual-price data from Vietnam's largest online groce
 ## Chapter Outline
 
 **Chapter 1 — Introduction**
-- Food inflation in Vietnam; premium tax framing
-- Contribution statement
-- Single-retailer design rationale
+- 1.1 Motivation for Research
+- 1.2 Research Subject and Scope
+- 1.3 Research Objectives
+- 1.4 Overview of Research Methods
+- 1.5 Contribution
+- 1.6 Thesis Structure
 
 **Chapter 2 — Literature Review**
-- Hedonic pricing theory (Rosen 1974, Lancaster 1966)
-- Brand equity and positioning (Aaker 1991, Kapferer 2012)
-- Online retail pricing and promotional strategy (Varian 1997, Cavallo 2016)
-- Vietnamese consumer market — gap identification
+- 2.1 Hedonic pricing theory (Lancaster 1966, Rosen 1974, Ekeland et al. 2001)
+- 2.2 Hedonic methods in food markets (Costanigro & McCluskey 2011, Nelson 1970, Darby & Karni 1973)
+- 2.3 Brand equity and price premiums (Keller 1993, Aaker 1991, Kapferer 2008)
+- 2.4 Online retail pricing (Cavallo 2017, Schipmann & Qaim 2011)
+- 2.5 Vietnamese context and research gap
 
-**Chapter 3 — Data & Methods**
-- 3.1 Data collection (Winmart scraping, 10 categories, 88 days, ~2,280 products)
-- 3.2 Data limitations and coverage
-- 3.3 NLP feature extraction (9 features from product names)
-- 3.4 Brand positioning typology and dummy hierarchy
-- 3.5 Hedonic specification (pooled OLS + subcategory FE + cluster-robust SE)
-- 3.6 Dual-price design: marked_price vs. final_price
+**Chapter 3 — Methodology**
+- 3.1 Hedonic price model selection and justification (vs. alternatives)
+- 3.2 Functional form and estimation strategy (log-linear OLS, subcategory FE, cluster-robust SE)
+- 3.3 Dual-price design: marked_price vs. final_price
+- 3.4 Brand positioning typology and dummy hierarchy (Keller × Aaker)
+- 3.5 Price index methodology (Jevons index)
 
-**Chapter 4 — Results**
-- 4.1 Descriptive statistics (promotion penetration by category)
-- 4.2 Pooled hedonic regression — marked vs. final side-by-side
-- 4.3 Per-category heterogeneity — why premiums differ across categories
-- 4.4 Promotional erosion analysis — coefficient comparison + forest plot
-- 4.5 Diagnostics and robustness (VIF, Breusch-Pagan, Cook's distance, 3-month snapshot stability)
+**Chapter 4 — Empirical Application**
+- 4.1 Data source, collection, and single-retailer design
+- 4.2 Data limitations and coverage
+- 4.3 Variable definitions and descriptive statistics
+- 4.4 Pooled hedonic regression results — marked vs. final side-by-side
+- 4.5 Per-category heterogeneity
+- 4.6 Promotional erosion analysis — coefficient comparison + forest plot
+- 4.7 Diagnostics and robustness (VIF, Breusch-Pagan, Cook's distance, 3-month snapshot stability)
 
-**Chapter 5 — Discussion**
-- 5.1 Why some premiums survive checkout (import, health claims) and others don't
-- 5.2 The WinEco effect: house brand discount amplified by promotions
-- 5.3 Tet context (contextualizing the data window, not a formal event study)
-- 5.4 Limitations (single-retailer, NLP proxy quality, dynamic catalog, no transaction volumes)
-
-**Chapter 6 — Conclusion**
+**Chapter 5 — Conclusions and Recommendations**
+- 5.1 Discussion (why some premiums survive checkout; the WinEco effect)
+- 5.2 Tết context (contextualizing the data window, not a formal event study)
+- 5.3 Limitations (single-retailer, NLP proxy quality, dynamic catalog, no transaction volumes)
+- 5.4 Conclusions
+- 5.5 Recommendations (consumers, retailers, future research)
 
 **Appendices**
 - A: NLP feature dictionary and keyword lists
@@ -127,7 +131,7 @@ Promotional pricing erodes brand-name premiums (65.6% erosion) but not price-tie
 
 ## Single-Retailer Framing
 
-### Methods Paragraph (§3.1 or §3.7)
+### Methods Paragraph (§4.1)
 
 > "This study employs a single-retailer research design, drawing all price observations from Winmart's online platform. This design choice is deliberate: by restricting data to one retailer, all products face the same platform-level pricing strategy, promotional calendar, and supply chain logistics. This controls for retailer-level confounds that would complicate a multi-retailer hedonic analysis, where observed price differences might reflect retailer positioning rather than product attributes."
 

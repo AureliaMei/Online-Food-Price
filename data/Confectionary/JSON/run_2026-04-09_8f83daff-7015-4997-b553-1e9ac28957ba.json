@@ -1,0 +1,78 @@
+{
+    "id": "8f83daff-7015-4997-b553-1e9ac28957ba",
+    "status": "success",
+    "name": "Instant Foods",
+    "robotId": "f2a242f9-8a04-4cce-a5c6-2f11eda952b7",
+    "startedAt": "4/9/2026, 2:27:11 PM",
+    "finishedAt": "4/9/2026, 2:37:03 PM",
+    "runId": "3267279d-3e93-4101-96c0-7b643a69b27c",
+    "runByUserId": 1,
+    "runByScheduleId": null,
+    "runByAPI": null,
+    "data": {
+        "textData": {},
+        "listData": {
+            "List Data 1": [
+                {
+                    "Label 4": "https://winmart.vn/products/ferrero-keo-socola-rocher-375g--s10015253?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Kẹo Socola Ferrero Rocher 375g",
+                    "Label 6": "Hộp",
+                    "Label 7": "266.000 ₫",
+                    "Label 8": "448.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/ferrero-socola-rocher-200g--s10056640?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Sô cô la Ferrero Rocher hộp 200g",
+                    "Label 6": "Hộp",
+                    "Label 7": "147.000 ₫",
+                    "Label 8": "249.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/mms-socola-minis-35g--s10640270?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Socola Minis M&M'S 35g",
+                    "Label 6": "Cái",
+                    "Label 7": "24.900 ₫",
+                    "Label 8": "35.500 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/kinder-joy-socola-cho-be-gai-20g--s10060963?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Socola trứng Kinder Joy bé gái hộp 20g",
+                    "Label 6": "Qủa",
+                    "Label 7": "24.500 ₫",
+                    "Label 8": "33.900 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/kinder-joy-socola-cho-be-trai-20g--s10081368?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Socola trứng Kinder Joy bé trai hộp 20g",
+                    "Label 6": "Qủa",
+                    "Label 7": "24.500 ₫",
+                    "Label 8": "33.900 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/nabati-tpbsbanh-k.xop-richeese-p.mai120g--s10013957?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bánh kem xốp phômai Richeese Nabati cheese wafer hộp 160g",
+                    "Label 6": "Hộp",
+                    "Label 7": "29.900 ₫",
+                    "Label 8": "40.800 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/snickers-keo-socola-tui-3-thanh-51g--s10192468?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Kẹo Socola Snickers Túi 3 thanh 51g",
+                    "Label 6": "Hộp",
+                    "Label 7": "55.000 ₫",
+                    "Label 8": "75.000 ₫"
+                },
+                {
+                    "Label 4": "https://winmart.vn/products/swing-max-bo-nuong-tieu-den-9578g--s10191553?storeGroupCode=1998&storeCode=1535",
+                    "Label 5": "Bò nướng tiêu đen Swing Max 108g",
+                    "Label 6": "Gói",
+                    "Label 7": "15.900 ₫",
+                    "Label 8": "21.600 ₫"
+                }
+            ]
+        },
+        "markdown": "",
+        "html": ""
+    },
+    "screenshots": []
+}

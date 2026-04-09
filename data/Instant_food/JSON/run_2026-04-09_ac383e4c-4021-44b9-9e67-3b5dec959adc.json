@@ -1,0 +1,246 @@
+{
+    "id": "ac383e4c-4021-44b9-9e67-3b5dec959adc",
+    "status": "success",
+    "name": "Actual Instant Food",
+    "robotId": "5a5c5856-ab1b-4133-a0de-148cf0837f92",
+    "startedAt": "4/9/2026, 2:27:11 PM",
+    "finishedAt": "4/9/2026, 2:34:57 PM",
+    "runId": "957f9923-73d3-4399-bc1b-6cf4bd7a205f",
+    "runByUserId": 1,
+    "runByScheduleId": null,
+    "runByAPI": null,
+    "data": {
+        "textData": {},
+        "listData": {
+            "List Data 1": [
+                {
+                    "URL": "https://winmart.vn/products/vifon-pho-thit-bo-hoang-gia-120g--s10007960?storeGroupCode=1998&storeCode=1535",
+                    "Unit": "Gói",
+                    "Actual price": "19.900 ₫",
+                    "Marked Price": "25.200 ₫",
+                    "Product_name": "Phở thịt bò Hoàng gia gói 120g"
+                },
+                {
+                    "URL": "https://winmart.vn/products/nongshim-mi-chapaghetti-goi-140g--s10008053?storeGroupCode=1998&storeCode=1535",
+                    "Unit": "Gói",
+                    "Actual price": "25.600 ₫",
+                    "Marked Price": "32.300 ₫",
+                    "Product_name": "Mì Chapaghetti Nongshim gói 140g"
+                },
+                {
+                    "URL": "https://winmart.vn/products/vifon-pho-thit-ga-hoang-gia-120g--s10007961?storeGroupCode=1998&storeCode=1535",
+                    "Unit": "Thùng",
+                    "Actual price": "434.700 ₫",
+                    "Marked Price": "440.000 ₫",
+                    "Product_name": "Phở thịt gà Hoàng Gia Vifon thùng 18 gói x 120g"
+                },
+                {
+                    "URL": "https://winmart.vn/products/meizan-nui-cao-cap-chu-c-400g--s10327468?storeGroupCode=1998&storeCode=1535",
+                    "Unit": "Gói",
+                    "Actual price": "20.700 ₫",
+                    "Marked Price": "25.600 ₫",
+                    "Product_name": "Nui cao cấp Meizan chữ C 400g"
+                },
+                {
+                    "URL": "https://winmart.vn/products/meizan-mi-trung-cao-cap-meizan-250g--s10327470?storeGroupCode=1998&storeCode=1535",
+                    "Unit": "Gói",
+                    "Actual price": "13.300 ₫",
+                    "Marked Price": "16.400 ₫",
+                    "Product_name": "Mì trứng cao cấp Meizan gói 250g"
+                },
+                {
+                    "URL": "https://winmart.vn/products/meizan-mi-chay-cao-cap-meizan-250g--s10622826?storeGroupCode=1998&storeCode=1535",
+                    "Unit": "Gói",
+                    "Actual price": "13.400 ₫",
+                    "Marked Price": "16.300 ₫",
+                    "Product_name": "MEIZAN Mì Chay Cao Cấp Meizan 250g"
+                },
+                {
+                    "URL": "https://winmart.vn/products/cung-dinh-kool-mi-spaghetti-105g--s10086826?storeGroupCode=1998&storeCode=1535",
+                    "Unit": "Hộp",
+                    "Actual price": "13.000 ₫",
+                    "Marked Price": "15.600 ₫",
+                    "Product_name": "Mì hộp ăn liền Cung Đình Kool Micoem Spaghetti sốt bò bằm bát 105g"
+                },
+                {
+                    "URL": "https://winmart.vn/products/cung-dinh-kool-mi-bbq-105g--s10181041?storeGroupCode=1998&storeCode=1535",
+                    "Unit": "Hộp",
+                    "Actual price": "13.000 ₫",
+                    "Marked Price": "15.600 ₫",
+                    "Product_name": "Mì Kool Cung Đình BBQ Châu Á 105g"
+                },
+                {
+                    "URL": "https://winmart.vn/products/meizan-mi-trung-cao-cap-meizan-500g--s10327469?storeGroupCode=1998&storeCode=1535",
+                    "Unit": "Gói",
+                    "Actual price": "28.200 ₫",
+                    "Marked Price": "33.800 ₫",
+                    "Product_name": "Mì trứng cao cấp Meizan 500g"
+                },
+                {
+                    "URL": "https://winmart.vn/products/otoki-loc-mi-kimchi-120g8--s10180447?storeGroupCode=1998&storeCode=1535",
+                    "Unit": "Gói 8",
+                    "Actual price": "76.500 ₫",
+                    "Marked Price": "91.100 ₫",
+                    "Product_name": "Mì Kimchi gói 8 bịch"
+                },
+                {
+                    "URL": "https://winmart.vn/products/otoki-mi-jin-tuong-den-vi-bo-135g--s10181117?storeGroupCode=1998&storeCode=1535",
+                    "Unit": "Gói",
+                    "Actual price": "12.800 ₫",
+                    "Marked Price": "15.200 ₫",
+                    "Product_name": "Mì Ottogi Jin tương đen vị bò 135g"
+                },
+                {
+                    "URL": "https://winmart.vn/products/cung-dinh-pho-ha-noi-huong-vi-bo-68g--s10618197?storeGroupCode=1998&storeCode=1535",
+                    "Unit": "Gói",
+                    "Actual price": "8.100 ₫",
+                    "Marked Price": "9.600 ₫",
+                    "Product_name": "Phở Hà Nội Cung Đình hương vị bò 68g*30"
+                },
+                {
+                    "URL": "https://winmart.vn/products/cung-dinh-pho-ha-noi-huong-vi-ga-68g--s10618198?storeGroupCode=1998&storeCode=1535",
+                    "Unit": "Gói",
+                    "Actual price": "8.100 ₫",
+                    "Marked Price": "9.600 ₫",
+                    "Product_name": "Phở Hà Nội Cung Đình hương vị gà 68g*30"
+                },
+                {
+                    "URL": "https://winmart.vn/products/otoki-loc-mi-bo-ham-120g8--s10622859?storeGroupCode=1998&storeCode=1535",
+                    "Unit": "Lốc, Lô, Lố",
+                    "Actual price": "76.500 ₫",
+                    "Marked Price": "91.100 ₫",
+                    "Product_name": "Mì bò hầm Ottogi Lốc 8 gói x 120g"
+                },
+                {
+                    "URL": "https://winmart.vn/products/olivoila-mi-spagetti-n5-500g--s10140937?storeGroupCode=1998&storeCode=1535",
+                    "Unit": "Hộp",
+                    "Actual price": "40.900 ₫",
+                    "Marked Price": "47.300 ₫",
+                    "Product_name": "Mì Spaghetti Olivoilà sợi N.5 500g"
+                },
+                {
+                    "URL": "https://winmart.vn/products/vifon-mi-xao-phu-gia-tuong-den-90g--s10228994?storeGroupCode=1998&storeCode=1535",
+                    "Unit": "Gói",
+                    "Actual price": "11.700 ₫",
+                    "Marked Price": "13.600 ₫",
+                    "Product_name": "Mì xào tương đen Vifon khay 90g"
+                },
+                {
+                    "URL": "https://winmart.vn/products/vifon-mi-goi-giay-chinh-hieu-hai-tom-75g--s10605185?storeGroupCode=1998&storeCode=1535",
+                    "Unit": "Thùng",
+                    "Actual price": "118.000 ₫",
+                    "Marked Price": "138.000 ₫",
+                    "Product_name": "Mì gói ăn liền hai tôm chính hiệu Vifon thùng 30 gói x75g"
+                },
+                {
+                    "URL": "https://winmart.vn/products/indomie-mi-xao-kho-dac-biet-85g--s10008335?storeGroupCode=1998&storeCode=1535",
+                    "Unit": "Thùng",
+                    "Actual price": "205.000 ₫",
+                    "Marked Price": "234.000 ₫",
+                    "Product_name": "Thùng 40 gói mì xào khô Goreng indomie đặc biệt 85g"
+                },
+                {
+                    "URL": "https://winmart.vn/products/indomie-mi-xao-kho-vi-cay-nong-79g--s10008343?storeGroupCode=1998&storeCode=1535",
+                    "Unit": "Thùng",
+                    "Actual price": "205.000 ₫",
+                    "Marked Price": "234.000 ₫",
+                    "Product_name": "Thùng 40 gói mì xào khô vị cay nồng Goreng Pedas indomie 79g"
+                },
+                {
+                    "URL": "https://winmart.vn/products/indomie-mi-xao-kho-vi-suon-80g--s10008348?storeGroupCode=1998&storeCode=1535",
+                    "Unit": "Thùng",
+                    "Actual price": "205.000 ₫",
+                    "Marked Price": "234.000 ₫",
+                    "Product_name": "Thùng 40 gói mì xào khô ăn liền vị sườn Goreng Rasa Iga Penyet Indomie 80g"
+                },
+                {
+                    "URL": "https://winmart.vn/products/reggia-mi-y-spaghetti-19-pasta-500g--s10180441?storeGroupCode=1998&storeCode=1535",
+                    "Unit": "Gói",
+                    "Actual price": "29.400 ₫",
+                    "Marked Price": "33.300 ₫",
+                    "Product_name": "Mì Ý Reggia Spaghetti 19 Pasta 500g"
+                },
+                {
+                    "URL": "https://winmart.vn/products/koreno-mi-kim-chi-jumbo-1kg--s10007824?storeGroupCode=1998&storeCode=1535",
+                    "Unit": "Gói",
+                    "Actual price": "79.900 ₫",
+                    "Marked Price": "90.000 ₫",
+                    "Product_name": "Mì ăn liền Koreno Jumbo vị kim chi Paldo túi 1kg"
+                },
+                {
+                    "URL": "https://winmart.vn/products/koreno-mi-vi-bo-cay-jumbo-1kg--s10007837?storeGroupCode=1998&storeCode=1535",
+                    "Unit": "Gói",
+                    "Actual price": "79.900 ₫",
+                    "Marked Price": "90.000 ₫",
+                    "Product_name": "Mì vị bò cay Paldo gói 1kg"
+                },
+                {
+                    "URL": "https://winmart.vn/products/koreno-mi-vi-tom-jumbo-1kg--s10007825?storeGroupCode=1998&storeCode=1535",
+                    "Unit": "Gói",
+                    "Actual price": "81.400 ₫",
+                    "Marked Price": "90.000 ₫",
+                    "Product_name": "Mì Koreno vị tôm gói 1kg"
+                },
+                {
+                    "URL": "https://winmart.vn/products/koreno-mi-vi-ga-jumbo-1kg--s10007838?storeGroupCode=1998&storeCode=1535",
+                    "Unit": "Gói",
+                    "Actual price": "81.400 ₫",
+                    "Marked Price": "90.000 ₫",
+                    "Product_name": "Mì ăn liền Koreno vị gà Paldo túi 1kg"
+                },
+                {
+                    "URL": "https://winmart.vn/products/koreno-mi-jumbo-vi-hai-san-1kg--s10141657?storeGroupCode=1998&storeCode=1535",
+                    "Unit": "Gói",
+                    "Actual price": "81.400 ₫",
+                    "Marked Price": "90.000 ₫",
+                    "Product_name": "Mì Koreno jumbo hải sản túi 1kg"
+                },
+                {
+                    "URL": "https://winmart.vn/products/koreno-mi-nam-jumbo-1kg--s10281092?storeGroupCode=1998&storeCode=1535",
+                    "Unit": "Gói",
+                    "Actual price": "81.400 ₫",
+                    "Marked Price": "90.000 ₫",
+                    "Product_name": "Jumbo Koreno Mì nấm 1kg"
+                },
+                {
+                    "URL": "https://winmart.vn/products/omachi-mi-dd-k.tay-suon-ngu-qua-80g--s10007925?storeGroupCode=1998&storeCode=1535",
+                    "Unit": "Thùng",
+                    "Actual price": "225.000 ₫",
+                    "Marked Price": "247.500 ₫",
+                    "Product_name": "Mì ăn liền khoai tây sườn ngủ quả Omachi thùng 30 gói x 80g"
+                },
+                {
+                    "URL": "https://winmart.vn/products/omachi-mi-dd-k.tay-xot-bo-ham-81g--s10007927?storeGroupCode=1998&storeCode=1535",
+                    "Unit": "Thùng",
+                    "Actual price": "225.000 ₫",
+                    "Marked Price": "247.500 ₫",
+                    "Product_name": "Mì gói ăn liền khoai tây vị xốt bò hầm Omachi thùng 30 gói x 80g"
+                },
+                {
+                    "URL": "https://winmart.vn/products/ack-milyminidoraemon-h.san-c.ngot53g--s10180810?storeGroupCode=1998&storeCode=1535",
+                    "Unit": "Ly",
+                    "Actual price": "9.900 ₫",
+                    "Marked Price": "10.800 ₫",
+                    "Product_name": "Mì ly Mini Doraemon vị Hải Sản Chua Ngọt 53g"
+                },
+                {
+                    "URL": "https://winmart.vn/products/ack-m.ly-minidoraemon-hau-sua-p.mai48g--s10180811?storeGroupCode=1998&storeCode=1535",
+                    "Unit": "Ly",
+                    "Actual price": "9.900 ₫",
+                    "Marked Price": "10.800 ₫",
+                    "Product_name": "Mì ly mini Doraemon hàu sữa phô mai 48g"
+                },
+                {
+                    "URL": "https://winmart.vn/products/acecook-mien-yen-tiec-phu-huong-goi-210g--s10007945?storeGroupCode=1998&storeCode=1535",
+                    "Unit": "Gói",
+                    "Actual price": "34.600 ₫",
+                    "Marked Price": "36.300 ₫",
+                    "Product_name": "Miến Phú Hương Yến tiệc Vina Acecook gói 210g"
+                }
+            ]
+        },
+        "markdown": "",
+        "html": ""
+    },
+    "screenshots": []
+}
