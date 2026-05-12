@@ -90,12 +90,61 @@ product_name, unit, final_price, marked_price, product_url, scrape_timestamp, ru
 ## Ongoing Work
 
 ### Bachelor Thesis Project
-See `.claude/thesis_brainstorm.md` for full plan.
+See `.claude/thesis_brainstorm.md` for full plan. Primary draft: `Thesis_Draft_Comprehensive.docx`.
 
 **Topic:** Hedonic Price Decomposition with Promotional Erosion — Evidence from Vietnamese Online Grocery
 **RQ:** What product attributes generate price premiums in Vietnamese online grocery, and to what extent do promotional pricing strategies erode those premiums?
-**Core finding:** Dual-price hedonic regression (marked vs final price) shows promotional pricing erodes brand-name premiums (65.6%) but not price-tier premiums (−1.9%), with systematic variation across categories
-**Status:** Analysis complete. Thesis writing phase — see `thesis_brainstorm.md` for chapter outline and pre-drafted disclosure text
+**Core finding:** Dual-price hedonic regression (marked vs final price) shows promotional pricing erodes brand-name premiums (50.6%) but not price-tier premiums (−1.7%), with systematic variation across categories
+**Status:** Analysis complete. Thesis writing phase.
+
+### Thesis Chapter Structure (based on Thesis_Draft_Comprehensive.docx)
+
+```
+Chapter 1  Introduction
+  1.1  Research subject and scope
+  1.2  Research objectives
+  1.3  Overview of research methods
+  1.4  Contribution
+
+Chapter 2  Literature Review
+  2.1  Hedonic Pricing Theory: Goods as Attribute Bundles (Lancaster 1966, Rosen 1974, Ekeland et al. 2004)
+  2.2  Hedonic Methods in Food and Agricultural Markets (search/experience/credence attributes, methodological precedents)
+  2.3  Brand Equity, Product Differentiation, and Price Premiums (Keller 1993, Aaker 1991, 4-quadrant typology)
+  2.4  Online Retail Pricing and Web-Scraped Price Data (Cavallo 2017, Schipmann & Qaim 2011)
+  2.5  Vietnamese Food Market Context and Research Gap
+
+Chapter 3  Methodology
+  Opening: Model selection justification — why hedonic regression (vs. discrete choice, ML)
+  3.2  Functional form and estimation strategy — log-linear OLS, subcategory FE, cluster-robust SE; why not Box-Cox, quantile regression, panel FE
+  3.3  Dual-price design — marked vs. final; erosion metric; why not single-price hedonic, DiD
+  3.4  Feature extraction and brand positioning typology — NLP pipeline, Keller × Aaker 4-quadrant, hierarchical encoding
+  3.5  Price index methodology — Jevons (chain-linked geometric mean); why not Laspeyres/Törnqvist
+
+Chapter 4  Empirical Application
+  4.1  Data source, collection, and single-retailer design (Winmart, 15 robots, 10 categories, 88 days, ~2,280 products)
+  4.2  Data limitations and coverage (Confectionary cold-start, Instant_food Tết gap, no formal Tết event study, dynamic catalog, no transaction volumes)
+  4.3  Variable definitions and descriptive statistics (9 NLP features, Table 1 by category)
+  4.4  Pooled hedonic regression results (Table 2: marked vs. final side-by-side; Figure 2: forest plot)
+  4.5  Per-category heterogeneity (Table 3; import +100% in Fresh Produce, −61% in Processed Food)
+  4.6  Promotional erosion analysis — THE key finding (brand-name 50.6% erosion, price-tier −1.7%, WinEco 476%)
+  4.7  Diagnostics and robustness (VIF < 2.0, Breusch-Pagan, Cook's distance, 3-month snapshot stability)
+
+Chapter 5  Conclusions and Recommendations
+  5.1  Discussion — why price-tier survives (Varian versioning), why brand-name erodes (traffic-driving), WinEco private-label strategy, import/health claim heterogeneity, Tết context
+  5.3  Limitations — single-retailer external validity, NLP proxy quality, dynamic catalog, no transaction volumes, is_premium endogeneity
+  5.4  Conclusions — three principal findings + contribution + scope boundary
+  5.5  Recommendations — for consumers (price tier > brand), businesses (premium positioning protected, Household Giants are promo targets), public/policymakers (penetration vs. depth, dual-pricing transparency), future research (multi-retailer, transaction data, IV)
+
+Appendices: A (NLP dictionary), B (per-category tables), C (diagnostics), D (brand gap dynamics)
+```
+
+### Thesis Drafts
+- `Thesis_Draft_Comprehensive.docx` — full draft (Ch 1 prose, Ch 2–5 detailed bullets with figures)
+- `Thesis_Draft_Ch3_4_Bullets.docx` — bullet-point summary of Ch 3–4
+- `Thesis_Chapter2.docx` — Chapter 2 standalone
+- `thesis_outline_ch1_4.docx` — detailed prose outline (Ch 1–4 full paragraphs, Ch 5 bullets)
+- `.claude/thesis_brainstorm.md` — canonical chapter plan with methodology alternatives
+- `thesis_summary_for_professor.md` — summary with key coefficients
 
 ---
 

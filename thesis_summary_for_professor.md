@@ -26,11 +26,11 @@ Using 88 days of web-scraped dual-price data from Vietnam's largest online groce
 - 2.5 Vietnamese context and research gap
 
 **Chapter 3 — Methodology**
-- 3.1 Hedonic price model selection and justification (vs. alternatives)
-- 3.2 Functional form and estimation strategy (log-linear OLS, subcategory FE, cluster-robust SE)
-- 3.3 Dual-price design: marked_price vs. final_price
+- 3.1 Hedonic price model: Rosen's first-stage framework; why not discrete choice (no purchase/choice data), why not ML (no interpretable signed coefficients for erosion metric)
+- 3.2 Functional form: log-linear OLS + subcategory FE + cluster-robust SE; why not Box-Cox (breaks dual-price comparability if λ differs), why not quantile regression (RQ is about average premium erosion, not distributional), why not panel FE (would absorb time-invariant attributes we aim to estimate)
+- 3.3 Dual-price design: marked vs. final as methodological innovation; why not single-price hedonic (loses the sticker-vs-checkout contrast), why not DiD (no clean treatment event — promotions are continuous and heterogeneous)
 - 3.4 Brand positioning typology and dummy hierarchy (Keller × Aaker)
-- 3.5 Price index methodology (Jevons index)
+- 3.5 Price index: Jevons (chain-linked geometric mean); why not Laspeyres/Törnqvist (no quantity/expenditure data from web scraping)
 
 **Chapter 4 — Empirical Application**
 - 4.1 Data source, collection, and single-retailer design
@@ -45,8 +45,8 @@ Using 88 days of web-scraped dual-price data from Vietnam's largest online groce
 - 5.1 Discussion (why some premiums survive checkout; the WinEco effect)
 - 5.2 Tết context (contextualizing the data window, not a formal event study)
 - 5.3 Limitations (single-retailer, NLP proxy quality, dynamic catalog, no transaction volumes)
-- 5.4 Conclusions
-- 5.5 Recommendations (consumers, retailers, future research)
+- 5.4 Conclusions: (1) price-tier is dominant premium, not brand name; (2) promotions selectively erode brand-name but not price-tier premiums; (3) attribute premiums vary systematically by category
+- 5.5 Recommendations: consumers (price tier matters more than brand; compare final not sticker prices), businesses (premium positioning protected; Household Giants are promo targets; WinEco dual-pricing template), public/policy (promo lever is penetration not depth; dual-pricing transparency), future research (multi-retailer, transaction volumes, IV for is_premium)
 
 **Appendices**
 - A: NLP feature dictionary and keyword lists

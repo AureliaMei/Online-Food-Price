@@ -38,24 +38,31 @@ Chapter 2  Literature Review
 
 Chapter 3  Methodology
   3.1  Hedonic price model
-       - Rosen's framework, first-stage estimation only
-       - Why not: discrete choice models, machine learning approaches
-       - Fit for single-retailer, multi-category cross-sectional design
+       - Rosen's framework, first-stage estimation only (Ekeland et al. 2004: first-stage = equilibrium, not pure WTP)
+       - Decomposition problem: partitioning observed price into attribute contributions → hedonic is the standard tool (Costanigro & McCluskey 2011, Malpezzi 2002)
+       - Why not discrete choice (multinomial/mixed logit): Discrete choice models (e.g., multinomial logit, mixed logit) model which product a consumer selects from a set of alternatives — they estimate the probability that a buyer picks one product over another based on attribute differences and prices. This requires choice data (which product was actually selected) or purchase quantities (market shares). Web-scraped data provides only listed prices and product attributes, with no information about consumer choices, market shares, or quantities sold. Moreover, the RQ concerns price architecture (how attributes map to price levels), not consumer preferences or willingness-to-pay.
+       - Why not machine learning (random forest, gradient boosting): Machine learning methods such as random forests and gradient boosting are ensemble algorithms that combine many decision trees to predict outcomes — they excel at capturing complex nonlinear relationships and typically achieve high predictive accuracy (R²). However, they produce no interpretable signed coefficients: you cannot read off "brand name adds X% to price" with a standard error and significance test. The erosion metric — comparing how a coefficient changes between marked-price and final-price specifications — requires stable, parametric, directly comparable estimates across two regressions. ML is used only supplementarily in this thesis (decision tree for brand typology validation).
+       - ML used only supplementarily (decision tree for brand typology validation)
   3.2  Functional form and estimation strategy
        - Log-linear OLS with subcategory FE + cluster-robust SE
-       - Why not: Box-Cox transformation, quantile regression
-       - Justification via Breusch-Pagan, within-subcategory identification
+       - Why not Box-Cox: The Box-Cox transformation is a data-driven procedure that estimates an optimal power parameter λ to determine the best functional form for the dependent variable — rather than assuming log or linear, it lets the data choose. The problem is that if λ differs between the marked-price and final-price specifications, coefficients end up on different scales, making the erosion comparison (Spec A vs. Spec B) invalid. The log-linear form also provides an intuitive %-premium interpretation that Box-Cox sacrifices.
+       - Why not quantile regression: Quantile regression estimates the effect of independent variables at specific points of the outcome distribution (e.g., the 25th, 50th, or 90th percentile) rather than at the mean — useful for understanding whether effects differ for cheap vs. expensive products. However, the RQ concerns average premium erosion between two price measures, not distributional heterogeneity. Running quantile regressions with 40 subcategory FE and cluster-robust inference adds substantial complexity without advancing the primary objective.
+       - Why not panel FE/RE at product level: Panel fixed-effects models track the same units (here, products) over time and include a separate intercept for each unit — this absorbs all time-invariant characteristics of that unit, isolating only within-unit variation over time. Since the RQ is cross-sectional (which attributes explain price differences across products), product-level FE would absorb all time-invariant attributes like brand, import status, and health claims — exactly what hedonic analysis aims to estimate.
+       - Justification via Breusch-Pagan (rejects homoskedasticity → cluster-robust SE), within-subcategory identification
   3.3  Dual-price design
        - Marked vs. final price comparison as methodological innovation
-       - Why not: single-price hedonic, difference-in-differences
-       - Descriptive framing (not causal identification)
+       - Why not single-price hedonic: A single-price hedonic uses only one price measure (typically the transaction/checkout price) as the dependent variable — the standard approach in most hedonic studies. However, this recovers only checkout premiums and loses the sticker-vs-checkout contrast that is the central finding of this thesis. The dual-price design exploits the fact that Winmart publishes both prices simultaneously, enabling direct comparison of attribute premiums before and after promotional adjustment.
+       - Why not difference-in-differences: Difference-in-differences (DiD) is a quasi-experimental method that compares changes over time between a treatment group (exposed to an intervention) and a control group (not exposed) — it requires a clear treatment event with identifiable before/after periods and a valid control group. Winmart promotions are continuous and heterogeneous across products and time, with no identifiable before/after boundary or clean control group. The dual-price design achieves a similar comparison (how premiums change from sticker to checkout) within a cross-sectional framework without requiring a discrete event.
+       - Descriptive framing (not causal identification) — Varian (1997): we observe revealed pricing logic, not why those choices were made
   3.4  Feature extraction and brand positioning typology
        - NLP pipeline for Vietnamese product names (9 features)
        - Keller (1993) × Aaker (1991) four-quadrant classification
        - Hierarchical dummy encoding and interpretation
   3.5  Price index methodology
-       - Jevons index (chain-linked geometric mean)
-       - Why not: Laspeyres (no quantity weights), Törnqvist (no expenditure shares)
+       - Jevons index (chain-linked geometric mean of matched-product price relatives)
+       - Why not Laspeyres: The Laspeyres price index weights each product's price change by its expenditure share in a fixed base period — products that consumers spend more on receive greater weight in the overall index. This requires base-period quantity or expenditure data, which is unavailable from web scraping (only prices are observed, not how much of each product is sold).
+       - Why not Törnqvist: The Törnqvist index is a "superlative" index that weights price changes by the arithmetic mean of base-period and current-period expenditure shares — it is considered theoretically superior because it accounts for substitution between products as relative prices change. However, it requires expenditure shares from both periods, facing the same data constraint as Laspeyres: web scraping captures prices but not transaction volumes.
+       - Jevons = natural choice for price data without quantity weights (Cavallo 2017); geometric mean treats increases and decreases symmetrically
 
 Chapter 4  Empirical Application
   4.1  Data source, collection, and single-retailer design
@@ -98,11 +105,16 @@ Chapter 5  Conclusions and Recommendations
        - No transaction volumes (cannot compute sales-weighted indices)
        - Endogeneity of is_premium (price-based regressor in price regression)
   5.4  Conclusions
-       - Summary of key findings relative to research objectives
+       - Finding 1: price-tier positioning is the dominant premium source (43–44% markup, erosion −1.7%); brand name alone has NO significant premium
+       - Finding 2: promotional pricing selectively erodes brand-name premiums (50.6%) but leaves price-tier premiums intact; WinEco 476% amplification = sophisticated private-label strategy
+       - Finding 3: attribute premiums vary systematically by category — import premium +100% in fresh produce but −61% in processed food; health claims significant only where food safety concern is highest
+       - Contribution: first hedonic decomposition in Vietnamese online grocery; novel dual-price design; Keller × Aaker brand typology operationalized
+       - Boundary: describes price architecture of one retailer in one period; does not claim causal identification
   5.5  Recommendations
-       - For consumers: which premiums are real vs. promotional framing
-       - For retailers: which promotions actually erode premiums
-       - For future research: multi-retailer, demand-side data, longitudinal design
+       - For consumers: most consequential choice is price tier, not brand; brand-name premiums are negligible; WinEco's checkout discounts invisible at shelf — compare final prices, not sticker prices
+       - For businesses: Household Giant brands should expect shelf premiums to be promotional targets (traffic-driving logic); premium-tier positioning is protected through promo cycle — invest in premium positioning over broad awareness; WinEco dual-pricing = template for private-label strategy (shelf parity + hidden checkout discounts)
+       - For public/policymakers: primary promo lever is penetration (how many products), not depth (how much) — promo environment more stable than it appears; WinEco 22-pp gap between sticker and checkout discount raises transparency question; dual-pricing pattern merits attention in consumer protection frameworks
+       - For future research: multi-retailer study (Winmart vs. Annam Gourmet vs. Bách Hóa Xanh); transaction volume data (panel/loyalty card) to test if erosion patterns shift purchasing behavior; IV approach with external brand strength measure for cleaner is_premium identification
 
 Appendix A  NLP feature dictionary and keyword lists
 Appendix B  Full per-category regression tables (with dropped-variable footnotes)
